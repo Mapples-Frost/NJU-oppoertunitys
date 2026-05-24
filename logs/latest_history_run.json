@@ -1,13 +1,13 @@
 {
-  "id": "20260524215134",
+  "id": "20260524142516",
   "mode": "history_email",
-  "started_at": "2026-05-24T21:51:34+08:00",
-  "finished_at": "2026-05-24T21:51:34+08:00",
+  "started_at": "2026-05-24T14:25:16+00:00",
+  "finished_at": "2026-05-24T14:25:21+00:00",
   "status": "success",
   "total_history_items": 188,
   "included_items": 188,
   "history_min_score": 0.0,
   "history_limit": 0,
-  "email_status": "disabled",
-  "email_skip_reason": "--dry-run was provided"
+  "email_status": "sent",
+  "email_skip_reason": ""
 }
