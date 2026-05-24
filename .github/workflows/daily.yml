@@ -44,8 +44,8 @@ jobs:
           if [ -n "$SMTP_HOST" ] && [ -n "$SMTP_PORT" ] && [ -n "$SMTP_USER" ] && [ -n "$SMTP_PASS" ] && [ -n "$MAIL_FROM" ] && [ -n "$MAIL_TO" ]; then
             python -m radar.main --config config --send-email
           else
-            echo "SMTP secrets are incomplete; rendering report without sending email."
-            python -m radar.main --config config
+            echo "::error::SMTP secrets are incomplete. Configure SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, MAIL_FROM, and MAIL_TO in repository secrets."
+            exit 1
           fi
 
       - name: Commit database and logs

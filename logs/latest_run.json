@@ -1,77 +1,79 @@
 {
-  "id": "20260524131441",
-  "started_at": "2026-05-24T13:14:41+00:00",
-  "finished_at": "2026-05-24T13:17:08+00:00",
+  "id": "20260524213324",
+  "started_at": "2026-05-24T21:33:24+08:00",
+  "finished_at": "2026-05-24T21:35:53+08:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 49,
-  "failed_sources": 33,
-  "total_items": 242,
-  "new_items": 5,
+  "successful_sources": 48,
+  "failed_sources": 34,
+  "total_items": 237,
+  "new_items": 0,
   "emailed_items": 0,
+  "email_status": "disabled",
+  "email_skip_reason": "--send-email was not provided",
   "errors": [
     {
       "source_id": "nju_undergraduate",
       "source_name": "南京大学本科生院",
       "source_pack": "nju_pack",
       "domain": "nju",
-      "error": "HTTPSConnectionPool(host='jw.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)')))"
+      "error": "HTTPSConnectionPool(host='jw.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))"
     },
     {
       "source_id": "nju_innovation",
       "source_name": "南京大学创新创业学院",
       "source_pack": "nju_pack",
       "domain": "nju",
-      "error": "HTTPSConnectionPool(host='cxcy.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='cxcy.nju.edu.cn', port=443): Failed to resolve 'cxcy.nju.edu.cn' ([Errno -2] Name or service not known)\"))"
+      "error": "502 Server Error: Bad Gateway for url: http://cxcy.nju.edu.cn/"
     },
     {
       "source_id": "nju_ai",
       "source_name": "南京大学人工智能学院",
       "source_pack": "nju_pack",
       "domain": "nju",
-      "error": "HTTPSConnectionPool(host='ai.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)')))"
+      "error": "HTTPSConnectionPool(host='ai.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))"
     },
     {
       "source_id": "nju_cs",
       "source_name": "南京大学计算机学院",
       "source_pack": "nju_pack",
       "domain": "nju",
-      "error": "HTTPSConnectionPool(host='cs.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)')))"
+      "error": "HTTPSConnectionPool(host='cs.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))"
     },
     {
       "source_id": "nju_software",
       "source_name": "南京大学软件学院",
       "source_pack": "nju_pack",
       "domain": "nju",
-      "error": "HTTPSConnectionPool(host='software.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)')))"
+      "error": "HTTPSConnectionPool(host='software.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))"
     },
     {
       "source_id": "nju_ese",
       "source_name": "南京大学电子科学与工程学院",
       "source_pack": "nju_pack",
       "domain": "nju",
-      "error": "HTTPSConnectionPool(host='ese.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)')))"
+      "error": "HTTPSConnectionPool(host='ese.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))"
     },
     {
       "source_id": "nju_engineering",
       "source_name": "南京大学现代工程与应用科学学院",
       "source_pack": "nju_pack",
       "domain": "nju",
-      "error": "HTTPSConnectionPool(host='eng.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)')))"
+      "error": "HTTPSConnectionPool(host='eng.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))"
     },
     {
       "source_id": "nju_youth",
       "source_name": "南京大学团委",
       "source_pack": "nju_pack",
       "domain": "nju",
-      "error": "HTTPSConnectionPool(host='tuanwei.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)')))"
+      "error": "HTTPSConnectionPool(host='tuanwei.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))"
     },
     {
       "source_id": "nju_graduate",
       "source_name": "南京大学研究生院",
       "source_pack": "nju_pack",
       "domain": "nju",
-      "error": "HTTPSConnectionPool(host='grawww.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)')))"
+      "error": "HTTPSConnectionPool(host='grawww.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))"
     },
     {
       "source_id": "kaggle",
@@ -155,14 +157,14 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fbe439c9550>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Read timed out. (read timeout=10)"
     },
     {
       "source_id": "robocup_china",
       "source_name": "RoboCup 中国",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "HTTPSConnectionPool(host='www.robocupchina.org.cn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.robocupchina.org.cn', port=443): Failed to resolve 'www.robocupchina.org.cn' ([Errno -2] Name or service not known)\"))"
+      "error": "502 Server Error: Bad Gateway for url: http://www.robocupchina.org.cn/"
     },
     {
       "source_id": "smartcar",
@@ -205,6 +207,13 @@
       "source_pack": "competition_pack",
       "domain": "competition",
       "error": "no list items matched"
+    },
+    {
+      "source_id": "leetcode_contest",
+      "source_name": "LeetCode 竞赛",
+      "source_pack": "competition_pack",
+      "domain": "competition",
+      "error": "403 Client Error: Forbidden for url: https://leetcode.cn/contest/"
     },
     {
       "source_id": "icpc_global",
@@ -259,10 +268,10 @@
     },
     "competition_pack": {
       "total": 38,
-      "successful": 22,
-      "failed": 16,
-      "items": 128,
-      "new_items": 5
+      "successful": 21,
+      "failed": 17,
+      "items": 123,
+      "new_items": 0
     },
     "research_pack": {
       "total": 30,

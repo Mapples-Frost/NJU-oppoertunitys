@@ -1,3 +1,3 @@
 subject_template: "[NJU Opportunity Radar] {date}: 发现 {count} 个新机会，{high} 个高优先级"
-send_empty: false
+send_empty: true
 site_name: "NJU Opportunity Radar"

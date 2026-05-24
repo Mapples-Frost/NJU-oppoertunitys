@@ -70,7 +70,7 @@ MAIL_FROM
 MAIL_TO
 ```
 
-如果 Secrets 不完整，Action 仍会运行抓取和日报渲染，只是不发送邮件。
+如果 Secrets 不完整，Action 会直接失败并提示缺少邮件配置，避免出现绿色成功但没有发送邮件的情况。
 
 可选 IMAP 转发入口使用这些 Secrets。未配置时会自动跳过，不会导致运行失败：
 

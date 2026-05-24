@@ -144,8 +144,8 @@ class Database:
             """
             INSERT OR REPLACE INTO runs
             (id, started_at, finished_at, status, total_sources, successful_sources, failed_sources,
-             total_items, new_items, emailed_items, pack_stats)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+             total_items, new_items, emailed_items, email_status, email_skip_reason, pack_stats)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 run.id,
@@ -158,6 +158,8 @@ class Database:
                 run.total_items,
                 run.new_items,
                 run.emailed_items,
+                run.email_status,
+                run.email_skip_reason,
                 json.dumps(run.pack_stats, ensure_ascii=False),
             ),
         )

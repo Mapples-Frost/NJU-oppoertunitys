@@ -64,6 +64,8 @@ SCHEMA = [
         total_items INTEGER,
         new_items INTEGER,
         emailed_items INTEGER,
+        email_status TEXT,
+        email_skip_reason TEXT,
         pack_stats TEXT
     )
     """,
@@ -125,6 +127,8 @@ REQUIRED_COLUMNS = {
         "consecutive_failures": "INTEGER DEFAULT 0",
     },
     "runs": {
+        "email_status": "TEXT",
+        "email_skip_reason": "TEXT",
         "pack_stats": "TEXT",
     },
 }

@@ -109,5 +109,7 @@ class RunSummary:
     total_items: int = 0
     new_items: int = 0
     emailed_items: int = 0
+    email_status: str = "not_requested"
+    email_skip_reason: str = ""
     errors: list[dict[str, str]] = field(default_factory=list)
     pack_stats: dict[str, dict[str, int]] = field(default_factory=dict)

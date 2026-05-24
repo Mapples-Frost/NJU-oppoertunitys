@@ -161,16 +161,27 @@ def run(args: argparse.Namespace) -> int:
 
         if args.send_email:
             if rendered["eligible"] or config["email"].get("send_empty", False):
+                run_summary.email_status = "sending"
                 send_email(rendered["subject"], rendered["text"], rendered["html"])
+                run_summary.email_status = "sent"
                 run_summary.emailed_items = len(rendered["eligible"])
+                LOGGER.info("email sent with %s eligible items", run_summary.emailed_items)
             else:
+                run_summary.email_status = "skipped"
+                run_summary.email_skip_reason = "no eligible items and send_empty is false"
                 LOGGER.info("no eligible items; email skipped")
+        else:
+            run_summary.email_status = "disabled"
+            run_summary.email_skip_reason = "--send-email was not provided"
 
         run_summary.status = "success"
         return_code = 0
     except Exception as exc:
         LOGGER.exception("radar run failed")
         run_summary.status = "failed"
+        if run_summary.email_status == "sending":
+            run_summary.email_status = "failed"
+            run_summary.email_skip_reason = str(exc)
         failures.append({"source_id": "system", "source_name": "system", "error": str(exc)})
         return_code = 1
     finally:

@@ -16,14 +16,20 @@ def test_database_migration_adds_v2_tables_and_columns(tmp_path: Path):
     assert "source_pack" in opportunity_columns
     assert "source_runs" in tables
     assert "http_cache" in tables
+    run_columns = {row["name"] for row in db.conn.execute("PRAGMA table_info(runs)").fetchall()}
+    assert "email_status" in run_columns
+    assert "email_skip_reason" in run_columns
 
     run = RunSummary(
         id="run",
         started_at="2026-05-24T08:00:00+08:00",
+        email_status="sent",
         pack_stats={"wechat_pack": {"total": 1, "successful": 1, "failed": 0, "items": 0, "new_items": 0}},
     )
     db.insert_run(run)
-    stored = db.conn.execute("SELECT pack_stats FROM runs WHERE id = 'run'").fetchone()["pack_stats"]
+    stored = db.conn.execute("SELECT pack_stats, email_status FROM runs WHERE id = 'run'").fetchone()
+    assert stored["email_status"] == "sent"
+    stored = stored["pack_stats"]
     assert "wechat_pack" in stored
     db.close()
 
@@ -103,4 +109,6 @@ def test_database_migration_upgrades_existing_v1_database(tmp_path: Path):
     assert "source_pack" in source_columns
     assert "source_pack" in opportunity_columns
     assert "pack_stats" in run_columns
+    assert "email_status" in run_columns
+    assert "email_skip_reason" in run_columns
     db.close()
