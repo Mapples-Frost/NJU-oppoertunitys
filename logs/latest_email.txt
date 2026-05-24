@@ -1,12 +1,12 @@
 [NJU Opportunity Radar] 2026-05-24: 发现 0 个新机会，0 个高优先级
-新增 0 个机会，主邮件展示 0 个，截止 7 天内 0 个，失败源 35 个。
+新增 0 个机会，主邮件展示 0 个，截止 7 天内 0 个，失败源 34 个。
 
 今天没有通过质量门的高价值机会。
 
 源覆盖状态
 - wechat_pack: 成功 4 / 4，候选 0，新增 0
 - nju_pack: 成功 1 / 10，候选 1，新增 0
-- competition_pack: 成功 21 / 38，候选 123，新增 0
+- competition_pack: 成功 22 / 38，候选 128，新增 0
 - research_pack: 成功 21 / 30，候选 108，新增 0
-- 系统异常 35 个，完整列表见 logs/latest_run.json
+- 系统异常 34 个，完整列表见 logs/latest_run.json
 - 质量报告见 logs/latest_quality_report.json
