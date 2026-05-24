@@ -14,13 +14,23 @@ def _contains_any(text: str, words: list[str]) -> bool:
     return any(word.lower() in lower for word in words)
 
 
-def _keyword_score(text: str, keywords: dict[str, Any], scoring: dict[str, Any]) -> float:
+def _keyword_score(text: str, keywords: dict[str, Any], scoring: dict[str, Any], quality: dict[str, Any] | None = None) -> float:
     weights = scoring.get("keyword_weights", {"high": 40, "medium": 24, "low": 10})
     positive = keywords.get("positive", {})
+    background_terms = set(word.lower() for word in (quality or {}).get("background_terms", []))
     score = 0.0
+    lower_text = text.lower()
     for tier, words in positive.items():
-        matches = sum(1 for word in words if word.lower() in text.lower())
-        score += min(float(weights.get(tier, 0)), matches * float(weights.get(tier, 0)) / 2)
+        tier_weight = float(weights.get(tier, 0))
+        matches = 0
+        for word in words:
+            if word.lower() not in lower_text:
+                continue
+            if word.lower() in background_terms:
+                score += min(2.0, tier_weight / 12)
+            else:
+                matches += 1
+        score += min(tier_weight, matches * tier_weight / 2)
     if _contains_any(text, keywords.get("negative", [])):
         score -= float(scoring.get("negative_penalty", 18))
     return max(0.0, min(40.0, score))
@@ -74,23 +84,88 @@ def _deadline_score(deadline_at: str | None, now: datetime | None = None) -> flo
     return 4.0
 
 
-def rank(opportunity: Opportunity, keywords: dict[str, Any], scoring: dict[str, Any]) -> Opportunity:
+def _fallback_actionability(text: str, deadline_at: str | None) -> float:
+    markers = [
+        "竞赛",
+        "大赛",
+        "挑战赛",
+        "报名",
+        "申报",
+        "投稿",
+        "征集",
+        "招募",
+        "赛题",
+        "申请",
+        "competition",
+        "challenge",
+        "cfp",
+        "call for papers",
+        "application",
+        "deadline",
+        "submit",
+    ]
+    score = min(22.0, sum(1 for marker in markers if marker.lower() in text.lower()) * 5.0)
+    if deadline_at:
+        score += 8.0
+    return min(30.0, score)
+
+
+def rank(
+    opportunity: Opportunity,
+    keywords: dict[str, Any],
+    scoring: dict[str, Any],
+    profile: dict[str, Any] | None = None,
+    quality: dict[str, Any] | None = None,
+    feedback: dict[str, Any] | None = None,
+) -> Opportunity:
     primary_text = " ".join(part for part in [opportunity.title, opportunity.content] if part)
     tag_text = " ".join(opportunity.tags)
     combined_text = f"{primary_text} {tag_text}"
     source_weight = float(opportunity.raw.get("source_weight", 1.0))
-    relevance = _keyword_score(primary_text, keywords, scoring)
-    tag_bonus = min(8.0, _keyword_score(tag_text, keywords, scoring) / 5)
-    opportunity_markers = ["竞赛", "大赛", "挑战赛", "报名", "讲座", "报告", "训练营", "项目", "招募", "活动"]
+
+    relevance_raw = _keyword_score(primary_text, keywords, scoring, quality)
+    tag_bonus = min(6.0, _keyword_score(tag_text, keywords, scoring, quality) / 6)
+    opportunity_markers = [
+        "竞赛",
+        "大赛",
+        "挑战赛",
+        "报名",
+        "申报",
+        "投稿",
+        "招募",
+        "赛题",
+        "CFP",
+        "competition",
+        "challenge",
+        "deadline",
+        "application",
+        "proposal",
+    ]
     if not _contains_any(primary_text, opportunity_markers):
-        tag_bonus = min(tag_bonus, 4.0)
-    relevance = min(40.0, relevance + tag_bonus)
-    organizer = _organizer_score(combined_text, opportunity.source_group, scoring)
-    output_value = _output_value_score(primary_text)
+        tag_bonus = min(tag_bonus, 2.0)
+    relevance = min(30.0, relevance_raw * 0.65 + tag_bonus + min(opportunity.audience_fit_score, 8.0))
+    actionability = min(25.0, opportunity.actionability_score or _fallback_actionability(primary_text, opportunity.deadline_at))
+    audience_fit = min(14.0, opportunity.audience_fit_score / 2 if opportunity.audience_fit_score else 0.0)
+    organizer = min(10.0, _organizer_score(combined_text, opportunity.source_group, scoring) / 2)
+    output_value = min(8.0, _output_value_score(primary_text) / 2)
     deadline = _deadline_score(opportunity.deadline_at)
-    source = min(10.0, max(0.0, 8.0 * source_weight))
+    source = min(7.0, max(0.0, 5.5 * source_weight))
+    if feedback and (
+        opportunity.source_id in set(feedback.get("prefer_sources", []))
+        or opportunity.source_name in set(feedback.get("prefer_sources", []))
+    ):
+        source += 3.0
+    quality_bonus = min(6.0, opportunity.quality_score / 12 if opportunity.quality_score else 0.0)
     novelty = 5.0
-    total = relevance + organizer + output_value + deadline + source + novelty
+    total = relevance + actionability + audience_fit + organizer + output_value + deadline + source + quality_bonus + novelty
+
+    if opportunity.quality_status == "rejected":
+        total = min(total, 20.0)
+    elif opportunity.quality_status == "demoted":
+        total = min(total, 44.0)
+    elif actionability < 8 and not opportunity.deadline_at:
+        total = min(total, 44.0)
+
     opportunity.relevance_score = round(relevance, 2)
     opportunity.organizer_score = round(organizer + output_value + source, 2)
     opportunity.deadline_score = round(deadline, 2)

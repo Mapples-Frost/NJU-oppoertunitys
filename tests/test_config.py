@@ -25,3 +25,11 @@ def test_v2_source_pack_coverage():
     assert by_type["wechat_article"] >= 1
     assert by_type["imap_email"] >= 1
     assert by_type["webhook_inbox"] >= 1
+
+
+def test_v3_quality_config_is_loaded():
+    config = load_config(Path("config"))
+
+    assert config["profile"]["interests"]
+    assert config["quality"]["quality_gate"]["min_quality_score"] >= 1
+    assert "reject" in config["feedback"]

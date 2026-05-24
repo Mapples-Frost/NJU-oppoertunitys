@@ -4,19 +4,22 @@ from radar.models import Opportunity, RunSummary
 from radar.storage.db import Database
 
 
-def test_database_migration_adds_v2_tables_and_columns(tmp_path: Path):
+def test_database_migration_adds_v2_and_v3_tables_and_columns(tmp_path: Path):
     db = Database(tmp_path / "test.sqlite")
     db.migrate()
 
     source_columns = {row["name"] for row in db.conn.execute("PRAGMA table_info(sources)").fetchall()}
     opportunity_columns = {row["name"] for row in db.conn.execute("PRAGMA table_info(opportunities)").fetchall()}
+    run_columns = {row["name"] for row in db.conn.execute("PRAGMA table_info(runs)").fetchall()}
     tables = {row["name"] for row in db.conn.execute("SELECT name FROM sqlite_master WHERE type='table'").fetchall()}
 
     assert "source_pack" in source_columns
     assert "source_pack" in opportunity_columns
+    assert "quality_status" in opportunity_columns
+    assert "quality_score" in opportunity_columns
+    assert "reject_reason" in opportunity_columns
     assert "source_runs" in tables
     assert "http_cache" in tables
-    run_columns = {row["name"] for row in db.conn.execute("PRAGMA table_info(runs)").fetchall()}
     assert "email_status" in run_columns
     assert "email_skip_reason" in run_columns
 
@@ -29,8 +32,7 @@ def test_database_migration_adds_v2_tables_and_columns(tmp_path: Path):
     db.insert_run(run)
     stored = db.conn.execute("SELECT pack_stats, email_status FROM runs WHERE id = 'run'").fetchone()
     assert stored["email_status"] == "sent"
-    stored = stored["pack_stats"]
-    assert "wechat_pack" in stored
+    assert "wechat_pack" in stored["pack_stats"]
     db.close()
 
 
@@ -108,13 +110,15 @@ def test_database_migration_upgrades_existing_v1_database(tmp_path: Path):
     run_columns = {row["name"] for row in db.conn.execute("PRAGMA table_info(runs)").fetchall()}
     assert "source_pack" in source_columns
     assert "source_pack" in opportunity_columns
+    assert "quality_status" in opportunity_columns
+    assert "reject_reason" in opportunity_columns
     assert "pack_stats" in run_columns
     assert "email_status" in run_columns
     assert "email_skip_reason" in run_columns
     db.close()
 
 
-def test_database_lists_history_opportunities(tmp_path: Path):
+def test_database_lists_history_opportunities_with_quality(tmp_path: Path):
     db = Database(tmp_path / "history.sqlite")
     db.migrate()
     db.upsert_opportunity(
@@ -128,13 +132,17 @@ def test_database_lists_history_opportunities(tmp_path: Path):
             source_pack="wechat_pack",
             category="竞赛",
             score=72,
+            quality_status="accepted",
+            quality_score=88,
             tags=["AI", "contest"],
         )
     )
 
     assert db.count_opportunities() == 1
+    assert db.count_opportunities(quality_only=True) == 1
     items = db.list_opportunities()
     assert len(items) == 1
     assert items[0].title == "历史机会 A"
+    assert items[0].quality_score == 88
     assert items[0].tags == ["AI", "contest"]
     db.close()

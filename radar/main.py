@@ -6,6 +6,7 @@ import logging
 from dataclasses import asdict
 from datetime import datetime
 from pathlib import Path
+from typing import Any
 
 from radar.classifiers.rule_classifier import classify
 from radar.dedup import enrich_identity, merge_duplicates
@@ -15,6 +16,7 @@ from radar.mailer.render_email import render_email
 from radar.mailer.render_history import render_history_email
 from radar.mailer.send_email import send_email
 from radar.models import Opportunity, RunSummary
+from radar.quality_gate import build_quality_report, evaluate_quality, item_quality_record, source_quality_report
 from radar.rankers.opportunity_ranker import rank
 from radar.storage.db import Database
 from radar.utils.config import enabled_sources, load_config
@@ -23,15 +25,16 @@ from radar.utils.logging import configure_logging
 LOGGER = logging.getLogger(__name__)
 
 
-def _process_item(item: Opportunity, keywords: dict, scoring: dict) -> Opportunity:
+def _process_item(item: Opportunity, config: dict) -> Opportunity:
     dates = extract_dates(item.title, item.content)
     item.deadline_at = dates["deadline_at"]
     item.event_start_at = dates["event_start_at"]
     item.event_end_at = dates["event_end_at"]
     item.date_confidence = dates["date_confidence"]
     item.date_source_text = dates["date_source_text"]
+    item = evaluate_quality(item, config["profile"], config["quality"], config["feedback"])
     item = classify(item)
-    item = rank(item, keywords, scoring)
+    item = rank(item, config["keywords"], config["scoring"], config["profile"], config["quality"], config["feedback"])
     return enrich_identity(item)
 
 
@@ -56,6 +59,20 @@ def _write_json(path: Path, data: dict) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def _write_quality_logs(
+    logs_dir: Path,
+    items: list[Opportunity],
+    failures: list[dict[str, str]],
+    include_rejected: bool = True,
+) -> dict[str, Any]:
+    report = build_quality_report(items, failures)
+    _write_json(logs_dir / "latest_quality_report.json", report)
+    _write_json(logs_dir / "source_quality.json", source_quality_report(report))
+    rejected = [item_quality_record(item) for item in items if item.quality_status == "rejected"]
+    _write_json(logs_dir / "latest_rejected_items.json", rejected if include_rejected else rejected[:25])
+    return report
+
+
 def _send_history_email(args: argparse.Namespace, config: dict) -> int:
     started = datetime.now().astimezone().isoformat(timespec="seconds")
     logs_dir = Path(args.logs)
@@ -78,7 +95,23 @@ def _send_history_email(args: argparse.Namespace, config: dict) -> int:
         database.migrate()
         total_count = database.count_opportunities(args.history_min_score)
         limit = args.history_limit if args.history_limit and args.history_limit > 0 else None
-        items = database.list_opportunities(args.history_min_score, limit=limit)
+        fetch_limit = None if args.history_quality_only else limit
+        items = database.list_opportunities(args.history_min_score, limit=fetch_limit)
+        items = [
+            rank(
+                evaluate_quality(item, config["profile"], config["quality"], config["feedback"]),
+                config["keywords"],
+                config["scoring"],
+                config["profile"],
+                config["quality"],
+                config["feedback"],
+            )
+            for item in items
+        ]
+        if args.history_quality_only:
+            items = [item for item in items if item.quality_status == "accepted"]
+            if limit is not None:
+                items = items[:limit]
         summary["total_history_items"] = total_count
         summary["included_items"] = len(items)
         rendered = render_history_email(items, config["email"], total_count=total_count)
@@ -184,11 +217,20 @@ def run(args: argparse.Namespace) -> int:
 
         run_summary.total_items = len(all_items)
         processed = [
-            _process_item(item, config["keywords"], config["scoring"])
+            _process_item(item, config)
             for item in all_items
             if item.title and (item.url or item.content)
         ]
         deduped = merge_duplicates(processed)
+        try:
+            from radar.llm_reviewer import review_candidates
+
+            deduped = review_candidates(
+                sorted(deduped, key=lambda item: (item.quality_status == "accepted", item.score), reverse=True),
+                limit=30,
+            )
+        except Exception as exc:  # pragma: no cover - defensive fallback
+            LOGGER.warning("optional LLM review skipped: %s", exc)
         deduped.sort(key=lambda item: item.score, reverse=True)
 
         new_items: list[Opportunity] = []
@@ -207,19 +249,25 @@ def run(args: argparse.Namespace) -> int:
             )
             run_summary.pack_stats[pack]["new_items"] += 1
 
+        logs_dir = Path(args.logs)
+        logs_dir.mkdir(parents=True, exist_ok=True)
+        _write_quality_logs(logs_dir, deduped, failures, include_rejected=args.include_rejected)
+
         rendered = render_email(
             new_items,
             run_summary,
             failures,
             config["email"],
             config["scoring"],
+            config["quality"],
         )
-        logs_dir = Path(args.logs)
-        logs_dir.mkdir(parents=True, exist_ok=True)
         (logs_dir / "latest_email.html").write_text(rendered["html"], encoding="utf-8")
         (logs_dir / "latest_email.txt").write_text(rendered["text"], encoding="utf-8")
 
-        if args.send_email:
+        if args.quality_report:
+            run_summary.email_status = "disabled"
+            run_summary.email_skip_reason = "--quality-report was provided"
+        elif args.send_email:
             if rendered["eligible"] or config["email"].get("send_empty", False):
                 run_summary.email_status = "sending"
                 send_email(rendered["subject"], rendered["text"], rendered["html"])
@@ -267,6 +315,9 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--send-history-email", action="store_true", help="send all stored opportunities through SMTP")
     parser.add_argument("--history-limit", type=int, default=0, help="maximum history items to send; 0 means all")
     parser.add_argument("--history-min-score", type=float, default=0.0, help="minimum score for history email")
+    parser.add_argument("--history-quality-only", action="store_true", help="send only accepted opportunities in history email")
+    parser.add_argument("--quality-report", action="store_true", help="generate quality reports without sending email")
+    parser.add_argument("--include-rejected", action="store_true", help="write full rejected item details to logs")
     parser.add_argument("--limit-sources", type=int, default=None, help="limit source count for local debugging")
     parser.add_argument("--verbose", action="store_true", help="enable debug logging")
     return parser

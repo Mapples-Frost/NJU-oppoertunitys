@@ -39,6 +39,13 @@ HISTORY_HTML_TEMPLATE = """
   {% endfor %}
   </ul>
 
+  <h2>质量状态概览</h2>
+  <ul>
+  {% for status, count in quality_counts.items() %}
+    <li>{{ status }}：{{ count }} 条</li>
+  {% endfor %}
+  </ul>
+
   <h2>分类概览</h2>
   <ul>
   {% for category, count in category_counts.items() %}
@@ -57,10 +64,11 @@ HISTORY_HTML_TEMPLATE = """
 """
 
 
-def _sort_key(item: Opportunity) -> tuple[float, str, str]:
+def _sort_key(item: Opportunity) -> tuple[int, float, float, str, str]:
+    status_rank = {"accepted": 0, "demoted": 1, "rejected": 2}.get(item.quality_status or "accepted", 1)
     deadline = item.deadline_at or "9999-12-31"
     discovered = item.discovered_at or ""
-    return (-item.score, deadline, discovered)
+    return (status_rank, -item.quality_score, -item.score, deadline, discovered)
 
 
 def render_history_email(
@@ -79,6 +87,7 @@ def render_history_email(
     categories = dict(sorted(categories.items(), key=lambda pair: (-len(pair[1]), pair[0])))
     category_counts = dict((category, len(category_items)) for category, category_items in categories.items())
     pack_counts = dict(Counter(item.source_pack or "unknown_pack" for item in sorted_items).most_common())
+    quality_counts = dict(Counter(item.quality_status or "accepted" for item in sorted_items).most_common())
 
     env = Environment(autoescape=True)
     env.globals["render_item"] = _render_item_html
@@ -91,6 +100,7 @@ def render_history_email(
         categories=categories,
         category_counts=category_counts,
         pack_counts=pack_counts,
+        quality_counts=quality_counts,
     )
     html = "\n".join(line.rstrip() for line in html.splitlines()).strip() + "\n"
 
@@ -102,6 +112,9 @@ def render_history_email(
     ]
     for pack, count in pack_counts.items():
         text_lines.append(f"- {pack}: {count} 条")
+    text_lines.extend(["", "质量状态概览"])
+    for status, count in quality_counts.items():
+        text_lines.append(f"- {status}: {count} 条")
     text_lines.extend(["", "分类概览"])
     for category, count in category_counts.items():
         text_lines.append(f"- {category}: {count} 条")
@@ -110,16 +123,18 @@ def render_history_email(
     for category, category_items in categories.items():
         text_lines.append(f"{category}（{len(category_items)}）")
         for idx, item in enumerate(category_items, start=1):
-            text_lines.append(f"{idx}. {item.title} ({item.score:.0f}分)")
+            text_lines.append(f"{idx}. {item.title} ({item.score:.0f}分，质量 {item.quality_score:.0f}，{item.quality_status})")
             text_lines.append(f"   截止：{deadline_label(item)}")
             text_lines.append(f"   来源：{item.source_name}")
+            if item.reject_reason:
+                text_lines.append(f"   质量说明：{item.reject_reason}")
             if item.url:
                 text_lines.append(f"   链接：{item.url}")
         text_lines.append("")
 
     return {
         "subject": title,
-        "html": "\n".join(line.rstrip() for line in html.splitlines()).strip() + "\n",
+        "html": html,
         "text": "\n".join(text_lines).strip() + "\n",
         "eligible": sorted_items,
     }

@@ -31,6 +31,14 @@ class Opportunity:
     organizer_score: float = 0.0
     deadline_score: float = 0.0
     novelty_score: float = 0.0
+    quality_status: str = "accepted"
+    quality_score: float = 0.0
+    actionability_score: float = 0.0
+    audience_fit_score: float = 0.0
+    reject_reason: str = ""
+    quality_notes: str = ""
+    llm_summary: str = ""
+    llm_confidence: float = 0.0
     status: str = "new"
     content_hash: str = ""
     title_hash: str = ""
@@ -74,6 +82,14 @@ class Opportunity:
             "organizer_score": self.organizer_score,
             "deadline_score": self.deadline_score,
             "novelty_score": self.novelty_score,
+            "quality_status": self.quality_status,
+            "quality_score": self.quality_score,
+            "actionability_score": self.actionability_score,
+            "audience_fit_score": self.audience_fit_score,
+            "reject_reason": self.reject_reason,
+            "quality_notes": self.quality_notes,
+            "llm_summary": self.llm_summary,
+            "llm_confidence": self.llm_confidence,
             "status": self.status,
             "content_hash": self.content_hash,
             "title_hash": self.title_hash,

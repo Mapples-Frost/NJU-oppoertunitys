@@ -165,25 +165,44 @@ class Database:
         )
         self.conn.commit()
 
-    def list_opportunities(self, min_score: float = 0.0, limit: int | None = None) -> list[Opportunity]:
+    def list_opportunities(
+        self,
+        min_score: float = 0.0,
+        limit: int | None = None,
+        quality_only: bool = False,
+    ) -> list[Opportunity]:
         query = """
             SELECT *
             FROM opportunities
             WHERE COALESCE(score, 0) >= ?
-            ORDER BY COALESCE(score, 0) DESC, COALESCE(deadline_at, '9999-12-31') ASC, discovered_at DESC
         """
         params: list[Any] = [min_score]
+        if quality_only:
+            query += " AND COALESCE(quality_status, 'accepted') = 'accepted'"
+        query += """
+            ORDER BY
+                CASE COALESCE(quality_status, 'accepted')
+                    WHEN 'accepted' THEN 0
+                    WHEN 'demoted' THEN 1
+                    ELSE 2
+                END,
+                COALESCE(quality_score, 0) DESC,
+                COALESCE(score, 0) DESC,
+                COALESCE(deadline_at, '9999-12-31') ASC,
+                discovered_at DESC
+        """
         if limit and limit > 0:
             query += " LIMIT ?"
             params.append(limit)
         rows = self.conn.execute(query, params).fetchall()
         return [self._opportunity_from_row(row) for row in rows]
 
-    def count_opportunities(self, min_score: float = 0.0) -> int:
-        row = self.conn.execute(
-            "SELECT COUNT(*) AS total FROM opportunities WHERE COALESCE(score, 0) >= ?",
-            (min_score,),
-        ).fetchone()
+    def count_opportunities(self, min_score: float = 0.0, quality_only: bool = False) -> int:
+        query = "SELECT COUNT(*) AS total FROM opportunities WHERE COALESCE(score, 0) >= ?"
+        params: list[Any] = [min_score]
+        if quality_only:
+            query += " AND COALESCE(quality_status, 'accepted') = 'accepted'"
+        row = self.conn.execute(query, params).fetchone()
         return int(row["total"] or 0)
 
     def _opportunity_from_row(self, row: sqlite3.Row) -> Opportunity:
@@ -214,6 +233,14 @@ class Database:
             organizer_score=float(row["organizer_score"] or 0),
             deadline_score=float(row["deadline_score"] or 0),
             novelty_score=float(row["novelty_score"] or 0),
+            quality_status=str(row["quality_status"] or "accepted"),
+            quality_score=float(row["quality_score"] or 0),
+            actionability_score=float(row["actionability_score"] or 0),
+            audience_fit_score=float(row["audience_fit_score"] or 0),
+            reject_reason=str(row["reject_reason"] or ""),
+            quality_notes=str(row["quality_notes"] or ""),
+            llm_summary=str(row["llm_summary"] or ""),
+            llm_confidence=float(row["llm_confidence"] or 0),
             status=str(row["status"] or "new"),
             content_hash=str(row["content_hash"] or ""),
             title_hash=str(row["title_hash"] or ""),

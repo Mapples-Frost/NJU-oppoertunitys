@@ -1,0 +1,491 @@
+[
+  {
+    "source_name": "阿里云开发者",
+    "source_pack": "competition_pack",
+    "candidates": 8,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 8,
+    "source_id": "alibaba_cloud_developer",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 4,
+      "hard_reject_url": 3,
+      "product_or_marketing_page": 1
+    }
+  },
+  {
+    "source_name": "IEEE Students",
+    "source_pack": "research_pack",
+    "candidates": 8,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 8,
+    "source_id": "ieee_students",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 7,
+      "hard_reject_term": 1
+    }
+  },
+  {
+    "source_name": "阿里天池",
+    "source_pack": "competition_pack",
+    "candidates": 8,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 8,
+    "source_id": "tianchi",
+    "reject_reasons": {
+      "product_or_marketing_page": 3,
+      "hard_reject_url": 2,
+      "not_actionable_or_not_relevant": 2,
+      "quality_score_below_threshold": 1
+    }
+  },
+  {
+    "source_name": "火山引擎开发者",
+    "source_pack": "competition_pack",
+    "candidates": 8,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 8,
+    "source_id": "volcengine_developer",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 6,
+      "quality_score_below_threshold": 1,
+      "product_or_marketing_page": 1
+    }
+  },
+  {
+    "source_name": "腾讯云开发者",
+    "source_pack": "competition_pack",
+    "candidates": 7,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 7,
+    "source_id": "tencent_cloud_developer",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 7
+    }
+  },
+  {
+    "source_name": "AAAI Conference",
+    "source_pack": "research_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "aaai_conference",
+    "reject_reasons": {
+      "hard_reject_url": 3,
+      "quality_score_below_threshold": 2
+    }
+  },
+  {
+    "source_name": "ACL Anthology / Portal",
+    "source_pack": "research_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "acl_portal",
+    "reject_reasons": {
+      "quality_score_below_threshold": 4,
+      "hard_reject_url": 1
+    }
+  },
+  {
+    "source_name": "AIcrowd Challenges",
+    "source_pack": "competition_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "aicrowd_competitions",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 3,
+      "generic_listing_page": 1,
+      "quality_score_below_threshold": 1
+    }
+  },
+  {
+    "source_name": "中国人工智能学会 CAAI",
+    "source_pack": "research_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "caai",
+    "reject_reasons": {
+      "hard_reject_term": 5
+    }
+  },
+  {
+    "source_name": "中国科协",
+    "source_pack": "research_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "cast",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 5
+    }
+  },
+  {
+    "source_name": "挑战杯",
+    "source_pack": "competition_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "challenge_cup",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 4,
+      "quality_score_below_threshold": 1
+    }
+  },
+  {
+    "source_name": "Codabench Competitions; DrivenData Competitions",
+    "source_pack": "competition_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "codabench_competitions",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 3,
+      "quality_score_below_threshold": 2
+    }
+  },
+  {
+    "source_name": "Codeforces Contests",
+    "source_pack": "competition_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "codeforces_contests",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 4,
+      "generic_listing_page": 1
+    }
+  },
+  {
+    "source_name": "全国大学生数学建模竞赛",
+    "source_pack": "competition_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "cumcm",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 4,
+      "quality_score_below_threshold": 1
+    }
+  },
+  {
+    "source_name": "Devpost Hackathons",
+    "source_pack": "competition_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "devpost_hackathons",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 4,
+      "hard_reject_url": 1
+    }
+  },
+  {
+    "source_name": "IJCAI",
+    "source_pack": "research_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "ijcai",
+    "reject_reasons": {
+      "quality_score_below_threshold": 4,
+      "hard_reject_url": 1
+    }
+  },
+  {
+    "source_name": "中国国际大学生创新大赛",
+    "source_pack": "competition_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "ncss_innovation",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 4,
+      "quality_score_below_threshold": 1
+    }
+  },
+  {
+    "source_name": "NeurIPS; ICLR; CVPR; ICCV; ECCV",
+    "source_pack": "research_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "neurips",
+    "reject_reasons": {
+      "quality_score_below_threshold": 4,
+      "hard_reject_url": 1
+    }
+  },
+  {
+    "source_name": "国家自然科学基金委员会",
+    "source_pack": "research_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "nsfc",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 5
+    }
+  },
+  {
+    "source_name": "OpenReview",
+    "source_pack": "research_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "openreview",
+    "reject_reasons": {
+      "quality_score_below_threshold": 5
+    }
+  },
+  {
+    "source_name": "Robocon 中国",
+    "source_pack": "competition_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "robocon_china",
+    "reject_reasons": {
+      "quality_score_below_threshold": 5
+    }
+  },
+  {
+    "source_name": "Zindi Competitions",
+    "source_pack": "competition_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "zindi_competitions",
+    "reject_reasons": {
+      "quality_score_below_threshold": 5
+    }
+  },
+  {
+    "source_name": "DrivenData Competitions",
+    "source_pack": "competition_pack",
+    "candidates": 4,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 4,
+    "source_id": "drivendata_competitions",
+    "reject_reasons": {
+      "quality_score_below_threshold": 4
+    }
+  },
+  {
+    "source_name": "中国研究生创新实践系列大赛",
+    "source_pack": "competition_pack",
+    "candidates": 4,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 4,
+    "source_id": "graduate_innovation_competition",
+    "reject_reasons": {
+      "quality_score_below_threshold": 4
+    }
+  },
+  {
+    "source_name": "Hugging Face Competitions; Papers with Code",
+    "source_pack": "competition_pack",
+    "candidates": 4,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 4,
+    "source_id": "huggingface_competitions",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 4
+    }
+  },
+  {
+    "source_name": "MathorCup",
+    "source_pack": "competition_pack",
+    "candidates": 4,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 4,
+    "source_id": "mathorcup",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 4
+    }
+  },
+  {
+    "source_name": "RoboMaster",
+    "source_pack": "competition_pack",
+    "candidates": 4,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 4,
+    "source_id": "robomaster",
+    "reject_reasons": {
+      "quality_score_below_threshold": 4
+    }
+  },
+  {
+    "source_name": "SIGGRAPH",
+    "source_pack": "research_pack",
+    "candidates": 4,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 4,
+    "source_id": "siggraph",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 3,
+      "hard_reject_url": 1
+    }
+  },
+  {
+    "source_name": "ACL Rolling Review",
+    "source_pack": "research_pack",
+    "candidates": 4,
+    "accepted": 1,
+    "demoted": 0,
+    "rejected": 3,
+    "source_id": "acl_rolling_review",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 3
+    }
+  },
+  {
+    "source_name": "中国自动化大会",
+    "source_pack": "research_pack",
+    "candidates": 5,
+    "accepted": 2,
+    "demoted": 0,
+    "rejected": 3,
+    "source_id": "cac_conference",
+    "reject_reasons": {
+      "quality_score_below_threshold": 2,
+      "hard_reject_term": 1
+    }
+  },
+  {
+    "source_name": "ECCV",
+    "source_pack": "research_pack",
+    "candidates": 3,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 3,
+    "source_id": "eccv",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 3
+    }
+  },
+  {
+    "source_name": "ICCV; ECCV",
+    "source_pack": "research_pack",
+    "candidates": 2,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 2,
+    "source_id": "iccv",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 2
+    }
+  },
+  {
+    "source_name": "ICLR",
+    "source_pack": "research_pack",
+    "candidates": 2,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 2,
+    "source_id": "iclr",
+    "reject_reasons": {
+      "hard_reject_url": 1,
+      "quality_score_below_threshold": 1
+    }
+  },
+  {
+    "source_name": "小米开发者",
+    "source_pack": "competition_pack",
+    "candidates": 2,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 2,
+    "source_id": "xiaomi_developer",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 2
+    }
+  },
+  {
+    "source_name": "AtCoder Contests",
+    "source_pack": "competition_pack",
+    "candidates": 1,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 1,
+    "source_id": "atcoder_contests",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 1
+    }
+  },
+  {
+    "source_name": "CVPR",
+    "source_pack": "research_pack",
+    "candidates": 1,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 1,
+    "source_id": "cvpr",
+    "reject_reasons": {
+      "hard_reject_url": 1
+    }
+  },
+  {
+    "source_name": "ICRA; IROS; IEEE Robotics and Automation Society",
+    "source_pack": "research_pack",
+    "candidates": 1,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 1,
+    "source_id": "icra",
+    "reject_reasons": {
+      "quality_score_below_threshold": 1
+    }
+  },
+  {
+    "source_name": "南京大学就业创业网",
+    "source_pack": "nju_pack",
+    "candidates": 1,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 1,
+    "source_id": "nju_jobs",
+    "reject_reasons": {
+      "quality_score_below_threshold": 1
+    }
+  },
+  {
+    "source_name": "DataFountain",
+    "source_pack": "competition_pack",
+    "candidates": 8,
+    "accepted": 8,
+    "demoted": 0,
+    "rejected": 0,
+    "source_id": "datafountain",
+    "reject_reasons": {}
+  }
+]

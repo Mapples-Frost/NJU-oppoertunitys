@@ -1,0 +1,147 @@
+email:
+  top_limit: 15
+  include_demoted: false
+quality_gate:
+  min_quality_score: 45
+  demote_below: 45
+  actionability_min: 12
+  audience_fit_min: 6
+action_terms:
+  - 报名
+  - 申报
+  - 投稿
+  - 征集
+  - 招募
+  - 参赛
+  - 赛题
+  - 立项
+  - 申请
+  - 截止
+  - deadline
+  - application
+  - apply
+  - challenge
+  - competition
+  - competitions
+  - call for papers
+  - cfp
+  - proposal
+  - submission
+  - workshop
+  - grant
+  - internship
+strong_action_terms:
+  - 报名
+  - 申报
+  - 投稿
+  - 征稿
+  - 招募
+  - 参赛
+  - 赛题
+  - 立即参加
+  - 截止
+  - 报名开启
+  - 正在报名
+  - 申报通知
+  - 投稿截止
+  - 作品提交
+  - 项目招募
+  - 队员招募
+  - call for papers
+  - cfp
+  - deadline
+  - submission
+  - important dates
+  - registration
+  - submit
+background_terms:
+  - AI
+  - 人工智能
+  - 大模型
+  - 云计算
+  - 平台
+  - 模型
+  - 开发者
+hard_reject_terms:
+  - 登录
+  - 注册
+  - 关于我们
+  - 联系我们
+  - 隐私
+  - 条款
+  - 章程
+  - 条例
+  - 办公系统
+  - 会员
+  - Renew Membership
+  - English
+  - 下载证书
+  - 证书验证
+  - 首页
+  - 帮助中心
+  - 人才项目库
+  - 主要领导
+  - 组织机构
+  - 网站地图
+  - ICP
+  - copyright
+product_terms:
+  - 产品
+  - 解决方案
+  - 价格
+  - 购买
+  - 控制台
+  - AI 助理
+  - 百炼大模型
+  - 豆包大模型
+  - 模型广场
+  - 模型服务
+  - 云服务器
+  - 云产品
+  - 安全合规
+  - 稳定可靠
+  - 全球基础设施
+reject_url_parts:
+  - /login
+  - /register
+  - /about
+  - /privacy
+  - /terms
+  - /product/
+  - /products/
+  - /modelstudio
+  - /ai-assistant
+  - /help
+  - /site/term
+  - /proceedings/
+demote_terms:
+  - 讲座
+  - 报告
+  - 新闻
+  - 动态
+  - 会议报道
+  - 成果
+  - 发布
+  - 沙龙
+  - 课程
+  - 培训
+quality_sources:
+  prefer:
+    - datafountain
+    - robomaster
+    - tianchi
+    - nju_jobs
+    - openreview
+    - acl_rolling_review
+    - cac_conference
+    - codabench_competitions
+    - drivendata_competitions
+    - aicrowd_competitions
+    - evalai_challenges
+    - challenge_cup
+    - ncss_innovation
+    - graduate_innovation_competition
+  demote:
+    - alibaba_cloud_developer
+    - volcengine_developer
+    - tencent_cloud_developer

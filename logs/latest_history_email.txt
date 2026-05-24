@@ -1,806 +1,100 @@
-[NJU Opportunity Radar] 历史机会汇总：188 / 188 条
-数据库当前共 188 条机会，本邮件展示 188 条，生成时间 2026-05-24 22:25。
+[NJU Opportunity Radar] 历史机会汇总：20 / 188 条
+数据库当前共 188 条机会，本邮件展示 20 条，生成时间 2026-05-24 23:26。
 
 来源包概览
-- competition_pack: 108 条
-- research_pack: 79 条
-- nju_pack: 1 条
+- competition_pack: 17 条
+- research_pack: 3 条
+
+质量状态概览
+- accepted: 20 条
 
 分类概览
-- AI / 算法竞赛: 66 条
-- 企业开发者赛事: 31 条
-- 机器人 / 自动化 / 智能车: 22 条
-- AI会议 / CFP: 17 条
-- NLP会议 / CFP: 9 条
-- 视觉会议 / Challenge: 6 条
-- 图形学会议: 5 条
-- 大创 / 科研训练 / 项目招募: 5 条
-- 学术投稿 / CFP: 5 条
-- 科研基金 / 项目: 5 条
-- AI Benchmark / 论文: 4 条
-- 数学建模竞赛: 4 条
-- 科技活动 / 科研机会: 4 条
-- 视觉论文 / Challenge: 4 条
-- 志愿 / 低优先级活动: 1 条
+- AI / 算法竞赛: 16 条
+- 机器人 / 自动化 / 智能车: 3 条
+- NLP会议 / CFP: 1 条
 
-AI / 算法竞赛（66）
-1. 具有多模态能力的客服智能体设计 (73分)
+AI / 算法竞赛（16）
+1. 具有多模态能力的客服智能体设计 (89分，质量 65，accepted)
    截止：未识别，需要人工确认
    来源：DataFountain
    链接：https://www.datafountain.cn/competitions/1165
-2. 天池大赛 (61分)
-   截止：未识别，需要人工确认
-   来源：阿里天池
-   链接：https://tianchi.aliyun.com/competition
-3. 千问大模型 (57分)
-   截止：未识别，需要人工确认
-   来源：阿里天池
-   链接：https://www.aliyun.com/product/tongyi
-4. AI新睿人才“星探计划” (57分)
-   截止：未识别，需要人工确认
-   来源：DataFountain
-   链接：https://www.datafountain.cn/competitions/1169
-5. 大数据和人工智能 (57分)
+2. 大数据和人工智能 (67分，质量 60，accepted)
    截止：未识别，需要人工确认
    来源：DataFountain
    链接：https://www.datafountain.cn/competitions/1153
-6. AIcrowd (56分)
-   截止：未识别，需要人工确认
-   来源：AIcrowd Challenges
-   链接：https://www.aicrowd.com/
-7. 赛题与评奖 (47分)
-   截止：未识别，需要人工确认
-   来源：全国大学生数学建模竞赛; MathorCup
-   链接：https://www.mcm.edu.cn/html_cn/section/033046c1b33c2ea9c1d6bd4c5a4020fb.html
-8. 火山杯大赛 (45分)
-   截止：未识别，需要人工确认
-   来源：火山引擎开发者
-   链接：https://developer.volcengine.com/competition
-9. 分析师报告 (43分)
-   截止：未识别，需要人工确认
-   来源：阿里天池
-   链接：https://www.aliyun.com/analyst-reports
-10. English (39分)
-   截止：未识别，需要人工确认
-   来源：中国人工智能学会 CAAI
-   链接：https://en.caai.cn/
-11. 办公系统 (39分)
-   截止：未识别，需要人工确认
-   来源：中国人工智能学会 CAAI
-   链接：https://oa.caai.cn/
-12. 学会章程 (39分)
-   截止：未识别，需要人工确认
-   来源：中国人工智能学会 CAAI
-   链接：https://www.caai.cn/site/term/3.html
-13. 条例与法规 (39分)
-   截止：未识别，需要人工确认
-   来源：中国人工智能学会 CAAI
-   链接：https://www.caai.cn/site/term/4.html
-14. 主要领导 (39分)
-   截止：未识别，需要人工确认
-   来源：中国人工智能学会 CAAI
-   链接：https://www.caai.cn/site/term/5.html
-15. 什么是云计算 (37分)
-   截止：未识别，需要人工确认
-   来源：阿里天池
-   链接：https://www.aliyun.com/about/what-is-cloud-computing
-16. 全球基础设施 (37分)
-   截止：未识别，需要人工确认
-   来源：阿里天池
-   链接：https://infrastructure.aliyun.com/
-17. 技术领先 (37分)
-   截止：未识别，需要人工确认
-   来源：阿里天池
-   链接：https://www.aliyun.com/why-us/leading-technology
-18. 稳定可靠 (37分)
-   截止：未识别，需要人工确认
-   来源：阿里天池
-   链接：https://www.aliyun.com/why-us/reliability
-19. 安全合规 (37分)
-   截止：未识别，需要人工确认
-   来源：阿里天池
-   链接：https://www.aliyun.com/why-us/security-compliance
-20. “猎鹰·微波智探”—雷达多目标智能探测与识别挑战 (37分)
+3. AI新睿人才“星探计划” (67分，质量 59，accepted)
    截止：未识别，需要人工确认
    来源：DataFountain
-   链接：https://www.datafountain.cn/competitions/1166
-21. 红外智感—红外开放世界全模态分割挑战 (37分)
-   截止：未识别，需要人工确认
-   来源：DataFountain
-   链接：https://www.datafountain.cn/competitions/1164
-22. 高端智能制造和半导体 (37分)
-   截止：未识别，需要人工确认
-   来源：DataFountain
-   链接：https://www.datafountain.cn/competitions/1154
-23. 新材料和新能源 (37分)
-   截止：未识别，需要人工确认
-   来源：DataFountain
-   链接：https://www.datafountain.cn/competitions/1155
-24. Renew Membership (36分)
-   截止：未识别，需要人工确认
-   来源：IEEE Students
-   链接：https://ieee.org/renew
-25. Join IEEE Today! (36分)
-   截止：未识别，需要人工确认
-   来源：IEEE Students
-   链接：https://ieee.org/join
-26. Challenges (36分)
-   截止：未识别，需要人工确认
-   来源：AIcrowd Challenges
-   链接：https://www.aicrowd.com/challenges
-27. Organize a challenge (36分)
-   截止：未识别，需要人工确认
-   来源：AIcrowd Challenges
-   链接：https://www.aicrowd.com/landing_page/host
-28. Log In (36分)
-   截止：未识别，需要人工确认
-   来源：AIcrowd Challenges
-   链接：https://www.aicrowd.com/participants/sign_in
-29. Competitions (36分)
+   链接：https://www.datafountain.cn/competitions/1169
+4. Competitions (66分，质量 59，accepted)
    截止：未识别，需要人工确认
    来源：Codabench Competitions; DrivenData Competitions
    链接：https://www.codabench.org/
-30. Chagrade (36分)
+5. “猎鹰·微波智探”—雷达多目标智能探测与识别挑战 (66分，质量 59，accepted)
    截止：未识别，需要人工确认
-   来源：Codabench Competitions
-   链接：https://chagrade.lri.fr/
-31. Benchmarks/Competitions (36分)
+   来源：DataFountain
+   链接：https://www.datafountain.cn/competitions/1166
+6. 红外智感—红外开放世界全模态分割挑战 (66分，质量 59，accepted)
+   截止：未识别，需要人工确认
+   来源：DataFountain
+   链接：https://www.datafountain.cn/competitions/1164
+7. 高端智能制造和半导体 (66分，质量 59，accepted)
+   截止：未识别，需要人工确认
+   来源：DataFountain
+   链接：https://www.datafountain.cn/competitions/1154
+8. 新材料和新能源 (66分，质量 59，accepted)
+   截止：未识别，需要人工确认
+   来源：DataFountain
+   链接：https://www.datafountain.cn/competitions/1155
+9. 赛题与评奖 (77分，质量 55，accepted)
+   截止：未识别，需要人工确认
+   来源：全国大学生数学建模竞赛; MathorCup
+   链接：https://www.mcm.edu.cn/html_cn/section/033046c1b33c2ea9c1d6bd4c5a4020fb.html
+10. Benchmarks/Competitions (64分，质量 55，accepted)
    截止：未识别，需要人工确认
    来源：Codabench Competitions
    链接：https://www.codabench.org/competitions/public
-32. Datasets (36分)
-   截止：未识别，需要人工确认
-   来源：Codabench Competitions; Hugging Face Competitions; Papers with Code
-   链接：https://www.codabench.org/datasets/public
-33. Sign-up (36分)
-   截止：未识别，需要人工确认
-   来源：Codabench Competitions
-   链接：https://www.codabench.org/accounts/signup
-34. Partner with us (36分)
-   截止：未识别，需要人工确认
-   来源：DrivenData Competitions
-   链接：https://www.drivendata.org/partners
-35. How it works (36分)
-   截止：未识别，需要人工确认
-   来源：DrivenData Competitions
-   链接：https://www.drivendata.org/competitors
-36. DrivenData LABS (36分)
-   截止：未识别，需要人工确认
-   来源：DrivenData Competitions
-   链接：https://drivendata.co/
-37. Blog (36分)
-   截止：未识别，需要人工确认
-   来源：DrivenData Competitions
-   链接：https://drivendata.co/blog.html
-38. 历程与动态 (35分)
-   截止：未识别，需要人工确认
-   来源：全国大学生数学建模竞赛
-   链接：https://www.mcm.edu.cn/html_cn/section/a657eb64216f6fd724196d37bcb5c1c4.html
-39. 赞助商专栏 (35分)
-   截止：未识别，需要人工确认
-   来源：全国大学生数学建模竞赛
-   链接：https://www.mcm.edu.cn/html_cn/section/3137197ac136d77d18d18282a48ec8e5.html
-40. 相关信息 (35分)
-   截止：未识别，需要人工确认
-   来源：全国大学生数学建模竞赛
-   链接：https://www.mcm.edu.cn/html_cn/section/e65535907708936a3675c245f6021a31.html
-41. 中国知网 (35分)
-   截止：未识别，需要人工确认
-   来源：全国大学生数学建模竞赛
-   链接：https://cumcm.cnki.net/
-42. Zindi (35分)
-   截止：未识别，需要人工确认
-   来源：Zindi Competitions
-   链接：https://zindi.africa/
-43. Compete (35分)
-   截止：未识别，需要人工确认
-   来源：Zindi Competitions
-   链接：https://zindi.africa/competitions
-44. Jobs (35分)
-   截止：未识别，需要人工确认
-   来源：Zindi Competitions
-   链接：https://zindi.africa/jobs
-45. Learn (35分)
-   截止：未识别，需要人工确认
-   来源：Zindi Competitions
-   链接：https://zindi.africa/courses
-46. Chat (35分)
-   截止：未识别，需要人工确认
-   来源：Zindi Competitions
-   链接：https://zindi.africa/discussions
-47. 精品商城 (34分)
-   截止：未识别，需要人工确认
-   来源：LeetCode 竞赛
-   链接：https://detail.youzan.com/show/goods/newest?alias=271n43vr9hen7
-48. 力扣周边 (34分)
-   截止：未识别，需要人工确认
-   来源：LeetCode 竞赛
-   链接：https://leetcode.cn/store
-49. 力扣 LeetCode (34分)
-   截止：未识别，需要人工确认
-   来源：LeetCode 竞赛
-   链接：https://leetcode.cn/
-50. LeetBook (34分)
-   截止：未识别，需要人工确认
-   来源：LeetCode 竞赛
-   链接：https://leetcode.cn/leetbook
-51. 讨论社区 (34分)
-   截止：未识别，需要人工确认
-   来源：LeetCode 竞赛
-   链接：https://leetcode.cn/circle
-52. Enter (34分)
-   截止：未识别，需要人工确认
-   来源：Codeforces Contests
-   链接：https://codeforces.com/enter?back=%2Fcontests
-53. Home (34分)
-   截止：未识别，需要人工确认
-   来源：Codeforces Contests; AtCoder Contests; ACL Rolling Review
-   链接：https://codeforces.com/
-54. Catalog (34分)
-   截止：未识别，需要人工确认
-   来源：Codeforces Contests
-   链接：https://codeforces.com/catalog
-55. Contests (34分)
-   截止：未识别，需要人工确认
-   来源：Codeforces Contests; AtCoder Contests
-   链接：https://codeforces.com/contests
-56. Problemset (34分)
-   截止：未识别，需要人工确认
-   来源：Codeforces Contests
-   链接：https://codeforces.com/problemset
-57. Ranking (34分)
-   截止：未识别，需要人工确认
-   来源：AtCoder Contests
-   链接：https://atcoder.jp/ranking
-58. 大赛沿革 (34分)
+11. 大赛沿革 (62分，质量 55，accepted)
    截止：未识别，需要人工确认
    来源：中国研究生创新实践系列大赛
    链接：https://cpipc.acge.org.cn/pw/competition/introl
-59. 信息公开 (34分)
+12. 信息公开 (62分，质量 55，accepted)
    截止：未识别，需要人工确认
    来源：中国研究生创新实践系列大赛
    链接：https://cpipc.acge.org.cn/pw/competition/regime
-60. 智慧城市技术与创意设计大赛 (34分)
+13. 天池大赛 (76分，质量 51，accepted)
+   截止：未识别，需要人工确认
+   来源：阿里天池
+   链接：https://tianchi.aliyun.com/competition
+14. Compete (65分，质量 51，accepted)
+   截止：未识别，需要人工确认
+   来源：Zindi Competitions
+   链接：https://zindi.africa/competitions
+15. Organize a challenge (63分，质量 51，accepted)
+   截止：未识别，需要人工确认
+   来源：AIcrowd Challenges
+   链接：https://www.aicrowd.com/landing_page/host
+16. 智慧城市技术与创意设计大赛 (57分，质量 51，accepted)
    截止：未识别，需要人工确认
    来源：中国研究生创新实践系列大赛
    链接：https://cpipc.acge.org.cn/cw/hp/1
-61. 未来飞行器创新大赛 (34分)
-   截止：未识别，需要人工确认
-   来源：中国研究生创新实践系列大赛
-   链接：https://cpipc.acge.org.cn/cw/hp/3
-62. 创业孵化 (33分)
-   截止：未识别，需要人工确认
-   来源：中国国际大学生创新大赛
-   链接：https://cy.ncss.cn/ap/index
-63. 筑梦之旅 (33分)
-   截止：未识别，需要人工确认
-   来源：中国国际大学生创新大赛
-   链接：https://cy.ncss.cn/redactivity/index
-64. 产业赛道 (33分)
-   截止：未识别，需要人工确认
-   来源：中国国际大学生创新大赛
-   链接：https://cy.ncss.cn/mtcontest/index
-65. International Participant Application for Higher Education Track (33分)
-   截止：未识别，需要人工确认
-   来源：中国国际大学生创新大赛
-   链接：https://cy.ncss.cn/en
-66. >>>点击此处进入联合招聘会主场<<< (33分)
-   截止：未识别，需要人工确认
-   来源：中国国际大学生创新大赛
-   链接：https://job.ncss.cn/student/jobfair/fairdetails.html?fairId=7fUt9qv2RwqKhHb6rrcQgL
 
-企业开发者赛事（31）
-1. 豆包视觉理解模型 视觉理解 SOTA 模型，能力显著增强，并支持 image_process 视觉工具 (65分)
-   截止：未识别，需要人工确认
-   来源：火山引擎开发者
-   链接：https://exp.volcengine.com/ark?mode=chat&modelId=doubao-seed-1-6-vision-250815&csid=excs-202512111418-%5BbuOxmLTMyn34hTDL0RePw%5D
-2. AI 助理 (65分)
-   截止：未识别，需要人工确认
-   来源：阿里云开发者
-   链接：https://www.aliyun.com/ai-assistant?displayMode=side
-3. 百炼大模型 (65分)
-   截止：未识别，需要人工确认
-   来源：阿里云开发者
-   链接：https://developer.aliyun.com/modelstudio
-4. 豆包大模型 1.6 HOT 全新升级，能力多面手，应用场景丰富 (65分)
-   截止：未识别，需要人工确认
-   来源：火山引擎开发者
-   链接：https://exp.volcengine.com/ark
-5. 📢腾讯云 AI Agent 钳王争霸 征文比赛 发布文章/视频，周周抽奖领礼品👑 立即参加 (59分)
-   截止：未识别，需要人工确认
-   来源：腾讯云开发者
-   链接：https://cloud.tencent.com/developer/article/2666405
-6. TencentDB Agent Memory 正式开源 让 Agent 记住该记的，让开发者专注于更有价值的创造 立即查看 (57分)
-   截止：未识别，需要人工确认
-   来源：腾讯云开发者
-   链接：https://cloud.tencent.com/developer/article/2668579
-7. 解决方案 (45分)
-   截止：未识别，需要人工确认
-   来源：阿里云开发者
-   链接：https://www.aliyun.com/solution/tech-solution
-8. 了解阿里云 (45分)
-   截止：未识别，需要人工确认
-   来源：阿里云开发者
-   链接：https://www.aliyun.com/about
-9. 开发者社区 (45分)
-   截止：未识别，需要人工确认
-   来源：阿里云开发者; 腾讯云开发者
-   链接：https://developer.aliyun.com/
-10. Modelscope模型即服务 (45分)
-   截止：未识别，需要人工确认
-   来源：阿里云开发者
-   链接：https://developer.aliyun.com/modelscope
-11. 弹性计算 (45分)
-   截止：未识别，需要人工确认
-   来源：阿里云开发者
-   链接：https://developer.aliyun.com/ecs
-12. 通义灵码 (45分)
-   截止：未识别，需要人工确认
-   来源：阿里云开发者
-   链接：https://developer.aliyun.com/lingma
-13. 建议反馈 (45分)
-   截止：未识别，需要人工确认
-   来源：腾讯云开发者
-   链接：https://cloud.tencent.com/voc?from_column=20703
-14. MCP广场 (45分)
-   截止：未识别，需要人工确认
-   来源：腾讯云开发者
-   链接：https://cloud.tencent.com/developer/mcp
-15. OpenClaw 开发者专区上线！ 一站式开发阵地：完整教程｜实战案例｜在线交流 立即前往 (45分)
-   截止：未识别，需要人工确认
-   来源：腾讯云开发者
-   链接：https://cloud.tencent.com/developer/zone/cloudopenclaw
-16. 【盟友圈】全国顶尖架构师，都在关注什么？ 学进阶架构师知识&与架构师聊一线开发都在这 立即查看 (45分)
-   截止：未识别，需要人工确认
-   来源：腾讯云开发者
-   链接：https://cloud.tencent.com/developer/zone/tm?channel=sy
-17. tRPC-Go 系统讲解 ：从 0 系统理解 tRPC-Go — 小白友好版 (45分)
-   截止：未识别，需要人工确认
-   来源：腾讯云开发者
-   链接：https://cloud.tencent.com/developer/article/2671245?policyId=20240000&frompage=homepage
-18. 动手实验室 (45分)
-   截止：未识别，需要人工确认
-   来源：火山引擎开发者
-   链接：https://developer.volcengine.com/handsonlab
-19. Agent 评测集 (45分)
-   截止：未识别，需要人工确认
-   来源：火山引擎开发者
-   链接：https://developer.volcengine.com/evaluation-set
-20. 学习中心 (45分)
-   截止：未识别，需要人工确认
-   来源：火山引擎开发者
-   链接：https://developer.volcengine.com/learning
-21. 立刻订阅 (45分)
-   截止：未识别，需要人工确认
-   来源：火山引擎开发者
-   链接：https://ai.volcengine.com/activity/codingplan
-22. 豆包图像创作模型 4.5 HOT 多图稳定融合、主体一致、4k 高清、推理升级 (45分)
-   截止：未识别，需要人工确认
-   来源：火山引擎开发者
-   链接：https://exp.volcengine.com/ark/vision?mode=vision&modelId=doubao-seedream-4-5-251128
-23. 豆包视频生成模型 1.0 全面强大，支持多镜头叙事与多任务的视频生成模型，支持首尾帧 (45分)
-   截止：未识别，需要人工确认
-   来源：火山引擎开发者
-   链接：https://exp.volcengine.com/ark/vision?mode=vision&modelId=doubao-seedance-1-0-pro-250528&tab=GenVideo
-24. 生源审核 (34分)
-   截止：未识别，需要人工确认
-   来源：南京大学就业创业网
-   链接：https://job.nju.edu.cn/employ
-25. Join a hackathon (33分)
-   截止：未识别，需要人工确认
-   来源：Devpost Hackathons
-   链接：https://devpost.com/
-26. Devpost Participate in our public hackathons (33分)
-   截止：未识别，需要人工确认
-   来源：Devpost Hackathons
-   链接：https://devpost.com/hackathons
-27. Projects (33分)
-   截止：未识别，需要人工确认
-   来源：Devpost Hackathons
-   链接：https://devpost.com/software
-28. Devpost for Teams Access your company's private hackathons (33分)
-   截止：未识别，需要人工确认
-   来源：Devpost Hackathons
-   链接：https://devpost.team/
-29. Devpost Grow your developer ecosystem and promote your platform (33分)
-   截止：未识别，需要人工确认
-   来源：Devpost Hackathons
-   链接：https://info.devpost.com/product/public-hackathons
-30. 管理中心 (31分)
-   截止：未识别，需要人工确认
-   来源：小米开发者
-   链接：https://dev.mi.com/xiaomihyperos/console
-31. 了解详情 (31分)
-   截止：未识别，需要人工确认
-   来源：小米开发者
-   链接：https://dev.mi.com/xiaomihyperos/documentation/detail?pId=2297
-
-机器人 / 自动化 / 智能车（22）
-1. 人工智能挑战赛 (73分)
-   截止：未识别，需要人工确认
-   来源：RoboMaster
-   链接：https://www.robomaster.com/zh-CN/robo/drone?djifrom=nav
-2. 全国大学生机器人大赛ROBOCON (61分)
-   截止：未识别，需要人工确认
-   来源：Robocon 中国
-   链接：https://robocon.org.cn/index.jsp
-3. 多模态感知融合增强的具身自主抓取任务挑战 (57分)
+机器人 / 自动化 / 智能车（3）
+1. 多模态感知融合增强的具身自主抓取任务挑战 (82分，质量 65，accepted)
    截止：未识别，需要人工确认
    来源：DataFountain
    链接：https://www.datafountain.cn/competitions/1163
-4. 论文投稿 (51分)
+2. 论文投稿 (82分，质量 64，accepted)
    截止：未识别，需要人工确认
    来源：中国自动化大会
    链接：https://cac.org.cn/article/type/4-1.html
-5. Skip to content (39分)
-   截止：未识别，需要人工确认
-   来源：ICRA; IROS; IEEE Robotics and Automation Society
-   链接：https://www.ieee-ras.org/
-6. IEEE.org (39分)
-   截止：未识别，需要人工确认
-   来源：ICRA; IROS; IEEE Robotics and Automation Society; IEEE Control Systems Society
-   链接：https://www.ieee.org/
-7. IEEE Standards (39分)
-   截止：未识别，需要人工确认
-   来源：ICRA; IROS; IEEE Robotics and Automation Society; IEEE Control Systems Society
-   链接：https://standards.ieee.org/
-8. IEEE Spectrum (39分)
-   截止：未识别，需要人工确认
-   来源：ICRA; IROS; IEEE Robotics and Automation Society; IEEE Control Systems Society
-   链接：https://spectrum.ieee.org/
-9. 高校联盟赛 (39分)
-   截止：未识别，需要人工确认
-   来源：RoboMaster
-   链接：https://www.robomaster.com/zh-CN/robo/college-league?djifrom=nav
-10. IEEE Xplore ® (39分)
-   截止：未识别，需要人工确认
-   来源：ICRA; IROS; IEEE Robotics and Automation Society
-   链接：https://ieeexplore.ieee.org/
-11. 组织机构 (39分)
-   截止：未识别，需要人工确认
-   来源：中国自动化大会
-   链接：https://cac.org.cn/article/type/2-1.html
-12. 文件下载 (39分)
-   截止：未识别，需要人工确认
-   来源：中国自动化大会
-   链接：https://cac.org.cn/article/type/10-1.html
-13. 【CAC2026】投稿通道即将开放！2026中国自... (39分)
+3. 【CAC2026】投稿通道即将开放！2026中国自... (76分，质量 64，accepted)
    截止：未识别，需要人工确认
    来源：中国自动化大会
    链接：https://mp.weixin.qq.com/s/eYOXZ_N4SZcu5XwqcU68Cg
-14. 【CAC2026】共赴学术大会・共创智能未来—... (39分)
-   截止：未识别，需要人工确认
-   来源：中国自动化大会
-   链接：https://mp.weixin.qq.com/s/63sj0bzGY-fsmm7L8kTRLA?scene=1&click_id=3
-15. IEEE Xplore Digital Library (37分)
-   截止：未识别，需要人工确认
-   来源：IEEE Control Systems Society
-   链接：https://ieeexplore.ieee.org/Xplore/home.jsp
-16. More Sites (37分)
-   截止：未识别，需要人工确认
-   来源：IEEE Control Systems Society
-   链接：https://www.ieee.org/sitemap.html
-17. 赛事介绍 (37分)
-   截止：未识别，需要人工确认
-   来源：RoboMaster
-   链接：https://www.robomaster.com/zh-CN/robo/overview?djifrom=nav
-18. 积分体系 (37分)
-   截止：未识别，需要人工确认
-   来源：RoboMaster
-   链接：https://www.robomaster.com/zh-CN/robo/rm/integral?djifrom=nav
-19. 2025赛事 (37分)
-   截止：未识别，需要人工确认
-   来源：Robocon 中国
-   链接：https://robocon.org.cn/h-col-107.html
-20. 赛事代表大会 (37分)
-   截止：未识别，需要人工确认
-   来源：Robocon 中国
-   链接：https://robocon.org.cn/h-col-108.html
-21. 赛事动态 (37分)
-   截止：未识别，需要人工确认
-   来源：Robocon 中国
-   链接：https://robocon.org.cn/h-col-104.html
-22. 赛事规则 (37分)
-   截止：未识别，需要人工确认
-   来源：Robocon 中国
-   链接：https://robocon.org.cn/sys-nr?_reqArgs=%257B%2522args%2522%253A%257B%2522_jcp%2522%253A%25224_3%2522%257D%252C%2522type%2522%253A32%252C%2522anchor%2522%253A%2522_np%253D109_0%2522%257D
 
-AI会议 / CFP（17）
-1. IJCAI 2025 Proceedings (59分)
-   截止：未识别，需要人工确认
-   来源：IJCAI
-   链接：https://www.ijcai.org/proceedings/2025
-2. Skip to primary sidebar (39分)
-   截止：未识别，需要人工确认
-   来源：AAAI Conference
-   链接：https://aaai.org/
-3. News (39分)
-   截止：未识别，需要人工确认
-   来源：AAAI Conference
-   链接：https://aaai.org/news
-4. Officers and Committees (39分)
-   截止：未识别，需要人工确认
-   来源：AAAI Conference
-   链接：https://aaai.org/about-aaai/aaai-officers-and-committees
-5. Staff (39分)
-   截止：未识别，需要人工确认
-   来源：AAAI Conference
-   链接：https://aaai.org/about-aaai/aaai-staff
-6. Bylaws (39分)
-   截止：未识别，需要人工确认
-   来源：AAAI Conference
-   链接：https://aaai.org/about-aaai/bylaws-of-aaai
-7. Navigation (39分)
-   截止：未识别，需要人工确认
-   来源：IJCAI
-   链接：https://www.ijcai.org/
-8. Conferences (39分)
-   截止：未识别，需要人工确认
-   来源：IJCAI
-   链接：https://www.ijcai.org/future_conferences
-9. Past Conferences (39分)
-   截止：未识别，需要人工确认
-   来源：IJCAI
-   链接：https://www.ijcai.org/past_conferences
-10. Proceedings (39分)
-   截止：未识别，需要人工确认
-   来源：IJCAI
-   链接：https://www.ijcai.org/all_proceedings
-11. Skip to yearly menu bar (39分)
-   截止：未识别，需要人工确认
-   来源：NeurIPS; ICLR; CVPR; ICCV; ECCV
-   链接：https://neurips.cc/
-12. Help/FAQ (39分)
-   截止：未识别，需要人工确认
-   来源：NeurIPS; ICLR; CVPR
-   链接：https://neurips.cc/FAQ
-13. Contact NeurIPS (39分)
-   截止：未识别，需要人工确认
-   来源：NeurIPS
-   链接：https://neurips.cc/Help/Contact
-14. Create Profile (39分)
-   截止：未识别，需要人工确认
-   来源：NeurIPS; ICLR; CVPR; ICCV
-   链接：https://neurips.cc/Profile/create
-15. Code of Ethics (39分)
-   截止：未识别，需要人工确认
-   来源：NeurIPS
-   链接：https://neurips.cc/Conferences/2023/EthicsGuidelines
-16. Contact ICLR (39分)
-   截止：未识别，需要人工确认
-   来源：ICLR
-   链接：https://iclr.cc/Help/Contact
-17. Code of Conduct (39分)
-   截止：未识别，需要人工确认
-   来源：ICLR; CVPR; ICCV
-   链接：https://iclr.cc/public/CodeOfConduct
-
-NLP会议 / CFP（9）
-1. What is Computational Linguistics? (38分)
-   截止：未识别，需要人工确认
-   来源：ACL Anthology / Portal
-   链接：https://www.aclweb.org/portal/what-is-cl
-2. Officers (38分)
-   截止：未识别，需要人工确认
-   来源：ACL Anthology / Portal
-   链接：https://www.aclweb.org/portal/about
-3. ACL LTA Winners (38分)
-   截止：未识别，需要人工确认
-   来源：ACL Anthology / Portal
-   链接：https://www.aclweb.org/aclwiki/ACL_Lifetime_Achievement_Award_Recipients
-4. ACL Fellows (38分)
-   截止：未识别，需要人工确认
-   来源：ACL Anthology / Portal
-   链接：https://www.aclweb.org/aclwiki/ACL_Fellows
-5. Best Paper Awards (38分)
-   截止：未识别，需要人工确认
-   来源：ACL Anthology / Portal
-   链接：https://www.aclweb.org/aclwiki?title=Best_paper_awards
-6. How ARR works (34分)
-   截止：未识别，需要人工确认
-   来源：ACL Rolling Review
-   链接：https://aclrollingreview.org/reviewing
-7. Call for papers (34分)
+NLP会议 / CFP（1）
+1. Call for papers (58分，质量 60，accepted)
    截止：未识别，需要人工确认
    来源：ACL Rolling Review
    链接：https://aclrollingreview.org/cfp
-8. Dates & Venues (34分)
-   截止：未识别，需要人工确认
-   来源：ACL Rolling Review
-   链接：https://aclrollingreview.org/dates
-9. Information for Organizers (34分)
-   截止：未识别，需要人工确认
-   来源：ACL Rolling Review
-   链接：https://aclrollingreview.org/organizers
-
-视觉会议 / Challenge（6）
-1. Contact CVPR (39分)
-   截止：未识别，需要人工确认
-   来源：CVPR
-   链接：https://support.conferences.computer.org/cvpr/help-desk
-2. My Stuff (39分)
-   截止：未识别，需要人工确认
-   来源：ICCV; ECCV
-   链接：https://iccv.thecvf.com/MyStuff
-3. Reset Password (39分)
-   截止：未识别，需要人工确认
-   来源：ICCV
-   链接：https://iccv.thecvf.com/resetpassword
-4. 2026 (39分)
-   截止：未识别，需要人工确认
-   来源：ECCV
-   链接：https://eccv.ecva.net/Conferences/2026
-5. 2024 (39分)
-   截止：未识别，需要人工确认
-   来源：ECCV
-   链接：https://eccv.ecva.net/Conferences/2024
-6. 2022 (39分)
-   截止：未识别，需要人工确认
-   来源：ECCV
-   链接：https://eccv2022.ecva.net/
-
-图形学会议（5）
-1. Contact (38分)
-   截止：未识别，需要人工确认
-   来源：SIGGRAPH
-   链接：https://www.siggraph.org/contact-us
-2. Join a Chapter (38分)
-   截止：未识别，需要人工确认
-   来源：SIGGRAPH
-   链接：https://www.siggraph.org/join-a-chapter
-3. Hear From Us (38分)
-   截止：未识别，需要人工确认
-   来源：SIGGRAPH
-   链接：https://www.siggraph.org/hear-from-us
-4. Join SIGGRAPH (38分)
-   截止：未识别，需要人工确认
-   来源：SIGGRAPH
-   链接：https://www.siggraph.org/join-siggraph
-5. Advisory Groups (38分)
-   截止：未识别，需要人工确认
-   来源：SIGGRAPH
-   链接：https://www.siggraph.org/about/advisory-groups
-
-大创 / 科研训练 / 项目招募（5）
-1. 南京大学 (37分)
-   截止：未识别，需要人工确认
-   来源：挑战杯
-   链接：https://www.tiaozhanbei.net/
-2. 了解挑战杯 (35分)
-   截止：未识别，需要人工确认
-   来源：挑战杯
-   链接：https://www.tiaozhanbei.net/focus
-3. 挑战杯动态 (35分)
-   截止：未识别，需要人工确认
-   来源：挑战杯
-   链接：https://www.tiaozhanbei.net/tzb
-4. 2025国赛 (35分)
-   截止：未识别，需要人工确认
-   来源：挑战杯
-   链接：https://2025.tiaozhanbei.net/
-5. 省赛/报备 (35分)
-   截止：未识别，需要人工确认
-   来源：挑战杯
-   链接：https://www.tiaozhanbei.net/baobei
-
-学术投稿 / CFP（5）
-1. Survey Finds Broad Support for Greater Openness in AI Peer Review (57分)
-   截止：未识别，需要人工确认
-   来源：OpenReview
-   链接：https://openreview.net/forum/shah|survey_finds_broad_support_for_greater_openness_in_ai_peer_review
-2. A Message from AI Research Leaders: Join Us in Supporting OpenReview (57分)
-   截止：未识别，需要人工确认
-   来源：OpenReview
-   链接：https://openreview.net/forum/pineau|a_message_from_ai_research_leaders_join_us_in_supporting_openreview
-3. OpenReview .net (37分)
-   截止：未识别，需要人工确认
-   来源：OpenReview
-   链接：https://openreview.net/
-4. Donate (37分)
-   截止：未识别，需要人工确认
-   来源：OpenReview
-   链接：https://openreview.net/donate
-5. OpenReview Introduces Multi-Factor Authentication for All Users (37分)
-   截止：未识别，需要人工确认
-   来源：OpenReview
-   链接：https://openreview.net/forum/mondragon|openreview_introduces_multifactor_authentication_for_all_users
-
-科研基金 / 项目（5）
-1. 习近平同俄罗斯总统普京会谈 (33分)
-   截止：未识别，需要人工确认
-   来源：国家自然科学基金委员会
-   链接：https://www.gov.cn/yaowen/liebiao/202605/content_7069661.htm
-2. 习近平同俄罗斯总统普京共同会见记者 (33分)
-   截止：未识别，需要人工确认
-   来源：国家自然科学基金委员会
-   链接：https://www.gov.cn/yaowen/liebiao/202605/content_7069677.htm
-3. 共同出席“中俄教育年”开幕式并致辞 (33分)
-   截止：未识别，需要人工确认
-   来源：国家自然科学基金委员会
-   链接：https://www.gov.cn/yaowen/liebiao/202605/content_7069697.htm
-4. 共同参观图片展 (33分)
-   截止：未识别，需要人工确认
-   来源：国家自然科学基金委员会
-   链接：https://www.gov.cn/yaowen/liebiao/202605/content_7069716.htm
-5. 同普京茶叙 (33分)
-   截止：未识别，需要人工确认
-   来源：国家自然科学基金委员会
-   链接：https://www.gov.cn/yaowen/liebiao/202605/content_7069781.htm
-
-AI Benchmark / 论文（4）
-1. Hugging Face (36分)
-   截止：未识别，需要人工确认
-   来源：Papers with Code
-   链接：https://paperswithcode.com/
-2. Models (36分)
-   截止：未识别，需要人工确认
-   来源：Papers with Code
-   链接：https://paperswithcode.com/models
-3. Spaces (36分)
-   截止：未识别，需要人工确认
-   来源：Papers with Code
-   链接：https://paperswithcode.com/spaces
-4. Buckets new (36分)
-   截止：未识别，需要人工确认
-   来源：Papers with Code
-   链接：https://paperswithcode.com/storage
-
-数学建模竞赛（4）
-1. 优秀指导教师证书 (43分)
-   截止：未识别，需要人工确认
-   来源：MathorCup
-   链接：https://www.mathorcup.org/detail/2296
-2. 优秀组织单位证书 (43分)
-   截止：未识别，需要人工确认
-   来源：MathorCup
-   链接：https://www.mathorcup.org/detail/2297
-3. 通知与资讯 (31分)
-   截止：未识别，需要人工确认
-   来源：MathorCup
-   链接：https://www.mathorcup.org/notice
-4. 纪念华罗庚 (31分)
-   截止：未识别，需要人工确认
-   来源：MathorCup
-   链接：https://www.mathorcup.org/hualuogeng
-
-科技活动 / 科研机会（4）
-1. 全国科技工作者日 (33分)
-   截止：未识别，需要人工确认
-   来源：中国科协
-   链接：https://530activity.cast.org.cn/front/home
-2. 最美科技工作者专题 (33分)
-   截止：未识别，需要人工确认
-   来源：中国科协
-   链接：https://zt.scimall.org.cn/2022/0526/index.html
-3. 科普中国 (33分)
-   截止：未识别，需要人工确认
-   来源：中国科协
-   链接：https://www.kepuchina.cn/
-4. 科创中国 (33分)
-   截止：未识别，需要人工确认
-   来源：中国科协
-   链接：https://www.kczg.org.cn/
-
-视觉论文 / Challenge（4）
-1. Main Conference (57分)
-   截止：未识别，需要人工确认
-   来源：CVF Open Access
-   链接：https://openaccess.thecvf.com/CVPR2026
-2. Computer Vision Foundation (37分)
-   截止：未识别，需要人工确认
-   来源：CVF Open Access
-   链接：https://www.thecvf.com/
-3. open access (37分)
-   截止：未识别，需要人工确认
-   来源：CVF Open Access
-   链接：https://openaccess.thecvf.com/
-4. Workshops (37分)
-   截止：未识别，需要人工确认
-   来源：CVF Open Access
-   链接：https://openaccess.thecvf.com/WACV2026_workshops/menu
-
-志愿 / 低优先级活动（1）
-1. 科技志愿服务 (38分)
-   截止：未识别，需要人工确认
-   来源：中国科协
-   链接：https://www.agritech.org.cn/kjzy

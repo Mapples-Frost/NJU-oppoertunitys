@@ -14,14 +14,24 @@ def load_yaml(path: Path) -> dict[str, Any]:
     return data
 
 
+def load_optional_yaml(path: Path) -> dict[str, Any]:
+    if not path.exists():
+        return {}
+    return load_yaml(path)
+
+
 def load_config(config_dir: Path) -> dict[str, Any]:
     config_dir = config_dir.resolve()
+    project_root = config_dir.parent
     return {
         "config_dir": config_dir,
         "sources": load_yaml(config_dir / "sources.yml"),
         "keywords": load_yaml(config_dir / "keywords.yml"),
         "scoring": load_yaml(config_dir / "scoring.yml"),
         "email": load_yaml(config_dir / "email.yml"),
+        "profile": load_optional_yaml(config_dir / "profile.yml"),
+        "quality": load_optional_yaml(config_dir / "quality.yml"),
+        "feedback": load_optional_yaml(project_root / "inbox" / "feedback.yml"),
     }
 
 

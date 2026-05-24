@@ -1,0 +1,15 @@
+# 用户反馈入口。示例：
+# reject:
+#   - AI 助理
+#   - 百炼大模型
+# boost:
+#   - DataFountain
+#   - RoboMaster
+# mute_sources:
+#   - noisy_source_id
+# prefer_sources:
+#   - datafountain
+reject: []
+boost: []
+mute_sources: []
+prefer_sources: []

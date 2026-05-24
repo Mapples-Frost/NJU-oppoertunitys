@@ -7,17 +7,26 @@ name: Daily Opportunity Radar
   workflow_dispatch:
     inputs:
       mode:
-        description: "Run daily radar or send the stored history email"
+        description: "Run daily radar, send history email, or generate quality report"
         required: true
         default: "daily"
         type: choice
         options:
           - daily
           - history
+          - quality
       history_limit:
         description: "Maximum history items to email; 0 means all"
         required: false
         default: "0"
+      history_quality_only:
+        description: "Only include accepted opportunities in history mode"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
 
 concurrency:
   group: opportunity-radar
@@ -53,14 +62,25 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           MAIL_FROM: ${{ secrets.MAIL_FROM }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           RUN_MODE: ${{ github.event.inputs.mode }}
           HISTORY_LIMIT: ${{ github.event.inputs.history_limit }}
+          HISTORY_QUALITY_ONLY: ${{ github.event.inputs.history_quality_only }}
         run: |
           RUN_MODE="${RUN_MODE:-daily}"
           HISTORY_LIMIT="${HISTORY_LIMIT:-0}"
+          HISTORY_QUALITY_ONLY="${HISTORY_QUALITY_ONLY:-false}"
           if [ -n "$SMTP_HOST" ] && [ -n "$SMTP_PORT" ] && [ -n "$SMTP_USER" ] && [ -n "$SMTP_PASS" ] && [ -n "$MAIL_FROM" ] && [ -n "$MAIL_TO" ]; then
             if [ "$RUN_MODE" = "history" ]; then
-              python -m radar.main --config config --send-history-email --history-limit "$HISTORY_LIMIT"
+              HISTORY_ARGS=""
+              if [ "$HISTORY_QUALITY_ONLY" = "true" ]; then
+                HISTORY_ARGS="--history-quality-only"
+              fi
+              python -m radar.main --config config --send-history-email --history-limit "$HISTORY_LIMIT" $HISTORY_ARGS
+            elif [ "$RUN_MODE" = "quality" ]; then
+              python -m radar.main --config config --quality-report --include-rejected
             else
               python -m radar.main --config config --send-email
             fi
