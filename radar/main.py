@@ -12,6 +12,7 @@ from radar.dedup import enrich_identity, merge_duplicates
 from radar.extractors.deadline_extractor import extract_dates
 from radar.fetchers import fetch_source
 from radar.mailer.render_email import render_email
+from radar.mailer.render_history import render_history_email
 from radar.mailer.send_email import send_email
 from radar.models import Opportunity, RunSummary
 from radar.rankers.opportunity_ranker import rank
@@ -55,10 +56,69 @@ def _write_json(path: Path, data: dict) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def _send_history_email(args: argparse.Namespace, config: dict) -> int:
+    started = datetime.now().astimezone().isoformat(timespec="seconds")
+    logs_dir = Path(args.logs)
+    logs_dir.mkdir(parents=True, exist_ok=True)
+    summary = {
+        "id": datetime.now().astimezone().strftime("%Y%m%d%H%M%S"),
+        "mode": "history_email",
+        "started_at": started,
+        "finished_at": None,
+        "status": "running",
+        "total_history_items": 0,
+        "included_items": 0,
+        "history_min_score": args.history_min_score,
+        "history_limit": args.history_limit,
+        "email_status": "not_requested",
+        "email_skip_reason": "",
+    }
+    database = Database(Path(args.db))
+    try:
+        database.migrate()
+        total_count = database.count_opportunities(args.history_min_score)
+        limit = args.history_limit if args.history_limit and args.history_limit > 0 else None
+        items = database.list_opportunities(args.history_min_score, limit=limit)
+        summary["total_history_items"] = total_count
+        summary["included_items"] = len(items)
+        rendered = render_history_email(items, config["email"], total_count=total_count)
+        (logs_dir / "latest_history_email.html").write_text(rendered["html"], encoding="utf-8")
+        (logs_dir / "latest_history_email.txt").write_text(rendered["text"], encoding="utf-8")
+
+        if args.dry_run:
+            summary["email_status"] = "disabled"
+            summary["email_skip_reason"] = "--dry-run was provided"
+            return_code = 0
+        else:
+            summary["email_status"] = "sending"
+            send_email(rendered["subject"], rendered["text"], rendered["html"])
+            summary["email_status"] = "sent"
+            LOGGER.info("history email sent with %s items", len(items))
+            return_code = 0
+        summary["status"] = "success"
+    except Exception as exc:
+        LOGGER.exception("history email failed")
+        summary["status"] = "failed"
+        summary["email_status"] = "failed"
+        summary["email_skip_reason"] = str(exc)
+        return_code = 1
+    finally:
+        summary["finished_at"] = datetime.now().astimezone().isoformat(timespec="seconds")
+        _write_json(logs_dir / "latest_history_run.json", summary)
+        database.close()
+    if args.dry_run:
+        print(json.dumps(summary, ensure_ascii=False, indent=2))
+    return return_code
+
+
 def run(args: argparse.Namespace) -> int:
     config_dir = Path(args.config).resolve()
     project_root = config_dir.parent
     config = load_config(config_dir)
+
+    if args.send_history_email:
+        return _send_history_email(args, config)
+
     sources = enabled_sources(config)
     if args.limit_sources:
         sources = sources[: args.limit_sources]
@@ -204,6 +264,9 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--logs", default="logs", help="log output directory")
     parser.add_argument("--dry-run", action="store_true", help="fetch and render without writing the database")
     parser.add_argument("--send-email", action="store_true", help="send the rendered daily report through SMTP")
+    parser.add_argument("--send-history-email", action="store_true", help="send all stored opportunities through SMTP")
+    parser.add_argument("--history-limit", type=int, default=0, help="maximum history items to send; 0 means all")
+    parser.add_argument("--history-min-score", type=float, default=0.0, help="minimum score for history email")
     parser.add_argument("--limit-sources", type=int, default=None, help="limit source count for local debugging")
     parser.add_argument("--verbose", action="store_true", help="enable debug logging")
     return parser

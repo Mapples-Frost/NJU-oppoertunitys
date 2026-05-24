@@ -54,10 +54,13 @@ V2 source packs：
 - `data/opportunities.sqlite`：历史机会库，首次非 dry-run 自动创建。
 - `logs/latest_run.json`：最近一次运行摘要。
 - `logs/latest_email.html` / `logs/latest_email.txt`：最近一次渲染出的日报。
+- `logs/latest_history_email.html` / `logs/latest_history_email.txt`：最近一次历史汇总邮件。
 
 ## GitHub Actions
 
 `.github/workflows/daily.yml` 每天 08:00 Asia/Shanghai 运行一次。GitHub Actions 的 cron 使用 UTC，因此 workflow 中写为 `0 0 * * *`。
+
+手动运行 workflow 时可以选择 `mode=history`，系统会从 `data/opportunities.sqlite` 读取历史库并发送一封历史机会汇总邮件。`history_limit=0` 表示发送全部历史机会；也可以填一个数字只发送分数最高的前 N 条。
 
 邮件发送需要在 GitHub 仓库 Secrets 中配置：
 

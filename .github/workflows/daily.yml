@@ -5,6 +5,19 @@ name: Daily Opportunity Radar
     # GitHub Actions cron uses UTC. 00:00 UTC is 08:00 in Asia/Shanghai.
     - cron: "0 0 * * *"
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run daily radar or send the stored history email"
+        required: true
+        default: "daily"
+        type: choice
+        options:
+          - daily
+          - history
+      history_limit:
+        description: "Maximum history items to email; 0 means all"
+        required: false
+        default: "0"
 
 concurrency:
   group: opportunity-radar
@@ -40,9 +53,17 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           MAIL_FROM: ${{ secrets.MAIL_FROM }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
+          RUN_MODE: ${{ github.event.inputs.mode }}
+          HISTORY_LIMIT: ${{ github.event.inputs.history_limit }}
         run: |
+          RUN_MODE="${RUN_MODE:-daily}"
+          HISTORY_LIMIT="${HISTORY_LIMIT:-0}"
           if [ -n "$SMTP_HOST" ] && [ -n "$SMTP_PORT" ] && [ -n "$SMTP_USER" ] && [ -n "$SMTP_PASS" ] && [ -n "$MAIL_FROM" ] && [ -n "$MAIL_TO" ]; then
-            python -m radar.main --config config --send-email
+            if [ "$RUN_MODE" = "history" ]; then
+              python -m radar.main --config config --send-history-email --history-limit "$HISTORY_LIMIT"
+            else
+              python -m radar.main --config config --send-email
+            fi
           else
             echo "::error::SMTP secrets are incomplete. Configure SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, MAIL_FROM, and MAIL_TO in repository secrets."
             exit 1

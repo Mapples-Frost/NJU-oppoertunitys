@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from radar.models import RunSummary
+from radar.models import Opportunity, RunSummary
 from radar.storage.db import Database
 
 
@@ -111,4 +111,30 @@ def test_database_migration_upgrades_existing_v1_database(tmp_path: Path):
     assert "pack_stats" in run_columns
     assert "email_status" in run_columns
     assert "email_skip_reason" in run_columns
+    db.close()
+
+
+def test_database_lists_history_opportunities(tmp_path: Path):
+    db = Database(tmp_path / "history.sqlite")
+    db.migrate()
+    db.upsert_opportunity(
+        Opportunity(
+            id="opp-1",
+            title="历史机会 A",
+            url="https://example.com/a",
+            source_id="manual",
+            source_name="Manual",
+            source_group="manual",
+            source_pack="wechat_pack",
+            category="竞赛",
+            score=72,
+            tags=["AI", "contest"],
+        )
+    )
+
+    assert db.count_opportunities() == 1
+    items = db.list_opportunities()
+    assert len(items) == 1
+    assert items[0].title == "历史机会 A"
+    assert items[0].tags == ["AI", "contest"]
     db.close()

@@ -165,6 +165,61 @@ class Database:
         )
         self.conn.commit()
 
+    def list_opportunities(self, min_score: float = 0.0, limit: int | None = None) -> list[Opportunity]:
+        query = """
+            SELECT *
+            FROM opportunities
+            WHERE COALESCE(score, 0) >= ?
+            ORDER BY COALESCE(score, 0) DESC, COALESCE(deadline_at, '9999-12-31') ASC, discovered_at DESC
+        """
+        params: list[Any] = [min_score]
+        if limit and limit > 0:
+            query += " LIMIT ?"
+            params.append(limit)
+        rows = self.conn.execute(query, params).fetchall()
+        return [self._opportunity_from_row(row) for row in rows]
+
+    def count_opportunities(self, min_score: float = 0.0) -> int:
+        row = self.conn.execute(
+            "SELECT COUNT(*) AS total FROM opportunities WHERE COALESCE(score, 0) >= ?",
+            (min_score,),
+        ).fetchone()
+        return int(row["total"] or 0)
+
+    def _opportunity_from_row(self, row: sqlite3.Row) -> Opportunity:
+        tags = [tag for tag in str(row["tags"] or "").split(",") if tag]
+        return Opportunity(
+            id=str(row["id"] or ""),
+            title=str(row["title"] or ""),
+            url=str(row["url"]) if row["url"] else None,
+            source_id=str(row["source_id"] or ""),
+            source_name=str(row["source_name"] or ""),
+            source_group=str(row["source_group"] or ""),
+            source_pack=str(row["source_pack"] or ""),
+            source_domain=str(row["source_domain"] or ""),
+            source_tier=str(row["source_tier"] or ""),
+            published_at=str(row["published_at"]) if row["published_at"] else None,
+            discovered_at=str(row["discovered_at"]) if row["discovered_at"] else None,
+            deadline_at=str(row["deadline_at"]) if row["deadline_at"] else None,
+            event_start_at=str(row["event_start_at"]) if row["event_start_at"] else None,
+            event_end_at=str(row["event_end_at"]) if row["event_end_at"] else None,
+            date_confidence=str(row["date_confidence"]) if row["date_confidence"] else None,
+            date_source_text=str(row["date_source_text"]) if row["date_source_text"] else None,
+            content=str(row["content"] or ""),
+            summary=str(row["summary"] or ""),
+            category=str(row["category"] or ""),
+            tags=tags,
+            score=float(row["score"] or 0),
+            relevance_score=float(row["relevance_score"] or 0),
+            organizer_score=float(row["organizer_score"] or 0),
+            deadline_score=float(row["deadline_score"] or 0),
+            novelty_score=float(row["novelty_score"] or 0),
+            status=str(row["status"] or "new"),
+            content_hash=str(row["content_hash"] or ""),
+            title_hash=str(row["title_hash"] or ""),
+            url_hash=str(row["url_hash"] or ""),
+        )
+
     def _dedup_match(self, opportunity: Opportunity) -> str | None:
         keys = [
             (opportunity.url_hash, "url"),
