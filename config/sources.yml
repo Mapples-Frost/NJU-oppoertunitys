@@ -1,0 +1,535 @@
+sources:
+  - id: manual_inbox
+    name: 手动转发入口
+    type: manual
+    group: manual
+    path: inbox/manual.md
+    enabled: true
+    category_hint: 手动入口
+    tags: [手动, 群聊, 公众号]
+    weight: 1.0
+
+  - id: nju_undergraduate
+    name: 南京大学本科生院
+    type: html_list
+    group: nju
+    enabled: true
+    list_url: "https://jw.nju.edu.cn/"
+    base_url: "https://jw.nju.edu.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 校内通知
+    tags: [NJU, 本科生, 教务, 大创, 科研训练]
+    weight: 1.25
+
+  - id: nju_innovation
+    name: 南京大学创新创业学院
+    type: html_list
+    group: nju
+    enabled: true
+    list_url: "https://cxcy.nju.edu.cn/"
+    base_url: "https://cxcy.nju.edu.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 大创 / 创新创业
+    tags: [NJU, 创新创业, 大创, 项目]
+    weight: 1.25
+
+  - id: nju_ai
+    name: 南京大学人工智能学院
+    type: html_list
+    group: nju
+    enabled: true
+    list_url: "https://ai.nju.edu.cn/"
+    base_url: "https://ai.nju.edu.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: AI / 学术报告
+    tags: [NJU, AI, 人工智能, 学术报告]
+    weight: 1.35
+
+  - id: nju_cs
+    name: 南京大学计算机学院
+    type: html_list
+    group: nju
+    enabled: true
+    list_url: "https://cs.nju.edu.cn/"
+    base_url: "https://cs.nju.edu.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 计算机 / 学术报告
+    tags: [NJU, 计算机, 算法, 学术报告]
+    weight: 1.3
+
+  - id: nju_software
+    name: 南京大学软件学院
+    type: html_list
+    group: nju
+    enabled: true
+    list_url: "https://software.nju.edu.cn/"
+    base_url: "https://software.nju.edu.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 软件 / 企业活动
+    tags: [NJU, 软件, 工程, 企业活动]
+    weight: 1.25
+
+  - id: nju_ese
+    name: 南京大学电子科学与工程学院
+    type: html_list
+    group: nju
+    enabled: true
+    list_url: "https://ese.nju.edu.cn/"
+    base_url: "https://ese.nju.edu.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 电子 / 嵌入式
+    tags: [NJU, 电子, 嵌入式, 自动化]
+    weight: 1.2
+
+  - id: nju_engineering
+    name: 南京大学现代工程与应用科学学院
+    type: html_list
+    group: nju
+    enabled: true
+    list_url: "https://eng.nju.edu.cn/"
+    base_url: "https://eng.nju.edu.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 工程 / 科研训练
+    tags: [NJU, 工程, 自动化, 科研]
+    weight: 1.2
+
+  - id: nju_jobs
+    name: 南京大学就业创业网
+    type: html_list
+    group: nju
+    enabled: true
+    list_url: "https://job.nju.edu.cn/"
+    base_url: "https://job.nju.edu.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 就业创业
+    tags: [NJU, 就业, 企业, 实习]
+    weight: 1.15
+
+  - id: nju_youth
+    name: 南京大学团委
+    type: html_list
+    group: nju
+    enabled: true
+    list_url: "https://tuanwei.nju.edu.cn/"
+    base_url: "https://tuanwei.nju.edu.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 志愿 / 第二课堂
+    tags: [NJU, 志愿, 活动]
+    weight: 0.95
+
+  - id: nju_graduate
+    name: 南京大学研究生院
+    type: html_list
+    group: nju
+    enabled: true
+    list_url: "https://grawww.nju.edu.cn/"
+    base_url: "https://grawww.nju.edu.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 科研训练 / 学术通知
+    tags: [NJU, 科研, 学术报告]
+    weight: 1.1
+
+  - id: tianchi
+    name: 阿里天池
+    type: html_list
+    group: competition
+    enabled: true
+    list_url: "https://tianchi.aliyun.com/competition/gameList/activeList"
+    base_url: "https://tianchi.aliyun.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: AI竞赛
+    tags: [天池, AI, 算法, 企业赛]
+    weight: 1.35
+
+  - id: datafountain
+    name: DataFountain
+    type: html_list
+    group: competition
+    enabled: true
+    list_url: "https://www.datafountain.cn/competitions"
+    base_url: "https://www.datafountain.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 数据竞赛
+    tags: [DataFountain, AI, 数据竞赛]
+    weight: 1.3
+
+  - id: kaggle
+    name: Kaggle Competitions
+    type: html_list
+    group: competition
+    enabled: true
+    list_url: "https://www.kaggle.com/competitions"
+    base_url: "https://www.kaggle.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: AI竞赛
+    tags: [Kaggle, AI, 机器学习, 数据]
+    weight: 1.2
+
+  - id: xfyun_challenge
+    name: 科大讯飞 AI 开发者大赛
+    type: html_list
+    group: competition
+    enabled: true
+    list_url: "https://challenge.xfyun.cn/"
+    base_url: "https://challenge.xfyun.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: AI竞赛
+    tags: [讯飞, AI, 开发者大赛]
+    weight: 1.3
+
+  - id: lanqiao
+    name: 蓝桥杯
+    type: html_list
+    group: competition
+    enabled: true
+    list_url: "https://dasai.lanqiao.cn/"
+    base_url: "https://dasai.lanqiao.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 程序设计竞赛
+    tags: [蓝桥杯, 算法, 竞赛]
+    weight: 1.15
+
+  - id: ccf
+    name: 中国计算机学会 CCF
+    type: html_list
+    group: academic
+    enabled: true
+    list_url: "https://www.ccf.org.cn/"
+    base_url: "https://www.ccf.org.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: CCF / 学术竞赛
+    tags: [CCF, 计算机, 算法, 学术]
+    weight: 1.3
+
+  - id: cspro
+    name: CCF CSP / CCSP
+    type: html_list
+    group: competition
+    enabled: true
+    list_url: "https://www.cspro.org/"
+    base_url: "https://www.cspro.org/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: CCF认证 / 算法
+    tags: [CCF, CSP, CCSP, 算法]
+    weight: 1.25
+
+  - id: huawei_cloud_competition
+    name: 华为云开发者赛事
+    type: html_list
+    group: enterprise
+    enabled: true
+    list_url: "https://competition.huaweicloud.com/"
+    base_url: "https://competition.huaweicloud.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 企业开发者赛事
+    tags: [华为, 企业赛, AI, 云]
+    weight: 1.35
+
+  - id: huawei_developer
+    name: 华为开发者联盟活动
+    type: html_list
+    group: enterprise
+    enabled: true
+    list_url: "https://developer.huawei.com/consumer/cn/activity"
+    base_url: "https://developer.huawei.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 企业活动
+    tags: [华为, 开发者, 企业活动]
+    weight: 1.25
+
+  - id: alibaba_cloud_developer
+    name: 阿里云开发者
+    type: html_list
+    group: enterprise
+    enabled: true
+    list_url: "https://developer.aliyun.com/"
+    base_url: "https://developer.aliyun.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 企业活动
+    tags: [阿里, 开发者, 云, AI]
+    weight: 1.2
+
+  - id: tencent_cloud_developer
+    name: 腾讯云开发者
+    type: html_list
+    group: enterprise
+    enabled: true
+    list_url: "https://cloud.tencent.com/developer"
+    base_url: "https://cloud.tencent.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 企业活动
+    tags: [腾讯, 开发者, 云, AI]
+    weight: 1.2
+
+  - id: volcengine_developer
+    name: 火山引擎开发者
+    type: html_list
+    group: enterprise
+    enabled: true
+    list_url: "https://developer.volcengine.com/"
+    base_url: "https://developer.volcengine.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 企业活动
+    tags: [字节, 火山引擎, 开发者, AI]
+    weight: 1.2
+
+  - id: baidu_paddle
+    name: 百度飞桨
+    type: html_list
+    group: enterprise
+    enabled: true
+    list_url: "https://www.paddlepaddle.org.cn/"
+    base_url: "https://www.paddlepaddle.org.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: AI平台 / 活动
+    tags: [百度, 飞桨, AI, 深度学习]
+    weight: 1.25
+
+  - id: baidu_aistudio
+    name: 百度 AI Studio 竞赛
+    type: html_list
+    group: competition
+    enabled: true
+    list_url: "https://aistudio.baidu.com/competition"
+    base_url: "https://aistudio.baidu.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: AI竞赛
+    tags: [百度, AI Studio, AI, 竞赛]
+    weight: 1.25
+
+  - id: modelscope_events
+    name: ModelScope 魔搭社区活动
+    type: html_list
+    group: competition
+    enabled: true
+    list_url: "https://modelscope.cn/events"
+    base_url: "https://modelscope.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 大模型 / 开源活动
+    tags: [ModelScope, 大模型, AI, 开源]
+    weight: 1.2
+
+  - id: openi_competitions
+    name: 启智社区 OpenI
+    type: html_list
+    group: competition
+    enabled: true
+    list_url: "https://openi.pcl.ac.cn/competitions"
+    base_url: "https://openi.pcl.ac.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: AI竞赛
+    tags: [OpenI, AI, 开源, 竞赛]
+    weight: 1.2
+
+  - id: caa
+    name: 中国自动化学会
+    type: html_list
+    group: academic
+    enabled: true
+    list_url: "https://www.caa.org.cn/"
+    base_url: "https://www.caa.org.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 自动化 / 学术活动
+    tags: [中国自动化学会, 自动化, 控制, 机器人]
+    weight: 1.3
+
+  - id: robocup_china
+    name: RoboCup 中国
+    type: html_list
+    group: competition
+    enabled: true
+    list_url: "https://www.robocupchina.org.cn/"
+    base_url: "https://www.robocupchina.org.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 机器人竞赛
+    tags: [RoboCup, 机器人, 竞赛]
+    weight: 1.35
+
+  - id: smartcar
+    name: 全国大学生智能汽车竞赛
+    type: html_list
+    group: competition
+    enabled: true
+    list_url: "https://www.smartcarrace.com/"
+    base_url: "https://www.smartcarrace.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 智能车竞赛
+    tags: [智能车, 自动化, 控制, 竞赛]
+    weight: 1.3
+
+  - id: csig
+    name: 中国图象图形学学会
+    type: html_list
+    group: academic
+    enabled: true
+    list_url: "https://www.csig.org.cn/"
+    base_url: "https://www.csig.org.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 视觉 / 图形学
+    tags: [CSIG, 视觉, 图形学, AI]
+    weight: 1.2
+
+  - id: ccf_c4
+    name: CCF C4
+    type: html_list
+    group: competition
+    enabled: true
+    list_url: "https://www.ccf.org.cn/ccf/catalog/ccfC4"
+    base_url: "https://www.ccf.org.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: CCF学生竞赛
+    tags: [CCF, C4, 学生竞赛, 算法]
+    weight: 1.2
+
+  - id: acm_china
+    name: ACM China
+    type: html_list
+    group: academic
+    enabled: true
+    list_url: "https://www.acm.org/chapters/china"
+    base_url: "https://www.acm.org/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: ACM / 学术活动
+    tags: [ACM, 算法, 计算机, 学术]
+    weight: 1.1
+
+  - id: ieee_students
+    name: IEEE Students
+    type: html_list
+    group: academic
+    enabled: true
+    list_url: "https://students.ieee.org/"
+    base_url: "https://students.ieee.org/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: IEEE / 学生活动
+    tags: [IEEE, 学术, 工程, 学生竞赛]
+    weight: 1.1
+
+  - id: ant_tech
+    name: 蚂蚁集团技术社区
+    type: html_list
+    group: enterprise
+    enabled: true
+    list_url: "https://tech.antfin.com/community/activities"
+    base_url: "https://tech.antfin.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 企业技术活动
+    tags: [蚂蚁, 企业活动, 技术, AI]
+    weight: 1.15
+
+  - id: xiaomi_developer
+    name: 小米开发者
+    type: html_list
+    group: enterprise
+    enabled: true
+    list_url: "https://dev.mi.com/"
+    base_url: "https://dev.mi.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 8
+    category_hint: 企业开发者活动
+    tags: [小米, 开发者, 企业活动]
+    weight: 1.05

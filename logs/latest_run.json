@@ -1,0 +1,149 @@
+{
+  "id": "20260524195757",
+  "started_at": "2026-05-24T19:57:57+08:00",
+  "finished_at": "2026-05-24T19:59:11+08:00",
+  "status": "success",
+  "total_sources": 36,
+  "successful_sources": 9,
+  "failed_sources": 27,
+  "total_items": 57,
+  "new_items": 50,
+  "emailed_items": 0,
+  "errors": [
+    {
+      "source_id": "nju_undergraduate",
+      "source_name": "南京大学本科生院",
+      "error": "HTTPSConnectionPool(host='jw.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))"
+    },
+    {
+      "source_id": "nju_innovation",
+      "source_name": "南京大学创新创业学院",
+      "error": "502 Server Error: Bad Gateway for url: http://cxcy.nju.edu.cn/"
+    },
+    {
+      "source_id": "nju_ai",
+      "source_name": "南京大学人工智能学院",
+      "error": "HTTPSConnectionPool(host='ai.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))"
+    },
+    {
+      "source_id": "nju_cs",
+      "source_name": "南京大学计算机学院",
+      "error": "HTTPSConnectionPool(host='cs.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))"
+    },
+    {
+      "source_id": "nju_software",
+      "source_name": "南京大学软件学院",
+      "error": "HTTPSConnectionPool(host='software.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))"
+    },
+    {
+      "source_id": "nju_ese",
+      "source_name": "南京大学电子科学与工程学院",
+      "error": "HTTPSConnectionPool(host='ese.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))"
+    },
+    {
+      "source_id": "nju_engineering",
+      "source_name": "南京大学现代工程与应用科学学院",
+      "error": "HTTPSConnectionPool(host='eng.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))"
+    },
+    {
+      "source_id": "nju_youth",
+      "source_name": "南京大学团委",
+      "error": "HTTPSConnectionPool(host='tuanwei.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))"
+    },
+    {
+      "source_id": "nju_graduate",
+      "source_name": "南京大学研究生院",
+      "error": "HTTPSConnectionPool(host='grawww.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))"
+    },
+    {
+      "source_id": "kaggle",
+      "source_name": "Kaggle Competitions",
+      "error": "no list items matched"
+    },
+    {
+      "source_id": "xfyun_challenge",
+      "source_name": "科大讯飞 AI 开发者大赛",
+      "error": "no list items matched"
+    },
+    {
+      "source_id": "lanqiao",
+      "source_name": "蓝桥杯",
+      "error": "no list items matched"
+    },
+    {
+      "source_id": "ccf",
+      "source_name": "中国计算机学会 CCF",
+      "error": "no list items matched"
+    },
+    {
+      "source_id": "cspro",
+      "source_name": "CCF CSP / CCSP",
+      "error": "no list items matched"
+    },
+    {
+      "source_id": "huawei_cloud_competition",
+      "source_name": "华为云开发者赛事",
+      "error": "no list items matched"
+    },
+    {
+      "source_id": "huawei_developer",
+      "source_name": "华为开发者联盟活动",
+      "error": "no list items matched"
+    },
+    {
+      "source_id": "baidu_paddle",
+      "source_name": "百度飞桨",
+      "error": "no list items matched"
+    },
+    {
+      "source_id": "baidu_aistudio",
+      "source_name": "百度 AI Studio 竞赛",
+      "error": "no list items matched"
+    },
+    {
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "error": "no list items matched"
+    },
+    {
+      "source_id": "openi_competitions",
+      "source_name": "启智社区 OpenI",
+      "error": "404 Client Error: Not Found for url: https://openi.pcl.ac.cn/competitions"
+    },
+    {
+      "source_id": "caa",
+      "source_name": "中国自动化学会",
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Read timed out. (read timeout=10)"
+    },
+    {
+      "source_id": "robocup_china",
+      "source_name": "RoboCup 中国",
+      "error": "502 Server Error: Bad Gateway for url: http://www.robocupchina.org.cn/"
+    },
+    {
+      "source_id": "smartcar",
+      "source_name": "全国大学生智能汽车竞赛",
+      "error": "no list items matched"
+    },
+    {
+      "source_id": "csig",
+      "source_name": "中国图象图形学学会",
+      "error": "403 Client Error: Forbidden for url: https://www.csig.org.cn/"
+    },
+    {
+      "source_id": "ccf_c4",
+      "source_name": "CCF C4",
+      "error": "no list items matched"
+    },
+    {
+      "source_id": "acm_china",
+      "source_name": "ACM China",
+      "error": "403 Client Error: Forbidden for url: https://www.acm.org/chapters/china"
+    },
+    {
+      "source_id": "ant_tech",
+      "source_name": "蚂蚁集团技术社区",
+      "error": "no list items matched"
+    }
+  ]
+}

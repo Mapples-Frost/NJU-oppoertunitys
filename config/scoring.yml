@@ -1,0 +1,28 @@
+keyword_weights:
+  high: 40
+  medium: 24
+  low: 10
+negative_penalty: 18
+email_thresholds:
+  high_priority: 80
+  include: 45
+organizers:
+  top:
+    - 华为
+    - 阿里
+    - 腾讯
+    - 字节
+    - 百度
+    - 讯飞
+    - CCF
+    - 中国自动化学会
+    - 中国人工智能学会
+    - 国家级
+  medium:
+    - 南京大学
+    - 南大
+    - 重点实验室
+    - 高校
+    - ACM
+    - IEEE
+    - CSIG

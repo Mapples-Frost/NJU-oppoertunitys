@@ -1,0 +1,103 @@
+[NJU Opportunity Radar] 2026-05-24: 发现 50 个新机会，0 个高优先级
+新增 50 个机会，高优先级 0 个，截止 7 天内 0 个，失败源 27 个。
+
+AI / 算法竞赛
+1. 具有多模态能力的客服智能体设计 (73分)
+   类型：AI / 算法竞赛
+   截止：未识别，需要人工确认
+   来源：DataFountain
+   建议：查看报名要求和赛题，尽快判断是否需要组队。
+   链接：https://www.datafountain.cn/competitions/1165
+2. 天池大赛 (61分)
+   类型：AI / 算法竞赛
+   截止：未识别，需要人工确认
+   来源：阿里天池
+   建议：查看报名要求和赛题，尽快判断是否需要组队。
+   链接：https://tianchi.aliyun.com/competition
+3. 千问大模型 (57分)
+   类型：AI / 算法竞赛
+   截止：未识别，需要人工确认
+   来源：阿里天池
+   建议：查看报名要求和赛题，尽快判断是否需要组队。
+   链接：https://www.aliyun.com/product/tongyi
+4. AI新睿人才“星探计划” (57分)
+   类型：AI / 算法竞赛
+   截止：未识别，需要人工确认
+   来源：DataFountain
+   建议：查看报名要求和赛题，尽快判断是否需要组队。
+   链接：https://www.datafountain.cn/competitions/1169
+5. 大数据和人工智能 (57分)
+   类型：AI / 算法竞赛
+   截止：未识别，需要人工确认
+   来源：DataFountain
+   建议：查看报名要求和赛题，尽快判断是否需要组队。
+   链接：https://www.datafountain.cn/competitions/1153
+
+企业开发者赛事
+1. AI 助理 (65分)
+   类型：企业开发者赛事
+   截止：未识别，需要人工确认
+   来源：阿里云开发者
+   建议：查看报名要求和赛题，尽快判断是否需要组队。
+   链接：https://www.aliyun.com/ai-assistant?displayMode=side
+2. 百炼大模型 (65分)
+   类型：企业开发者赛事
+   截止：未识别，需要人工确认
+   来源：阿里云开发者
+   建议：查看报名要求和赛题，尽快判断是否需要组队。
+   链接：https://developer.aliyun.com/modelstudio
+3. 豆包大模型 1.6 HOT 全新升级，能力多面手，应用场景丰富 (65分)
+   类型：企业开发者赛事
+   截止：未识别，需要人工确认
+   来源：火山引擎开发者
+   建议：查看报名要求和赛题，尽快判断是否需要组队。
+   链接：https://exp.volcengine.com/ark
+4. 📢腾讯云 AI Agent 钳王争霸 征文比赛 发布文章/视频，周周抽奖领礼品👑 立即参加 (59分)
+   类型：企业开发者赛事
+   截止：未识别，需要人工确认
+   来源：腾讯云开发者
+   建议：查看报名要求和赛题，尽快判断是否需要组队。
+   链接：https://cloud.tencent.com/developer/article/2666405
+5. TencentDB Agent Memory 正式开源 让 Agent 记住该记的，让开发者专注于更有价值的创造 立即查看 (57分)
+   类型：企业开发者赛事
+   截止：未识别，需要人工确认
+   来源：腾讯云开发者
+   建议：查看报名要求和赛题，尽快判断是否需要组队。
+   链接：https://cloud.tencent.com/developer/article/2668579
+
+机器人 / 自动化 / 智能车
+1. 多模态感知融合增强的具身自主抓取任务挑战 (57分)
+   类型：机器人 / 自动化 / 智能车
+   截止：未识别，需要人工确认
+   来源：DataFountain
+   建议：确认方向匹配度，并联系实验室或竞赛队了解组队机会。
+   链接：https://www.datafountain.cn/competitions/1163
+
+系统异常
+- 南京大学本科生院：HTTPSConnectionPool(host='jw.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))
+- 南京大学创新创业学院：502 Server Error: Bad Gateway for url: http://cxcy.nju.edu.cn/
+- 南京大学人工智能学院：HTTPSConnectionPool(host='ai.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))
+- 南京大学计算机学院：HTTPSConnectionPool(host='cs.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))
+- 南京大学软件学院：HTTPSConnectionPool(host='software.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))
+- 南京大学电子科学与工程学院：HTTPSConnectionPool(host='ese.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))
+- 南京大学现代工程与应用科学学院：HTTPSConnectionPool(host='eng.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))
+- 南京大学团委：HTTPSConnectionPool(host='tuanwei.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))
+- 南京大学研究生院：HTTPSConnectionPool(host='grawww.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))
+- Kaggle Competitions：no list items matched
+- 科大讯飞 AI 开发者大赛：no list items matched
+- 蓝桥杯：no list items matched
+- 中国计算机学会 CCF：no list items matched
+- CCF CSP / CCSP：no list items matched
+- 华为云开发者赛事：no list items matched
+- 华为开发者联盟活动：no list items matched
+- 百度飞桨：no list items matched
+- 百度 AI Studio 竞赛：no list items matched
+- ModelScope 魔搭社区活动：no list items matched
+- 启智社区 OpenI：404 Client Error: Not Found for url: https://openi.pcl.ac.cn/competitions
+- 中国自动化学会：HTTPSConnectionPool(host='www.caa.org.cn', port=443): Read timed out. (read timeout=10)
+- RoboCup 中国：502 Server Error: Bad Gateway for url: http://www.robocupchina.org.cn/
+- 全国大学生智能汽车竞赛：no list items matched
+- 中国图象图形学学会：403 Client Error: Forbidden for url: https://www.csig.org.cn/
+- CCF C4：no list items matched
+- ACM China：403 Client Error: Forbidden for url: https://www.acm.org/chapters/china
+- 蚂蚁集团技术社区：no list items matched

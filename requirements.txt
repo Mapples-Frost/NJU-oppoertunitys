@@ -1,0 +1,13 @@
+requests
+beautifulsoup4
+lxml
+lxml_html_clean
+feedparser
+trafilatura
+PyYAML
+python-dateutil
+dateparser
+rapidfuzz
+jinja2
+markdown
+pytest
