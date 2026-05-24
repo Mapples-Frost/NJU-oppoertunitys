@@ -9,6 +9,9 @@ SCHEMA = [
         source_id TEXT,
         source_name TEXT,
         source_group TEXT,
+        source_pack TEXT,
+        source_domain TEXT,
+        source_tier TEXT,
         published_at TEXT,
         discovered_at TEXT NOT NULL,
         deadline_at TEXT,
@@ -36,10 +39,16 @@ SCHEMA = [
         id TEXT PRIMARY KEY,
         name TEXT,
         type TEXT,
+        source_pack TEXT,
+        domain TEXT,
+        source_tier TEXT,
         enabled INTEGER,
         last_success_at TEXT,
         last_error_at TEXT,
         last_error TEXT,
+        success_count INTEGER DEFAULT 0,
+        failure_count INTEGER DEFAULT 0,
+        consecutive_failures INTEGER DEFAULT 0,
         total_found INTEGER DEFAULT 0
     )
     """,
@@ -54,7 +63,36 @@ SCHEMA = [
         failed_sources INTEGER,
         total_items INTEGER,
         new_items INTEGER,
-        emailed_items INTEGER
+        emailed_items INTEGER,
+        pack_stats TEXT
+    )
+    """,
+    """
+    CREATE TABLE IF NOT EXISTS source_runs (
+        id TEXT PRIMARY KEY,
+        run_id TEXT,
+        source_id TEXT,
+        source_name TEXT,
+        source_pack TEXT,
+        domain TEXT,
+        source_tier TEXT,
+        status TEXT,
+        items_found INTEGER,
+        error TEXT,
+        started_at TEXT,
+        finished_at TEXT
+    )
+    """,
+    """
+    CREATE TABLE IF NOT EXISTS http_cache (
+        cache_key TEXT PRIMARY KEY,
+        url TEXT,
+        fetched_at TEXT,
+        expires_at TEXT,
+        etag TEXT,
+        last_modified TEXT,
+        status_code INTEGER,
+        content TEXT
     )
     """,
     """
@@ -68,4 +106,25 @@ SCHEMA = [
     "CREATE INDEX IF NOT EXISTS idx_opportunities_score ON opportunities(score)",
     "CREATE INDEX IF NOT EXISTS idx_opportunities_deadline ON opportunities(deadline_at)",
     "CREATE INDEX IF NOT EXISTS idx_opportunities_title_hash ON opportunities(title_hash)",
+    "CREATE INDEX IF NOT EXISTS idx_opportunities_source_pack ON opportunities(source_pack)",
+    "CREATE INDEX IF NOT EXISTS idx_source_runs_pack ON source_runs(source_pack)",
 ]
+
+REQUIRED_COLUMNS = {
+    "opportunities": {
+        "source_pack": "TEXT",
+        "source_domain": "TEXT",
+        "source_tier": "TEXT",
+    },
+    "sources": {
+        "source_pack": "TEXT",
+        "domain": "TEXT",
+        "source_tier": "TEXT",
+        "success_count": "INTEGER DEFAULT 0",
+        "failure_count": "INTEGER DEFAULT 0",
+        "consecutive_failures": "INTEGER DEFAULT 0",
+    },
+    "runs": {
+        "pack_stats": "TEXT",
+    },
+}

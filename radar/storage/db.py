@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import sqlite3
 from datetime import datetime
 from pathlib import Path
@@ -8,7 +9,7 @@ from typing import Any
 from rapidfuzz import fuzz
 
 from radar.models import Opportunity, RunSummary
-from radar.storage.migrations import SCHEMA
+from radar.storage.migrations import REQUIRED_COLUMNS, SCHEMA
 from radar.utils.text import clean_title
 
 
@@ -23,9 +24,26 @@ class Database:
         self.conn.close()
 
     def migrate(self) -> None:
+        deferred_indexes: list[str] = []
         for statement in SCHEMA:
+            if statement.strip().upper().startswith("CREATE INDEX"):
+                deferred_indexes.append(statement)
+            else:
+                self.conn.execute(statement)
+        self._ensure_columns()
+        for statement in deferred_indexes:
             self.conn.execute(statement)
         self.conn.commit()
+
+    def _ensure_columns(self) -> None:
+        for table, columns in REQUIRED_COLUMNS.items():
+            existing = {
+                str(row["name"])
+                for row in self.conn.execute(f"PRAGMA table_info({table})").fetchall()
+            }
+            for column, definition in columns.items():
+                if column not in existing:
+                    self.conn.execute(f"ALTER TABLE {table} ADD COLUMN {column} {definition}")
 
     def upsert_source(self, source: dict[str, Any], success: bool, error: str | None, total_found: int) -> None:
         now = datetime.now().astimezone().isoformat(timespec="seconds")
@@ -34,18 +52,28 @@ class Database:
             self.conn.execute(
                 """
                 UPDATE sources
-                SET name = ?, type = ?, enabled = ?, last_success_at = COALESCE(?, last_success_at),
-                    last_error_at = COALESCE(?, last_error_at), last_error = ?, total_found = ?
+                SET name = ?, type = ?, source_pack = ?, domain = ?, source_tier = ?, enabled = ?,
+                    last_success_at = COALESCE(?, last_success_at),
+                    last_error_at = COALESCE(?, last_error_at), last_error = ?, total_found = ?,
+                    success_count = success_count + ?,
+                    failure_count = failure_count + ?,
+                    consecutive_failures = CASE WHEN ? = 1 THEN 0 ELSE consecutive_failures + 1 END
                 WHERE id = ?
                 """,
                 (
                     source.get("name"),
                     source.get("type"),
+                    source.get("source_pack"),
+                    source.get("domain"),
+                    source.get("source_tier"),
                     int(source.get("enabled", True)),
                     now if success else None,
                     now if not success else None,
                     error,
                     total_found,
+                    1 if success else 0,
+                    0 if success else 1,
+                    1 if success else 0,
                     source["id"],
                 ),
             )
@@ -53,20 +81,62 @@ class Database:
             self.conn.execute(
                 """
                 INSERT INTO sources
-                (id, name, type, enabled, last_success_at, last_error_at, last_error, total_found)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                (id, name, type, source_pack, domain, source_tier, enabled, last_success_at, last_error_at,
+                 last_error, success_count, failure_count, consecutive_failures, total_found)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 (
                     source["id"],
                     source.get("name"),
                     source.get("type"),
+                    source.get("source_pack"),
+                    source.get("domain"),
+                    source.get("source_tier"),
                     int(source.get("enabled", True)),
                     now if success else None,
                     now if not success else None,
                     error,
+                    1 if success else 0,
+                    0 if success else 1,
+                    0 if success else 1,
                     total_found,
                 ),
             )
+        self.conn.commit()
+
+    def insert_source_run(
+        self,
+        run_id: str,
+        source: dict[str, Any],
+        status: str,
+        items_found: int,
+        error: str | None,
+        started_at: str,
+        finished_at: str,
+    ) -> None:
+        row_id = f"{run_id}:{source['id']}"
+        self.conn.execute(
+            """
+            INSERT OR REPLACE INTO source_runs
+            (id, run_id, source_id, source_name, source_pack, domain, source_tier, status,
+             items_found, error, started_at, finished_at)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                row_id,
+                run_id,
+                source["id"],
+                source.get("name"),
+                source.get("source_pack"),
+                source.get("domain"),
+                source.get("source_tier"),
+                status,
+                items_found,
+                error,
+                started_at,
+                finished_at,
+            ),
+        )
         self.conn.commit()
 
     def insert_run(self, run: RunSummary) -> None:
@@ -74,8 +144,8 @@ class Database:
             """
             INSERT OR REPLACE INTO runs
             (id, started_at, finished_at, status, total_sources, successful_sources, failed_sources,
-             total_items, new_items, emailed_items)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+             total_items, new_items, emailed_items, pack_stats)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 run.id,
@@ -88,6 +158,7 @@ class Database:
                 run.total_items,
                 run.new_items,
                 run.emailed_items,
+                json.dumps(run.pack_stats, ensure_ascii=False),
             ),
         )
         self.conn.commit()

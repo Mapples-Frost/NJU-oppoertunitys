@@ -27,6 +27,17 @@ IGNORE_TITLE_PARTS = [
     "ICP备",
     "copyright",
     "首页",
+    "skip to main content",
+    "main content",
+    "about",
+    "关于caai",
+    "caai简介",
+    "证书下载",
+    "证书验证",
+    "竞赛获奖证书下载",
+    "志愿者证书下载",
+    "人才项目库",
+    "竞赛组织",
 ]
 IGNORE_URL_PARTS = [
     "/login",

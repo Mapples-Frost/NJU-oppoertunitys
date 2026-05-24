@@ -34,6 +34,22 @@ def _process_item(item: Opportunity, keywords: dict, scoring: dict) -> Opportuni
     return enrich_identity(item)
 
 
+def _apply_source_metadata(item: Opportunity, source: dict) -> Opportunity:
+    item.source_pack = item.source_pack or source.get("source_pack", "")
+    item.source_domain = item.source_domain or source.get("domain", "")
+    item.source_tier = item.source_tier or source.get("source_tier", "")
+    return item
+
+
+def _init_pack_stats(sources: list[dict]) -> dict[str, dict[str, int]]:
+    stats: dict[str, dict[str, int]] = {}
+    for source in sources:
+        pack = source.get("source_pack", "unknown_pack")
+        stats.setdefault(pack, {"total": 0, "successful": 0, "failed": 0, "items": 0, "new_items": 0})
+        stats[pack]["total"] += 1
+    return stats
+
+
 def _write_json(path: Path, data: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -52,6 +68,7 @@ def run(args: argparse.Namespace) -> int:
         id=datetime.now().astimezone().strftime("%Y%m%d%H%M%S"),
         started_at=started,
         total_sources=len(sources),
+        pack_stats=_init_pack_stats(sources),
     )
     all_items: list[Opportunity] = []
     failures: list[dict[str, str]] = []
@@ -65,21 +82,45 @@ def run(args: argparse.Namespace) -> int:
     try:
         for source in sources:
             LOGGER.info("fetching %s", source.get("id"))
+            source_started_at = datetime.now().astimezone().isoformat(timespec="seconds")
             result = fetch_source(source, project_root)
+            result.source_pack = result.source_pack or source.get("source_pack", "")
+            result.source_domain = result.source_domain or source.get("domain", "")
+            result.source_tier = result.source_tier or source.get("source_tier", "")
+            result.items = [_apply_source_metadata(item, source) for item in result.items]
             all_items.extend(result.items)
+            pack = source.get("source_pack", "unknown_pack")
+            run_summary.pack_stats.setdefault(
+                pack,
+                {"total": 0, "successful": 0, "failed": 0, "items": 0, "new_items": 0},
+            )
+            run_summary.pack_stats[pack]["items"] += len(result.items)
             if result.ok:
                 run_summary.successful_sources += 1
+                run_summary.pack_stats[pack]["successful"] += 1
             else:
                 run_summary.failed_sources += 1
+                run_summary.pack_stats[pack]["failed"] += 1
                 failures.append(
                     {
                         "source_id": result.source_id,
                         "source_name": result.source_name,
+                        "source_pack": pack,
+                        "domain": source.get("domain", ""),
                         "error": result.error or "unknown error",
                     }
                 )
             if database:
                 database.upsert_source(source, success=result.ok, error=result.error, total_found=len(result.items))
+                database.insert_source_run(
+                    run_summary.id,
+                    source,
+                    "success" if result.ok else "failed",
+                    len(result.items),
+                    result.error,
+                    source_started_at,
+                    datetime.now().astimezone().isoformat(timespec="seconds"),
+                )
 
         run_summary.total_items = len(all_items)
         processed = [
@@ -98,6 +139,13 @@ def run(args: argparse.Namespace) -> int:
         else:
             new_items = deduped
         run_summary.new_items = len(new_items)
+        for item in new_items:
+            pack = item.source_pack or "unknown_pack"
+            run_summary.pack_stats.setdefault(
+                pack,
+                {"total": 0, "successful": 0, "failed": 0, "items": 0, "new_items": 0},
+            )
+            run_summary.pack_stats[pack]["new_items"] += 1
 
         rendered = render_email(
             new_items,

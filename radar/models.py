@@ -11,6 +11,9 @@ class Opportunity:
     source_id: str
     source_name: str
     source_group: str
+    source_pack: str = ""
+    source_domain: str = ""
+    source_tier: str = ""
     url: str | None = None
     published_at: str | None = None
     discovered_at: str | None = None
@@ -52,6 +55,9 @@ class Opportunity:
             "source_id": self.source_id,
             "source_name": self.source_name,
             "source_group": self.source_group,
+            "source_pack": self.source_pack,
+            "source_domain": self.source_domain,
+            "source_tier": self.source_tier,
             "published_at": self.published_at,
             "discovered_at": self.discovered_at,
             "deadline_at": self.deadline_at,
@@ -80,6 +86,9 @@ class SourceResult:
     source_id: str
     source_name: str
     source_type: str
+    source_pack: str = ""
+    source_domain: str = ""
+    source_tier: str = ""
     items: list[Opportunity] = field(default_factory=list)
     error: str | None = None
 
@@ -101,3 +110,4 @@ class RunSummary:
     new_items: int = 0
     emailed_items: int = 0
     errors: list[dict[str, str]] = field(default_factory=list)
+    pack_stats: dict[str, dict[str, int]] = field(default_factory=dict)

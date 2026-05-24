@@ -1,0 +1,11 @@
+watchlist:
+  - name: 南京大学本科生院
+    tags: [NJU, 校内通知]
+  - name: 南京大学创新创业学院
+    tags: [NJU, 大创, 创新创业]
+  - name: CCF
+    tags: [CCF, 计算机, 学术]
+  - name: 机器之心
+    tags: [AI, 机器学习, 资讯]
+  - name: PaperWeekly
+    tags: [AI, 论文, 科研]

@@ -533,3 +533,865 @@ sources:
     category_hint: 企业开发者活动
     tags: [小米, 开发者, 企业活动]
     weight: 1.05
+
+  - id: wechat_article_links
+    name: 微信公众号文章链接池
+    type: wechat_article
+    group: wechat
+    source_pack: wechat_pack
+    domain: wechat
+    source_tier: core
+    enabled: true
+    path: inbox/wechat_articles.md
+    watchlist_path: config/wechat_watchlist.yml
+    max_items: 20
+    timeout: 6
+    category_hint: 微信公众号
+    tags: [微信公众号, 公众号文章, 转发]
+    weight: 1.15
+
+  - id: wechat_email_inbox
+    name: 微信公众号邮件转发入口
+    type: imap_email
+    group: wechat
+    source_pack: wechat_pack
+    domain: wechat
+    source_tier: core
+    enabled: true
+    env_prefix: IMAP
+    mailbox: INBOX
+    search: UNSEEN
+    max_items: 20
+    category_hint: 微信公众号 / 邮件转发
+    tags: [微信公众号, 邮件转发, 群聊转发]
+    weight: 1.1
+
+  - id: wechat_webhook_inbox
+    name: 微信公众号 Webhook 转发入口
+    type: webhook_inbox
+    group: wechat
+    source_pack: wechat_pack
+    domain: wechat
+    source_tier: core
+    enabled: true
+    path: inbox/webhook_inbox.jsonl
+    category_hint: 微信公众号 / Webhook
+    tags: [微信公众号, Webhook, 快捷指令]
+    weight: 1.1
+
+  - id: aicrowd_competitions
+    name: AIcrowd Challenges
+    type: html_list
+    group: competition
+    source_pack: competition_pack
+    domain: competition
+    source_tier: extended
+    enabled: true
+    list_url: "https://www.aicrowd.com/challenges"
+    base_url: "https://www.aicrowd.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: AI竞赛
+    tags: [AIcrowd, AI, 机器学习, 竞赛]
+    weight: 1.15
+
+  - id: codabench_competitions
+    name: Codabench Competitions
+    type: html_list
+    group: competition
+    source_pack: competition_pack
+    domain: competition
+    source_tier: extended
+    enabled: true
+    list_url: "https://www.codabench.org/competitions/"
+    base_url: "https://www.codabench.org/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: AI竞赛
+    tags: [Codabench, AI, Benchmark, 竞赛]
+    weight: 1.15
+
+  - id: drivendata_competitions
+    name: DrivenData Competitions
+    type: html_list
+    group: competition
+    source_pack: competition_pack
+    domain: competition
+    source_tier: extended
+    enabled: true
+    list_url: "https://www.drivendata.org/competitions/"
+    base_url: "https://www.drivendata.org/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 数据竞赛
+    tags: [DrivenData, 数据竞赛, AI]
+    weight: 1.1
+
+  - id: evalai_challenges
+    name: EvalAI Challenges
+    type: html_list
+    group: competition
+    source_pack: competition_pack
+    domain: competition
+    source_tier: extended
+    enabled: true
+    list_url: "https://eval.ai/challenges"
+    base_url: "https://eval.ai/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: AI Benchmark
+    tags: [EvalAI, AI, Benchmark, 挑战赛]
+    weight: 1.1
+
+  - id: codeforces_contests
+    name: Codeforces Contests
+    type: html_list
+    group: competition
+    source_pack: competition_pack
+    domain: competition
+    source_tier: experimental
+    enabled: true
+    list_url: "https://codeforces.com/contests"
+    base_url: "https://codeforces.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 算法训练赛
+    tags: [Codeforces, 算法, 程序设计]
+    weight: 0.9
+
+  - id: atcoder_contests
+    name: AtCoder Contests
+    type: html_list
+    group: competition
+    source_pack: competition_pack
+    domain: competition
+    source_tier: experimental
+    enabled: true
+    list_url: "https://atcoder.jp/contests/"
+    base_url: "https://atcoder.jp/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 算法训练赛
+    tags: [AtCoder, 算法, 程序设计]
+    weight: 0.9
+
+  - id: leetcode_contest
+    name: LeetCode 竞赛
+    type: html_list
+    group: competition
+    source_pack: competition_pack
+    domain: competition
+    source_tier: experimental
+    enabled: true
+    list_url: "https://leetcode.cn/contest/"
+    base_url: "https://leetcode.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 算法训练赛
+    tags: [LeetCode, 算法, 程序设计]
+    weight: 0.9
+
+  - id: icpc_global
+    name: ICPC Global
+    type: html_list
+    group: competition
+    source_pack: competition_pack
+    domain: competition
+    source_tier: extended
+    enabled: true
+    list_url: "https://icpc.global/"
+    base_url: "https://icpc.global/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 程序设计竞赛
+    tags: [ICPC, ACM, 算法, 程序设计]
+    weight: 1.05
+
+  - id: robomaster
+    name: RoboMaster
+    type: html_list
+    group: competition
+    source_pack: competition_pack
+    domain: competition
+    source_tier: core
+    enabled: true
+    list_url: "https://www.robomaster.com/zh-CN"
+    base_url: "https://www.robomaster.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 机器人竞赛
+    tags: [RoboMaster, 机器人, 自动化, 视觉]
+    weight: 1.35
+
+  - id: robocon_china
+    name: Robocon 中国
+    type: html_list
+    group: competition
+    source_pack: competition_pack
+    domain: competition
+    source_tier: core
+    enabled: true
+    list_url: "https://robocon.org.cn/"
+    base_url: "https://robocon.org.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 机器人竞赛
+    tags: [Robocon, 机器人, 自动化]
+    weight: 1.3
+
+  - id: challenge_cup
+    name: 挑战杯
+    type: html_list
+    group: competition
+    source_pack: competition_pack
+    domain: competition
+    source_tier: core
+    enabled: true
+    list_url: "https://www.tiaozhanbei.net/"
+    base_url: "https://www.tiaozhanbei.net/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 创新创业竞赛
+    tags: [挑战杯, 创新创业, 科研训练]
+    weight: 1.2
+
+  - id: ncss_innovation
+    name: 中国国际大学生创新大赛
+    type: html_list
+    group: competition
+    source_pack: competition_pack
+    domain: competition
+    source_tier: core
+    enabled: true
+    list_url: "https://cy.ncss.cn/"
+    base_url: "https://cy.ncss.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 创新创业竞赛
+    tags: [创新创业, 大学生创新大赛, 项目]
+    weight: 1.2
+
+  - id: graduate_innovation_competition
+    name: 中国研究生创新实践系列大赛
+    type: html_list
+    group: competition
+    source_pack: competition_pack
+    domain: competition
+    source_tier: extended
+    enabled: true
+    list_url: "https://cpipc.acge.org.cn/"
+    base_url: "https://cpipc.acge.org.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 科研实践竞赛
+    tags: [研究生, 创新实践, 科研竞赛]
+    weight: 1.1
+
+  - id: cumcm
+    name: 全国大学生数学建模竞赛
+    type: html_list
+    group: competition
+    source_pack: competition_pack
+    domain: competition
+    source_tier: extended
+    enabled: true
+    list_url: "http://www.mcm.edu.cn/"
+    base_url: "http://www.mcm.edu.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 数学建模竞赛
+    tags: [数学建模, 算法, 数据分析]
+    weight: 1.05
+
+  - id: mathorcup
+    name: MathorCup
+    type: html_list
+    group: competition
+    source_pack: competition_pack
+    domain: competition
+    source_tier: extended
+    enabled: true
+    list_url: "https://www.mathorcup.org/"
+    base_url: "https://www.mathorcup.org/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 数学建模竞赛
+    tags: [MathorCup, 数学建模, 数据分析]
+    weight: 1.0
+
+  - id: devpost_hackathons
+    name: Devpost Hackathons
+    type: html_list
+    group: competition
+    source_pack: competition_pack
+    domain: competition
+    source_tier: experimental
+    enabled: true
+    list_url: "https://devpost.com/hackathons"
+    base_url: "https://devpost.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: Hackathon
+    tags: [Hackathon, 开发者, 创新赛]
+    weight: 0.95
+
+  - id: zindi_competitions
+    name: Zindi Competitions
+    type: html_list
+    group: competition
+    source_pack: competition_pack
+    domain: competition
+    source_tier: experimental
+    enabled: true
+    list_url: "https://zindi.africa/competitions"
+    base_url: "https://zindi.africa/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 数据竞赛
+    tags: [Zindi, 数据竞赛, AI]
+    weight: 0.95
+
+  - id: huggingface_competitions
+    name: Hugging Face Competitions
+    type: html_list
+    group: competition
+    source_pack: competition_pack
+    domain: competition
+    source_tier: experimental
+    enabled: true
+    list_url: "https://huggingface.co/spaces/competitions"
+    base_url: "https://huggingface.co/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: AI竞赛
+    tags: [HuggingFace, AI, 大模型, 竞赛]
+    weight: 0.95
+
+  - id: caai
+    name: 中国人工智能学会 CAAI
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: core
+    enabled: true
+    list_url: "https://www.caai.cn/"
+    base_url: "https://www.caai.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: AI学术活动
+    tags: [CAAI, 人工智能, 学术会议, 竞赛]
+    weight: 1.3
+
+  - id: acm_conferences
+    name: ACM Conferences
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: extended
+    enabled: true
+    list_url: "https://www.acm.org/conferences"
+    base_url: "https://www.acm.org/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 学术会议
+    tags: [ACM, 学术会议, 计算机]
+    weight: 1.1
+
+  - id: ieee_conferences
+    name: IEEE Conferences
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: extended
+    enabled: true
+    list_url: "https://www.ieee.org/conferences/"
+    base_url: "https://www.ieee.org/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 学术会议
+    tags: [IEEE, 学术会议, 工程]
+    weight: 1.1
+
+  - id: aaai_conference
+    name: AAAI Conference
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: core
+    enabled: true
+    list_url: "https://aaai.org/conference/"
+    base_url: "https://aaai.org/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: AI会议 / CFP
+    tags: [AAAI, AI, 学术会议, CFP]
+    weight: 1.25
+
+  - id: ijcai
+    name: IJCAI
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: core
+    enabled: true
+    list_url: "https://www.ijcai.org/"
+    base_url: "https://www.ijcai.org/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: AI会议 / CFP
+    tags: [IJCAI, AI, 学术会议, CFP]
+    weight: 1.25
+
+  - id: neurips
+    name: NeurIPS
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: core
+    enabled: true
+    list_url: "https://neurips.cc/"
+    base_url: "https://neurips.cc/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: AI会议 / CFP
+    tags: [NeurIPS, AI, 机器学习, CFP]
+    weight: 1.25
+
+  - id: iclr
+    name: ICLR
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: core
+    enabled: true
+    list_url: "https://iclr.cc/"
+    base_url: "https://iclr.cc/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: AI会议 / CFP
+    tags: [ICLR, AI, 深度学习, CFP]
+    weight: 1.25
+
+  - id: cvpr
+    name: CVPR
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: core
+    enabled: true
+    list_url: "https://cvpr.thecvf.com/"
+    base_url: "https://cvpr.thecvf.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 视觉会议 / Challenge
+    tags: [CVPR, 视觉, AI, Challenge]
+    weight: 1.25
+
+  - id: iccv
+    name: ICCV
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: core
+    enabled: true
+    list_url: "https://iccv.thecvf.com/"
+    base_url: "https://iccv.thecvf.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 视觉会议 / Challenge
+    tags: [ICCV, 视觉, AI, Challenge]
+    weight: 1.2
+
+  - id: eccv
+    name: ECCV
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: core
+    enabled: true
+    list_url: "https://eccv.ecva.net/"
+    base_url: "https://eccv.ecva.net/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 视觉会议 / Challenge
+    tags: [ECCV, 视觉, AI, Challenge]
+    weight: 1.2
+
+  - id: icra
+    name: ICRA
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: core
+    enabled: true
+    list_url: "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra"
+    base_url: "https://www.ieee-ras.org/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 机器人会议 / Challenge
+    tags: [ICRA, 机器人, 自动化, Challenge]
+    weight: 1.25
+
+  - id: iros
+    name: IROS
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: core
+    enabled: true
+    list_url: "https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros"
+    base_url: "https://www.ieee-ras.org/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 机器人会议 / Challenge
+    tags: [IROS, 机器人, 自动化, Challenge]
+    weight: 1.25
+
+  - id: siggraph
+    name: SIGGRAPH
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: extended
+    enabled: true
+    list_url: "https://www.siggraph.org/"
+    base_url: "https://www.siggraph.org/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 图形学会议
+    tags: [SIGGRAPH, 图形学, 视觉]
+    weight: 1.1
+
+  - id: acl_portal
+    name: ACL Anthology / Portal
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: extended
+    enabled: true
+    list_url: "https://www.aclweb.org/portal/"
+    base_url: "https://www.aclweb.org/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: NLP会议 / CFP
+    tags: [ACL, NLP, AI, CFP]
+    weight: 1.1
+
+  - id: acl_rolling_review
+    name: ACL Rolling Review
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: extended
+    enabled: true
+    list_url: "https://aclrollingreview.org/cfp"
+    base_url: "https://aclrollingreview.org/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: NLP会议 / CFP
+    tags: [ACL, NLP, CFP]
+    weight: 1.1
+
+  - id: openreview
+    name: OpenReview
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: experimental
+    enabled: true
+    list_url: "https://openreview.net/"
+    base_url: "https://openreview.net/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 学术投稿 / CFP
+    tags: [OpenReview, CFP, AI, 学术会议]
+    weight: 1.0
+
+  - id: nsfc
+    name: 国家自然科学基金委员会
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: extended
+    enabled: true
+    list_url: "https://www.nsfc.gov.cn/"
+    base_url: "https://www.nsfc.gov.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 科研基金 / 项目
+    tags: [基金, 科研项目, NSFC]
+    weight: 1.0
+
+  - id: most
+    name: 科学技术部
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: extended
+    enabled: true
+    list_url: "https://www.most.gov.cn/"
+    base_url: "https://www.most.gov.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 科研政策 / 项目
+    tags: [科技部, 科研项目, 政策]
+    weight: 0.95
+
+  - id: cast
+    name: 中国科协
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: extended
+    enabled: true
+    list_url: "https://www.cast.org.cn/"
+    base_url: "https://www.cast.org.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 科技活动 / 科研机会
+    tags: [中国科协, 科研, 科技活动]
+    weight: 0.95
+
+  - id: cac_conference
+    name: 中国自动化大会
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: core
+    enabled: true
+    list_url: "https://cac.org.cn/"
+    base_url: "https://cac.org.cn/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 自动化会议
+    tags: [中国自动化大会, 自动化, 控制, 机器人]
+    weight: 1.2
+
+  - id: ieee_ras
+    name: IEEE Robotics and Automation Society
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: extended
+    enabled: true
+    list_url: "https://www.ieee-ras.org/"
+    base_url: "https://www.ieee-ras.org/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 机器人学术活动
+    tags: [IEEE RAS, 机器人, 自动化]
+    weight: 1.1
+
+  - id: ieee_css
+    name: IEEE Control Systems Society
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: extended
+    enabled: true
+    list_url: "https://ieeecss.org/"
+    base_url: "https://ieeecss.org/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 控制学术活动
+    tags: [IEEE CSS, 控制, 自动化]
+    weight: 1.05
+
+  - id: aaai_workshops
+    name: AAAI Workshops
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: extended
+    enabled: true
+    list_url: "https://aaai.org/conference/aaai/aaai-workshops/"
+    base_url: "https://aaai.org/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: AI Workshop
+    tags: [AAAI, Workshop, AI, CFP]
+    weight: 1.05
+
+  - id: cvf_open_access
+    name: CVF Open Access
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: experimental
+    enabled: true
+    list_url: "https://openaccess.thecvf.com/"
+    base_url: "https://openaccess.thecvf.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: 视觉论文 / Challenge
+    tags: [CVF, 视觉, AI, Challenge]
+    weight: 0.95
+
+  - id: paperswithcode_sota
+    name: Papers with Code
+    type: html_list
+    group: academic
+    source_pack: research_pack
+    domain: research
+    source_tier: experimental
+    enabled: true
+    list_url: "https://paperswithcode.com/"
+    base_url: "https://paperswithcode.com/"
+    list_selector: "a"
+    link_selector: "a"
+    detail_required: false
+    max_items: 5
+    timeout: 5
+    category_hint: AI Benchmark / 论文
+    tags: [Papers with Code, Benchmark, AI]
+    weight: 0.9

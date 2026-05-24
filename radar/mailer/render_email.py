@@ -54,7 +54,16 @@ HTML_TEMPLATE = """
 
   <h2>系统状态</h2>
   <p>成功抓取：{{ run.successful_sources }} / {{ run.total_sources }} 个源；总候选：{{ run.total_items }}；入库新增：{{ run.new_items }}。</p>
+  {% if run.pack_stats %}
+  <h2>源覆盖状态</h2>
+  <ul>
+  {% for pack, stat in run.pack_stats.items() %}
+    <li>{{ pack }}：成功 {{ stat.successful }} / {{ stat.total }}，候选 {{ stat.items }}，新增 {{ stat.new_items }}</li>
+  {% endfor %}
+  </ul>
+  {% endif %}
   {% if failures %}
+  <h2>系统异常</h2>
   <ul>
   {% for failure in failures %}
     <li>{{ failure.source_name }}：{{ failure.error }}</li>
@@ -106,7 +115,8 @@ def deadline_label(item: Opportunity) -> str:
 def _render_item_html(item: Opportunity) -> str:
     env = Environment(autoescape=True)
     env.globals["deadline_label"] = deadline_label
-    return env.from_string(ITEM_TEMPLATE).render(item=item)
+    rendered = env.from_string(ITEM_TEMPLATE).render(item=item)
+    return "\n".join(line.rstrip() for line in rendered.splitlines())
 
 
 def _eligible(items: list[Opportunity], min_score: float) -> list[Opportunity]:
@@ -151,6 +161,7 @@ def render_email(
         categories=categories,
         failures=failures,
     )
+    html = "\n".join(line.rstrip() for line in html.splitlines()).strip() + "\n"
     text_lines = [
         title,
         f"新增 {run.new_items} 个机会，高优先级 {len(high)} 个，截止 7 天内 {len(urgent)} 个，失败源 {len(failures)} 个。",
@@ -168,6 +179,14 @@ def render_email(
             text_lines.append(f"   建议：{item.recommended_action}")
             if item.url:
                 text_lines.append(f"   链接：{item.url}")
+        text_lines.append("")
+    if run.pack_stats:
+        text_lines.append("源覆盖状态")
+        for pack, stat in run.pack_stats.items():
+            text_lines.append(
+                f"- {pack}: 成功 {stat.get('successful', 0)} / {stat.get('total', 0)}，"
+                f"候选 {stat.get('items', 0)}，新增 {stat.get('new_items', 0)}"
+            )
         text_lines.append("")
     if failures:
         text_lines.append("系统异常")
