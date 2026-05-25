@@ -72,6 +72,10 @@ jobs:
           RUN_MODE="${RUN_MODE:-daily}"
           HISTORY_LIMIT="${HISTORY_LIMIT:-0}"
           HISTORY_QUALITY_ONLY="${HISTORY_QUALITY_ONLY:-false}"
+          echo "Run mode: $RUN_MODE"
+          if [ "$RUN_MODE" = "quality" ]; then
+            echo "Quality report mode does not send email."
+          fi
           if [ -n "$SMTP_HOST" ] && [ -n "$SMTP_PORT" ] && [ -n "$SMTP_USER" ] && [ -n "$SMTP_PASS" ] && [ -n "$MAIL_FROM" ] && [ -n "$MAIL_TO" ]; then
             if [ "$RUN_MODE" = "history" ]; then
               HISTORY_ARGS=""

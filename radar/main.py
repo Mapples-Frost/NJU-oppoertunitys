@@ -254,7 +254,7 @@ def run(args: argparse.Namespace) -> int:
         _write_quality_logs(logs_dir, deduped, failures, include_rejected=args.include_rejected)
 
         rendered = render_email(
-            new_items,
+            deduped,
             run_summary,
             failures,
             config["email"],

@@ -68,7 +68,7 @@ V2 source packs：
 
 手动运行 workflow 时可以选择 `mode=history`，系统会从 `data/opportunities.sqlite` 读取历史库并发送一封历史机会汇总邮件。`history_limit=0` 表示发送全部历史机会；也可以填一个数字只发送分数最高的前 N 条。
 
-V3 开始每日邮件采用质量优先策略：正文只展示通过质量门的 Top 15，系统异常和低质候选进入日志。手动运行 workflow 时选择 `mode=quality` 可以只生成质量报告。
+V3 开始每日邮件采用质量优先策略：正文展示本次抓取中通过质量门的 Top 15，即使它们已经在历史库中也会进入当天日报；系统异常和低质候选进入日志。手动运行 workflow 时选择 `mode=quality` 只生成质量报告，不会发送邮件。
 
 邮件发送需要在 GitHub 仓库 Secrets 中配置：
 
