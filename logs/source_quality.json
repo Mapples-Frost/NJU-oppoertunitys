@@ -296,6 +296,19 @@
     }
   },
   {
+    "source_name": "CVF Open Access",
+    "source_pack": "research_pack",
+    "candidates": 4,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 4,
+    "source_id": "cvf_open_access",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 3,
+      "quality_score_below_threshold": 1
+    }
+  },
+  {
     "source_name": "DrivenData Competitions",
     "source_pack": "competition_pack",
     "candidates": 4,
