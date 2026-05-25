@@ -210,6 +210,18 @@
     }
   },
   {
+    "source_name": "LeetCode 竞赛",
+    "source_pack": "competition_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "leetcode_contest",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 5
+    }
+  },
+  {
     "source_name": "中国国际大学生创新大赛",
     "source_pack": "competition_pack",
     "candidates": 5,
