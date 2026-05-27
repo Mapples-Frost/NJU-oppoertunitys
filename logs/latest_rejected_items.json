@@ -368,13 +368,13 @@
     "quality_notes": "interest:AI; source_demoted"
   },
   {
-    "id": "ca1d553aac000153c00b74aad22f80b6",
-    "title": "97.7% 告警降噪：腾讯云安全运营Agent实践",
-    "url": "https://cloud.tencent.com/developer/article/2673100?policyId=20240000&frompage=homepage",
+    "id": "50b2d013b9ccafc50e37a5855797fd6b",
+    "title": "供应链控制塔 | 开发供应链数据聚合API，ERP/MES/WMS系统对接实践",
+    "url": "https://cloud.tencent.com/developer/article/2673590?policyId=20240000&frompage=homepage",
     "source_id": "tencent_cloud_developer",
     "source_name": "腾讯云开发者",
     "source_pack": "competition_pack",
-    "category": "企业开发者赛事",
+    "category": "机器人 / 自动化 / 智能车",
     "score": 20.0,
     "quality_status": "rejected",
     "quality_score": 8.0,
