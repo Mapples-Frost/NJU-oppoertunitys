@@ -1,17 +1,17 @@
 {
-  "total_items": 183,
+  "total_items": 180,
   "accepted": 11,
   "demoted": 0,
-  "rejected": 172,
+  "rejected": 169,
   "reject_reasons": {
-    "not_actionable_or_not_relevant": 88,
-    "quality_score_below_threshold": 55,
+    "not_actionable_or_not_relevant": 89,
+    "quality_score_below_threshold": 51,
     "hard_reject_url": 15,
     "hard_reject_term": 7,
     "product_or_marketing_page": 5,
     "generic_listing_page": 2
   },
-  "failed_sources": 34,
+  "failed_sources": 35,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -185,6 +185,19 @@
       }
     },
     {
+      "source_name": "CVF Open Access",
+      "source_pack": "research_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "cvf_open_access",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 4,
+        "quality_score_below_threshold": 1
+      }
+    },
+    {
       "source_name": "Devpost Hackathons",
       "source_pack": "competition_pack",
       "candidates": 5,
@@ -310,19 +323,6 @@
       }
     },
     {
-      "source_name": "CVF Open Access",
-      "source_pack": "research_pack",
-      "candidates": 4,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 4,
-      "source_id": "cvf_open_access",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 3,
-        "quality_score_below_threshold": 1
-      }
-    },
-    {
       "source_name": "DrivenData Competitions",
       "source_pack": "competition_pack",
       "candidates": 4,
@@ -330,18 +330,6 @@
       "demoted": 0,
       "rejected": 4,
       "source_id": "drivendata_competitions",
-      "reject_reasons": {
-        "quality_score_below_threshold": 4
-      }
-    },
-    {
-      "source_name": "中国研究生创新实践系列大赛",
-      "source_pack": "competition_pack",
-      "candidates": 4,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 4,
-      "source_id": "graduate_innovation_competition",
       "reject_reasons": {
         "quality_score_below_threshold": 4
       }
