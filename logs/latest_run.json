@@ -1,13 +1,13 @@
 {
-  "id": "20260528035155",
-  "started_at": "2026-05-28T03:51:55+00:00",
-  "finished_at": "2026-05-28T03:54:18+00:00",
+  "id": "20260529035330",
+  "started_at": "2026-05-29T03:53:30+00:00",
+  "finished_at": "2026-05-29T03:55:11+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 47,
-  "failed_sources": 35,
-  "total_items": 232,
-  "new_items": 2,
+  "successful_sources": 48,
+  "failed_sources": 34,
+  "total_items": 237,
+  "new_items": 3,
   "emailed_items": 11,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -157,7 +157,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fbf6bc3b690>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f9941002790>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -216,13 +216,6 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "graduate_innovation_competition",
-      "source_name": "中国研究生创新实践系列大赛",
-      "source_pack": "competition_pack",
-      "domain": "competition",
-      "error": "Response ended prematurely"
-    },
-    {
       "source_id": "cumcm",
       "source_name": "全国大学生数学建模竞赛",
       "source_pack": "competition_pack",
@@ -275,9 +268,9 @@
     },
     "competition_pack": {
       "total": 38,
-      "successful": 20,
-      "failed": 18,
-      "items": 118,
+      "successful": 21,
+      "failed": 17,
+      "items": 123,
       "new_items": 1
     },
     "research_pack": {
@@ -285,7 +278,7 @@
       "successful": 22,
       "failed": 8,
       "items": 113,
-      "new_items": 1
+      "new_items": 2
     }
   }
 }

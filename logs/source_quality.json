@@ -140,8 +140,7 @@
     "rejected": 5,
     "source_id": "challenge_cup",
     "reject_reasons": {
-      "not_actionable_or_not_relevant": 4,
-      "quality_score_below_threshold": 1
+      "not_actionable_or_not_relevant": 5
     }
   },
   {
@@ -316,6 +315,18 @@
     "demoted": 0,
     "rejected": 4,
     "source_id": "drivendata_competitions",
+    "reject_reasons": {
+      "quality_score_below_threshold": 4
+    }
+  },
+  {
+    "source_name": "中国研究生创新实践系列大赛",
+    "source_pack": "competition_pack",
+    "candidates": 4,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 4,
+    "source_id": "graduate_innovation_competition",
     "reject_reasons": {
       "quality_score_below_threshold": 4
     }
