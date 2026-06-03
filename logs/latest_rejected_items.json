@@ -368,20 +368,20 @@
     "quality_notes": "interest:AI; source_demoted"
   },
   {
-    "id": "6031e19ad3e9aa2d5f4605eb4c962caa",
-    "title": "IM分布式架构系列(06) \"撤回了一条消息\"后 | 系统如何\"买单\"",
-    "url": "https://cloud.tencent.com/developer/article/2675964?policyId=20240000&frompage=homepage",
+    "id": "d3cfe3cce354aabbb2a73cfc6ff86f38",
+    "title": "一句话出「资源水位 + 成本健康」综合巡检报告：CloudQ 灵感卡片实操体验",
+    "url": "https://cloud.tencent.com/developer/article/2680587?policyId=20240000&frompage=homepage",
     "source_id": "tencent_cloud_developer",
     "source_name": "腾讯云开发者",
     "source_pack": "competition_pack",
     "category": "企业开发者赛事",
     "score": 20.0,
     "quality_status": "rejected",
-    "quality_score": 8.0,
+    "quality_score": 4.0,
     "actionability_score": 0.0,
     "audience_fit_score": 4.0,
     "reject_reason": "not_actionable_or_not_relevant",
-    "quality_notes": "interest:AI; source_demoted"
+    "quality_notes": "interest:AI; source_demoted; demote:报告"
   },
   {
     "id": "16e99cc00c2f51c0333a4f2a2c62cf73",

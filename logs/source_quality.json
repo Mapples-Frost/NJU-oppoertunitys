@@ -116,7 +116,8 @@
     "rejected": 5,
     "source_id": "caai",
     "reject_reasons": {
-      "hard_reject_term": 5
+      "hard_reject_term": 4,
+      "hard_reject_url": 1
     }
   },
   {
@@ -353,6 +354,19 @@
     "source_id": "robomaster",
     "reject_reasons": {
       "quality_score_below_threshold": 4
+    }
+  },
+  {
+    "source_name": "SIGGRAPH",
+    "source_pack": "research_pack",
+    "candidates": 4,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 4,
+    "source_id": "siggraph",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 3,
+      "hard_reject_url": 1
     }
   },
   {
