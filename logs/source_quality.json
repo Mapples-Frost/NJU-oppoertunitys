@@ -357,19 +357,6 @@
     }
   },
   {
-    "source_name": "SIGGRAPH",
-    "source_pack": "research_pack",
-    "candidates": 4,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 4,
-    "source_id": "siggraph",
-    "reject_reasons": {
-      "not_actionable_or_not_relevant": 3,
-      "hard_reject_url": 1
-    }
-  },
-  {
     "source_name": "ACL Rolling Review",
     "source_pack": "research_pack",
     "candidates": 4,

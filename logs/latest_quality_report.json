@@ -1,17 +1,17 @@
 {
-  "total_items": 185,
+  "total_items": 181,
   "accepted": 11,
   "demoted": 0,
-  "rejected": 174,
+  "rejected": 170,
   "reject_reasons": {
-    "not_actionable_or_not_relevant": 91,
+    "not_actionable_or_not_relevant": 88,
     "quality_score_below_threshold": 54,
-    "hard_reject_url": 16,
+    "hard_reject_url": 15,
     "hard_reject_term": 6,
     "product_or_marketing_page": 5,
     "generic_listing_page": 2
   },
-  "failed_sources": 34,
+  "failed_sources": 35,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -368,19 +368,6 @@
       "source_id": "robomaster",
       "reject_reasons": {
         "quality_score_below_threshold": 4
-      }
-    },
-    {
-      "source_name": "SIGGRAPH",
-      "source_pack": "research_pack",
-      "candidates": 4,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 4,
-      "source_id": "siggraph",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 3,
-        "hard_reject_url": 1
       }
     },
     {
