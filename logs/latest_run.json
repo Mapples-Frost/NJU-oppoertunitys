@@ -1,13 +1,13 @@
 {
-  "id": "20260604041638",
-  "started_at": "2026-06-04T04:16:38+00:00",
-  "finished_at": "2026-06-04T04:19:01+00:00",
+  "id": "20260605040047",
+  "started_at": "2026-06-05T04:00:47+00:00",
+  "finished_at": "2026-06-05T04:02:56+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 47,
-  "failed_sources": 35,
-  "total_items": 232,
-  "new_items": 2,
+  "successful_sources": 48,
+  "failed_sources": 34,
+  "total_items": 237,
+  "new_items": 1,
   "emailed_items": 11,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -157,7 +157,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f5512890ad0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f11535ed590>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -237,13 +237,6 @@
       "error": "418 Client Error: Unknown Code for url: https://www.ieee.org/conferences/"
     },
     {
-      "source_id": "siggraph",
-      "source_name": "SIGGRAPH",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.siggraph.org', port=443): Read timed out. (read timeout=5)"
-    },
-    {
       "source_id": "most",
       "source_name": "科学技术部",
       "source_pack": "research_pack",
@@ -282,10 +275,10 @@
     },
     "research_pack": {
       "total": 30,
-      "successful": 21,
-      "failed": 9,
-      "items": 108,
-      "new_items": 1
+      "successful": 22,
+      "failed": 8,
+      "items": 113,
+      "new_items": 0
     }
   }
 }
