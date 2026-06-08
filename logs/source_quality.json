@@ -81,6 +81,19 @@
     }
   },
   {
+    "source_name": "ACL Anthology / Portal",
+    "source_pack": "research_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "acl_portal",
+    "reject_reasons": {
+      "quality_score_below_threshold": 4,
+      "hard_reject_url": 1
+    }
+  },
+  {
     "source_name": "AIcrowd Challenges",
     "source_pack": "competition_pack",
     "candidates": 5,
@@ -92,6 +105,19 @@
       "not_actionable_or_not_relevant": 3,
       "generic_listing_page": 1,
       "quality_score_below_threshold": 1
+    }
+  },
+  {
+    "source_name": "中国人工智能学会 CAAI",
+    "source_pack": "research_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "caai",
+    "reject_reasons": {
+      "hard_reject_term": 4,
+      "hard_reject_url": 1
     }
   },
   {
@@ -155,6 +181,19 @@
     "reject_reasons": {
       "not_actionable_or_not_relevant": 4,
       "quality_score_below_threshold": 1
+    }
+  },
+  {
+    "source_name": "Devpost Hackathons",
+    "source_pack": "competition_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "devpost_hackathons",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 4,
+      "hard_reject_url": 1
     }
   },
   {
@@ -294,6 +333,18 @@
     }
   },
   {
+    "source_name": "Hugging Face Competitions; Papers with Code",
+    "source_pack": "competition_pack",
+    "candidates": 4,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 4,
+    "source_id": "huggingface_competitions",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 4
+    }
+  },
+  {
     "source_name": "RoboMaster",
     "source_pack": "competition_pack",
     "candidates": 4,
@@ -393,6 +444,18 @@
     }
   },
   {
+    "source_name": "AtCoder Contests",
+    "source_pack": "competition_pack",
+    "candidates": 1,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 1,
+    "source_id": "atcoder_contests",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 1
+    }
+  },
+  {
     "source_name": "CVPR",
     "source_pack": "research_pack",
     "candidates": 1,
@@ -405,13 +468,13 @@
     }
   },
   {
-    "source_name": "ICRA; IROS; IEEE Robotics and Automation Society",
+    "source_name": "IROS; IEEE Robotics and Automation Society",
     "source_pack": "research_pack",
     "candidates": 1,
     "accepted": 0,
     "demoted": 0,
     "rejected": 1,
-    "source_id": "icra",
+    "source_id": "iros",
     "reject_reasons": {
       "quality_score_below_threshold": 1
     }

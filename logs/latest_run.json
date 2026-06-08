@@ -1,13 +1,13 @@
 {
-  "id": "20260607041036",
-  "started_at": "2026-06-07T04:10:36+00:00",
-  "finished_at": "2026-06-07T04:13:00+00:00",
+  "id": "20260608041500",
+  "started_at": "2026-06-08T04:15:00+00:00",
+  "finished_at": "2026-06-08T04:16:54+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 42,
-  "failed_sources": 40,
-  "total_items": 207,
-  "new_items": 0,
+  "successful_sources": 47,
+  "failed_sources": 35,
+  "total_items": 232,
+  "new_items": 1,
   "emailed_items": 11,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -157,7 +157,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f1516290910>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f5dc09d5b50>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -178,7 +178,7 @@
       "source_name": "中国图象图形学学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "403 Client Error: Forbidden for url: https://www.csig.org.cn/"
     },
     {
       "source_id": "ccf_c4",
@@ -209,13 +209,6 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "atcoder_contests",
-      "source_name": "AtCoder Contests",
-      "source_pack": "competition_pack",
-      "domain": "competition",
-      "error": "403 Client Error: Forbidden for url: https://atcoder.jp/contests/"
-    },
-    {
       "source_id": "icpc_global",
       "source_name": "ICPC Global",
       "source_pack": "competition_pack",
@@ -230,27 +223,6 @@
       "error": "HTTPSConnectionPool(host='www.mcm.edu.cn', port=443): Read timed out. (read timeout=5)"
     },
     {
-      "source_id": "devpost_hackathons",
-      "source_name": "Devpost Hackathons",
-      "source_pack": "competition_pack",
-      "domain": "competition",
-      "error": "403 Client Error: Forbidden for url: https://devpost.com/hackathons"
-    },
-    {
-      "source_id": "huggingface_competitions",
-      "source_name": "Hugging Face Competitions",
-      "source_pack": "competition_pack",
-      "domain": "competition",
-      "error": "429 Client Error: Too Many Requests for url: https://huggingface.co/spaces/competitions"
-    },
-    {
-      "source_id": "caai",
-      "source_name": "中国人工智能学会 CAAI",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-    },
-    {
       "source_id": "acm_conferences",
       "source_name": "ACM Conferences",
       "source_pack": "research_pack",
@@ -262,14 +234,14 @@
       "source_name": "IEEE Conferences",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "403 Client Error: Forbidden for url: https://www.ieee.org/conferences/"
+      "error": "418 Client Error: Unknown Code for url: https://www.ieee.org/conferences/"
     },
     {
-      "source_id": "acl_portal",
-      "source_name": "ACL Anthology / Portal",
+      "source_id": "icra",
+      "source_name": "ICRA",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "403 Client Error: Forbidden for url: https://www.aclweb.org/portal/"
+      "error": "HTTPSConnectionPool(host='www.ieee-ras.org', port=443): Read timed out. (read timeout=5)"
     },
     {
       "source_id": "most",
@@ -284,13 +256,6 @@
       "source_pack": "research_pack",
       "domain": "research",
       "error": "404 Client Error: Not Found for url: https://aaai.org/conference/aaai/aaai-workshops/"
-    },
-    {
-      "source_id": "paperswithcode_sota",
-      "source_name": "Papers with Code",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "429 Client Error: Too Many Requests for url: https://huggingface.co/papers/trending"
     }
   ],
   "pack_stats": {
@@ -310,17 +275,17 @@
     },
     "competition_pack": {
       "total": 38,
-      "successful": 18,
-      "failed": 20,
-      "items": 108,
+      "successful": 21,
+      "failed": 17,
+      "items": 123,
       "new_items": 0
     },
     "research_pack": {
       "total": 30,
-      "successful": 19,
-      "failed": 11,
-      "items": 98,
-      "new_items": 0
+      "successful": 21,
+      "failed": 9,
+      "items": 108,
+      "new_items": 1
     }
   }
 }
