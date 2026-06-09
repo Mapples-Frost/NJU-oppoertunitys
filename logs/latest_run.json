@@ -1,13 +1,13 @@
 {
-  "id": "20260608041500",
-  "started_at": "2026-06-08T04:15:00+00:00",
-  "finished_at": "2026-06-08T04:16:54+00:00",
+  "id": "20260609034306",
+  "started_at": "2026-06-09T03:43:06+00:00",
+  "finished_at": "2026-06-09T03:45:24+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 47,
-  "failed_sources": 35,
-  "total_items": 232,
-  "new_items": 1,
+  "successful_sources": 48,
+  "failed_sources": 34,
+  "total_items": 236,
+  "new_items": 11,
   "emailed_items": 11,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -83,13 +83,6 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "xfyun_challenge",
-      "source_name": "科大讯飞 AI 开发者大赛",
-      "source_pack": "competition_pack",
-      "domain": "competition",
-      "error": "no list items matched"
-    },
-    {
       "source_id": "lanqiao",
       "source_name": "蓝桥杯",
       "source_pack": "competition_pack",
@@ -157,7 +150,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f5dc09d5b50>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f1adbaf7010>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -237,11 +230,11 @@
       "error": "418 Client Error: Unknown Code for url: https://www.ieee.org/conferences/"
     },
     {
-      "source_id": "icra",
-      "source_name": "ICRA",
+      "source_id": "ijcai",
+      "source_name": "IJCAI",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.ieee-ras.org', port=443): Read timed out. (read timeout=5)"
+      "error": "HTTPSConnectionPool(host='www.ijcai.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ijcai.org', port=443) at 0x7f1adb6ea310>, 'Connection to www.ijcai.org timed out. (connect timeout=5)'))"
     },
     {
       "source_id": "most",
@@ -275,17 +268,17 @@
     },
     "competition_pack": {
       "total": 38,
-      "successful": 21,
-      "failed": 17,
-      "items": 123,
-      "new_items": 0
+      "successful": 22,
+      "failed": 16,
+      "items": 127,
+      "new_items": 6
     },
     "research_pack": {
       "total": 30,
       "successful": 21,
       "failed": 9,
       "items": 108,
-      "new_items": 1
+      "new_items": 5
     }
   }
 }

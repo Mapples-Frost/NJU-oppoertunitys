@@ -197,19 +197,6 @@
     }
   },
   {
-    "source_name": "IJCAI",
-    "source_pack": "research_pack",
-    "candidates": 5,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 5,
-    "source_id": "ijcai",
-    "reject_reasons": {
-      "quality_score_below_threshold": 4,
-      "hard_reject_url": 1
-    }
-  },
-  {
     "source_name": "LeetCode 竞赛",
     "source_pack": "competition_pack",
     "candidates": 5,
@@ -370,6 +357,19 @@
     }
   },
   {
+    "source_name": "科大讯飞 AI 开发者大赛",
+    "source_pack": "competition_pack",
+    "candidates": 4,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 4,
+    "source_id": "xfyun_challenge",
+    "reject_reasons": {
+      "quality_score_below_threshold": 3,
+      "not_actionable_or_not_relevant": 1
+    }
+  },
+  {
     "source_name": "ACL Rolling Review",
     "source_pack": "research_pack",
     "candidates": 4,
@@ -468,13 +468,13 @@
     }
   },
   {
-    "source_name": "IROS; IEEE Robotics and Automation Society",
+    "source_name": "ICRA; IROS; IEEE Robotics and Automation Society",
     "source_pack": "research_pack",
     "candidates": 1,
     "accepted": 0,
     "demoted": 0,
     "rejected": 1,
-    "source_id": "iros",
+    "source_id": "icra",
     "reject_reasons": {
       "quality_score_below_threshold": 1
     }
