@@ -108,19 +108,6 @@
     }
   },
   {
-    "source_name": "中国人工智能学会 CAAI",
-    "source_pack": "research_pack",
-    "candidates": 5,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 5,
-    "source_id": "caai",
-    "reject_reasons": {
-      "hard_reject_term": 4,
-      "hard_reject_url": 1
-    }
-  },
-  {
     "source_name": "中国科协",
     "source_pack": "research_pack",
     "candidates": 5,
@@ -432,6 +419,19 @@
     }
   },
   {
+    "source_name": "AtCoder Contests",
+    "source_pack": "competition_pack",
+    "candidates": 2,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 2,
+    "source_id": "atcoder_contests",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 1,
+      "hard_reject_term": 1
+    }
+  },
+  {
     "source_name": "ICLR",
     "source_pack": "research_pack",
     "candidates": 2,
@@ -454,18 +454,6 @@
     "source_id": "xiaomi_developer",
     "reject_reasons": {
       "not_actionable_or_not_relevant": 2
-    }
-  },
-  {
-    "source_name": "AtCoder Contests",
-    "source_pack": "competition_pack",
-    "candidates": 1,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 1,
-    "source_id": "atcoder_contests",
-    "reject_reasons": {
-      "not_actionable_or_not_relevant": 1
     }
   },
   {

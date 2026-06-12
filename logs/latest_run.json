@@ -1,13 +1,13 @@
 {
-  "id": "20260611041125",
-  "started_at": "2026-06-11T04:11:25+00:00",
-  "finished_at": "2026-06-11T04:13:48+00:00",
+  "id": "20260612041245",
+  "started_at": "2026-06-12T04:12:45+00:00",
+  "finished_at": "2026-06-12T04:14:56+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 49,
-  "failed_sources": 33,
-  "total_items": 241,
-  "new_items": 2,
+  "successful_sources": 48,
+  "failed_sources": 34,
+  "total_items": 236,
+  "new_items": 4,
   "emailed_items": 11,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -150,7 +150,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fb342ce2050>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f39f40938d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -171,7 +171,7 @@
       "source_name": "中国图象图形学学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "403 Client Error: Forbidden for url: https://www.csig.org.cn/"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "source_id": "ccf_c4",
@@ -214,6 +214,13 @@
       "source_pack": "competition_pack",
       "domain": "competition",
       "error": "HTTPSConnectionPool(host='www.mcm.edu.cn', port=443): Read timed out. (read timeout=5)"
+    },
+    {
+      "source_id": "caai",
+      "source_name": "中国人工智能学会 CAAI",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "source_id": "acm_conferences",
@@ -268,10 +275,10 @@
     },
     "research_pack": {
       "total": 30,
-      "successful": 22,
-      "failed": 8,
-      "items": 113,
-      "new_items": 0
+      "successful": 21,
+      "failed": 9,
+      "items": 108,
+      "new_items": 2
     }
   }
 }
