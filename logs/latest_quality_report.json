@@ -1,17 +1,17 @@
 {
-  "total_items": 189,
-  "accepted": 11,
+  "total_items": 227,
+  "accepted": 12,
   "demoted": 0,
-  "rejected": 178,
+  "rejected": 215,
   "reject_reasons": {
-    "not_actionable_or_not_relevant": 91,
-    "quality_score_below_threshold": 58,
-    "hard_reject_url": 16,
-    "hard_reject_term": 6,
+    "quality_score_below_threshold": 103,
+    "not_actionable_or_not_relevant": 87,
+    "hard_reject_url": 15,
     "product_or_marketing_page": 5,
+    "hard_reject_term": 3,
     "generic_listing_page": 2
   },
-  "failed_sources": 33,
+  "failed_sources": 28,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -38,6 +38,30 @@
       "reject_reasons": {
         "not_actionable_or_not_relevant": 7,
         "hard_reject_term": 1
+      }
+    },
+    {
+      "source_name": "南京大学人工智能学院",
+      "source_pack": "nju_pack",
+      "candidates": 8,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 8,
+      "source_id": "nju_ai",
+      "reject_reasons": {
+        "quality_score_below_threshold": 8
+      }
+    },
+    {
+      "source_name": "南京大学软件学院",
+      "source_pack": "nju_pack",
+      "candidates": 8,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 8,
+      "source_id": "nju_software",
+      "reject_reasons": {
+        "quality_score_below_threshold": 8
       }
     },
     {
@@ -70,6 +94,43 @@
       }
     },
     {
+      "source_name": "南京大学电子科学与工程学院",
+      "source_pack": "nju_pack",
+      "candidates": 7,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 7,
+      "source_id": "nju_ese",
+      "reject_reasons": {
+        "quality_score_below_threshold": 7
+      }
+    },
+    {
+      "source_name": "南京大学本科生院",
+      "source_pack": "nju_pack",
+      "candidates": 8,
+      "accepted": 1,
+      "demoted": 0,
+      "rejected": 7,
+      "source_id": "nju_undergraduate",
+      "reject_reasons": {
+        "quality_score_below_threshold": 7
+      }
+    },
+    {
+      "source_name": "南京大学团委; 中国研究生创新实践系列大赛; 中国自动化大会",
+      "source_pack": "nju_pack",
+      "candidates": 7,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 7,
+      "source_id": "nju_youth",
+      "reject_reasons": {
+        "quality_score_below_threshold": 6,
+        "hard_reject_term": 1
+      }
+    },
+    {
       "source_name": "腾讯云开发者",
       "source_pack": "competition_pack",
       "candidates": 7,
@@ -80,6 +141,18 @@
       "reject_reasons": {
         "not_actionable_or_not_relevant": 6,
         "quality_score_below_threshold": 1
+      }
+    },
+    {
+      "source_name": "南京大学计算机学院; 南京大学电子科学与工程学院; 南京大学现代工程与应用科学学院",
+      "source_pack": "nju_pack",
+      "candidates": 6,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 6,
+      "source_id": "nju_cs",
+      "reject_reasons": {
+        "quality_score_below_threshold": 6
       }
     },
     {
@@ -120,19 +193,6 @@
         "not_actionable_or_not_relevant": 3,
         "generic_listing_page": 1,
         "quality_score_below_threshold": 1
-      }
-    },
-    {
-      "source_name": "中国人工智能学会 CAAI",
-      "source_pack": "research_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "caai",
-      "reject_reasons": {
-        "hard_reject_term": 4,
-        "hard_reject_url": 1
       }
     },
     {
@@ -183,19 +243,6 @@
       "reject_reasons": {
         "not_actionable_or_not_relevant": 4,
         "generic_listing_page": 1
-      }
-    },
-    {
-      "source_name": "CVF Open Access",
-      "source_pack": "research_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "cvf_open_access",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 4,
-        "quality_score_below_threshold": 1
       }
     },
     {
@@ -276,6 +323,31 @@
       }
     },
     {
+      "source_name": "南京大学现代工程与应用科学学院",
+      "source_pack": "nju_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "nju_engineering",
+      "reject_reasons": {
+        "quality_score_below_threshold": 4,
+        "hard_reject_term": 1
+      }
+    },
+    {
+      "source_name": "南京大学研究生院",
+      "source_pack": "nju_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "nju_graduate",
+      "reject_reasons": {
+        "quality_score_below_threshold": 5
+      }
+    },
+    {
       "source_name": "国家自然科学基金委员会",
       "source_pack": "research_pack",
       "candidates": 5,
@@ -295,18 +367,6 @@
       "demoted": 0,
       "rejected": 5,
       "source_id": "openreview",
-      "reject_reasons": {
-        "quality_score_below_threshold": 5
-      }
-    },
-    {
-      "source_name": "Robocon 中国",
-      "source_pack": "competition_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "robocon_china",
       "reject_reasons": {
         "quality_score_below_threshold": 5
       }
@@ -410,19 +470,6 @@
       }
     },
     {
-      "source_name": "中国自动化大会",
-      "source_pack": "research_pack",
-      "candidates": 5,
-      "accepted": 2,
-      "demoted": 0,
-      "rejected": 3,
-      "source_id": "cac_conference",
-      "reject_reasons": {
-        "quality_score_below_threshold": 2,
-        "hard_reject_term": 1
-      }
-    },
-    {
       "source_name": "ECCV",
       "source_pack": "research_pack",
       "candidates": 3,
@@ -444,6 +491,18 @@
       "source_id": "iccv",
       "reject_reasons": {
         "not_actionable_or_not_relevant": 3
+      }
+    },
+    {
+      "source_name": "中国自动化大会",
+      "source_pack": "research_pack",
+      "candidates": 4,
+      "accepted": 2,
+      "demoted": 0,
+      "rejected": 2,
+      "source_id": "cac_conference",
+      "reject_reasons": {
+        "quality_score_below_threshold": 2
       }
     },
     {
@@ -706,6 +765,22 @@
       "audience_fit_score": 8.0,
       "reject_reason": "",
       "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:数据竞赛; source_preferred"
+    },
+    {
+      "id": "d64cf3d58603e0002d26bdbb9d60b184",
+      "title": "教学信息网",
+      "url": "https://jw.nju.edu.cn/main.htm",
+      "source_id": "nju_undergraduate",
+      "source_name": "南京大学本科生院",
+      "source_pack": "nju_pack",
+      "category": "大创 / 科研训练 / 项目招募",
+      "score": 44.0,
+      "quality_status": "accepted",
+      "quality_score": 45.0,
+      "actionability_score": 0.0,
+      "audience_fit_score": 34.0,
+      "reject_reason": "",
+      "quality_notes": "interest:AI; interest:科研训练; interest:大创; interest:南京大学; audience:本科生; audience:南京大学"
     }
   ]
 }
