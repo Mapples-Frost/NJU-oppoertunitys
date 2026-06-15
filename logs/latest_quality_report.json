@@ -1,17 +1,17 @@
 {
-  "total_items": 227,
+  "total_items": 240,
   "accepted": 12,
   "demoted": 0,
-  "rejected": 215,
+  "rejected": 228,
   "reject_reasons": {
-    "quality_score_below_threshold": 103,
-    "not_actionable_or_not_relevant": 87,
+    "quality_score_below_threshold": 108,
+    "not_actionable_or_not_relevant": 92,
     "hard_reject_url": 15,
+    "hard_reject_term": 6,
     "product_or_marketing_page": 5,
-    "hard_reject_term": 3,
     "generic_listing_page": 2
   },
-  "failed_sources": 28,
+  "failed_sources": 25,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -139,8 +139,7 @@
       "rejected": 7,
       "source_id": "tencent_cloud_developer",
       "reject_reasons": {
-        "not_actionable_or_not_relevant": 6,
-        "quality_score_below_threshold": 1
+        "not_actionable_or_not_relevant": 7
       }
     },
     {
@@ -243,6 +242,19 @@
       "reject_reasons": {
         "not_actionable_or_not_relevant": 4,
         "generic_listing_page": 1
+      }
+    },
+    {
+      "source_name": "CVF Open Access",
+      "source_pack": "research_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "cvf_open_access",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 4,
+        "quality_score_below_threshold": 1
       }
     },
     {
@@ -372,6 +384,18 @@
       }
     },
     {
+      "source_name": "Robocon 中国",
+      "source_pack": "competition_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "robocon_china",
+      "reject_reasons": {
+        "quality_score_below_threshold": 5
+      }
+    },
+    {
       "source_name": "Zindi Competitions",
       "source_pack": "competition_pack",
       "candidates": 5,
@@ -467,6 +491,18 @@
       "source_id": "acl_rolling_review",
       "reject_reasons": {
         "not_actionable_or_not_relevant": 3
+      }
+    },
+    {
+      "source_name": "中国人工智能学会 CAAI",
+      "source_pack": "research_pack",
+      "candidates": 3,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 3,
+      "source_id": "caai",
+      "reject_reasons": {
+        "hard_reject_term": 3
       }
     },
     {
