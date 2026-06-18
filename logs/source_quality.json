@@ -125,7 +125,8 @@
     "rejected": 7,
     "source_id": "tencent_cloud_developer",
     "reject_reasons": {
-      "not_actionable_or_not_relevant": 7
+      "not_actionable_or_not_relevant": 6,
+      "product_or_marketing_page": 1
     }
   },
   {
@@ -477,18 +478,6 @@
     "source_id": "acl_rolling_review",
     "reject_reasons": {
       "not_actionable_or_not_relevant": 3
-    }
-  },
-  {
-    "source_name": "中国人工智能学会 CAAI",
-    "source_pack": "research_pack",
-    "candidates": 3,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 3,
-    "source_id": "caai",
-    "reject_reasons": {
-      "hard_reject_term": 3
     }
   },
   {
