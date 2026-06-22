@@ -1,13 +1,13 @@
 {
-  "id": "20260621042541",
-  "started_at": "2026-06-21T04:25:41+00:00",
-  "finished_at": "2026-06-21T04:27:40+00:00",
+  "id": "20260622044151",
+  "started_at": "2026-06-22T04:41:51+00:00",
+  "finished_at": "2026-06-22T04:43:55+00:00",
   "status": "success",
   "total_sources": 82,
   "successful_sources": 56,
   "failed_sources": 26,
   "total_items": 300,
-  "new_items": 0,
+  "new_items": 2,
   "emailed_items": 11,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -94,7 +94,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fb86f336a90>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fec08904cd0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -115,7 +115,7 @@
       "source_name": "中国图象图形学学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "403 Client Error: Forbidden for url: https://www.csig.org.cn/"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "source_id": "ccf_c4",
@@ -153,18 +153,18 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "graduate_innovation_competition",
-      "source_name": "中国研究生创新实践系列大赛",
-      "source_pack": "competition_pack",
-      "domain": "competition",
-      "error": "HTTPSConnectionPool(host='cpipc.acge.org.cn', port=443): Read timed out. (read timeout=5)"
-    },
-    {
       "source_id": "cumcm",
       "source_name": "全国大学生数学建模竞赛",
       "source_pack": "competition_pack",
       "domain": "competition",
       "error": "HTTPSConnectionPool(host='www.mcm.edu.cn', port=443): Read timed out. (read timeout=5)"
+    },
+    {
+      "source_id": "caai",
+      "source_name": "中国人工智能学会 CAAI",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "HTTPSConnectionPool(host='www.caai.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caai.cn', port=443) at 0x7fec0774f5d0>, 'Connection to www.caai.cn timed out. (connect timeout=5)'))"
     },
     {
       "source_id": "acm_conferences",
@@ -212,16 +212,16 @@
     },
     "competition_pack": {
       "total": 38,
-      "successful": 21,
-      "failed": 17,
-      "items": 122,
-      "new_items": 0
+      "successful": 22,
+      "failed": 16,
+      "items": 127,
+      "new_items": 2
     },
     "research_pack": {
       "total": 30,
-      "successful": 22,
-      "failed": 8,
-      "items": 113,
+      "successful": 21,
+      "failed": 9,
+      "items": 108,
       "new_items": 0
     }
   }
