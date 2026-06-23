@@ -1,17 +1,17 @@
 {
-  "total_items": 237,
+  "total_items": 232,
   "accepted": 12,
   "demoted": 0,
-  "rejected": 225,
+  "rejected": 220,
   "reject_reasons": {
-    "quality_score_below_threshold": 108,
-    "not_actionable_or_not_relevant": 92,
+    "quality_score_below_threshold": 107,
+    "not_actionable_or_not_relevant": 88,
     "hard_reject_url": 15,
     "product_or_marketing_page": 5,
     "hard_reject_term": 3,
     "generic_listing_page": 2
   },
-  "failed_sources": 26,
+  "failed_sources": 27,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -242,19 +242,6 @@
       "reject_reasons": {
         "not_actionable_or_not_relevant": 4,
         "generic_listing_page": 1
-      }
-    },
-    {
-      "source_name": "CVF Open Access",
-      "source_pack": "research_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "cvf_open_access",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 4,
-        "quality_score_below_threshold": 1
       }
     },
     {

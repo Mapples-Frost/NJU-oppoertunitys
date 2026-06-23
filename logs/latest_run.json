@@ -1,13 +1,13 @@
 {
-  "id": "20260622044151",
-  "started_at": "2026-06-22T04:41:51+00:00",
-  "finished_at": "2026-06-22T04:43:55+00:00",
+  "id": "20260623034640",
+  "started_at": "2026-06-23T03:46:40+00:00",
+  "finished_at": "2026-06-23T03:48:47+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 56,
-  "failed_sources": 26,
-  "total_items": 300,
-  "new_items": 2,
+  "successful_sources": 55,
+  "failed_sources": 27,
+  "total_items": 295,
+  "new_items": 1,
   "emailed_items": 11,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -94,7 +94,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fec08904cd0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f9c7a0e5010>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -164,7 +164,7 @@
       "source_name": "中国人工智能学会 CAAI",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caai.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caai.cn', port=443) at 0x7fec0774f5d0>, 'Connection to www.caai.cn timed out. (connect timeout=5)'))"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "source_id": "acm_conferences",
@@ -193,6 +193,13 @@
       "source_pack": "research_pack",
       "domain": "research",
       "error": "404 Client Error: Not Found for url: https://aaai.org/conference/aaai/aaai-workshops/"
+    },
+    {
+      "source_id": "cvf_open_access",
+      "source_name": "CVF Open Access",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "HTTPSConnectionPool(host='openaccess.thecvf.com', port=443): Read timed out. (read timeout=5)"
     }
   ],
   "pack_stats": {
@@ -215,14 +222,14 @@
       "successful": 22,
       "failed": 16,
       "items": 127,
-      "new_items": 2
+      "new_items": 0
     },
     "research_pack": {
       "total": 30,
-      "successful": 21,
-      "failed": 9,
-      "items": 108,
-      "new_items": 0
+      "successful": 20,
+      "failed": 10,
+      "items": 103,
+      "new_items": 1
     }
   }
 }
