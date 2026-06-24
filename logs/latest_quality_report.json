@@ -1,17 +1,17 @@
 {
-  "total_items": 232,
+  "total_items": 245,
   "accepted": 12,
   "demoted": 0,
-  "rejected": 220,
+  "rejected": 233,
   "reject_reasons": {
     "quality_score_below_threshold": 107,
-    "not_actionable_or_not_relevant": 88,
+    "not_actionable_or_not_relevant": 97,
     "hard_reject_url": 15,
-    "product_or_marketing_page": 5,
-    "hard_reject_term": 3,
+    "hard_reject_term": 6,
+    "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 27,
+  "failed_sources": 25,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -139,7 +139,20 @@
       "rejected": 7,
       "source_id": "tencent_cloud_developer",
       "reject_reasons": {
-        "not_actionable_or_not_relevant": 7
+        "not_actionable_or_not_relevant": 6,
+        "product_or_marketing_page": 1
+      }
+    },
+    {
+      "source_name": "中国计算机学会 CCF",
+      "source_pack": "research_pack",
+      "candidates": 6,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 6,
+      "source_id": "ccf",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 6
       }
     },
     {
@@ -242,6 +255,19 @@
       "reject_reasons": {
         "not_actionable_or_not_relevant": 4,
         "generic_listing_page": 1
+      }
+    },
+    {
+      "source_name": "CVF Open Access",
+      "source_pack": "research_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "cvf_open_access",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 4,
+        "quality_score_below_threshold": 1
       }
     },
     {
@@ -481,6 +507,18 @@
       }
     },
     {
+      "source_name": "中国人工智能学会 CAAI",
+      "source_pack": "research_pack",
+      "candidates": 3,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 3,
+      "source_id": "caai",
+      "reject_reasons": {
+        "hard_reject_term": 3
+      }
+    },
+    {
       "source_name": "ECCV",
       "source_pack": "research_pack",
       "candidates": 3,
@@ -573,18 +611,6 @@
       "demoted": 0,
       "rejected": 1,
       "source_id": "icra",
-      "reject_reasons": {
-        "quality_score_below_threshold": 1
-      }
-    },
-    {
-      "source_name": "南京大学就业创业网",
-      "source_pack": "nju_pack",
-      "candidates": 1,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 1,
-      "source_id": "nju_jobs",
       "reject_reasons": {
         "quality_score_below_threshold": 1
       }

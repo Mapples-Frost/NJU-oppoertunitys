@@ -1,13 +1,13 @@
 {
-  "id": "20260623034640",
-  "started_at": "2026-06-23T03:46:40+00:00",
-  "finished_at": "2026-06-23T03:48:47+00:00",
+  "id": "20260624034929",
+  "started_at": "2026-06-24T03:49:29+00:00",
+  "finished_at": "2026-06-24T03:51:24+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 55,
-  "failed_sources": 27,
-  "total_items": 295,
-  "new_items": 1,
+  "successful_sources": 57,
+  "failed_sources": 25,
+  "total_items": 312,
+  "new_items": 11,
   "emailed_items": 11,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -18,6 +18,13 @@
       "source_pack": "nju_pack",
       "domain": "nju",
       "error": "HTTPSConnectionPool(host='cxcy.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='cxcy.nju.edu.cn', port=443): Failed to resolve 'cxcy.nju.edu.cn' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "source_id": "nju_jobs",
+      "source_name": "南京大学就业创业网",
+      "source_pack": "nju_pack",
+      "domain": "nju",
+      "error": "HTTPSConnectionPool(host='job.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='job.nju.edu.cn', port=443) at 0x7f1b0bef7450>, 'Connection to job.nju.edu.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "kaggle",
@@ -31,13 +38,6 @@
       "source_name": "蓝桥杯",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "no list items matched"
-    },
-    {
-      "source_id": "ccf",
-      "source_name": "中国计算机学会 CCF",
-      "source_pack": "research_pack",
-      "domain": "research",
       "error": "no list items matched"
     },
     {
@@ -94,7 +94,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f9c7a0e5010>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f1b0bb6e310>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -115,7 +115,7 @@
       "source_name": "中国图象图形学学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "403 Client Error: Forbidden for url: https://www.csig.org.cn/"
     },
     {
       "source_id": "ccf_c4",
@@ -160,13 +160,6 @@
       "error": "HTTPSConnectionPool(host='www.mcm.edu.cn', port=443): Read timed out. (read timeout=5)"
     },
     {
-      "source_id": "caai",
-      "source_name": "中国人工智能学会 CAAI",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-    },
-    {
       "source_id": "acm_conferences",
       "source_name": "ACM Conferences",
       "source_pack": "research_pack",
@@ -193,13 +186,6 @@
       "source_pack": "research_pack",
       "domain": "research",
       "error": "404 Client Error: Not Found for url: https://aaai.org/conference/aaai/aaai-workshops/"
-    },
-    {
-      "source_id": "cvf_open_access",
-      "source_name": "CVF Open Access",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "HTTPSConnectionPool(host='openaccess.thecvf.com', port=443): Read timed out. (read timeout=5)"
     }
   ],
   "pack_stats": {
@@ -212,9 +198,9 @@
     },
     "nju_pack": {
       "total": 10,
-      "successful": 9,
-      "failed": 1,
-      "items": 65,
+      "successful": 8,
+      "failed": 2,
+      "items": 64,
       "new_items": 0
     },
     "competition_pack": {
@@ -222,14 +208,14 @@
       "successful": 22,
       "failed": 16,
       "items": 127,
-      "new_items": 0
+      "new_items": 2
     },
     "research_pack": {
       "total": 30,
-      "successful": 20,
-      "failed": 10,
-      "items": 103,
-      "new_items": 1
+      "successful": 23,
+      "failed": 7,
+      "items": 121,
+      "new_items": 9
     }
   }
 }
