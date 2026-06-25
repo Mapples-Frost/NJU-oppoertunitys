@@ -1,17 +1,17 @@
 {
-  "total_items": 245,
+  "total_items": 239,
   "accepted": 12,
   "demoted": 0,
-  "rejected": 233,
+  "rejected": 227,
   "reject_reasons": {
     "quality_score_below_threshold": 107,
-    "not_actionable_or_not_relevant": 97,
+    "not_actionable_or_not_relevant": 91,
     "hard_reject_url": 15,
     "hard_reject_term": 6,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 25,
+  "failed_sources": 26,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -141,18 +141,6 @@
       "reject_reasons": {
         "not_actionable_or_not_relevant": 6,
         "product_or_marketing_page": 1
-      }
-    },
-    {
-      "source_name": "中国计算机学会 CCF",
-      "source_pack": "research_pack",
-      "candidates": 6,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 6,
-      "source_id": "ccf",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 6
       }
     },
     {

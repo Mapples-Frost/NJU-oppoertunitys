@@ -1,13 +1,13 @@
 {
-  "id": "20260624034929",
-  "started_at": "2026-06-24T03:49:29+00:00",
-  "finished_at": "2026-06-24T03:51:24+00:00",
+  "id": "20260625034959",
+  "started_at": "2026-06-25T03:49:59+00:00",
+  "finished_at": "2026-06-25T03:52:11+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 57,
-  "failed_sources": 25,
-  "total_items": 312,
-  "new_items": 11,
+  "successful_sources": 56,
+  "failed_sources": 26,
+  "total_items": 304,
+  "new_items": 1,
   "emailed_items": 11,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -24,7 +24,7 @@
       "source_name": "南京大学就业创业网",
       "source_pack": "nju_pack",
       "domain": "nju",
-      "error": "HTTPSConnectionPool(host='job.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='job.nju.edu.cn', port=443) at 0x7f1b0bef7450>, 'Connection to job.nju.edu.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='job.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='job.nju.edu.cn', port=443) at 0x7f0a52d0b350>, 'Connection to job.nju.edu.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "kaggle",
@@ -38,6 +38,13 @@
       "source_name": "蓝桥杯",
       "source_pack": "competition_pack",
       "domain": "competition",
+      "error": "no list items matched"
+    },
+    {
+      "source_id": "ccf",
+      "source_name": "中国计算机学会 CCF",
+      "source_pack": "research_pack",
+      "domain": "research",
       "error": "no list items matched"
     },
     {
@@ -94,7 +101,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f1b0bb6e310>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f0a529e76d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -208,14 +215,14 @@
       "successful": 22,
       "failed": 16,
       "items": 127,
-      "new_items": 2
+      "new_items": 0
     },
     "research_pack": {
       "total": 30,
-      "successful": 23,
-      "failed": 7,
-      "items": 121,
-      "new_items": 9
+      "successful": 22,
+      "failed": 8,
+      "items": 113,
+      "new_items": 1
     }
   }
 }
