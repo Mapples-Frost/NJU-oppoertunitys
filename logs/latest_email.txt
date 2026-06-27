@@ -1,5 +1,5 @@
-[NJU Opportunity Radar] 2026-06-26: 发现 1 个新机会，3 个高优先级
-新增 1 个机会，主邮件展示 3 个，截止 7 天内 0 个，失败源 32 个。
+[NJU Opportunity Radar] 2026-06-27: 发现 2 个新机会，11 个高优先级
+新增 2 个机会，主邮件展示 11 个，截止 7 天内 0 个，失败源 26 个。
 
 最值得看
 1. Call for papers (59分，质量 60)
@@ -9,25 +9,81 @@
    建议：快速浏览详情，判断是否值得加入待办。
    摘要：Call for papers
    链接：https://aclrollingreview.org/cfp
-2. 论文投稿 (76分，质量 52)
+2. 具有多模态能力的客服智能体设计 (85分，质量 55)
+   类型：AI / 算法竞赛
+   截止：未识别，需要人工确认
+   来源：DataFountain
+   建议：查看报名要求和赛题，尽快判断是否需要组队。
+   摘要：具有多模态能力的客服智能体设计
+   链接：https://www.datafountain.cn/competitions/1165
+3. 论文投稿 (76分，质量 52)
    类型：机器人 / 自动化 / 智能车
    截止：未识别，需要人工确认
    来源：中国自动化大会
    建议：确认方向匹配度，并联系实验室或竞赛队了解组队机会。
    摘要：论文投稿
    链接：https://cac.org.cn/article/type/4-1.html
-3. 【CAC2026】投稿通道即将开放！2026中国自... (70分，质量 52)
+4. 【CAC2026】投稿通道即将开放！2026中国自... (70分，质量 52)
    类型：机器人 / 自动化 / 智能车
    截止：未识别，需要人工确认
    来源：中国自动化大会
    建议：确认方向匹配度，并联系实验室或竞赛队了解组队机会。
    摘要：【CAC2026】投稿通道即将开放！
    链接：https://mp.weixin.qq.com/s/eYOXZ_N4SZcu5XwqcU68Cg
+5. 多模态感知融合增强的具身自主抓取任务挑战 (76分，质量 51)
+   类型：机器人 / 自动化 / 智能车
+   截止：未识别，需要人工确认
+   来源：DataFountain
+   建议：确认方向匹配度，并联系实验室或竞赛队了解组队机会。
+   摘要：多模态感知融合增强的具身自主抓取任务挑战
+   链接：https://www.datafountain.cn/competitions/1163
+6. 大数据和人工智能 (62分，质量 48)
+   类型：AI / 算法竞赛
+   截止：未识别，需要人工确认
+   来源：DataFountain
+   建议：查看报名要求和赛题，尽快判断是否需要组队。
+   摘要：大数据和人工智能
+   链接：https://www.datafountain.cn/competitions/1153
+7. AI新睿人才“星探计划” (62分，质量 47)
+   类型：AI / 算法竞赛
+   截止：未识别，需要人工确认
+   来源：DataFountain
+   建议：查看报名要求和赛题，尽快判断是否需要组队。
+   摘要：AI新睿人才“星探计划”
+   链接：https://www.datafountain.cn/competitions/1169
+8. “猎鹰·微波智探”—雷达多目标智能探测与识别挑战 (60分，质量 47)
+   类型：AI / 算法竞赛
+   截止：未识别，需要人工确认
+   来源：DataFountain
+   建议：查看报名要求和赛题，尽快判断是否需要组队。
+   摘要：“猎鹰·微波智探”—雷达多目标智能探测与识别挑战
+   链接：https://www.datafountain.cn/competitions/1166
+9. 红外智感—红外开放世界全模态分割挑战 (60分，质量 47)
+   类型：AI / 算法竞赛
+   截止：未识别，需要人工确认
+   来源：DataFountain
+   建议：查看报名要求和赛题，尽快判断是否需要组队。
+   摘要：红外智感—红外开放世界全模态分割挑战
+   链接：https://www.datafountain.cn/competitions/1164
+10. 高端智能制造和半导体 (60分，质量 47)
+   类型：AI / 算法竞赛
+   截止：未识别，需要人工确认
+   来源：DataFountain
+   建议：查看报名要求和赛题，尽快判断是否需要组队。
+   摘要：高端智能制造和半导体
+   链接：https://www.datafountain.cn/competitions/1154
+11. 新材料和新能源 (60分，质量 47)
+   类型：AI / 算法竞赛
+   截止：未识别，需要人工确认
+   来源：DataFountain
+   建议：查看报名要求和赛题，尽快判断是否需要组队。
+   摘要：新材料和新能源
+   链接：https://www.datafountain.cn/competitions/1155
 
 源覆盖状态
 - wechat_pack: 成功 4 / 4，候选 0，新增 0
-- nju_pack: 成功 5 / 10，候选 33，新增 0
-- competition_pack: 成功 21 / 38，候选 119，新增 1
-- research_pack: 成功 20 / 30，候选 103，新增 0
-- 系统异常 32 个，完整列表见 logs/latest_run.json
+- nju_pack: 成功 9 / 10，候选 65，新增 0
+- competition_pack: 成功 22 / 38，候选 127，新增 1
+- research_pack: 成功 21 / 30，候选 108，新增 1
+- 系统异常 26 个，完整列表见 logs/latest_run.json
 - 质量报告见 logs/latest_quality_report.json

@@ -27,6 +27,30 @@
     }
   },
   {
+    "source_name": "南京大学人工智能学院",
+    "source_pack": "nju_pack",
+    "candidates": 8,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 8,
+    "source_id": "nju_ai",
+    "reject_reasons": {
+      "quality_score_below_threshold": 8
+    }
+  },
+  {
+    "source_name": "南京大学软件学院",
+    "source_pack": "nju_pack",
+    "candidates": 8,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 8,
+    "source_id": "nju_software",
+    "reject_reasons": {
+      "quality_score_below_threshold": 8
+    }
+  },
+  {
     "source_name": "阿里天池",
     "source_pack": "competition_pack",
     "candidates": 8,
@@ -56,18 +80,6 @@
     }
   },
   {
-    "source_name": "南京大学计算机学院; 南京大学电子科学与工程学院",
-    "source_pack": "nju_pack",
-    "candidates": 7,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 7,
-    "source_id": "nju_cs",
-    "reject_reasons": {
-      "quality_score_below_threshold": 7
-    }
-  },
-  {
     "source_name": "南京大学电子科学与工程学院",
     "source_pack": "nju_pack",
     "candidates": 7,
@@ -92,6 +104,19 @@
     }
   },
   {
+    "source_name": "南京大学团委; 中国研究生创新实践系列大赛; 中国自动化大会",
+    "source_pack": "nju_pack",
+    "candidates": 7,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 7,
+    "source_id": "nju_youth",
+    "reject_reasons": {
+      "quality_score_below_threshold": 6,
+      "hard_reject_term": 1
+    }
+  },
+  {
     "source_name": "腾讯云开发者",
     "source_pack": "competition_pack",
     "candidates": 7,
@@ -102,6 +127,18 @@
     "reject_reasons": {
       "not_actionable_or_not_relevant": 6,
       "product_or_marketing_page": 1
+    }
+  },
+  {
+    "source_name": "南京大学计算机学院; 南京大学电子科学与工程学院; 南京大学现代工程与应用科学学院",
+    "source_pack": "nju_pack",
+    "candidates": 6,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 6,
+    "source_id": "nju_cs",
+    "reject_reasons": {
+      "quality_score_below_threshold": 6
     }
   },
   {
@@ -195,19 +232,6 @@
     }
   },
   {
-    "source_name": "CVF Open Access",
-    "source_pack": "research_pack",
-    "candidates": 5,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 5,
-    "source_id": "cvf_open_access",
-    "reject_reasons": {
-      "not_actionable_or_not_relevant": 4,
-      "quality_score_below_threshold": 1
-    }
-  },
-  {
     "source_name": "Devpost Hackathons",
     "source_pack": "competition_pack",
     "candidates": 5,
@@ -282,6 +306,19 @@
     "reject_reasons": {
       "quality_score_below_threshold": 4,
       "hard_reject_url": 1
+    }
+  },
+  {
+    "source_name": "南京大学现代工程与应用科学学院",
+    "source_pack": "nju_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "nju_engineering",
+    "reject_reasons": {
+      "quality_score_below_threshold": 4,
+      "hard_reject_term": 1
     }
   },
   {
@@ -393,6 +430,19 @@
     }
   },
   {
+    "source_name": "SIGGRAPH",
+    "source_pack": "research_pack",
+    "candidates": 4,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 4,
+    "source_id": "siggraph",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 3,
+      "hard_reject_url": 1
+    }
+  },
+  {
     "source_name": "科大讯飞 AI 开发者大赛",
     "source_pack": "competition_pack",
     "candidates": 4,
@@ -418,16 +468,15 @@
     }
   },
   {
-    "source_name": "中国自动化大会",
+    "source_name": "中国人工智能学会 CAAI",
     "source_pack": "research_pack",
-    "candidates": 5,
-    "accepted": 2,
+    "candidates": 3,
+    "accepted": 0,
     "demoted": 0,
     "rejected": 3,
-    "source_id": "cac_conference",
+    "source_id": "caai",
     "reject_reasons": {
-      "quality_score_below_threshold": 2,
-      "hard_reject_term": 1
+      "hard_reject_term": 3
     }
   },
   {
@@ -455,16 +504,15 @@
     }
   },
   {
-    "source_name": "AtCoder Contests",
-    "source_pack": "competition_pack",
-    "candidates": 2,
-    "accepted": 0,
+    "source_name": "中国自动化大会",
+    "source_pack": "research_pack",
+    "candidates": 4,
+    "accepted": 2,
     "demoted": 0,
     "rejected": 2,
-    "source_id": "atcoder_contests",
+    "source_id": "cac_conference",
     "reject_reasons": {
-      "not_actionable_or_not_relevant": 1,
-      "hard_reject_term": 1
+      "quality_score_below_threshold": 2
     }
   },
   {
@@ -490,6 +538,18 @@
     "source_id": "xiaomi_developer",
     "reject_reasons": {
       "not_actionable_or_not_relevant": 2
+    }
+  },
+  {
+    "source_name": "AtCoder Contests",
+    "source_pack": "competition_pack",
+    "candidates": 1,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 1,
+    "source_id": "atcoder_contests",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 1
     }
   },
   {
@@ -527,5 +587,15 @@
     "reject_reasons": {
       "quality_score_below_threshold": 1
     }
+  },
+  {
+    "source_name": "DataFountain",
+    "source_pack": "competition_pack",
+    "candidates": 8,
+    "accepted": 8,
+    "demoted": 0,
+    "rejected": 0,
+    "source_id": "datafountain",
+    "reject_reasons": {}
   }
 ]
