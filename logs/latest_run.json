@@ -1,13 +1,13 @@
 {
-  "id": "20260627033927",
-  "started_at": "2026-06-27T03:39:27+00:00",
-  "finished_at": "2026-06-27T03:41:39+00:00",
+  "id": "20260628040248",
+  "started_at": "2026-06-28T04:02:48+00:00",
+  "finished_at": "2026-06-28T04:04:41+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 56,
-  "failed_sources": 26,
-  "total_items": 300,
-  "new_items": 2,
+  "successful_sources": 54,
+  "failed_sources": 28,
+  "total_items": 290,
+  "new_items": 1,
   "emailed_items": 11,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -94,7 +94,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f90290a4b50>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f6e24a08510>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -115,7 +115,7 @@
       "source_name": "中国图象图形学学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "403 Client Error: Forbidden for url: https://www.csig.org.cn/"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "source_id": "ccf_c4",
@@ -160,6 +160,13 @@
       "error": "HTTPSConnectionPool(host='www.mcm.edu.cn', port=443): Read timed out. (read timeout=5)"
     },
     {
+      "source_id": "caai",
+      "source_name": "中国人工智能学会 CAAI",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
       "source_id": "acm_conferences",
       "source_name": "ACM Conferences",
       "source_pack": "research_pack",
@@ -174,6 +181,20 @@
       "error": "418 Client Error: Unknown Code for url: https://www.ieee.org/conferences/"
     },
     {
+      "source_id": "icra",
+      "source_name": "ICRA",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "HTTPSConnectionPool(host='www.ieee-ras.org', port=443): Read timed out. (read timeout=5)"
+    },
+    {
+      "source_id": "iros",
+      "source_name": "IROS",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "HTTPSConnectionPool(host='www.ieee-ras.org', port=443): Read timed out. (read timeout=5)"
+    },
+    {
       "source_id": "most",
       "source_name": "科学技术部",
       "source_pack": "research_pack",
@@ -186,13 +207,6 @@
       "source_pack": "research_pack",
       "domain": "research",
       "error": "404 Client Error: Not Found for url: https://aaai.org/conference/aaai/aaai-workshops/"
-    },
-    {
-      "source_id": "cvf_open_access",
-      "source_name": "CVF Open Access",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "HTTPSConnectionPool(host='openaccess.thecvf.com', port=443): Read timed out. (read timeout=5)"
     }
   ],
   "pack_stats": {
@@ -219,10 +233,10 @@
     },
     "research_pack": {
       "total": 30,
-      "successful": 21,
-      "failed": 9,
-      "items": 108,
-      "new_items": 1
+      "successful": 19,
+      "failed": 11,
+      "items": 98,
+      "new_items": 0
     }
   }
 }
