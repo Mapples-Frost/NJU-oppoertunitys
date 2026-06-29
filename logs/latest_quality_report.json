@@ -1,17 +1,17 @@
 {
-  "total_items": 237,
+  "total_items": 240,
   "accepted": 12,
   "demoted": 0,
-  "rejected": 225,
+  "rejected": 228,
   "reject_reasons": {
     "quality_score_below_threshold": 108,
     "not_actionable_or_not_relevant": 91,
     "hard_reject_url": 15,
+    "hard_reject_term": 6,
     "product_or_marketing_page": 6,
-    "hard_reject_term": 3,
     "generic_listing_page": 2
   },
-  "failed_sources": 28,
+  "failed_sources": 26,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -495,6 +495,18 @@
       }
     },
     {
+      "source_name": "中国人工智能学会 CAAI",
+      "source_pack": "research_pack",
+      "candidates": 3,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 3,
+      "source_id": "caai",
+      "reject_reasons": {
+        "hard_reject_term": 3
+      }
+    },
+    {
       "source_name": "ECCV",
       "source_pack": "research_pack",
       "candidates": 3,
@@ -580,13 +592,13 @@
       }
     },
     {
-      "source_name": "IEEE Robotics and Automation Society",
+      "source_name": "ICRA; IEEE Robotics and Automation Society",
       "source_pack": "research_pack",
       "candidates": 1,
       "accepted": 0,
       "demoted": 0,
       "rejected": 1,
-      "source_id": "ieee_ras",
+      "source_id": "icra",
       "reject_reasons": {
         "quality_score_below_threshold": 1
       }

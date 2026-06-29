@@ -481,6 +481,18 @@
     }
   },
   {
+    "source_name": "中国人工智能学会 CAAI",
+    "source_pack": "research_pack",
+    "candidates": 3,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 3,
+    "source_id": "caai",
+    "reject_reasons": {
+      "hard_reject_term": 3
+    }
+  },
+  {
     "source_name": "ECCV",
     "source_pack": "research_pack",
     "candidates": 3,
@@ -566,13 +578,13 @@
     }
   },
   {
-    "source_name": "IEEE Robotics and Automation Society",
+    "source_name": "ICRA; IEEE Robotics and Automation Society",
     "source_pack": "research_pack",
     "candidates": 1,
     "accepted": 0,
     "demoted": 0,
     "rejected": 1,
-    "source_id": "ieee_ras",
+    "source_id": "icra",
     "reject_reasons": {
       "quality_score_below_threshold": 1
     }
