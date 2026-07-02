@@ -1,13 +1,13 @@
 {
-  "id": "20260701040648",
-  "started_at": "2026-07-01T04:06:48+00:00",
-  "finished_at": "2026-07-01T04:08:49+00:00",
+  "id": "20260702034750",
+  "started_at": "2026-07-02T03:47:50+00:00",
+  "finished_at": "2026-07-02T03:49:48+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 57,
-  "failed_sources": 25,
-  "total_items": 305,
-  "new_items": 1,
+  "successful_sources": 58,
+  "failed_sources": 24,
+  "total_items": 310,
+  "new_items": 5,
   "emailed_items": 11,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -94,7 +94,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f4b60ab3290>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fcf6ab78490>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -153,13 +153,6 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "cumcm",
-      "source_name": "全国大学生数学建模竞赛",
-      "source_pack": "competition_pack",
-      "domain": "competition",
-      "error": "502 Server Error: Bad Gateway for url: https://www.mcm.edu.cn/"
-    },
-    {
       "source_id": "acm_conferences",
       "source_name": "ACM Conferences",
       "source_pack": "research_pack",
@@ -205,9 +198,9 @@
     },
     "competition_pack": {
       "total": 38,
-      "successful": 22,
-      "failed": 16,
-      "items": 127,
+      "successful": 23,
+      "failed": 15,
+      "items": 132,
       "new_items": 1
     },
     "research_pack": {
@@ -215,7 +208,7 @@
       "successful": 22,
       "failed": 8,
       "items": 113,
-      "new_items": 0
+      "new_items": 4
     }
   }
 }
