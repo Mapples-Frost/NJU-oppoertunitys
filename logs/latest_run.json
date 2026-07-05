@@ -1,12 +1,12 @@
 {
-  "id": "20260704032153",
-  "started_at": "2026-07-04T03:21:53+00:00",
-  "finished_at": "2026-07-04T03:23:40+00:00",
+  "id": "20260705033808",
+  "started_at": "2026-07-05T03:38:08+00:00",
+  "finished_at": "2026-07-05T03:39:51+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 56,
-  "failed_sources": 26,
-  "total_items": 300,
+  "successful_sources": 53,
+  "failed_sources": 29,
+  "total_items": 285,
   "new_items": 0,
   "emailed_items": 11,
   "email_status": "sent",
@@ -94,7 +94,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7ff051620050>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f94ee5b8450>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -167,18 +167,46 @@
       "error": "418 Client Error: Unknown Code for url: https://www.ieee.org/conferences/"
     },
     {
-      "source_id": "ijcai",
-      "source_name": "IJCAI",
+      "source_id": "neurips",
+      "source_name": "NeurIPS",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.ijcai.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ijcai.org', port=443) at 0x7ff050dd8310>, 'Connection to www.ijcai.org timed out. (connect timeout=5)'))"
+      "error": "HTTPSConnectionPool(host='neurips.cc', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='neurips.cc', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "source_id": "iclr",
+      "source_name": "ICLR",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "HTTPSConnectionPool(host='iclr.cc', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='iclr.cc', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "source_id": "cvpr",
+      "source_name": "CVPR",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "HTTPSConnectionPool(host='cvpr.thecvf.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='cvpr.thecvf.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "source_id": "iccv",
+      "source_name": "ICCV",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "HTTPSConnectionPool(host='iccv.thecvf.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='iccv.thecvf.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "source_id": "eccv",
+      "source_name": "ECCV",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "HTTPSConnectionPool(host='eccv.ecva.net', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='eccv.ecva.net', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
     },
     {
       "source_id": "most",
       "source_name": "科学技术部",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "no list items matched"
+      "error": "HTTPSConnectionPool(host='www.most.gov.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.most.gov.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     {
       "source_id": "aaai_workshops",
@@ -186,13 +214,6 @@
       "source_pack": "research_pack",
       "domain": "research",
       "error": "404 Client Error: Not Found for url: https://aaai.org/conference/aaai/aaai-workshops/"
-    },
-    {
-      "source_id": "cvf_open_access",
-      "source_name": "CVF Open Access",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "HTTPSConnectionPool(host='openaccess.thecvf.com', port=443): Read timed out. (read timeout=5)"
     }
   ],
   "pack_stats": {
@@ -219,9 +240,9 @@
     },
     "research_pack": {
       "total": 30,
-      "successful": 20,
-      "failed": 10,
-      "items": 103,
+      "successful": 17,
+      "failed": 13,
+      "items": 88,
       "new_items": 0
     }
   }
