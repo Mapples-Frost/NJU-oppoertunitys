@@ -1,14 +1,14 @@
 {
-  "id": "20260705033808",
-  "started_at": "2026-07-05T03:38:08+00:00",
-  "finished_at": "2026-07-05T03:39:51+00:00",
+  "id": "20260706034606",
+  "started_at": "2026-07-06T03:46:06+00:00",
+  "finished_at": "2026-07-06T03:47:51+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 53,
-  "failed_sources": 29,
-  "total_items": 285,
-  "new_items": 0,
-  "emailed_items": 11,
+  "successful_sources": 58,
+  "failed_sources": 24,
+  "total_items": 310,
+  "new_items": 3,
+  "emailed_items": 10,
   "email_status": "sent",
   "email_skip_reason": "",
   "errors": [
@@ -94,7 +94,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f94ee5b8450>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fb12b7bf950>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -167,46 +167,11 @@
       "error": "418 Client Error: Unknown Code for url: https://www.ieee.org/conferences/"
     },
     {
-      "source_id": "neurips",
-      "source_name": "NeurIPS",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "HTTPSConnectionPool(host='neurips.cc', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='neurips.cc', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
-    },
-    {
-      "source_id": "iclr",
-      "source_name": "ICLR",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "HTTPSConnectionPool(host='iclr.cc', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='iclr.cc', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
-    },
-    {
-      "source_id": "cvpr",
-      "source_name": "CVPR",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "HTTPSConnectionPool(host='cvpr.thecvf.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='cvpr.thecvf.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
-    },
-    {
-      "source_id": "iccv",
-      "source_name": "ICCV",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "HTTPSConnectionPool(host='iccv.thecvf.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='iccv.thecvf.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
-    },
-    {
-      "source_id": "eccv",
-      "source_name": "ECCV",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "HTTPSConnectionPool(host='eccv.ecva.net', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='eccv.ecva.net', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
-    },
-    {
       "source_id": "most",
       "source_name": "科学技术部",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.most.gov.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.most.gov.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "error": "no list items matched"
     },
     {
       "source_id": "aaai_workshops",
@@ -240,10 +205,10 @@
     },
     "research_pack": {
       "total": 30,
-      "successful": 17,
-      "failed": 13,
-      "items": 88,
-      "new_items": 0
+      "successful": 22,
+      "failed": 8,
+      "items": 113,
+      "new_items": 3
     }
   }
 }

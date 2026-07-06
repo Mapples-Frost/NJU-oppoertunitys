@@ -311,6 +311,19 @@
     }
   },
   {
+    "source_name": "NeurIPS; ICLR; CVPR; ICCV; ECCV",
+    "source_pack": "research_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "neurips",
+    "reject_reasons": {
+      "quality_score_below_threshold": 4,
+      "hard_reject_url": 1
+    }
+  },
+  {
     "source_name": "南京大学现代工程与应用科学学院",
     "source_pack": "nju_pack",
     "candidates": 5,
@@ -497,12 +510,49 @@
     "source_name": "中国自动化大会",
     "source_pack": "research_pack",
     "candidates": 4,
-    "accepted": 2,
+    "accepted": 1,
     "demoted": 0,
-    "rejected": 2,
+    "rejected": 3,
     "source_id": "cac_conference",
     "reject_reasons": {
-      "quality_score_below_threshold": 2
+      "quality_score_below_threshold": 3
+    }
+  },
+  {
+    "source_name": "ECCV",
+    "source_pack": "research_pack",
+    "candidates": 3,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 3,
+    "source_id": "eccv",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 3
+    }
+  },
+  {
+    "source_name": "ICCV; ECCV",
+    "source_pack": "research_pack",
+    "candidates": 3,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 3,
+    "source_id": "iccv",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 3
+    }
+  },
+  {
+    "source_name": "ICLR",
+    "source_pack": "research_pack",
+    "candidates": 2,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 2,
+    "source_id": "iclr",
+    "reject_reasons": {
+      "hard_reject_url": 1,
+      "quality_score_below_threshold": 1
     }
   },
   {
@@ -527,6 +577,18 @@
     "source_id": "atcoder_contests",
     "reject_reasons": {
       "not_actionable_or_not_relevant": 1
+    }
+  },
+  {
+    "source_name": "CVPR",
+    "source_pack": "research_pack",
+    "candidates": 1,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 1,
+    "source_id": "cvpr",
+    "reject_reasons": {
+      "hard_reject_url": 1
     }
   },
   {
