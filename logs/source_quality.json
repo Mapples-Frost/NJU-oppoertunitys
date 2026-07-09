@@ -530,6 +530,18 @@
     }
   },
   {
+    "source_name": "ModelScope 魔搭社区活动",
+    "source_pack": "competition_pack",
+    "candidates": 3,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 3,
+    "source_id": "modelscope_events",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 3
+    }
+  },
+  {
     "source_name": "ICLR",
     "source_pack": "research_pack",
     "candidates": 2,

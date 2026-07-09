@@ -1,13 +1,13 @@
 {
-  "id": "20260708025203",
-  "started_at": "2026-07-08T02:52:03+00:00",
-  "finished_at": "2026-07-08T02:53:59+00:00",
+  "id": "20260709033022",
+  "started_at": "2026-07-09T03:30:22+00:00",
+  "finished_at": "2026-07-09T03:32:00+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 57,
-  "failed_sources": 25,
-  "total_items": 305,
-  "new_items": 1,
+  "successful_sources": 58,
+  "failed_sources": 24,
+  "total_items": 309,
+  "new_items": 6,
   "emailed_items": 10,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -76,13 +76,6 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "domain": "competition",
-      "error": "no list items matched"
-    },
-    {
       "source_id": "openi_competitions",
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
@@ -94,7 +87,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fede5c1d8d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fcf21da1f10>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -185,7 +178,7 @@
       "source_name": "CVF Open Access",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='openaccess.thecvf.com', port=443): Read timed out. (read timeout=5)"
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     }
   ],
   "pack_stats": {
@@ -205,17 +198,17 @@
     },
     "competition_pack": {
       "total": 38,
-      "successful": 23,
-      "failed": 15,
-      "items": 132,
-      "new_items": 0
+      "successful": 24,
+      "failed": 14,
+      "items": 136,
+      "new_items": 3
     },
     "research_pack": {
       "total": 30,
       "successful": 21,
       "failed": 9,
       "items": 108,
-      "new_items": 1
+      "new_items": 3
     }
   }
 }
