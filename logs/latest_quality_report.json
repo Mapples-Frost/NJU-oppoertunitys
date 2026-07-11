@@ -1,17 +1,17 @@
 {
-  "total_items": 237,
+  "total_items": 247,
   "accepted": 11,
   "demoted": 0,
-  "rejected": 226,
+  "rejected": 236,
   "reject_reasons": {
-    "quality_score_below_threshold": 105,
-    "not_actionable_or_not_relevant": 92,
+    "quality_score_below_threshold": 111,
+    "not_actionable_or_not_relevant": 96,
     "hard_reject_url": 15,
     "hard_reject_term": 6,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 25,
+  "failed_sources": 24,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -260,6 +260,19 @@
       }
     },
     {
+      "source_name": "CVF Open Access",
+      "source_pack": "research_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "cvf_open_access",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 4,
+        "quality_score_below_threshold": 1
+      }
+    },
+    {
       "source_name": "Devpost Hackathons",
       "source_pack": "competition_pack",
       "candidates": 5,
@@ -369,6 +382,18 @@
       "demoted": 0,
       "rejected": 5,
       "source_id": "openreview",
+      "reject_reasons": {
+        "quality_score_below_threshold": 5
+      }
+    },
+    {
+      "source_name": "Robocon 中国",
+      "source_pack": "competition_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "robocon_china",
       "reject_reasons": {
         "quality_score_below_threshold": 5
       }
@@ -593,7 +618,7 @@
       }
     },
     {
-      "source_name": "ICRA; IROS; IEEE Robotics and Automation Society",
+      "source_name": "ICRA; IEEE Robotics and Automation Society",
       "source_pack": "research_pack",
       "candidates": 1,
       "accepted": 0,
