@@ -11,7 +11,7 @@
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 24,
+  "failed_sources": 25,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -618,13 +618,13 @@
       }
     },
     {
-      "source_name": "ICRA; IEEE Robotics and Automation Society",
+      "source_name": "IROS",
       "source_pack": "research_pack",
       "candidates": 1,
       "accepted": 0,
       "demoted": 0,
       "rejected": 1,
-      "source_id": "icra",
+      "source_id": "iros",
       "reject_reasons": {
         "quality_score_below_threshold": 1
       }

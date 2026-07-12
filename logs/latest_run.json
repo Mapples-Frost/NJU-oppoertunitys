@@ -1,13 +1,13 @@
 {
-  "id": "20260711024811",
-  "started_at": "2026-07-11T02:48:11+00:00",
-  "finished_at": "2026-07-11T02:50:09+00:00",
+  "id": "20260712025640",
+  "started_at": "2026-07-12T02:56:40+00:00",
+  "finished_at": "2026-07-12T02:58:51+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 58,
-  "failed_sources": 24,
-  "total_items": 309,
-  "new_items": 3,
+  "successful_sources": 57,
+  "failed_sources": 25,
+  "total_items": 304,
+  "new_items": 0,
   "emailed_items": 10,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -87,7 +87,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fab14bf5510>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f1a53107890>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -160,8 +160,8 @@
       "error": "418 Client Error: Unknown Code for url: https://www.ieee.org/conferences/"
     },
     {
-      "source_id": "iros",
-      "source_name": "IROS",
+      "source_id": "icra",
+      "source_name": "ICRA",
       "source_pack": "research_pack",
       "domain": "research",
       "error": "HTTPSConnectionPool(host='www.ieee-ras.org', port=443): Read timed out. (read timeout=5)"
@@ -172,6 +172,13 @@
       "source_pack": "research_pack",
       "domain": "research",
       "error": "no list items matched"
+    },
+    {
+      "source_id": "ieee_ras",
+      "source_name": "IEEE Robotics and Automation Society",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "HTTPSConnectionPool(host='www.ieee-ras.org', port=443): Read timed out. (read timeout=5)"
     },
     {
       "source_id": "aaai_workshops",
@@ -194,20 +201,20 @@
       "successful": 9,
       "failed": 1,
       "items": 65,
-      "new_items": 2
+      "new_items": 0
     },
     "competition_pack": {
       "total": 38,
       "successful": 24,
       "failed": 14,
       "items": 136,
-      "new_items": 1
+      "new_items": 0
     },
     "research_pack": {
       "total": 30,
-      "successful": 21,
-      "failed": 9,
-      "items": 108,
+      "successful": 20,
+      "failed": 10,
+      "items": 103,
       "new_items": 0
     }
   }
