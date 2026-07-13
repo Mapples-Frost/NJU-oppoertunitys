@@ -1,13 +1,13 @@
 {
-  "id": "20260712025640",
-  "started_at": "2026-07-12T02:56:40+00:00",
-  "finished_at": "2026-07-12T02:58:51+00:00",
+  "id": "20260713025757",
+  "started_at": "2026-07-13T02:57:57+00:00",
+  "finished_at": "2026-07-13T02:59:54+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 57,
-  "failed_sources": 25,
-  "total_items": 304,
-  "new_items": 0,
+  "successful_sources": 58,
+  "failed_sources": 24,
+  "total_items": 309,
+  "new_items": 2,
   "emailed_items": 10,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -87,7 +87,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f1a53107890>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f47df02ca90>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -160,13 +160,6 @@
       "error": "418 Client Error: Unknown Code for url: https://www.ieee.org/conferences/"
     },
     {
-      "source_id": "icra",
-      "source_name": "ICRA",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.ieee-ras.org', port=443): Read timed out. (read timeout=5)"
-    },
-    {
       "source_id": "most",
       "source_name": "科学技术部",
       "source_pack": "research_pack",
@@ -174,18 +167,18 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "ieee_ras",
-      "source_name": "IEEE Robotics and Automation Society",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.ieee-ras.org', port=443): Read timed out. (read timeout=5)"
-    },
-    {
       "source_id": "aaai_workshops",
       "source_name": "AAAI Workshops",
       "source_pack": "research_pack",
       "domain": "research",
       "error": "404 Client Error: Not Found for url: https://aaai.org/conference/aaai/aaai-workshops/"
+    },
+    {
+      "source_id": "cvf_open_access",
+      "source_name": "CVF Open Access",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     }
   ],
   "pack_stats": {
@@ -208,14 +201,14 @@
       "successful": 24,
       "failed": 14,
       "items": 136,
-      "new_items": 0
+      "new_items": 1
     },
     "research_pack": {
       "total": 30,
-      "successful": 20,
-      "failed": 10,
-      "items": 103,
-      "new_items": 0
+      "successful": 21,
+      "failed": 9,
+      "items": 108,
+      "new_items": 1
     }
   }
 }
