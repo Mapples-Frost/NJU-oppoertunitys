@@ -5,10 +5,10 @@
   "rejected": 231,
   "reject_reasons": {
     "quality_score_below_threshold": 109,
-    "not_actionable_or_not_relevant": 93,
+    "not_actionable_or_not_relevant": 92,
     "hard_reject_url": 15,
+    "product_or_marketing_page": 7,
     "hard_reject_term": 6,
-    "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
   "failed_sources": 24,
@@ -139,8 +139,8 @@
       "rejected": 7,
       "source_id": "tencent_cloud_developer",
       "reject_reasons": {
-        "not_actionable_or_not_relevant": 6,
-        "product_or_marketing_page": 1
+        "not_actionable_or_not_relevant": 5,
+        "product_or_marketing_page": 2
       }
     },
     {
