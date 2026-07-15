@@ -1,7 +1,7 @@
 {
-  "id": "20260714023926",
-  "started_at": "2026-07-14T02:39:26+00:00",
-  "finished_at": "2026-07-14T02:41:19+00:00",
+  "id": "20260715023729",
+  "started_at": "2026-07-15T02:37:29+00:00",
+  "finished_at": "2026-07-15T02:39:37+00:00",
   "status": "success",
   "total_sources": 82,
   "successful_sources": 58,
@@ -87,7 +87,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f01b91b15d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fd18f0eadd0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
