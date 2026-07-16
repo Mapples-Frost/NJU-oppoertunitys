@@ -1,13 +1,13 @@
 {
-  "id": "20260715023729",
-  "started_at": "2026-07-15T02:37:29+00:00",
-  "finished_at": "2026-07-15T02:39:37+00:00",
+  "id": "20260716024516",
+  "started_at": "2026-07-16T02:45:16+00:00",
+  "finished_at": "2026-07-16T02:47:14+00:00",
   "status": "success",
   "total_sources": 82,
   "successful_sources": 58,
   "failed_sources": 24,
   "total_items": 309,
-  "new_items": 2,
+  "new_items": 1,
   "emailed_items": 10,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -87,7 +87,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fd18f0eadd0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f8795922490>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -178,7 +178,7 @@
       "source_name": "CVF Open Access",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "HTTPSConnectionPool(host='openaccess.thecvf.com', port=443): Read timed out. (read timeout=5)"
     }
   ],
   "pack_stats": {
@@ -201,7 +201,7 @@
       "successful": 24,
       "failed": 14,
       "items": 136,
-      "new_items": 1
+      "new_items": 0
     },
     "research_pack": {
       "total": 30,
