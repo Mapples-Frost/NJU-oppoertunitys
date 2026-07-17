@@ -1,5 +1,5 @@
-[NJU Opportunity Radar] 2026-07-16: 发现 1 个新机会，10 个高优先级
-新增 1 个机会，主邮件展示 10 个，截止 7 天内 0 个，失败源 24 个。
+[NJU Opportunity Radar] 2026-07-17: 发现 2 个新机会，10 个高优先级
+新增 2 个机会，主邮件展示 10 个，截止 7 天内 0 个，失败源 23 个。
 
 最值得看
 1. Call for papers (59分，质量 60)
@@ -76,7 +76,7 @@
 源覆盖状态
 - wechat_pack: 成功 4 / 4，候选 0，新增 0
 - nju_pack: 成功 9 / 10，候选 65，新增 0
-- competition_pack: 成功 24 / 38，候选 136，新增 0
-- research_pack: 成功 21 / 30，候选 108，新增 1
-- 系统异常 24 个，完整列表见 logs/latest_run.json
+- competition_pack: 成功 24 / 38，候选 136，新增 1
+- research_pack: 成功 22 / 30，候选 113，新增 1
+- 系统异常 23 个，完整列表见 logs/latest_run.json
 - 质量报告见 logs/latest_quality_report.json
