@@ -336,6 +336,22 @@
     "quality_notes": "interest:南京大学; audience:南京大学; demote:报告"
   },
   {
+    "id": "00b38b0d720f5b004948271c1b8c22c0",
+    "title": "南京大学联合发布的昇腾算子公开评测平台正式上线 2026-07-18 2026年7月15日，南京大学联合华为与深圳河套学院正式发布昇腾算子评测...",
+    "url": "https://software.nju.edu.cn//xyxw/20260718/i402149.html",
+    "source_id": "nju_software",
+    "source_name": "南京大学软件学院",
+    "source_pack": "nju_pack",
+    "category": "企业开发者赛事",
+    "score": 20.0,
+    "quality_status": "rejected",
+    "quality_score": 35.0,
+    "actionability_score": 10.0,
+    "audience_fit_score": 18.0,
+    "reject_reason": "quality_score_below_threshold",
+    "quality_notes": "deadline_detected; interest:南京大学; audience:南京大学; demote:发布"
+  },
+  {
     "id": "7370c54e76b51c6f19f67993b68f94ff",
     "title": "iSE 实验室在预训练编码器后门防御方面取得新进展 2026-07-10 近年来，自监督学习因其无需标注数据即可预训练编码器而日益受到关注，基于预...",
     "url": "https://software.nju.edu.cn//xyxw/20260710/i401525.html",
@@ -382,21 +398,5 @@
     "audience_fit_score": 22.0,
     "reject_reason": "quality_score_below_threshold",
     "quality_notes": "deadline_detected; interest:AI; interest:南京大学; audience:南京大学"
-  },
-  {
-    "id": "be71659e5d418d08138d235bbb09a004",
-    "title": "软件研发效能实验室周鑫老师、博士生徐近伟在漏洞报告分析方... 2026-05-19 第三方组件中的漏洞已成为影响软件供应链安全的重要风险来源。对于软件维护者...",
-    "url": "https://software.nju.edu.cn//xyxw/20260522/i391812.html",
-    "source_id": "nju_software",
-    "source_name": "南京大学软件学院",
-    "source_pack": "nju_pack",
-    "category": "企业开发者赛事",
-    "score": 20.0,
-    "quality_status": "rejected",
-    "quality_score": 34.0,
-    "actionability_score": 10.0,
-    "audience_fit_score": 18.0,
-    "reject_reason": "quality_score_below_threshold",
-    "quality_notes": "deadline_detected; interest:南京大学; audience:南京大学; demote:报告"
   }
 ]
