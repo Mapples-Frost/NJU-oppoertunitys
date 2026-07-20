@@ -1,13 +1,13 @@
 {
-  "id": "20260719025342",
-  "started_at": "2026-07-19T02:53:42+00:00",
-  "finished_at": "2026-07-19T02:55:34+00:00",
+  "id": "20260720032208",
+  "started_at": "2026-07-20T03:22:08+00:00",
+  "finished_at": "2026-07-20T03:24:25+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 58,
-  "failed_sources": 24,
-  "total_items": 309,
-  "new_items": 0,
+  "successful_sources": 57,
+  "failed_sources": 25,
+  "total_items": 304,
+  "new_items": 3,
   "emailed_items": 10,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -87,7 +87,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fb23467bd90>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f50f2f33f10>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -132,13 +132,6 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "drivendata_competitions",
-      "source_name": "DrivenData Competitions",
-      "source_pack": "competition_pack",
-      "domain": "competition",
-      "error": "503 Server Error: Service Unavailable for url: https://www.drivendata.org/competitions/"
-    },
-    {
       "source_id": "evalai_challenges",
       "source_name": "EvalAI Challenges",
       "source_pack": "competition_pack",
@@ -151,6 +144,13 @@
       "source_pack": "competition_pack",
       "domain": "competition",
       "error": "no list items matched"
+    },
+    {
+      "source_id": "robocon_china",
+      "source_name": "Robocon 中国",
+      "source_pack": "competition_pack",
+      "domain": "competition",
+      "error": "HTTPSConnectionPool(host='robocon.org.cn', port=443): Read timed out. (read timeout=5)"
     },
     {
       "source_id": "acm_conferences",
@@ -179,6 +179,13 @@
       "source_pack": "research_pack",
       "domain": "research",
       "error": "404 Client Error: Not Found for url: https://aaai.org/conference/aaai/aaai-workshops/"
+    },
+    {
+      "source_id": "cvf_open_access",
+      "source_name": "CVF Open Access",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "HTTPSConnectionPool(host='openaccess.thecvf.com', port=443): Read timed out. (read timeout=5)"
     }
   ],
   "pack_stats": {
@@ -201,14 +208,14 @@
       "successful": 23,
       "failed": 15,
       "items": 131,
-      "new_items": 0
+      "new_items": 1
     },
     "research_pack": {
       "total": 30,
-      "successful": 22,
-      "failed": 8,
-      "items": 113,
-      "new_items": 0
+      "successful": 21,
+      "failed": 9,
+      "items": 108,
+      "new_items": 2
     }
   }
 }
