@@ -125,7 +125,8 @@
     "rejected": 7,
     "source_id": "tencent_cloud_developer",
     "reject_reasons": {
-      "not_actionable_or_not_relevant": 6,
+      "not_actionable_or_not_relevant": 5,
+      "quality_score_below_threshold": 1,
       "product_or_marketing_page": 1
     }
   },
@@ -239,6 +240,19 @@
     "demoted": 0,
     "rejected": 5,
     "source_id": "cumcm",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 4,
+      "quality_score_below_threshold": 1
+    }
+  },
+  {
+    "source_name": "CVF Open Access",
+    "source_pack": "research_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "cvf_open_access",
     "reject_reasons": {
       "not_actionable_or_not_relevant": 4,
       "quality_score_below_threshold": 1

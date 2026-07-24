@@ -1,13 +1,13 @@
 {
-  "id": "20260723025426",
-  "started_at": "2026-07-23T02:54:26+00:00",
-  "finished_at": "2026-07-23T02:56:14+00:00",
+  "id": "20260724024857",
+  "started_at": "2026-07-24T02:48:57+00:00",
+  "finished_at": "2026-07-24T02:50:50+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 58,
-  "failed_sources": 24,
-  "total_items": 309,
-  "new_items": 2,
+  "successful_sources": 59,
+  "failed_sources": 23,
+  "total_items": 314,
+  "new_items": 1,
   "emailed_items": 10,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -87,7 +87,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f12fb527010>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f40a555f790>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -172,13 +172,6 @@
       "source_pack": "research_pack",
       "domain": "research",
       "error": "404 Client Error: Not Found for url: https://aaai.org/conference/aaai/aaai-workshops/"
-    },
-    {
-      "source_id": "cvf_open_access",
-      "source_name": "CVF Open Access",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "HTTPSConnectionPool(host='openaccess.thecvf.com', port=443): Read timed out. (read timeout=5)"
     }
   ],
   "pack_stats": {
@@ -205,10 +198,10 @@
     },
     "research_pack": {
       "total": 30,
-      "successful": 21,
-      "failed": 9,
-      "items": 108,
-      "new_items": 1
+      "successful": 22,
+      "failed": 8,
+      "items": 113,
+      "new_items": 0
     }
   }
 }
