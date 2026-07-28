@@ -1,12 +1,12 @@
 {
-  "id": "20260727032209",
-  "started_at": "2026-07-27T03:22:09+00:00",
-  "finished_at": "2026-07-27T03:24:08+00:00",
+  "id": "20260728024052",
+  "started_at": "2026-07-28T02:40:52+00:00",
+  "finished_at": "2026-07-28T02:42:41+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 57,
-  "failed_sources": 25,
-  "total_items": 304,
+  "successful_sources": 58,
+  "failed_sources": 24,
+  "total_items": 309,
   "new_items": 3,
   "emailed_items": 10,
   "email_status": "sent",
@@ -87,7 +87,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f1a447abd50>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f6d7d933c90>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -167,13 +167,6 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "neurips",
-      "source_name": "NeurIPS",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "HTTPSConnectionPool(host='neurips.cc', port=443): Read timed out. (read timeout=5)"
-    },
-    {
       "source_id": "most",
       "source_name": "科学技术部",
       "source_pack": "research_pack",
@@ -212,9 +205,9 @@
     },
     "research_pack": {
       "total": 30,
-      "successful": 21,
-      "failed": 9,
-      "items": 108,
+      "successful": 22,
+      "failed": 8,
+      "items": 113,
       "new_items": 1
     }
   }

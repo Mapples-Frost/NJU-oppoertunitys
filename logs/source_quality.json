@@ -258,19 +258,6 @@
     }
   },
   {
-    "source_name": "ICLR; CVPR; ICCV; ECCV",
-    "source_pack": "research_pack",
-    "candidates": 5,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 5,
-    "source_id": "iclr",
-    "reject_reasons": {
-      "quality_score_below_threshold": 4,
-      "hard_reject_url": 1
-    }
-  },
-  {
     "source_name": "IJCAI",
     "source_pack": "research_pack",
     "candidates": 5,
@@ -310,6 +297,19 @@
     }
   },
   {
+    "source_name": "NeurIPS; ICLR; CVPR; ICCV; ECCV",
+    "source_pack": "research_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "neurips",
+    "reject_reasons": {
+      "quality_score_below_threshold": 4,
+      "hard_reject_url": 1
+    }
+  },
+  {
     "source_name": "南京大学现代工程与应用科学学院",
     "source_pack": "nju_pack",
     "candidates": 5,
@@ -343,8 +343,7 @@
     "rejected": 5,
     "source_id": "nsfc",
     "reject_reasons": {
-      "not_actionable_or_not_relevant": 4,
-      "quality_score_below_threshold": 1
+      "not_actionable_or_not_relevant": 5
     }
   },
   {
@@ -552,6 +551,19 @@
     "source_id": "modelscope_events",
     "reject_reasons": {
       "not_actionable_or_not_relevant": 3
+    }
+  },
+  {
+    "source_name": "ICLR",
+    "source_pack": "research_pack",
+    "candidates": 2,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 2,
+    "source_id": "iclr",
+    "reject_reasons": {
+      "hard_reject_url": 1,
+      "quality_score_below_threshold": 1
     }
   },
   {
