@@ -1,13 +1,13 @@
 {
-  "id": "20260728024052",
-  "started_at": "2026-07-28T02:40:52+00:00",
-  "finished_at": "2026-07-28T02:42:41+00:00",
+  "id": "20260729024727",
+  "started_at": "2026-07-29T02:47:27+00:00",
+  "finished_at": "2026-07-29T02:49:15+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 58,
-  "failed_sources": 24,
-  "total_items": 309,
-  "new_items": 3,
+  "successful_sources": 59,
+  "failed_sources": 23,
+  "total_items": 314,
+  "new_items": 1,
   "emailed_items": 10,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -87,7 +87,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f6d7d933c90>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fda775d28d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -137,13 +137,6 @@
       "source_pack": "competition_pack",
       "domain": "competition",
       "error": "no list items matched"
-    },
-    {
-      "source_id": "codeforces_contests",
-      "source_name": "Codeforces Contests",
-      "source_pack": "competition_pack",
-      "domain": "competition",
-      "error": "403 Client Error: Forbidden for url: https://codeforces.com/contests"
     },
     {
       "source_id": "icpc_global",
@@ -198,10 +191,10 @@
     },
     "competition_pack": {
       "total": 38,
-      "successful": 23,
-      "failed": 15,
-      "items": 131,
-      "new_items": 2
+      "successful": 24,
+      "failed": 14,
+      "items": 136,
+      "new_items": 0
     },
     "research_pack": {
       "total": 30,
