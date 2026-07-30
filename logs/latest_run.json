@@ -1,7 +1,7 @@
 {
-  "id": "20260729024727",
-  "started_at": "2026-07-29T02:47:27+00:00",
-  "finished_at": "2026-07-29T02:49:15+00:00",
+  "id": "20260730023230",
+  "started_at": "2026-07-30T02:32:30+00:00",
+  "finished_at": "2026-07-30T02:35:37+00:00",
   "status": "success",
   "total_sources": 82,
   "successful_sources": 59,
@@ -80,14 +80,14 @@
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "404 Client Error: Not Found for url: https://openi.pcl.ac.cn/competitions"
+      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Max retries exceeded with url: /competitions (Caused by ConnectTimeoutError(<HTTPSConnection(host='openi.pcl.ac.cn', port=443) at 0x7fe64d635290>, 'Connection to openi.pcl.ac.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "caa",
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fda775d28d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fe64d6365d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -194,14 +194,14 @@
       "successful": 24,
       "failed": 14,
       "items": 136,
-      "new_items": 0
+      "new_items": 1
     },
     "research_pack": {
       "total": 30,
       "successful": 22,
       "failed": 8,
       "items": 113,
-      "new_items": 1
+      "new_items": 0
     }
   }
 }
