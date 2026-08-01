@@ -125,8 +125,8 @@
     "rejected": 7,
     "source_id": "tencent_cloud_developer",
     "reject_reasons": {
-      "not_actionable_or_not_relevant": 6,
-      "quality_score_below_threshold": 1
+      "not_actionable_or_not_relevant": 5,
+      "quality_score_below_threshold": 2
     }
   },
   {
@@ -603,25 +603,13 @@
     }
   },
   {
-    "source_name": "ICRA; IROS; IEEE Robotics and Automation Society",
+    "source_name": "ICRA; IEEE Robotics and Automation Society",
     "source_pack": "research_pack",
     "candidates": 1,
     "accepted": 0,
     "demoted": 0,
     "rejected": 1,
     "source_id": "icra",
-    "reject_reasons": {
-      "quality_score_below_threshold": 1
-    }
-  },
-  {
-    "source_name": "南京大学就业创业网",
-    "source_pack": "nju_pack",
-    "candidates": 1,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 1,
-    "source_id": "nju_jobs",
     "reject_reasons": {
       "quality_score_below_threshold": 1
     }
