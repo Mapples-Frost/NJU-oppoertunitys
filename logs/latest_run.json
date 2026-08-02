@@ -1,13 +1,13 @@
 {
-  "id": "20260801025734",
-  "started_at": "2026-08-01T02:57:34+00:00",
-  "finished_at": "2026-08-01T02:59:38+00:00",
+  "id": "20260802025616",
+  "started_at": "2026-08-02T02:56:16+00:00",
+  "finished_at": "2026-08-02T02:58:30+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 57,
-  "failed_sources": 25,
-  "total_items": 308,
-  "new_items": 1,
+  "successful_sources": 55,
+  "failed_sources": 27,
+  "total_items": 292,
+  "new_items": 0,
   "emailed_items": 10,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -20,11 +20,25 @@
       "error": "HTTPSConnectionPool(host='cxcy.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='cxcy.nju.edu.cn', port=443): Failed to resolve 'cxcy.nju.edu.cn' ([Errno -2] Name or service not known)\"))"
     },
     {
+      "source_id": "nju_ai",
+      "source_name": "南京大学人工智能学院",
+      "source_pack": "nju_pack",
+      "domain": "nju",
+      "error": "HTTPSConnectionPool(host='ai.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='ai.nju.edu.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+    },
+    {
       "source_id": "nju_jobs",
       "source_name": "南京大学就业创业网",
       "source_pack": "nju_pack",
       "domain": "nju",
       "error": "502 Server Error: Bad Gateway for url: https://job.nju.edu.cn/"
+    },
+    {
+      "source_id": "nju_graduate",
+      "source_name": "南京大学研究生院",
+      "source_pack": "nju_pack",
+      "domain": "nju",
+      "error": "HTTPSConnectionPool(host='grawww.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='grawww.nju.edu.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     {
       "source_id": "kaggle",
@@ -94,7 +108,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f693375d650>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fa9df929490>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -167,11 +181,11 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "iros",
-      "source_name": "IROS",
+      "source_id": "siggraph",
+      "source_name": "SIGGRAPH",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.ieee-ras.org', port=443): Read timed out. (read timeout=5)"
+      "error": "HTTPSConnectionPool(host='www.siggraph.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.siggraph.org', port=443) at 0x7fa9df8cbbd0>, 'Connection to www.siggraph.org timed out. (connect timeout=5)'))"
     },
     {
       "source_id": "most",
@@ -198,9 +212,9 @@
     },
     "nju_pack": {
       "total": 10,
-      "successful": 8,
-      "failed": 2,
-      "items": 64,
+      "successful": 6,
+      "failed": 4,
+      "items": 48,
       "new_items": 0
     },
     "competition_pack": {
@@ -208,7 +222,7 @@
       "successful": 24,
       "failed": 14,
       "items": 136,
-      "new_items": 1
+      "new_items": 0
     },
     "research_pack": {
       "total": 30,
