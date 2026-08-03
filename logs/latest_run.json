@@ -1,13 +1,13 @@
 {
-  "id": "20260802025616",
-  "started_at": "2026-08-02T02:56:16+00:00",
-  "finished_at": "2026-08-02T02:58:30+00:00",
+  "id": "20260803025724",
+  "started_at": "2026-08-03T02:57:24+00:00",
+  "finished_at": "2026-08-03T02:59:38+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 55,
-  "failed_sources": 27,
-  "total_items": 292,
-  "new_items": 0,
+  "successful_sources": 57,
+  "failed_sources": 25,
+  "total_items": 304,
+  "new_items": 1,
   "emailed_items": 10,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -18,27 +18,6 @@
       "source_pack": "nju_pack",
       "domain": "nju",
       "error": "HTTPSConnectionPool(host='cxcy.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='cxcy.nju.edu.cn', port=443): Failed to resolve 'cxcy.nju.edu.cn' ([Errno -2] Name or service not known)\"))"
-    },
-    {
-      "source_id": "nju_ai",
-      "source_name": "南京大学人工智能学院",
-      "source_pack": "nju_pack",
-      "domain": "nju",
-      "error": "HTTPSConnectionPool(host='ai.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='ai.nju.edu.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-    },
-    {
-      "source_id": "nju_jobs",
-      "source_name": "南京大学就业创业网",
-      "source_pack": "nju_pack",
-      "domain": "nju",
-      "error": "502 Server Error: Bad Gateway for url: https://job.nju.edu.cn/"
-    },
-    {
-      "source_id": "nju_graduate",
-      "source_name": "南京大学研究生院",
-      "source_pack": "nju_pack",
-      "domain": "nju",
-      "error": "HTTPSConnectionPool(host='grawww.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='grawww.nju.edu.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     {
       "source_id": "kaggle",
@@ -101,14 +80,14 @@
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "404 Client Error: Not Found for url: https://openi.pcl.ac.cn/competitions"
+      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Read timed out. (read timeout=10)"
     },
     {
       "source_id": "caa",
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fa9df929490>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f5c98379d50>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -167,6 +146,13 @@
       "error": "no list items matched"
     },
     {
+      "source_id": "cumcm",
+      "source_name": "全国大学生数学建模竞赛",
+      "source_pack": "competition_pack",
+      "domain": "competition",
+      "error": "HTTPConnectionPool(host='www.mcm.edu.cn', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='www.mcm.edu.cn', port=80): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+    },
+    {
       "source_id": "acm_conferences",
       "source_name": "ACM Conferences",
       "source_pack": "research_pack",
@@ -181,13 +167,6 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "siggraph",
-      "source_name": "SIGGRAPH",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.siggraph.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.siggraph.org', port=443) at 0x7fa9df8cbbd0>, 'Connection to www.siggraph.org timed out. (connect timeout=5)'))"
-    },
-    {
       "source_id": "most",
       "source_name": "科学技术部",
       "source_pack": "research_pack",
@@ -200,6 +179,13 @@
       "source_pack": "research_pack",
       "domain": "research",
       "error": "404 Client Error: Not Found for url: https://aaai.org/conference/aaai/aaai-workshops/"
+    },
+    {
+      "source_id": "cvf_open_access",
+      "source_name": "CVF Open Access",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     }
   ],
   "pack_stats": {
@@ -212,16 +198,16 @@
     },
     "nju_pack": {
       "total": 10,
-      "successful": 6,
-      "failed": 4,
-      "items": 48,
+      "successful": 9,
+      "failed": 1,
+      "items": 65,
       "new_items": 0
     },
     "competition_pack": {
       "total": 38,
-      "successful": 24,
-      "failed": 14,
-      "items": 136,
+      "successful": 23,
+      "failed": 15,
+      "items": 131,
       "new_items": 0
     },
     "research_pack": {
@@ -229,7 +215,7 @@
       "successful": 21,
       "failed": 9,
       "items": 108,
-      "new_items": 0
+      "new_items": 1
     }
   }
 }
