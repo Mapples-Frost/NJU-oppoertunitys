@@ -1,13 +1,13 @@
 {
-  "id": "20260803025724",
-  "started_at": "2026-08-03T02:57:24+00:00",
-  "finished_at": "2026-08-03T02:59:38+00:00",
+  "id": "20260804024219",
+  "started_at": "2026-08-04T02:42:19+00:00",
+  "finished_at": "2026-08-04T02:44:54+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 57,
-  "failed_sources": 25,
-  "total_items": 304,
-  "new_items": 1,
+  "successful_sources": 58,
+  "failed_sources": 24,
+  "total_items": 309,
+  "new_items": 7,
   "emailed_items": 10,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -80,14 +80,14 @@
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Read timed out. (read timeout=10)"
+      "error": "404 Client Error: Not Found for url: https://openi.pcl.ac.cn/competitions"
     },
     {
       "source_id": "caa",
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f5c98379d50>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fe079c5d650>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -146,11 +146,11 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "cumcm",
-      "source_name": "全国大学生数学建模竞赛",
+      "source_id": "ncss_innovation",
+      "source_name": "中国国际大学生创新大赛",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "HTTPConnectionPool(host='www.mcm.edu.cn', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='www.mcm.edu.cn', port=80): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "error": "HTTPSConnectionPool(host='cy.ncss.cn', port=443): Read timed out. (read timeout=5)"
     },
     {
       "source_id": "acm_conferences",
@@ -179,13 +179,6 @@
       "source_pack": "research_pack",
       "domain": "research",
       "error": "404 Client Error: Not Found for url: https://aaai.org/conference/aaai/aaai-workshops/"
-    },
-    {
-      "source_id": "cvf_open_access",
-      "source_name": "CVF Open Access",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     }
   ],
   "pack_stats": {
@@ -201,20 +194,20 @@
       "successful": 9,
       "failed": 1,
       "items": 65,
-      "new_items": 0
+      "new_items": 1
     },
     "competition_pack": {
       "total": 38,
       "successful": 23,
       "failed": 15,
       "items": 131,
-      "new_items": 0
+      "new_items": 5
     },
     "research_pack": {
       "total": 30,
-      "successful": 21,
-      "failed": 9,
-      "items": 108,
+      "successful": 22,
+      "failed": 8,
+      "items": 113,
       "new_items": 1
     }
   }
