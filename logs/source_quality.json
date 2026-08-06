@@ -51,18 +51,6 @@
     }
   },
   {
-    "source_name": "腾讯云开发者",
-    "source_pack": "competition_pack",
-    "candidates": 8,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 8,
-    "source_id": "tencent_cloud_developer",
-    "reject_reasons": {
-      "not_actionable_or_not_relevant": 8
-    }
-  },
-  {
     "source_name": "阿里天池",
     "source_pack": "competition_pack",
     "candidates": 8,
@@ -126,6 +114,19 @@
     "reject_reasons": {
       "quality_score_below_threshold": 6,
       "hard_reject_term": 1
+    }
+  },
+  {
+    "source_name": "腾讯云开发者",
+    "source_pack": "competition_pack",
+    "candidates": 7,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 7,
+    "source_id": "tencent_cloud_developer",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 5,
+      "quality_score_below_threshold": 2
     }
   },
   {
@@ -443,18 +444,6 @@
     }
   },
   {
-    "source_name": "ModelScope 魔搭社区活动",
-    "source_pack": "competition_pack",
-    "candidates": 4,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 4,
-    "source_id": "modelscope_events",
-    "reject_reasons": {
-      "not_actionable_or_not_relevant": 4
-    }
-  },
-  {
     "source_name": "RoboMaster",
     "source_pack": "competition_pack",
     "candidates": 4,
@@ -563,6 +552,18 @@
     "reject_reasons": {
       "hard_reject_url": 1,
       "quality_score_below_threshold": 1
+    }
+  },
+  {
+    "source_name": "ModelScope 魔搭社区活动",
+    "source_pack": "competition_pack",
+    "candidates": 2,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 2,
+    "source_id": "modelscope_events",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 2
     }
   },
   {
