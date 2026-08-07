@@ -1,7 +1,7 @@
 {
-  "id": "20260806024256",
-  "started_at": "2026-08-06T02:42:56+00:00",
-  "finished_at": "2026-08-06T02:44:57+00:00",
+  "id": "20260807024450",
+  "started_at": "2026-08-07T02:44:50+00:00",
+  "finished_at": "2026-08-07T02:47:53+00:00",
   "status": "success",
   "total_sources": 82,
   "successful_sources": 59,
@@ -80,14 +80,14 @@
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Max retries exceeded with url: /competitions (Caused by ConnectTimeoutError(<HTTPSConnection(host='openi.pcl.ac.cn', port=443) at 0x7f049dde5a10>, 'Connection to openi.pcl.ac.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Max retries exceeded with url: /competitions (Caused by ConnectTimeoutError(<HTTPSConnection(host='openi.pcl.ac.cn', port=443) at 0x7fe701953510>, 'Connection to openi.pcl.ac.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "caa",
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f049dde6d90>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fe701a307d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -194,14 +194,14 @@
       "successful": 24,
       "failed": 14,
       "items": 135,
-      "new_items": 1
+      "new_items": 0
     },
     "research_pack": {
       "total": 30,
       "successful": 22,
       "failed": 8,
       "items": 113,
-      "new_items": 0
+      "new_items": 1
     }
   }
 }
