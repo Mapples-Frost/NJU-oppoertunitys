@@ -104,6 +104,19 @@
     }
   },
   {
+    "source_name": "南京大学团委; 中国研究生创新实践系列大赛; 中国自动化大会",
+    "source_pack": "nju_pack",
+    "candidates": 7,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 7,
+    "source_id": "nju_youth",
+    "reject_reasons": {
+      "quality_score_below_threshold": 6,
+      "hard_reject_term": 1
+    }
+  },
+  {
     "source_name": "腾讯云开发者",
     "source_pack": "competition_pack",
     "candidates": 7,
@@ -124,18 +137,6 @@
     "demoted": 0,
     "rejected": 6,
     "source_id": "nju_cs",
-    "reject_reasons": {
-      "quality_score_below_threshold": 6
-    }
-  },
-  {
-    "source_name": "南京大学团委",
-    "source_pack": "nju_pack",
-    "candidates": 6,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 6,
-    "source_id": "nju_youth",
     "reject_reasons": {
       "quality_score_below_threshold": 6
     }
@@ -395,19 +396,6 @@
     }
   },
   {
-    "source_name": "中国自动化大会",
-    "source_pack": "research_pack",
-    "candidates": 5,
-    "accepted": 1,
-    "demoted": 0,
-    "rejected": 4,
-    "source_id": "cac_conference",
-    "reject_reasons": {
-      "quality_score_below_threshold": 3,
-      "hard_reject_term": 1
-    }
-  },
-  {
     "source_name": "DrivenData Competitions",
     "source_pack": "competition_pack",
     "candidates": 4,
@@ -415,6 +403,18 @@
     "demoted": 0,
     "rejected": 4,
     "source_id": "drivendata_competitions",
+    "reject_reasons": {
+      "quality_score_below_threshold": 4
+    }
+  },
+  {
+    "source_name": "中国研究生创新实践系列大赛",
+    "source_pack": "competition_pack",
+    "candidates": 4,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 4,
+    "source_id": "graduate_innovation_competition",
     "reject_reasons": {
       "quality_score_below_threshold": 4
     }
@@ -503,6 +503,18 @@
     "source_id": "caai",
     "reject_reasons": {
       "hard_reject_term": 3
+    }
+  },
+  {
+    "source_name": "中国自动化大会",
+    "source_pack": "research_pack",
+    "candidates": 4,
+    "accepted": 1,
+    "demoted": 0,
+    "rejected": 3,
+    "source_id": "cac_conference",
+    "reject_reasons": {
+      "quality_score_below_threshold": 3
     }
   },
   {
