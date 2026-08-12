@@ -336,6 +336,22 @@
     "quality_notes": "interest:南京大学; audience:南京大学; demote:报告"
   },
   {
+    "id": "229cbb26fdd059af8659cd7c48c5a383",
+    "title": "软件研发效能实验室吕骏等教师团队在跨配置增量构建方面取得... 2026-08-10 现代软件系统通常包含大量可配置选项，以支持不同的平台、功能组合和部署环境...",
+    "url": "https://software.nju.edu.cn//xyxw/20260811/i407622.html",
+    "source_id": "nju_software",
+    "source_name": "南京大学软件学院",
+    "source_pack": "nju_pack",
+    "category": "企业开发者赛事",
+    "score": 20.0,
+    "quality_status": "rejected",
+    "quality_score": 39.0,
+    "actionability_score": 10.0,
+    "audience_fit_score": 18.0,
+    "reject_reason": "quality_score_below_threshold",
+    "quality_notes": "deadline_detected; interest:南京大学; audience:南京大学"
+  },
+  {
     "id": "00b38b0d720f5b004948271c1b8c22c0",
     "title": "南京大学联合发布的昇腾算子公开评测平台正式上线 2026-07-18 2026年7月15日，南京大学联合华为与深圳河套学院正式发布昇腾算子评测...",
     "url": "https://software.nju.edu.cn//xyxw/20260718/i402149.html",
@@ -382,21 +398,5 @@
     "audience_fit_score": 22.0,
     "reject_reason": "quality_score_below_threshold",
     "quality_notes": "deadline_detected; interest:自动化; interest:南京大学; audience:南京大学"
-  },
-  {
-    "id": "8529ffd3b0d1f6a53d6ccf70d692cdfa",
-    "title": "软件研发效能实验室博士生杨焱景在云服务API安全方向取得... 2026-05-22 随着AI以及云原生架构的广泛应用以及API驱动的软件形态不断发展，应用接...",
-    "url": "https://software.nju.edu.cn//xyxw/20260522/i391692.html",
-    "source_id": "nju_software",
-    "source_name": "南京大学软件学院",
-    "source_pack": "nju_pack",
-    "category": "企业开发者赛事",
-    "score": 20.0,
-    "quality_status": "rejected",
-    "quality_score": 43.0,
-    "actionability_score": 10.0,
-    "audience_fit_score": 22.0,
-    "reject_reason": "quality_score_below_threshold",
-    "quality_notes": "deadline_detected; interest:AI; interest:南京大学; audience:南京大学"
   }
 ]
