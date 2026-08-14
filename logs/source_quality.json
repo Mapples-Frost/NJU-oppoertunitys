@@ -155,19 +155,6 @@
     }
   },
   {
-    "source_name": "ACL Anthology / Portal",
-    "source_pack": "research_pack",
-    "candidates": 5,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 5,
-    "source_id": "acl_portal",
-    "reject_reasons": {
-      "quality_score_below_threshold": 4,
-      "hard_reject_url": 1
-    }
-  },
-  {
     "source_name": "AIcrowd Challenges",
     "source_pack": "competition_pack",
     "candidates": 5,
@@ -372,6 +359,18 @@
     }
   },
   {
+    "source_name": "Robocon 中国",
+    "source_pack": "competition_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "robocon_china",
+    "reject_reasons": {
+      "quality_score_below_threshold": 5
+    }
+  },
+  {
     "source_name": "Zindi Competitions",
     "source_pack": "competition_pack",
     "candidates": 5,
@@ -530,6 +529,18 @@
     }
   },
   {
+    "source_name": "ModelScope 魔搭社区活动",
+    "source_pack": "competition_pack",
+    "candidates": 3,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 3,
+    "source_id": "modelscope_events",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 3
+    }
+  },
+  {
     "source_name": "ICLR",
     "source_pack": "research_pack",
     "candidates": 2,
@@ -540,18 +551,6 @@
     "reject_reasons": {
       "hard_reject_url": 1,
       "quality_score_below_threshold": 1
-    }
-  },
-  {
-    "source_name": "ModelScope 魔搭社区活动",
-    "source_pack": "competition_pack",
-    "candidates": 2,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 2,
-    "source_id": "modelscope_events",
-    "reject_reasons": {
-      "not_actionable_or_not_relevant": 2
     }
   },
   {
