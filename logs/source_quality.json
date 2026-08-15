@@ -125,8 +125,8 @@
     "rejected": 7,
     "source_id": "tencent_cloud_developer",
     "reject_reasons": {
-      "not_actionable_or_not_relevant": 5,
-      "quality_score_below_threshold": 2
+      "not_actionable_or_not_relevant": 6,
+      "quality_score_below_threshold": 1
     }
   },
   {
@@ -152,6 +152,19 @@
     "reject_reasons": {
       "hard_reject_url": 3,
       "quality_score_below_threshold": 2
+    }
+  },
+  {
+    "source_name": "ACL Anthology / Portal",
+    "source_pack": "research_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "acl_portal",
+    "reject_reasons": {
+      "quality_score_below_threshold": 4,
+      "hard_reject_url": 1
     }
   },
   {
