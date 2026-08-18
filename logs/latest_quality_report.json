@@ -1,17 +1,17 @@
 {
-  "total_items": 237,
-  "accepted": 11,
+  "total_items": 251,
+  "accepted": 15,
   "demoted": 0,
-  "rejected": 226,
+  "rejected": 236,
   "reject_reasons": {
-    "quality_score_below_threshold": 102,
+    "quality_score_below_threshold": 111,
     "not_actionable_or_not_relevant": 97,
-    "hard_reject_url": 13,
+    "hard_reject_url": 14,
     "hard_reject_term": 6,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 25,
+  "failed_sources": 23,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -285,6 +285,19 @@
       }
     },
     {
+      "source_name": "IJCAI",
+      "source_pack": "research_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "ijcai",
+      "reject_reasons": {
+        "quality_score_below_threshold": 4,
+        "hard_reject_url": 1
+      }
+    },
+    {
       "source_name": "LeetCode 竞赛",
       "source_pack": "competition_pack",
       "candidates": 5,
@@ -368,6 +381,18 @@
       "demoted": 0,
       "rejected": 5,
       "source_id": "openreview",
+      "reject_reasons": {
+        "quality_score_below_threshold": 5
+      }
+    },
+    {
+      "source_name": "Robocon 中国",
+      "source_pack": "competition_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "robocon_china",
       "reject_reasons": {
         "quality_score_below_threshold": 5
       }
@@ -533,8 +558,8 @@
     {
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
-      "candidates": 3,
-      "accepted": 0,
+      "candidates": 7,
+      "accepted": 4,
       "demoted": 0,
       "rejected": 3,
       "source_id": "modelscope_events",
@@ -628,6 +653,22 @@
   ],
   "top_accepted": [
     {
+      "id": "244cc8732ae7fb6627cd04ffabadac44",
+      "title": "Production AI Skills 大赛——从「智能体工作流」迈向「生产力 Skills」 进行中 第三期（本期，Production AI Skills 大赛）：我们再进一步，把目标锁定在「生产力」——鼓励开发者面向生产力级生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work 等）集成本地 Skill，让端侧智能真正嵌入日常的工作流与生产环节，产出可复用、可商用、有真实价值的技能资产。 应用开发赛 类型 10000元奖金+10000元礼品 奖励 + 94 已有97人参与 2026-08-31 15:59 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/289/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "AI / 算法竞赛",
+      "score": 90.23,
+      "quality_status": "accepted",
+      "quality_score": 62.0,
+      "actionability_score": 40.0,
+      "audience_fit_score": 8.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; competition_source; interest:AI; interest:智能体"
+    },
+    {
       "id": "160edce96b5785113e55743b45d8f87a",
       "title": "Call for papers",
       "url": "https://aclrollingreview.org/cfp",
@@ -642,6 +683,22 @@
       "audience_fit_score": 4.0,
       "reject_reason": "",
       "quality_notes": "action:call for papers; action:cfp; strong_action:call for papers; strong_action:cfp; research_cfp; interest:CFP; source_preferred"
+    },
+    {
+      "id": "71fa392dd2046533ae68acf768f0e38f",
+      "title": "AI+♾️ 开发者创作大赛 进行中 AI+∞ 开发者创作大赛由魔搭社区与 Qoder 联合发起。每月围绕一个主题，邀请开发者用 AI 把灵感变成可运行的作品，并部署至魔搭创空间，让创意可以被真实体验与分享。第一期聚焦「AI+运营」——运营人，造自己的工具！ 应用开发赛 类型 2万元奖金+Qoder Credit+GPU时长 奖励 2026-08-10 15:59 报名截止 主办方 进行中、报名已截止",
+      "url": "https://modelscope.cn/events/320/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "AI / 算法竞赛",
+      "score": 68.9,
+      "quality_status": "accepted",
+      "quality_score": 58.0,
+      "actionability_score": 40.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; competition_source; interest:AI"
     },
     {
       "id": "6606dd8bb6e50c0050b56047132d3d32",
@@ -690,6 +747,38 @@
       "audience_fit_score": 12.0,
       "reject_reason": "",
       "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:多模态; interest:数据竞赛; source_preferred"
+    },
+    {
+      "id": "93d31bf207a0de7a4cb555673b26839c",
+      "title": "FDE轻量级实战工作坊 进行中 高密度动手 + 真实命题驱动。参考硅谷 AI Agent / FDE 专项工作坊主流形式，强调「Show then Do」，让参与者现场输出可带走的方案原型，同时通过组队建立深度连接。 开发者线下沙龙 类型 云谷中心 地点 2026-08-21 15:59 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/340/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "企业开发者赛事",
+      "score": 72.32,
+      "quality_status": "accepted",
+      "quality_score": 48.0,
+      "actionability_score": 34.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
+    },
+    {
+      "id": "c0a5426934994e9e89764250c91fb1e5",
+      "title": "AI MAKER 硬件共建沙龙 进行中 从一个想法，到一个能玩能卖的AI硬件产品 开发者线下沙龙 类型 云谷中心 地点 2026-08-23 15:59 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/344/%E6%B4%BB%E5%8A%A8%E7%AE%80%E4%BB%8B",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "企业开发者赛事",
+      "score": 70.32,
+      "quality_status": "accepted",
+      "quality_score": 48.0,
+      "actionability_score": 34.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
     },
     {
       "id": "5fc670837bca2778e0802a62a19e425a",
