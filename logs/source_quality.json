@@ -615,18 +615,6 @@
     }
   },
   {
-    "source_name": "南京大学就业创业网",
-    "source_pack": "nju_pack",
-    "candidates": 1,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 1,
-    "source_id": "nju_jobs",
-    "reject_reasons": {
-      "quality_score_below_threshold": 1
-    }
-  },
-  {
     "source_name": "DataFountain",
     "source_pack": "competition_pack",
     "candidates": 8,
