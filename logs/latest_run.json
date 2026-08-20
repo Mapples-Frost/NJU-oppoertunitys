@@ -1,13 +1,13 @@
 {
-  "id": "20260819011955",
-  "started_at": "2026-08-19T01:19:55+00:00",
-  "finished_at": "2026-08-19T01:22:57+00:00",
+  "id": "20260820011939",
+  "started_at": "2026-08-20T01:19:39+00:00",
+  "finished_at": "2026-08-20T01:21:07+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 58,
-  "failed_sources": 24,
-  "total_items": 317,
-  "new_items": 2,
+  "successful_sources": 57,
+  "failed_sources": 25,
+  "total_items": 312,
+  "new_items": 3,
   "emailed_items": 14,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -87,14 +87,14 @@
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Max retries exceeded with url: /competitions (Caused by ConnectTimeoutError(<HTTPSConnection(host='openi.pcl.ac.cn', port=443) at 0x7f26caee8090>, 'Connection to openi.pcl.ac.cn timed out. (connect timeout=10)'))"
+      "error": "404 Client Error: Not Found for url: https://openi.pcl.ac.cn/competitions"
     },
     {
       "source_id": "caa",
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f26caea28d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f6d517a4d90>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -167,6 +167,13 @@
       "error": "no list items matched"
     },
     {
+      "source_id": "openreview",
+      "source_name": "OpenReview",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "403 Client Error: Forbidden for url: https://openreview.net/"
+    },
+    {
       "source_id": "most",
       "source_name": "科学技术部",
       "source_pack": "research_pack",
@@ -205,10 +212,10 @@
     },
     "research_pack": {
       "total": 30,
-      "successful": 22,
-      "failed": 8,
-      "items": 113,
-      "new_items": 0
+      "successful": 21,
+      "failed": 9,
+      "items": 108,
+      "new_items": 1
     }
   }
 }
