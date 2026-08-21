@@ -1,17 +1,17 @@
 {
-  "total_items": 245,
+  "total_items": 250,
   "accepted": 15,
   "demoted": 0,
-  "rejected": 230,
+  "rejected": 235,
   "reject_reasons": {
-    "quality_score_below_threshold": 105,
-    "not_actionable_or_not_relevant": 96,
+    "quality_score_below_threshold": 111,
+    "not_actionable_or_not_relevant": 95,
     "hard_reject_url": 14,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 25,
+  "failed_sources": 24,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -139,8 +139,8 @@
       "rejected": 7,
       "source_id": "tencent_cloud_developer",
       "reject_reasons": {
-        "not_actionable_or_not_relevant": 6,
-        "quality_score_below_threshold": 1
+        "not_actionable_or_not_relevant": 5,
+        "quality_score_below_threshold": 2
       }
     },
     {
@@ -372,6 +372,18 @@
       "source_id": "nsfc",
       "reject_reasons": {
         "not_actionable_or_not_relevant": 5
+      }
+    },
+    {
+      "source_name": "OpenReview",
+      "source_pack": "research_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "openreview",
+      "reject_reasons": {
+        "quality_score_below_threshold": 5
       }
     },
     {
@@ -631,7 +643,7 @@
   "top_accepted": [
     {
       "id": "244cc8732ae7fb6627cd04ffabadac44",
-      "title": "Production AI Skills 大赛——从「智能体工作流」迈向「生产力 Skills」 进行中 第三期（本期，Production AI Skills 大赛）：我们再进一步，把目标锁定在「生产力」——鼓励开发者面向生产力级生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work 等）集成本地 Skill，让端侧智能真正嵌入日常的工作流与生产环节，产出可复用、可商用、有真实价值的技能资产。 应用开发赛 类型 10000元奖金+10000元礼品 奖励 + 98 已有101人参与 2026-08-31 15:59 报名截止 主办方 立即报名",
+      "title": "Production AI Skills 大赛——从「智能体工作流」迈向「生产力 Skills」 进行中 第三期（本期，Production AI Skills 大赛）：我们再进一步，把目标锁定在「生产力」——鼓励开发者面向生产力级生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work 等）集成本地 Skill，让端侧智能真正嵌入日常的工作流与生产环节，产出可复用、可商用、有真实价值的技能资产。 应用开发赛 类型 10000元奖金+10000元礼品 奖励 + 103 已有106人参与 2026-08-31 15:59 报名截止 主办方 立即报名",
       "url": "https://modelscope.cn/events/289/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
