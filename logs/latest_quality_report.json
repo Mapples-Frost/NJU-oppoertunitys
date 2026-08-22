@@ -4,8 +4,8 @@
   "demoted": 0,
   "rejected": 235,
   "reject_reasons": {
-    "quality_score_below_threshold": 111,
-    "not_actionable_or_not_relevant": 95,
+    "quality_score_below_threshold": 110,
+    "not_actionable_or_not_relevant": 96,
     "hard_reject_url": 14,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
@@ -139,8 +139,8 @@
       "rejected": 7,
       "source_id": "tencent_cloud_developer",
       "reject_reasons": {
-        "not_actionable_or_not_relevant": 5,
-        "quality_score_below_threshold": 2
+        "not_actionable_or_not_relevant": 6,
+        "quality_score_below_threshold": 1
       }
     },
     {
@@ -642,22 +642,6 @@
   ],
   "top_accepted": [
     {
-      "id": "244cc8732ae7fb6627cd04ffabadac44",
-      "title": "Production AI Skills 大赛——从「智能体工作流」迈向「生产力 Skills」 进行中 第三期（本期，Production AI Skills 大赛）：我们再进一步，把目标锁定在「生产力」——鼓励开发者面向生产力级生产力级 AI Agent 工具（Qoder、WorkBuddy、TRAE Work 等）集成本地 Skill，让端侧智能真正嵌入日常的工作流与生产环节，产出可复用、可商用、有真实价值的技能资产。 应用开发赛 类型 10000元奖金+10000元礼品 奖励 + 103 已有106人参与 2026-08-31 15:59 报名截止 主办方 立即报名",
-      "url": "https://modelscope.cn/events/289/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "AI / 算法竞赛",
-      "score": 90.23,
-      "quality_status": "accepted",
-      "quality_score": 62.0,
-      "actionability_score": 40.0,
-      "audience_fit_score": 8.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; competition_source; interest:AI; interest:智能体"
-    },
-    {
       "id": "160edce96b5785113e55743b45d8f87a",
       "title": "Call for papers",
       "url": "https://aclrollingreview.org/cfp",
@@ -674,20 +658,20 @@
       "quality_notes": "action:call for papers; action:cfp; strong_action:call for papers; strong_action:cfp; research_cfp; interest:CFP; source_preferred"
     },
     {
-      "id": "c133d06c61702384f992770ad0ccffda",
-      "title": "「我的云端AI工作站」开发者技术征文 进行中 「我的云端AI工作站」开发者技术征文晒出你的云端 AI 工作站，最高赢 10000 灵豆（无影云电脑使用时长）！8 月 17 日-9月19日，魔搭社区开发者晒出无影云电脑个人版的真实玩法：AI 出图工作流、云端开发环境、开源项目实战、性能测评，四大方向任选。500-2000 字技术帖 + 配图 + 可复用配置即可投稿；用秒悟搭建应用还能额外叠加秒悟积分。Top 10 发奖，一等奖最高 10000 灵豆 + 2000 魔粒，优质稿件收录官方案例库。每人限投 2 篇，须真实原创。 线上活动 类型 2026-09-19 15:59 报名截止 主办方 立即报名",
-      "url": "https://modelscope.cn/events/345/%E3%80%8C%E6%88%91%E7%9A%84%E4%BA%91%E7%AB%AFAI%E5%B7%A5%E4%BD%9C%E7%AB%99%E3%80%8D%E5%BC%80%E5%8F%91%E8%80%85%E6%8A%80%E6%9C%AF%E5%BE%81%E6%96%87",
+      "id": "f3ebff0f56217ea55db9df5eb0df941d",
+      "title": "AI+♾️ 开发者创作大赛 第二期：用 AI，提前看见未来！ 进行中 AI+∞ 开发者创作大赛由魔搭社区与 Qoder 联合发起。 🕹️第二期聚焦「AI+影视流」——原创AI科幻短片；用AI，提前看见未来！ 本期特别加入由NVIDIA赞助提供的60台 DGX Spark，突破极限，参赛者可以在本地实现图文视频无限生成。 在脑海里无限想象的科幻未来，突然闪现的一个灵感，都可以是一部AI电影大片的起点。 🎮这一次镜头交给你！ 也期待未来能和优秀的你继续搭档，从参赛者变成「运营合伙人」，一起共创接下来的比赛。 图片生成/视频生成赛 类型 20,000元奖金+Qoder Credits+魔粒值 奖励 2026-09-14 04:00 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/347/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
-      "category": "企业开发者赛事",
-      "score": 69.43,
+      "category": "AI / 算法竞赛",
+      "score": 70.9,
       "quality_status": "accepted",
-      "quality_score": 56.0,
-      "actionability_score": 38.0,
+      "quality_score": 58.0,
+      "actionability_score": 40.0,
       "audience_fit_score": 4.0,
       "reject_reason": "",
-      "quality_notes": "action:报名; action:投稿; action:截止; strong_action:报名; strong_action:投稿; strong_action:截止; deadline_detected; interest:AI"
+      "quality_notes": "action:报名; action:参赛; action:截止; strong_action:报名; strong_action:参赛; strong_action:截止; deadline_detected; competition_source; interest:AI"
     },
     {
       "id": "6606dd8bb6e50c0050b56047132d3d32",
@@ -738,6 +722,22 @@
       "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:多模态; interest:数据竞赛; source_preferred"
     },
     {
+      "id": "a1348c88b9a065664d3ad5c4e2c93906",
+      "title": "道旅 - 清华 x-lab “未来旅行家” 全球挑战赛 进行中 道旅集团与清华x-lab启动全球挑战赛，推动青年旅游 AI 创新走向产业应用 黑客松 类型 2026-09-13 16:00 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/348/%E8%B5%9B%E4%BA%8B%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "AI / 算法竞赛",
+      "score": 72.12,
+      "quality_status": "accepted",
+      "quality_score": 51.0,
+      "actionability_score": 34.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI"
+    },
+    {
       "id": "c0a5426934994e9e89764250c91fb1e5",
       "title": "AI MAKER 硬件共建沙龙 进行中 从一个想法，到一个能玩能卖的AI硬件产品 开发者线下沙龙 类型 云谷中心 地点 2026-08-23 15:59 报名截止 主办方 立即报名",
       "url": "https://modelscope.cn/events/344/%E6%B4%BB%E5%8A%A8%E7%AE%80%E4%BB%8B",
@@ -755,13 +755,13 @@
     },
     {
       "id": "93d31bf207a0de7a4cb555673b26839c",
-      "title": "FDE轻量级实战工作坊 进行中 高密度动手 + 真实命题驱动。参考硅谷 AI Agent / FDE 专项工作坊主流形式，强调「Show then Do」，让参与者现场输出可带走的方案原型，同时通过组队建立深度连接。 开发者线下沙龙 类型 云谷中心 地点 2026-08-21 15:59 报名截止 主办方 立即报名",
+      "title": "FDE轻量级实战工作坊 进行中 高密度动手 + 真实命题驱动。参考硅谷 AI Agent / FDE 专项工作坊主流形式，强调「Show then Do」，让参与者现场输出可带走的方案原型，同时通过组队建立深度连接。 开发者线下沙龙 类型 云谷中心 地点 2026-08-21 15:59 报名截止 主办方 进行中、报名已截止",
       "url": "https://modelscope.cn/events/340/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "企业开发者赛事",
-      "score": 72.32,
+      "score": 66.32,
       "quality_status": "accepted",
       "quality_score": 48.0,
       "actionability_score": 34.0,
