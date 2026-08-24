@@ -1,17 +1,17 @@
 {
-  "total_items": 250,
+  "total_items": 246,
   "accepted": 14,
   "demoted": 0,
-  "rejected": 236,
+  "rejected": 232,
   "reject_reasons": {
     "quality_score_below_threshold": 111,
-    "not_actionable_or_not_relevant": 96,
-    "hard_reject_url": 14,
+    "not_actionable_or_not_relevant": 93,
+    "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 24,
+  "failed_sources": 25,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -484,19 +484,6 @@
       }
     },
     {
-      "source_name": "SIGGRAPH",
-      "source_pack": "research_pack",
-      "candidates": 4,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 4,
-      "source_id": "siggraph",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 3,
-        "hard_reject_url": 1
-      }
-    },
-    {
       "source_name": "科大讯飞 AI 开发者大赛",
       "source_pack": "competition_pack",
       "candidates": 4,
@@ -740,13 +727,13 @@
     },
     {
       "id": "c0a5426934994e9e89764250c91fb1e5",
-      "title": "AI MAKER 硬件共建沙龙 进行中 从一个想法，到一个能玩能卖的AI硬件产品 开发者线下沙龙 类型 云谷中心 地点 2026-08-23 15:59 报名截止 主办方 立即报名",
+      "title": "AI MAKER 硬件共建沙龙 进行中 从一个想法，到一个能玩能卖的AI硬件产品 开发者线下沙龙 类型 云谷中心 地点 2026-08-23 15:59 报名截止 主办方 进行中、报名已截止",
       "url": "https://modelscope.cn/events/344/%E6%B4%BB%E5%8A%A8%E7%AE%80%E4%BB%8B",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "企业开发者赛事",
-      "score": 72.32,
+      "score": 66.32,
       "quality_status": "accepted",
       "quality_score": 48.0,
       "actionability_score": 34.0,
