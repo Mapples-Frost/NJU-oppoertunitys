@@ -1,17 +1,17 @@
 {
-  "total_items": 246,
+  "total_items": 241,
   "accepted": 14,
   "demoted": 0,
-  "rejected": 232,
+  "rejected": 227,
   "reject_reasons": {
-    "quality_score_below_threshold": 111,
+    "quality_score_below_threshold": 106,
     "not_actionable_or_not_relevant": 93,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 25,
+  "failed_sources": 26,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -387,18 +387,6 @@
       }
     },
     {
-      "source_name": "Robocon 中国",
-      "source_pack": "competition_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "robocon_china",
-      "reject_reasons": {
-        "quality_score_below_threshold": 5
-      }
-    },
-    {
       "source_name": "Zindi Competitions",
       "source_pack": "competition_pack",
       "candidates": 5,
@@ -678,6 +666,22 @@
       "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:智能体; interest:多模态; interest:数据竞赛; source_preferred"
     },
     {
+      "id": "816ff739771a8d053323d29ff1d802e5",
+      "title": "【外滩大会】可信智能体网络论坛 进行中 构建智能体可信协作新范式，实现从互联到互信 开发者线下沙龙 类型 上海·静安 地点 2026-09-09 16:00 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/351/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "企业开发者赛事",
+      "score": 89.43,
+      "quality_status": "accepted",
+      "quality_score": 52.0,
+      "actionability_score": 34.0,
+      "audience_fit_score": 8.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; interest:智能体; demote:沙龙"
+    },
+    {
       "id": "6ffda39533713f9c2c446601db08350d",
       "title": "论文投稿",
       "url": "https://cac.org.cn/article/type/4-1.html",
@@ -710,30 +714,14 @@
       "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:多模态; interest:数据竞赛; source_preferred"
     },
     {
-      "id": "a1348c88b9a065664d3ad5c4e2c93906",
-      "title": "道旅 - 清华 x-lab “未来旅行家” 全球挑战赛 进行中 道旅集团与清华x-lab启动全球挑战赛，推动青年旅游 AI 创新走向产业应用 黑客松 类型 2026-09-13 16:00 报名截止 主办方 立即报名",
-      "url": "https://modelscope.cn/events/348/%E8%B5%9B%E4%BA%8B%E4%BB%8B%E7%BB%8D",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "AI / 算法竞赛",
-      "score": 72.12,
-      "quality_status": "accepted",
-      "quality_score": 51.0,
-      "actionability_score": 34.0,
-      "audience_fit_score": 4.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI"
-    },
-    {
-      "id": "c0a5426934994e9e89764250c91fb1e5",
-      "title": "AI MAKER 硬件共建沙龙 进行中 从一个想法，到一个能玩能卖的AI硬件产品 开发者线下沙龙 类型 云谷中心 地点 2026-08-23 15:59 报名截止 主办方 进行中、报名已截止",
-      "url": "https://modelscope.cn/events/344/%E6%B4%BB%E5%8A%A8%E7%AE%80%E4%BB%8B",
+      "id": "798aca8e6cbe0a5b5c4d2edc12f3cdb6",
+      "title": "生产力革命4.0： 前沿科技如何 “上桌\"？ 进行中 在生产力革命4.0的开端，我们邀请了5位一线Founder+蚂蚁战投投资人和大家一起聊一聊新“基建”【AI4S与量子计算】技术的岔路口、发展的关键变量、商业化第一步、融资路上的喜与优…… 开发者线下沙龙 类型 上海·静安 地点 2026-08-27 15:00 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/350/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "企业开发者赛事",
-      "score": 66.32,
+      "score": 72.32,
       "quality_status": "accepted",
       "quality_score": 48.0,
       "actionability_score": 34.0,

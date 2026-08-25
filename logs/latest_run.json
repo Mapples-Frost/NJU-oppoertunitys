@@ -1,13 +1,13 @@
 {
-  "id": "20260824012311",
-  "started_at": "2026-08-24T01:23:11+00:00",
-  "finished_at": "2026-08-24T01:24:51+00:00",
+  "id": "20260825012033",
+  "started_at": "2026-08-25T01:20:33+00:00",
+  "finished_at": "2026-08-25T01:22:57+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 57,
-  "failed_sources": 25,
-  "total_items": 312,
-  "new_items": 0,
+  "successful_sources": 56,
+  "failed_sources": 26,
+  "total_items": 307,
+  "new_items": 4,
   "emailed_items": 13,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -94,7 +94,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f55ef52bf50>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fe7b1f9fd50>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -153,6 +153,13 @@
       "error": "no list items matched"
     },
     {
+      "source_id": "robocon_china",
+      "source_name": "Robocon 中国",
+      "source_pack": "competition_pack",
+      "domain": "competition",
+      "error": "HTTPSConnectionPool(host='robocon.org.cn', port=443): Read timed out. (read timeout=5)"
+    },
+    {
       "source_id": "acm_conferences",
       "source_name": "ACM Conferences",
       "source_pack": "research_pack",
@@ -205,17 +212,17 @@
     },
     "competition_pack": {
       "total": 38,
-      "successful": 24,
-      "failed": 14,
-      "items": 140,
-      "new_items": 0
+      "successful": 23,
+      "failed": 15,
+      "items": 135,
+      "new_items": 3
     },
     "research_pack": {
       "total": 30,
       "successful": 21,
       "failed": 9,
       "items": 108,
-      "new_items": 0
+      "new_items": 1
     }
   }
 }
