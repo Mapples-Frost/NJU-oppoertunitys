@@ -336,6 +336,22 @@
     "quality_notes": "interest:南京大学; audience:南京大学; demote:报告"
   },
   {
+    "id": "fa27cf6ea041836afd0d5d4f33b0b4e8",
+    "title": "iSE实验室在基于大语言模型的场景引导GUI测试方面取得... 2026-08-25 随着移动互联网和智能终端的快速发展，移动应用的功能复杂度和界面交互复杂度...",
+    "url": "https://software.nju.edu.cn//xyxw/20260825/i414245.html",
+    "source_id": "nju_software",
+    "source_name": "南京大学软件学院",
+    "source_pack": "nju_pack",
+    "category": "企业开发者赛事",
+    "score": 20.0,
+    "quality_status": "rejected",
+    "quality_score": 39.0,
+    "actionability_score": 10.0,
+    "audience_fit_score": 18.0,
+    "reject_reason": "quality_score_below_threshold",
+    "quality_notes": "deadline_detected; interest:南京大学; audience:南京大学"
+  },
+  {
     "id": "229cbb26fdd059af8659cd7c48c5a383",
     "title": "软件研发效能实验室吕骏等教师团队在跨配置增量构建方面取得... 2026-08-15 现代软件系统通常包含大量可配置选项，以支持不同的平台、功能组合和部署环境...",
     "url": "https://software.nju.edu.cn//xyxw/20260811/i407622.html",
@@ -382,21 +398,5 @@
     "audience_fit_score": 18.0,
     "reject_reason": "quality_score_below_threshold",
     "quality_notes": "deadline_detected; interest:南京大学; audience:南京大学"
-  },
-  {
-    "id": "00b38b0d720f5b004948271c1b8c22c0",
-    "title": "南京大学联合发布的昇腾算子公开评测平台正式上线 2026-07-18 2026年7月15日，南京大学联合华为与深圳河套学院正式发布昇腾算子评测...",
-    "url": "https://software.nju.edu.cn//xyxw/20260718/i402149.html",
-    "source_id": "nju_software",
-    "source_name": "南京大学软件学院",
-    "source_pack": "nju_pack",
-    "category": "企业开发者赛事",
-    "score": 20.0,
-    "quality_status": "rejected",
-    "quality_score": 35.0,
-    "actionability_score": 10.0,
-    "audience_fit_score": 18.0,
-    "reject_reason": "quality_score_below_threshold",
-    "quality_notes": "deadline_detected; interest:南京大学; audience:南京大学; demote:发布"
   }
 ]

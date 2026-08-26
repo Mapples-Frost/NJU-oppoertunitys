@@ -1,13 +1,13 @@
 {
-  "id": "20260825012033",
-  "started_at": "2026-08-25T01:20:33+00:00",
-  "finished_at": "2026-08-25T01:22:57+00:00",
+  "id": "20260826012352",
+  "started_at": "2026-08-26T01:23:52+00:00",
+  "finished_at": "2026-08-26T01:25:45+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 56,
-  "failed_sources": 26,
-  "total_items": 307,
-  "new_items": 4,
+  "successful_sources": 54,
+  "failed_sources": 28,
+  "total_items": 297,
+  "new_items": 5,
   "emailed_items": 13,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -94,7 +94,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fe7b1f9fd50>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f4311e44790>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -157,7 +157,7 @@
       "source_name": "Robocon 中国",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "HTTPSConnectionPool(host='robocon.org.cn', port=443): Read timed out. (read timeout=5)"
+      "error": "no list items matched"
     },
     {
       "source_id": "acm_conferences",
@@ -174,11 +174,25 @@
       "error": "no list items matched"
     },
     {
+      "source_id": "ijcai",
+      "source_name": "IJCAI",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "HTTPSConnectionPool(host='www.ijcai.org', port=443): Read timed out. (read timeout=5)"
+    },
+    {
       "source_id": "siggraph",
       "source_name": "SIGGRAPH",
       "source_pack": "research_pack",
       "domain": "research",
       "error": "no list items matched"
+    },
+    {
+      "source_id": "nsfc",
+      "source_name": "国家自然科学基金委员会",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "HTTPSConnectionPool(host='www.nsfc.gov.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
     },
     {
       "source_id": "most",
@@ -208,21 +222,21 @@
       "successful": 8,
       "failed": 2,
       "items": 64,
-      "new_items": 0
+      "new_items": 1
     },
     "competition_pack": {
       "total": 38,
       "successful": 23,
       "failed": 15,
       "items": 135,
-      "new_items": 3
+      "new_items": 4
     },
     "research_pack": {
       "total": 30,
-      "successful": 21,
-      "failed": 9,
-      "items": 108,
-      "new_items": 1
+      "successful": 19,
+      "failed": 11,
+      "items": 98,
+      "new_items": 0
     }
   }
 }
