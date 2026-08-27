@@ -1,17 +1,17 @@
 {
-  "total_items": 231,
+  "total_items": 246,
   "accepted": 14,
   "demoted": 0,
-  "rejected": 217,
+  "rejected": 232,
   "reject_reasons": {
-    "quality_score_below_threshold": 102,
-    "not_actionable_or_not_relevant": 88,
-    "hard_reject_url": 12,
+    "quality_score_below_threshold": 111,
+    "not_actionable_or_not_relevant": 93,
+    "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 28,
+  "failed_sources": 25,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -285,6 +285,19 @@
       }
     },
     {
+      "source_name": "IJCAI",
+      "source_pack": "research_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "ijcai",
+      "reject_reasons": {
+        "quality_score_below_threshold": 4,
+        "hard_reject_url": 1
+      }
+    },
+    {
       "source_name": "LeetCode 竞赛",
       "source_pack": "competition_pack",
       "candidates": 5,
@@ -350,6 +363,18 @@
       }
     },
     {
+      "source_name": "国家自然科学基金委员会",
+      "source_pack": "research_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "nsfc",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 5
+      }
+    },
+    {
       "source_name": "OpenReview",
       "source_pack": "research_pack",
       "candidates": 5,
@@ -357,6 +382,18 @@
       "demoted": 0,
       "rejected": 5,
       "source_id": "openreview",
+      "reject_reasons": {
+        "quality_score_below_threshold": 5
+      }
+    },
+    {
+      "source_name": "Robocon 中国",
+      "source_pack": "competition_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "robocon_china",
       "reject_reasons": {
         "quality_score_below_threshold": 5
       }
@@ -626,7 +663,7 @@
     },
     {
       "id": "335345f8e6e1f4cadc059fa92ce8b088",
-      "title": "磐石·科学智能（AI for Science）实训营 进行中 “磐石·科学智能（AI for Science）实训营”由中国科学院物理所、自动化所、计算机网络信息中心和中国科学院大学主办，面向研究生、青年科研人员及优秀本科生，围绕科研智能体、AI4S方法论、科学模型和端到端科研闭环开展递进式训练。实训营旨在帮助学员建立系统认知，掌握AI-ready任务设计、模型实现与验证方法，并依托真实科研问题形成可持续推进的研究方案。同时沉淀模块化课程与教学资源，探索智能体原生科研人才培养模式，并推动优秀成果进一步发展为AI4S科研项目。 开发者线下沙龙 类型 2026-09-03 15:59 报名截止 主办方 立即报名",
+      "title": "磐石·科学智能（AI for Science）实训营 进行中 “磐石·科学智能（AI for Science）实训营”由中国科学院物理所、自动化所、计算机网络信息中心和中国科学院大学主办，面向研究生、青年科研人员及优秀本科生，围绕科研智能体、AI4S方法论、科学模型和端到端科研闭环开展递进式训练。实训营旨在帮助学员建立系统认知，掌握AI-ready任务设计、模型实现与验证方法，并依托真实科研问题形成可持续推进的研究方案。同时沉淀模块化课程与教学资源，探索智能体原生科研人才培养模式，并推动优秀成果进一步发展为AI4S科研项目。 开发者线下沙龙 类型 已有2人参与 2026-09-03 15:59 报名截止 主办方 立即报名",
       "url": "https://modelscope.cn/events/354/%E6%B4%BB%E5%8A%A8%E9%80%9A%E7%9F%A5",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
@@ -696,7 +733,7 @@
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "大模型 / 开源活动",
-      "score": 72.32,
+      "score": 74.32,
       "quality_status": "accepted",
       "quality_score": 51.0,
       "actionability_score": 34.0,
