@@ -1,17 +1,17 @@
 {
-  "total_items": 246,
-  "accepted": 14,
+  "total_items": 241,
+  "accepted": 15,
   "demoted": 0,
-  "rejected": 232,
+  "rejected": 226,
   "reject_reasons": {
-    "quality_score_below_threshold": 111,
+    "quality_score_below_threshold": 108,
     "not_actionable_or_not_relevant": 93,
-    "hard_reject_url": 13,
+    "hard_reject_url": 10,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 25,
+  "failed_sources": 26,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -153,19 +153,6 @@
       "source_id": "nju_cs",
       "reject_reasons": {
         "quality_score_below_threshold": 6
-      }
-    },
-    {
-      "source_name": "AAAI Conference",
-      "source_pack": "research_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "aaai_conference",
-      "reject_reasons": {
-        "hard_reject_url": 3,
-        "quality_score_below_threshold": 2
       }
     },
     {
@@ -459,19 +446,6 @@
       }
     },
     {
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "candidates": 7,
-      "accepted": 3,
-      "demoted": 0,
-      "rejected": 4,
-      "source_id": "modelscope_events",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 3,
-        "quality_score_below_threshold": 1
-      }
-    },
-    {
       "source_name": "RoboMaster",
       "source_pack": "competition_pack",
       "candidates": 4,
@@ -552,6 +526,18 @@
       "demoted": 0,
       "rejected": 3,
       "source_id": "iccv",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 3
+      }
+    },
+    {
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "candidates": 7,
+      "accepted": 4,
+      "demoted": 0,
+      "rejected": 3,
+      "source_id": "modelscope_events",
       "reject_reasons": {
         "not_actionable_or_not_relevant": 3
       }
@@ -646,24 +632,8 @@
       "quality_notes": "action:call for papers; action:cfp; strong_action:call for papers; strong_action:cfp; research_cfp; interest:CFP; source_preferred"
     },
     {
-      "id": "f3ebff0f56217ea55db9df5eb0df941d",
-      "title": "AI+♾️ 开发者创作大赛 第二期：用 AI，提前看见未来！ 进行中 AI+∞ 开发者创作大赛由魔搭社区与 Qoder 联合发起。 🕹️第二期聚焦「AI+影视流」——原创AI科幻短片；用AI，提前看见未来！ 本期特别加入由NVIDIA赞助提供的60台 DGX Spark，突破极限，参赛者可以在本地实现图文视频无限生成。 在脑海里无限想象的科幻未来，突然闪现的一个灵感，都可以是一部AI电影大片的起点。 🎮这一次镜头交给你！ 也期待未来能和优秀的你继续搭档，从参赛者变成「运营合伙人」，一起共创接下来的比赛。 图片生成/视频生成赛 类型 20,000元奖金+Qoder Credits+魔粒值 奖励 2026-09-14 04:00 报名截止 主办方 立即报名",
-      "url": "https://modelscope.cn/events/347/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "AI / 算法竞赛",
-      "score": 70.9,
-      "quality_status": "accepted",
-      "quality_score": 58.0,
-      "actionability_score": 40.0,
-      "audience_fit_score": 4.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:参赛; action:截止; strong_action:报名; strong_action:参赛; strong_action:截止; deadline_detected; competition_source; interest:AI"
-    },
-    {
       "id": "335345f8e6e1f4cadc059fa92ce8b088",
-      "title": "磐石·科学智能（AI for Science）实训营 进行中 “磐石·科学智能（AI for Science）实训营”由中国科学院物理所、自动化所、计算机网络信息中心和中国科学院大学主办，面向研究生、青年科研人员及优秀本科生，围绕科研智能体、AI4S方法论、科学模型和端到端科研闭环开展递进式训练。实训营旨在帮助学员建立系统认知，掌握AI-ready任务设计、模型实现与验证方法，并依托真实科研问题形成可持续推进的研究方案。同时沉淀模块化课程与教学资源，探索智能体原生科研人才培养模式，并推动优秀成果进一步发展为AI4S科研项目。 开发者线下沙龙 类型 已有3人参与 2026-09-03 15:59 报名截止 主办方 立即报名",
+      "title": "磐石·科学智能（AI for Science）实训营 进行中 “磐石·科学智能（AI for Science）实训营”由中国科学院物理所、自动化所、计算机网络信息中心和中国科学院大学主办，面向研究生、青年科研人员及优秀本科生，围绕科研智能体、AI4S方法论、科学模型和端到端科研闭环开展递进式训练。实训营旨在帮助学员建立系统认知，掌握AI-ready任务设计、模型实现与验证方法，并依托真实科研问题形成可持续推进的研究方案。同时沉淀模块化课程与教学资源，探索智能体原生科研人才培养模式，并推动优秀成果进一步发展为AI4S科研项目。 开发者线下沙龙 类型 已有4人参与 2026-09-03 15:59 报名截止 主办方 立即报名",
       "url": "https://modelscope.cn/events/354/%E6%B4%BB%E5%8A%A8%E9%80%9A%E7%9F%A5",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
@@ -695,7 +665,7 @@
     },
     {
       "id": "84027dc3d9b7deb1b57ec9f7961b644f",
-      "title": "分享你的 Qwen3.8-27B 实践经验，瓜分 10,000 元现金奖励 进行中 我们在社区中发起一个 征集 Qwen3.8-27B 实践经验征集活动，希望通过本次活动，与社区共同建设一个实用、可检索、能复现的 Qwen3.8-27B 知识库。 征文赛 类型 10,000元现金奖励 奖励 + 38 已有41人参与 2026-09-15 15:59 报名截止 主办方 立即报名",
+      "title": "分享你的 Qwen3.8-27B 实践经验，瓜分 10,000 元现金奖励 进行中 我们在社区中发起一个 征集 Qwen3.8-27B 实践经验征集活动，希望通过本次活动，与社区共同建设一个实用、可检索、能复现的 Qwen3.8-27B 知识库。 征文赛 类型 10,000元现金奖励 奖励 + 43 已有46人参与 2026-09-15 15:59 报名截止 主办方 立即报名",
       "url": "https://modelscope.cn/events/357/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
@@ -740,6 +710,38 @@
       "audience_fit_score": 12.0,
       "reject_reason": "",
       "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:多模态; interest:数据竞赛; source_preferred"
+    },
+    {
+      "id": "481c9af204572a8bc6a2745c0fa8524d",
+      "title": "\"中国云谷·高校训练营\"群核空间智能开发者集训营 进行中 \"中国云谷·高校训练营\"第七期由云谷中心、魔搭社区、群核科技联合主办，浙江大学、DATAWHALE、杭州全球青年人才中心协办。聚焦空间智能的动手实践，邀请一批对空间智能有兴趣的同学，用两天时间从零搭建一个真正能跑、能演示的空间智能应用原型。 开发者线下沙龙 类型 云谷中心 地点 2026-09-11 16:00 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/359/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "企业开发者赛事",
+      "score": 78.32,
+      "quality_status": "accepted",
+      "quality_score": 48.0,
+      "actionability_score": 34.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
+    },
+    {
+      "id": "1b7c25b5237fef4e8854037e5ed6419a",
+      "title": "硬件来碰头 进行中 AI 圈不缺线上信息，缺的是线下的真实碰撞。首场「AI 硬件」线下碰头来了！ 开发者线下沙龙 类型 云谷中心 地点 2026-09-04 16:00 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/360/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "企业开发者赛事",
+      "score": 72.32,
+      "quality_status": "accepted",
+      "quality_score": 48.0,
+      "actionability_score": 34.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
     },
     {
       "id": "5fc670837bca2778e0802a62a19e425a",
