@@ -1,13 +1,13 @@
 {
-  "id": "20260902032844",
-  "started_at": "2026-09-02T03:28:44+00:00",
-  "finished_at": "2026-09-02T03:30:42+00:00",
+  "id": "20260903032957",
+  "started_at": "2026-09-03T03:29:57+00:00",
+  "finished_at": "2026-09-03T03:31:58+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 57,
-  "failed_sources": 25,
-  "total_items": 312,
-  "new_items": 6,
+  "successful_sources": 55,
+  "failed_sources": 27,
+  "total_items": 302,
+  "new_items": 4,
   "emailed_items": 14,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -94,7 +94,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fdad425ccd0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f9632a58d50>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -167,6 +167,20 @@
       "error": "no list items matched"
     },
     {
+      "source_id": "icra",
+      "source_name": "ICRA",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "HTTPSConnectionPool(host='www.ieee-ras.org', port=443): Read timed out. (read timeout=5)"
+    },
+    {
+      "source_id": "iros",
+      "source_name": "IROS",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "HTTPSConnectionPool(host='www.ieee-ras.org', port=443): Read timed out. (read timeout=5)"
+    },
+    {
       "source_id": "siggraph",
       "source_name": "SIGGRAPH",
       "source_pack": "research_pack",
@@ -201,21 +215,21 @@
       "successful": 8,
       "failed": 2,
       "items": 64,
-      "new_items": 2
+      "new_items": 0
     },
     "competition_pack": {
       "total": 38,
       "successful": 24,
       "failed": 14,
       "items": 140,
-      "new_items": 2
+      "new_items": 1
     },
     "research_pack": {
       "total": 30,
-      "successful": 21,
-      "failed": 9,
-      "items": 108,
-      "new_items": 2
+      "successful": 19,
+      "failed": 11,
+      "items": 98,
+      "new_items": 3
     }
   }
 }
