@@ -1,17 +1,17 @@
 {
-  "total_items": 246,
+  "total_items": 243,
   "accepted": 15,
   "demoted": 0,
-  "rejected": 231,
+  "rejected": 228,
   "reject_reasons": {
     "quality_score_below_threshold": 110,
-    "not_actionable_or_not_relevant": 93,
+    "not_actionable_or_not_relevant": 90,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 27,
+  "failed_sources": 26,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -230,19 +230,6 @@
       "reject_reasons": {
         "not_actionable_or_not_relevant": 3,
         "quality_score_below_threshold": 2
-      }
-    },
-    {
-      "source_name": "Codeforces Contests",
-      "source_pack": "competition_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "codeforces_contests",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 4,
-        "generic_listing_page": 1
       }
     },
     {
@@ -496,6 +483,19 @@
       }
     },
     {
+      "source_name": "AtCoder Contests; ACL Rolling Review",
+      "source_pack": "competition_pack",
+      "candidates": 3,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 3,
+      "source_id": "atcoder_contests",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 2,
+        "generic_listing_page": 1
+      }
+    },
+    {
       "source_name": "中国人工智能学会 CAAI",
       "source_pack": "research_pack",
       "candidates": 3,
@@ -581,18 +581,6 @@
       }
     },
     {
-      "source_name": "AtCoder Contests",
-      "source_pack": "competition_pack",
-      "candidates": 1,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 1,
-      "source_id": "atcoder_contests",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 1
-      }
-    },
-    {
       "source_name": "CVPR",
       "source_pack": "research_pack",
       "candidates": 1,
@@ -605,13 +593,13 @@
       }
     },
     {
-      "source_name": "IEEE Robotics and Automation Society",
+      "source_name": "ICRA; IROS; IEEE Robotics and Automation Society",
       "source_pack": "research_pack",
       "candidates": 1,
       "accepted": 0,
       "demoted": 0,
       "rejected": 1,
-      "source_id": "ieee_ras",
+      "source_id": "icra",
       "reject_reasons": {
         "quality_score_below_threshold": 1
       }
@@ -662,7 +650,7 @@
     },
     {
       "id": "84027dc3d9b7deb1b57ec9f7961b644f",
-      "title": "分享你的 Qwen3.8-27B 实践经验，瓜分 10,000 元现金奖励 进行中 我们在社区中发起一个 征集 Qwen3.8-27B 实践经验征集活动，希望通过本次活动，与社区共同建设一个实用、可检索、能复现的 Qwen3.8-27B 知识库。 征文赛 类型 10,000元现金奖励 奖励 + 61 已有64人参与 2026-09-15 15:59 报名截止 主办方 立即报名",
+      "title": "分享你的 Qwen3.8-27B 实践经验，瓜分 10,000 元现金奖励 进行中 我们在社区中发起一个 征集 Qwen3.8-27B 实践经验征集活动，希望通过本次活动，与社区共同建设一个实用、可检索、能复现的 Qwen3.8-27B 知识库。 征文赛 类型 10,000元现金奖励 奖励 + 66 已有69人参与 2026-09-15 15:59 报名截止 主办方 立即报名",
       "url": "https://modelscope.cn/events/357/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
@@ -716,7 +704,7 @@
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "企业开发者赛事",
-      "score": 78.32,
+      "score": 80.32,
       "quality_status": "accepted",
       "quality_score": 48.0,
       "actionability_score": 34.0,
@@ -748,7 +736,7 @@
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "企业开发者赛事",
-      "score": 68.32,
+      "score": 70.32,
       "quality_status": "accepted",
       "quality_score": 48.0,
       "actionability_score": 34.0,
