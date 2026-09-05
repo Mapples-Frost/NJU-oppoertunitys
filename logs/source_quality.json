@@ -219,6 +219,19 @@
     }
   },
   {
+    "source_name": "Codeforces Contests",
+    "source_pack": "competition_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "codeforces_contests",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 4,
+      "generic_listing_page": 1
+    }
+  },
+  {
     "source_name": "全国大学生数学建模竞赛",
     "source_pack": "competition_pack",
     "candidates": 5,
@@ -469,19 +482,6 @@
     }
   },
   {
-    "source_name": "AtCoder Contests; ACL Rolling Review",
-    "source_pack": "competition_pack",
-    "candidates": 3,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 3,
-    "source_id": "atcoder_contests",
-    "reject_reasons": {
-      "not_actionable_or_not_relevant": 2,
-      "generic_listing_page": 1
-    }
-  },
-  {
     "source_name": "中国人工智能学会 CAAI",
     "source_pack": "research_pack",
     "candidates": 3,
@@ -567,6 +567,18 @@
     }
   },
   {
+    "source_name": "AtCoder Contests",
+    "source_pack": "competition_pack",
+    "candidates": 1,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 1,
+    "source_id": "atcoder_contests",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 1
+    }
+  },
+  {
     "source_name": "CVPR",
     "source_pack": "research_pack",
     "candidates": 1,
@@ -579,13 +591,13 @@
     }
   },
   {
-    "source_name": "ICRA; IROS; IEEE Robotics and Automation Society",
+    "source_name": "IEEE Robotics and Automation Society",
     "source_pack": "research_pack",
     "candidates": 1,
     "accepted": 0,
     "demoted": 0,
     "rejected": 1,
-    "source_id": "icra",
+    "source_id": "ieee_ras",
     "reject_reasons": {
       "quality_score_below_threshold": 1
     }

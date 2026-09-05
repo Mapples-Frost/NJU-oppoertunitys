@@ -1,13 +1,13 @@
 {
-  "id": "20260904032759",
-  "started_at": "2026-09-04T03:27:59+00:00",
-  "finished_at": "2026-09-04T03:29:57+00:00",
+  "id": "20260905032939",
+  "started_at": "2026-09-05T03:29:39+00:00",
+  "finished_at": "2026-09-05T03:33:12+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 56,
-  "failed_sources": 26,
-  "total_items": 307,
-  "new_items": 3,
+  "successful_sources": 55,
+  "failed_sources": 27,
+  "total_items": 302,
+  "new_items": 1,
   "emailed_items": 14,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -87,14 +87,14 @@
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "404 Client Error: Not Found for url: https://openi.pcl.ac.cn/competitions"
+      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Max retries exceeded with url: /competitions (Caused by ConnectTimeoutError(<HTTPSConnection(host='openi.pcl.ac.cn', port=443) at 0x7f50fb4db690>, 'Connection to openi.pcl.ac.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "caa",
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fb695e49990>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f50fb4fd1d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -146,13 +146,6 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "codeforces_contests",
-      "source_name": "Codeforces Contests",
-      "source_pack": "competition_pack",
-      "domain": "competition",
-      "error": "403 Client Error: Forbidden for url: https://codeforces.com/contests"
-    },
-    {
       "source_id": "icpc_global",
       "source_name": "ICPC Global",
       "source_pack": "competition_pack",
@@ -172,6 +165,20 @@
       "source_pack": "research_pack",
       "domain": "research",
       "error": "no list items matched"
+    },
+    {
+      "source_id": "icra",
+      "source_name": "ICRA",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "HTTPSConnectionPool(host='www.ieee-ras.org', port=443): Read timed out. (read timeout=5)"
+    },
+    {
+      "source_id": "iros",
+      "source_name": "IROS",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "HTTPSConnectionPool(host='www.ieee-ras.org', port=443): Read timed out. (read timeout=5)"
     },
     {
       "source_id": "siggraph",
@@ -212,17 +219,17 @@
     },
     "competition_pack": {
       "total": 38,
-      "successful": 23,
-      "failed": 15,
-      "items": 135,
+      "successful": 24,
+      "failed": 14,
+      "items": 140,
       "new_items": 0
     },
     "research_pack": {
       "total": 30,
-      "successful": 21,
-      "failed": 9,
-      "items": 108,
-      "new_items": 3
+      "successful": 19,
+      "failed": 11,
+      "items": 98,
+      "new_items": 1
     }
   }
 }
