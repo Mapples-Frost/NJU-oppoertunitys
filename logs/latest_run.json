@@ -1,13 +1,13 @@
 {
-  "id": "20260905032939",
-  "started_at": "2026-09-05T03:29:39+00:00",
-  "finished_at": "2026-09-05T03:33:12+00:00",
+  "id": "20260906033039",
+  "started_at": "2026-09-06T03:30:39+00:00",
+  "finished_at": "2026-09-06T03:32:55+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 55,
-  "failed_sources": 27,
-  "total_items": 302,
-  "new_items": 1,
+  "successful_sources": 56,
+  "failed_sources": 26,
+  "total_items": 307,
+  "new_items": 0,
   "emailed_items": 14,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -87,14 +87,14 @@
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Max retries exceeded with url: /competitions (Caused by ConnectTimeoutError(<HTTPSConnection(host='openi.pcl.ac.cn', port=443) at 0x7f50fb4db690>, 'Connection to openi.pcl.ac.cn timed out. (connect timeout=10)'))"
+      "error": "404 Client Error: Not Found for url: https://openi.pcl.ac.cn/competitions"
     },
     {
       "source_id": "caa",
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f50fb4fd1d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fbc70bd8a50>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -167,25 +167,18 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "icra",
-      "source_name": "ICRA",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.ieee-ras.org', port=443): Read timed out. (read timeout=5)"
-    },
-    {
-      "source_id": "iros",
-      "source_name": "IROS",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.ieee-ras.org', port=443): Read timed out. (read timeout=5)"
-    },
-    {
       "source_id": "siggraph",
       "source_name": "SIGGRAPH",
       "source_pack": "research_pack",
       "domain": "research",
       "error": "no list items matched"
+    },
+    {
+      "source_id": "acl_portal",
+      "source_name": "ACL Anthology / Portal",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     },
     {
       "source_id": "most",
@@ -226,10 +219,10 @@
     },
     "research_pack": {
       "total": 30,
-      "successful": 19,
-      "failed": 11,
-      "items": 98,
-      "new_items": 1
+      "successful": 20,
+      "failed": 10,
+      "items": 103,
+      "new_items": 0
     }
   }
 }
