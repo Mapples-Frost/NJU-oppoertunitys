@@ -1,14 +1,14 @@
 {
-  "id": "20260907032959",
-  "started_at": "2026-09-07T03:29:59+00:00",
-  "finished_at": "2026-09-07T03:31:44+00:00",
+  "id": "20260908033528",
+  "started_at": "2026-09-08T03:35:28+00:00",
+  "finished_at": "2026-09-08T03:37:07+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 54,
-  "failed_sources": 28,
-  "total_items": 294,
-  "new_items": 2,
-  "emailed_items": 10,
+  "successful_sources": 57,
+  "failed_sources": 25,
+  "total_items": 312,
+  "new_items": 0,
+  "emailed_items": 14,
   "email_status": "sent",
   "email_skip_reason": "",
   "errors": [
@@ -83,13 +83,6 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "domain": "competition",
-      "error": "HTTPSConnectionPool(host='modelscope.cn', port=443): Read timed out. (read timeout=10)"
-    },
-    {
       "source_id": "openi_competitions",
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
@@ -101,7 +94,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f5afe18ccd0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f81f4b3a5d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -174,20 +167,6 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "icra",
-      "source_name": "ICRA",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "504 Server Error: Gateway Timeout for url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra"
-    },
-    {
-      "source_id": "iros",
-      "source_name": "IROS",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "504 Server Error: Gateway Timeout for url: https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros"
-    },
-    {
       "source_id": "siggraph",
       "source_name": "SIGGRAPH",
       "source_pack": "research_pack",
@@ -222,21 +201,21 @@
       "successful": 8,
       "failed": 2,
       "items": 64,
-      "new_items": 1
+      "new_items": 0
     },
     "competition_pack": {
       "total": 38,
-      "successful": 23,
-      "failed": 15,
-      "items": 132,
+      "successful": 24,
+      "failed": 14,
+      "items": 140,
       "new_items": 0
     },
     "research_pack": {
       "total": 30,
-      "successful": 19,
-      "failed": 11,
-      "items": 98,
-      "new_items": 1
+      "successful": 21,
+      "failed": 9,
+      "items": 108,
+      "new_items": 0
     }
   }
 }
