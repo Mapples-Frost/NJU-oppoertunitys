@@ -478,7 +478,8 @@
     "rejected": 3,
     "source_id": "acl_rolling_review",
     "reject_reasons": {
-      "not_actionable_or_not_relevant": 3
+      "not_actionable_or_not_relevant": 2,
+      "quality_score_below_threshold": 1
     }
   },
   {

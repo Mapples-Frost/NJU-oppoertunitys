@@ -4,8 +4,8 @@
   "demoted": 0,
   "rejected": 231,
   "reject_reasons": {
-    "quality_score_below_threshold": 111,
-    "not_actionable_or_not_relevant": 92,
+    "quality_score_below_threshold": 112,
+    "not_actionable_or_not_relevant": 91,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
@@ -492,7 +492,8 @@
       "rejected": 3,
       "source_id": "acl_rolling_review",
       "reject_reasons": {
-        "not_actionable_or_not_relevant": 3
+        "not_actionable_or_not_relevant": 2,
+        "quality_score_below_threshold": 1
       }
     },
     {
