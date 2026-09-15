@@ -125,8 +125,8 @@
     "rejected": 7,
     "source_id": "tencent_cloud_developer",
     "reject_reasons": {
-      "not_actionable_or_not_relevant": 6,
-      "quality_score_below_threshold": 1
+      "not_actionable_or_not_relevant": 5,
+      "quality_score_below_threshold": 2
     }
   },
   {
@@ -531,18 +531,6 @@
     }
   },
   {
-    "source_name": "ModelScope 魔搭社区活动",
-    "source_pack": "competition_pack",
-    "candidates": 7,
-    "accepted": 4,
-    "demoted": 0,
-    "rejected": 3,
-    "source_id": "modelscope_events",
-    "reject_reasons": {
-      "not_actionable_or_not_relevant": 3
-    }
-  },
-  {
     "source_name": "ICLR",
     "source_pack": "research_pack",
     "candidates": 2,
@@ -553,6 +541,18 @@
     "reject_reasons": {
       "hard_reject_url": 1,
       "quality_score_below_threshold": 1
+    }
+  },
+  {
+    "source_name": "ModelScope 魔搭社区活动",
+    "source_pack": "competition_pack",
+    "candidates": 8,
+    "accepted": 6,
+    "demoted": 0,
+    "rejected": 2,
+    "source_id": "modelscope_events",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 2
     }
   },
   {
