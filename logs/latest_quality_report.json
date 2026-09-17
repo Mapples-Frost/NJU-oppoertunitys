@@ -1,17 +1,17 @@
 {
-  "total_items": 247,
+  "total_items": 242,
   "accepted": 17,
   "demoted": 0,
-  "rejected": 230,
+  "rejected": 225,
   "reject_reasons": {
     "quality_score_below_threshold": 112,
-    "not_actionable_or_not_relevant": 90,
-    "hard_reject_url": 13,
+    "not_actionable_or_not_relevant": 86,
+    "hard_reject_url": 12,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 25,
+  "failed_sources": 26,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -269,19 +269,6 @@
       "reject_reasons": {
         "not_actionable_or_not_relevant": 4,
         "quality_score_below_threshold": 1
-      }
-    },
-    {
-      "source_name": "Devpost Hackathons",
-      "source_pack": "competition_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "devpost_hackathons",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 4,
-        "hard_reject_url": 1
       }
     },
     {

@@ -1,13 +1,13 @@
 {
-  "id": "20260916035233",
-  "started_at": "2026-09-16T03:52:33+00:00",
-  "finished_at": "2026-09-16T03:54:32+00:00",
+  "id": "20260917035758",
+  "started_at": "2026-09-17T03:57:58+00:00",
+  "finished_at": "2026-09-17T04:01:12+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 57,
-  "failed_sources": 25,
-  "total_items": 312,
-  "new_items": 1,
+  "successful_sources": 56,
+  "failed_sources": 26,
+  "total_items": 307,
+  "new_items": 2,
   "emailed_items": 15,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -87,14 +87,14 @@
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "404 Client Error: Not Found for url: https://openi.pcl.ac.cn/competitions"
+      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Max retries exceeded with url: /competitions (Caused by ConnectTimeoutError(<HTTPSConnection(host='openi.pcl.ac.cn', port=443) at 0x7f7c1d4a6110>, 'Connection to openi.pcl.ac.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "caa",
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fa4121ff6d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f7c1d4a7a50>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -153,6 +153,13 @@
       "error": "no list items matched"
     },
     {
+      "source_id": "devpost_hackathons",
+      "source_name": "Devpost Hackathons",
+      "source_pack": "competition_pack",
+      "domain": "competition",
+      "error": "HTTPSConnectionPool(host='devpost.com', port=443): Read timed out. (read timeout=5)"
+    },
+    {
       "source_id": "acm_conferences",
       "source_name": "ACM Conferences",
       "source_pack": "research_pack",
@@ -205,9 +212,9 @@
     },
     "competition_pack": {
       "total": 38,
-      "successful": 24,
-      "failed": 14,
-      "items": 140,
+      "successful": 23,
+      "failed": 15,
+      "items": 135,
       "new_items": 0
     },
     "research_pack": {
@@ -215,7 +222,7 @@
       "successful": 21,
       "failed": 9,
       "items": 108,
-      "new_items": 1
+      "new_items": 2
     }
   }
 }

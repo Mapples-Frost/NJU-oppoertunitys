@@ -258,19 +258,6 @@
     }
   },
   {
-    "source_name": "Devpost Hackathons",
-    "source_pack": "competition_pack",
-    "candidates": 5,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 5,
-    "source_id": "devpost_hackathons",
-    "reject_reasons": {
-      "not_actionable_or_not_relevant": 4,
-      "hard_reject_url": 1
-    }
-  },
-  {
     "source_name": "IJCAI",
     "source_pack": "research_pack",
     "candidates": 5,
