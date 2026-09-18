@@ -1,17 +1,17 @@
 {
-  "total_items": 242,
+  "total_items": 247,
   "accepted": 17,
   "demoted": 0,
-  "rejected": 225,
+  "rejected": 230,
   "reject_reasons": {
-    "quality_score_below_threshold": 112,
-    "not_actionable_or_not_relevant": 86,
-    "hard_reject_url": 12,
+    "quality_score_below_threshold": 111,
+    "not_actionable_or_not_relevant": 91,
+    "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 26,
+  "failed_sources": 25,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -139,8 +139,8 @@
       "rejected": 7,
       "source_id": "tencent_cloud_developer",
       "reject_reasons": {
-        "not_actionable_or_not_relevant": 5,
-        "quality_score_below_threshold": 2
+        "not_actionable_or_not_relevant": 6,
+        "quality_score_below_threshold": 1
       }
     },
     {
@@ -269,6 +269,19 @@
       "reject_reasons": {
         "not_actionable_or_not_relevant": 4,
         "quality_score_below_threshold": 1
+      }
+    },
+    {
+      "source_name": "Devpost Hackathons",
+      "source_pack": "competition_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "devpost_hackathons",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 4,
+        "hard_reject_url": 1
       }
     },
     {
@@ -650,13 +663,13 @@
     },
     {
       "id": "952523dc09f4c7dd039cd30c580c52b1",
-      "title": "FDE实战松·前线交付战 进行中 FDE实战松前线交付战由云谷中心、魔搭社区与蜂元智能主办，2026年9月21日在云谷中心单日线下举行，设具身智能数据工厂、园区运营AI提效两条赛道，二十支队伍，每队一到三人。本场所有赛题的甲方均由甲方Agent扮演，开发时段不设真人答疑，各队信息条件与问询额度完全相同，差距只来自你问出了什么，以及怎么把答复落进方案。当天须交出方案文档、商业报价单和可运行的魔搭创空间Demo，评审围绕客户价值、需求洞察、产品形态、实施可行性与商业报价打分。 黑客松 类型 19,000元现金奖池 奖励 2026-09-17 15:59 报名截止 主办方 立即报名",
+      "title": "FDE实战松·前线交付战 进行中 FDE实战松前线交付战由云谷中心、魔搭社区与蜂元智能主办，2026年9月21日在云谷中心单日线下举行，设具身智能数据工厂、园区运营AI提效两条赛道，二十支队伍，每队一到三人。本场所有赛题的甲方均由甲方Agent扮演，开发时段不设真人答疑，各队信息条件与问询额度完全相同，差距只来自你问出了什么，以及怎么把答复落进方案。当天须交出方案文档、商业报价单和可运行的魔搭创空间Demo，评审围绕客户价值、需求洞察、产品形态、实施可行性与商业报价打分。 黑客松 类型 19,000元现金奖池 奖励 2026-09-17 15:59 报名截止 主办方 进行中、报名已截止",
       "url": "https://modelscope.cn/events/368/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "机器人 / 自动化 / 智能车",
-      "score": 87.82,
+      "score": 81.82,
       "quality_status": "accepted",
       "quality_score": 57.0,
       "actionability_score": 40.0,
@@ -688,7 +701,7 @@
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "大创 / 科研训练 / 项目招募",
-      "score": 71.35,
+      "score": 73.35,
       "quality_status": "accepted",
       "quality_score": 55.0,
       "actionability_score": 38.0,
@@ -704,7 +717,7 @@
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "AI / 算法竞赛",
-      "score": 78.98,
+      "score": 80.98,
       "quality_status": "accepted",
       "quality_score": 53.0,
       "actionability_score": 40.0,
