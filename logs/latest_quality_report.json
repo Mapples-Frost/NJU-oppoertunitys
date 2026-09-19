@@ -1,17 +1,17 @@
 {
-  "total_items": 247,
+  "total_items": 244,
   "accepted": 17,
   "demoted": 0,
-  "rejected": 230,
+  "rejected": 227,
   "reject_reasons": {
     "quality_score_below_threshold": 111,
-    "not_actionable_or_not_relevant": 91,
+    "not_actionable_or_not_relevant": 88,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 25,
+  "failed_sources": 26,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -230,19 +230,6 @@
       "reject_reasons": {
         "not_actionable_or_not_relevant": 3,
         "quality_score_below_threshold": 2
-      }
-    },
-    {
-      "source_name": "Codeforces Contests",
-      "source_pack": "competition_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "codeforces_contests",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 4,
-        "generic_listing_page": 1
       }
     },
     {
@@ -497,6 +484,19 @@
       }
     },
     {
+      "source_name": "AtCoder Contests",
+      "source_pack": "competition_pack",
+      "candidates": 3,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 3,
+      "source_id": "atcoder_contests",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 2,
+        "generic_listing_page": 1
+      }
+    },
+    {
       "source_name": "中国人工智能学会 CAAI",
       "source_pack": "research_pack",
       "candidates": 3,
@@ -579,18 +579,6 @@
       "source_id": "xiaomi_developer",
       "reject_reasons": {
         "not_actionable_or_not_relevant": 2
-      }
-    },
-    {
-      "source_name": "AtCoder Contests",
-      "source_pack": "competition_pack",
-      "candidates": 1,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 1,
-      "source_id": "atcoder_contests",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 1
       }
     },
     {
@@ -710,6 +698,22 @@
       "quality_notes": "action:报名; action:招募; action:截止; strong_action:报名; strong_action:招募; strong_action:截止; deadline_detected; interest:AI"
     },
     {
+      "id": "84027dc3d9b7deb1b57ec9f7961b644f",
+      "title": "分享你的 Qwen3.8-27B 实践经验，瓜分 10,000 元现金奖励 进行中 我们在社区中发起一个 征集 Qwen3.8-27B 实践经验征集活动，希望通过本次活动，与社区共同建设一个实用、可检索、能复现的 Qwen3.8-27B 知识库。 征文赛 类型 10,000元现金奖励 奖励 + 99 已有102人参与 2026-09-15 15:59 报名截止 主办方 进行中、报名已截止",
+      "url": "https://modelscope.cn/events/357/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "大模型 / 开源活动",
+      "score": 67.35,
+      "quality_status": "accepted",
+      "quality_score": 55.0,
+      "actionability_score": 38.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:征集; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI"
+    },
+    {
       "id": "b3631b826e72571a8a6f86268450312c",
       "title": "第八届工业互联网大赛 进行中 本届大赛创新采用“主题赛+直通赛”双轨并行的赛制，面向全社会征集产业一线的实践导向解决方案的同时，聚焦龙头企业真实需求推动成果落地，同时形成“广泛应用”与“定向攻坚”相结合的竞赛格局。 应用开发赛 类型 0 奖励 2026-09-21 15:59 报名截止 主办方 立即报名",
       "url": "https://modelscope.cn/events/370/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
@@ -772,22 +776,6 @@
       "audience_fit_score": 4.0,
       "reject_reason": "",
       "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI"
-    },
-    {
-      "id": "1e23c058985bce74b97bc7466299f426",
-      "title": "GOAI开源周即将启幕｜5天7大板块全攻略 进行中 9月20日至24日，GOAI开源周将在杭州云谷中心举行。 一场全球赛事，汇聚全球人才与创新项目； 一片开源生态，推动技术创新与产业生长。 GOAI链接全球开源力量，让世界AI向杭而聚。 开发者线下沙龙 类型 杭州 地点 2026-09-23 16:00 报名截止 主办方 即将开启",
-      "url": "https://modelscope.cn/events/369/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "企业开发者赛事",
-      "score": 83.12,
-      "quality_status": "accepted",
-      "quality_score": 48.0,
-      "actionability_score": 34.0,
-      "audience_fit_score": 4.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
     },
     {
       "id": "5fc670837bca2778e0802a62a19e425a",
