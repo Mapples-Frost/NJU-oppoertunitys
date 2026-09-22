@@ -1,17 +1,17 @@
 {
-  "total_items": 244,
+  "total_items": 247,
   "accepted": 17,
   "demoted": 0,
-  "rejected": 227,
+  "rejected": 230,
   "reject_reasons": {
-    "quality_score_below_threshold": 109,
-    "not_actionable_or_not_relevant": 89,
+    "quality_score_below_threshold": 111,
+    "not_actionable_or_not_relevant": 91,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
-    "generic_listing_page": 3
+    "generic_listing_page": 2
   },
-  "failed_sources": 26,
+  "failed_sources": 25,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -220,6 +220,19 @@
       }
     },
     {
+      "source_name": "Codabench Competitions; DrivenData Competitions",
+      "source_pack": "competition_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "codabench_competitions",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 3,
+        "quality_score_below_threshold": 2
+      }
+    },
+    {
       "source_name": "Codeforces Contests",
       "source_pack": "competition_pack",
       "candidates": 5,
@@ -269,31 +282,6 @@
       "reject_reasons": {
         "not_actionable_or_not_relevant": 4,
         "hard_reject_url": 1
-      }
-    },
-    {
-      "source_name": "DrivenData Competitions",
-      "source_pack": "competition_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "drivendata_competitions",
-      "reject_reasons": {
-        "quality_score_below_threshold": 4,
-        "generic_listing_page": 1
-      }
-    },
-    {
-      "source_name": "Hugging Face Competitions; Papers with Code",
-      "source_pack": "competition_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "huggingface_competitions",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 5
       }
     },
     {
@@ -423,6 +411,18 @@
       }
     },
     {
+      "source_name": "DrivenData Competitions",
+      "source_pack": "competition_pack",
+      "candidates": 4,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 4,
+      "source_id": "drivendata_competitions",
+      "reject_reasons": {
+        "quality_score_below_threshold": 4
+      }
+    },
+    {
       "source_name": "中国研究生创新实践系列大赛",
       "source_pack": "competition_pack",
       "candidates": 4,
@@ -432,6 +432,18 @@
       "source_id": "graduate_innovation_competition",
       "reject_reasons": {
         "quality_score_below_threshold": 4
+      }
+    },
+    {
+      "source_name": "Hugging Face Competitions; Papers with Code",
+      "source_pack": "competition_pack",
+      "candidates": 4,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 4,
+      "source_id": "huggingface_competitions",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 4
       }
     },
     {
@@ -683,13 +695,13 @@
     },
     {
       "id": "018bb26b6b574d8f11560c7c954cd806",
-      "title": "罕见·无界黑客松 进行中 患者出题，高手接招｜「罕见·无界黑客松」赛手招募开启 黑客松 类型 奖金+算力资源 奖励 2026-09-21 15:59 报名截止 主办方 立即报名",
+      "title": "罕见·无界黑客松 进行中 患者出题，高手接招｜「罕见·无界黑客松」赛手招募开启 黑客松 类型 奖金+算力资源 奖励 2026-09-21 15:59 报名截止 主办方 进行中、报名已截止",
       "url": "https://modelscope.cn/events/371/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "大创 / 科研训练 / 项目招募",
-      "score": 73.35,
+      "score": 67.35,
       "quality_status": "accepted",
       "quality_score": 55.0,
       "actionability_score": 38.0,
@@ -715,13 +727,13 @@
     },
     {
       "id": "b3631b826e72571a8a6f86268450312c",
-      "title": "第八届工业互联网大赛 进行中 本届大赛创新采用“主题赛+直通赛”双轨并行的赛制，面向全社会征集产业一线的实践导向解决方案的同时，聚焦龙头企业真实需求推动成果落地，同时形成“广泛应用”与“定向攻坚”相结合的竞赛格局。 应用开发赛 类型 0 奖励 2026-09-21 15:59 报名截止 主办方 立即报名",
+      "title": "第八届工业互联网大赛 进行中 本届大赛创新采用“主题赛+直通赛”双轨并行的赛制，面向全社会征集产业一线的实践导向解决方案的同时，聚焦龙头企业真实需求推动成果落地，同时形成“广泛应用”与“定向攻坚”相结合的竞赛格局。 应用开发赛 类型 0 奖励 2026-09-21 15:59 报名截止 主办方 进行中、报名已截止",
       "url": "https://modelscope.cn/events/370/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "AI / 算法竞赛",
-      "score": 80.98,
+      "score": 74.98,
       "quality_status": "accepted",
       "quality_score": 53.0,
       "actionability_score": 40.0,
