@@ -1,17 +1,17 @@
 {
-  "total_items": 247,
+  "total_items": 237,
   "accepted": 17,
   "demoted": 0,
-  "rejected": 230,
+  "rejected": 220,
   "reject_reasons": {
-    "quality_score_below_threshold": 111,
-    "not_actionable_or_not_relevant": 91,
+    "quality_score_below_threshold": 106,
+    "not_actionable_or_not_relevant": 86,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 25,
+  "failed_sources": 27,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -363,18 +363,6 @@
       }
     },
     {
-      "source_name": "国家自然科学基金委员会",
-      "source_pack": "research_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "nsfc",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 5
-      }
-    },
-    {
       "source_name": "OpenReview",
       "source_pack": "research_pack",
       "candidates": 5,
@@ -382,18 +370,6 @@
       "demoted": 0,
       "rejected": 5,
       "source_id": "openreview",
-      "reject_reasons": {
-        "quality_score_below_threshold": 5
-      }
-    },
-    {
-      "source_name": "Robocon 中国",
-      "source_pack": "competition_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "robocon_china",
       "reject_reasons": {
         "quality_score_below_threshold": 5
       }
@@ -662,20 +638,20 @@
       "quality_notes": "action:call for papers; action:cfp; strong_action:call for papers; strong_action:cfp; research_cfp; interest:CFP; source_preferred"
     },
     {
-      "id": "952523dc09f4c7dd039cd30c580c52b1",
-      "title": "FDE实战松·前线交付战 进行中 FDE实战松前线交付战由云谷中心、魔搭社区与蜂元智能主办，2026年9月21日在云谷中心单日线下举行，设具身智能数据工厂、园区运营AI提效两条赛道，二十支队伍，每队一到三人。本场所有赛题的甲方均由甲方Agent扮演，开发时段不设真人答疑，各队信息条件与问询额度完全相同，差距只来自你问出了什么，以及怎么把答复落进方案。当天须交出方案文档、商业报价单和可运行的魔搭创空间Demo，评审围绕客户价值、需求洞察、产品形态、实施可行性与商业报价打分。 黑客松 类型 19,000元现金奖池 奖励 2026-09-17 15:59 报名截止 主办方 进行中、报名已截止",
-      "url": "https://modelscope.cn/events/368/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
+      "id": "90ec8ccd711a278f7d7bc4e2d2d59891",
+      "title": "支付宝｜智能体涌现奖比赛 进行中 欢迎参加由支付宝发起的智能体涌现奖比赛，每一个真实需求都可能长成智能体（包括：智能应用、Agent…），你可以带着原创想法报名提交作品，也可以从阿宝许愿池的真实需求里找灵感动手创作，哪怕没有开发经验，也能投递你的愿望赢取奖励。 应用开发赛 类型 1000万智能体发展奖金总奖池 奖励 2026-11-10 15:59 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/375/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
-      "category": "机器人 / 自动化 / 智能车",
-      "score": 81.82,
+      "category": "大模型 / 开源活动",
+      "score": 86.35,
       "quality_status": "accepted",
-      "quality_score": 57.0,
-      "actionability_score": 40.0,
-      "audience_fit_score": 4.0,
+      "quality_score": 55.0,
+      "actionability_score": 34.0,
+      "audience_fit_score": 8.0,
       "reject_reason": "",
-      "quality_notes": "action:报名; action:赛题; action:截止; strong_action:报名; strong_action:赛题; strong_action:截止; deadline_detected; competition_source; interest:AI"
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; interest:智能体"
     },
     {
       "id": "6606dd8bb6e50c0050b56047132d3d32",
@@ -726,22 +702,6 @@
       "quality_notes": "action:报名; action:征集; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI"
     },
     {
-      "id": "b3631b826e72571a8a6f86268450312c",
-      "title": "第八届工业互联网大赛 进行中 本届大赛创新采用“主题赛+直通赛”双轨并行的赛制，面向全社会征集产业一线的实践导向解决方案的同时，聚焦龙头企业真实需求推动成果落地，同时形成“广泛应用”与“定向攻坚”相结合的竞赛格局。 应用开发赛 类型 0 奖励 2026-09-21 15:59 报名截止 主办方 进行中、报名已截止",
-      "url": "https://modelscope.cn/events/370/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "AI / 算法竞赛",
-      "score": 74.98,
-      "quality_status": "accepted",
-      "quality_score": 53.0,
-      "actionability_score": 40.0,
-      "audience_fit_score": 4.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:征集; action:截止; strong_action:报名; strong_action:截止; deadline_detected; competition_source; interest:AI; demote:成果"
-    },
-    {
       "id": "6ffda39533713f9c2c446601db08350d",
       "title": "论文投稿",
       "url": "https://cac.org.cn/article/type/4-1.html",
@@ -772,6 +732,22 @@
       "audience_fit_score": 12.0,
       "reject_reason": "",
       "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:多模态; interest:数据竞赛; source_preferred"
+    },
+    {
+      "id": "c5f838d8504bd0c679c8dee1dff1590f",
+      "title": "西客松｜Shaanxi Hackathon 进行中 西安首场千人级AI黑客松，重磅启动！ 应用开发赛 类型 45.6万元奖金池 奖励 2026-09-30 15:59 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/376/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "大模型 / 开源活动",
+      "score": 72.32,
+      "quality_status": "accepted",
+      "quality_score": 51.0,
+      "actionability_score": 34.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI"
     },
     {
       "id": "1c2429792753ab70c4e38740d29746f7",
