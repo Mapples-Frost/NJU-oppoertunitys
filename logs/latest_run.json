@@ -1,13 +1,13 @@
 {
-  "id": "20260925035821",
-  "started_at": "2026-09-25T03:58:21+00:00",
-  "finished_at": "2026-09-25T04:01:26+00:00",
+  "id": "20260926040302",
+  "started_at": "2026-09-26T04:03:02+00:00",
+  "finished_at": "2026-09-26T04:04:55+00:00",
   "status": "success",
   "total_sources": 82,
   "successful_sources": 57,
   "failed_sources": 25,
   "total_items": 312,
-  "new_items": 4,
+  "new_items": 0,
   "emailed_items": 15,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -87,14 +87,14 @@
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Max retries exceeded with url: /competitions (Caused by ConnectTimeoutError(<HTTPSConnection(host='openi.pcl.ac.cn', port=443) at 0x7f82bf6ea850>, 'Connection to openi.pcl.ac.cn timed out. (connect timeout=10)'))"
+      "error": "404 Client Error: Not Found for url: https://openi.pcl.ac.cn/competitions"
     },
     {
       "source_id": "caa",
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f82bf6d8350>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f6c4168a650>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -208,14 +208,14 @@
       "successful": 24,
       "failed": 14,
       "items": 140,
-      "new_items": 1
+      "new_items": 0
     },
     "research_pack": {
       "total": 30,
       "successful": 21,
       "failed": 9,
       "items": 108,
-      "new_items": 3
+      "new_items": 0
     }
   }
 }
