@@ -1,13 +1,13 @@
 {
-  "id": "20260927041648",
-  "started_at": "2026-09-27T04:16:48+00:00",
-  "finished_at": "2026-09-27T04:18:44+00:00",
+  "id": "20260928041754",
+  "started_at": "2026-09-28T04:17:54+00:00",
+  "finished_at": "2026-09-28T04:19:35+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 57,
-  "failed_sources": 25,
-  "total_items": 312,
-  "new_items": 0,
+  "successful_sources": 56,
+  "failed_sources": 26,
+  "total_items": 307,
+  "new_items": 3,
   "emailed_items": 15,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -87,14 +87,14 @@
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Read timed out. (read timeout=10)"
+      "error": "404 Client Error: Not Found for url: https://openi.pcl.ac.cn/competitions"
     },
     {
       "source_id": "caa",
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fa068da8410>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f495abbeb10>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -174,6 +174,13 @@
       "error": "no list items matched"
     },
     {
+      "source_id": "openreview",
+      "source_name": "OpenReview",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "403 Client Error: Forbidden for url: https://openreview.net/"
+    },
+    {
       "source_id": "most",
       "source_name": "科学技术部",
       "source_pack": "research_pack",
@@ -212,10 +219,10 @@
     },
     "research_pack": {
       "total": 30,
-      "successful": 21,
-      "failed": 9,
-      "items": 108,
-      "new_items": 0
+      "successful": 20,
+      "failed": 10,
+      "items": 103,
+      "new_items": 3
     }
   }
 }
