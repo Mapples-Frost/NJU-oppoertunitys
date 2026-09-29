@@ -1,17 +1,17 @@
 {
-  "total_items": 242,
-  "accepted": 17,
+  "total_items": 247,
+  "accepted": 18,
   "demoted": 0,
-  "rejected": 225,
+  "rejected": 229,
   "reject_reasons": {
-    "quality_score_below_threshold": 106,
+    "quality_score_below_threshold": 110,
     "not_actionable_or_not_relevant": 91,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 26,
+  "failed_sources": 25,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -447,6 +447,18 @@
       }
     },
     {
+      "source_name": "OpenReview",
+      "source_pack": "research_pack",
+      "candidates": 5,
+      "accepted": 1,
+      "demoted": 0,
+      "rejected": 4,
+      "source_id": "openreview",
+      "reject_reasons": {
+        "quality_score_below_threshold": 4
+      }
+    },
+    {
       "source_name": "RoboMaster",
       "source_pack": "competition_pack",
       "candidates": 4,
@@ -872,6 +884,22 @@
       "audience_fit_score": 8.0,
       "reject_reason": "",
       "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:数据竞赛; source_preferred"
+    },
+    {
+      "id": "2fc6eef8922dfddec6bb55086fc3e773",
+      "title": "Statement Regarding ICLR 2027 Submission Exposure to Program Committee Members",
+      "url": "https://openreview.net/forum/user|statement_regarding_iclr_2027_submission_exposure_to_program_committee_members",
+      "source_id": "openreview",
+      "source_name": "OpenReview",
+      "source_pack": "research_pack",
+      "category": "学术投稿 / CFP",
+      "score": 54.25,
+      "quality_status": "accepted",
+      "quality_score": 47.0,
+      "actionability_score": 12.0,
+      "audience_fit_score": 16.0,
+      "reject_reason": "",
+      "quality_notes": "action:submission; strong_action:submission; interest:AI; interest:CFP; preferred_category; source_preferred"
     },
     {
       "id": "d64cf3d58603e0002d26bdbb9d60b184",
