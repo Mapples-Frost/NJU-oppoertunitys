@@ -1,13 +1,13 @@
 {
-  "id": "20261009050743",
-  "started_at": "2026-10-09T05:07:43+00:00",
-  "finished_at": "2026-10-09T05:09:42+00:00",
+  "id": "20261010045324",
+  "started_at": "2026-10-10T04:53:24+00:00",
+  "finished_at": "2026-10-10T04:55:28+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 57,
-  "failed_sources": 25,
-  "total_items": 312,
-  "new_items": 5,
+  "successful_sources": 56,
+  "failed_sources": 26,
+  "total_items": 307,
+  "new_items": 1,
   "emailed_items": 15,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -87,14 +87,14 @@
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "404 Client Error: Not Found for url: https://openi.pcl.ac.cn/competitions"
+      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Read timed out. (read timeout=10)"
     },
     {
       "source_id": "caa",
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7ff2c740a350>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fe5c44e4cd0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -167,6 +167,13 @@
       "error": "no list items matched"
     },
     {
+      "source_id": "icra",
+      "source_name": "ICRA",
+      "source_pack": "research_pack",
+      "domain": "research",
+      "error": "HTTPSConnectionPool(host='www.ieee-ras.org', port=443): Read timed out. (read timeout=5)"
+    },
+    {
       "source_id": "siggraph",
       "source_name": "SIGGRAPH",
       "source_pack": "research_pack",
@@ -208,13 +215,13 @@
       "successful": 24,
       "failed": 14,
       "items": 140,
-      "new_items": 4
+      "new_items": 0
     },
     "research_pack": {
       "total": 30,
-      "successful": 21,
-      "failed": 9,
-      "items": 108,
+      "successful": 20,
+      "failed": 10,
+      "items": 103,
       "new_items": 1
     }
   }
