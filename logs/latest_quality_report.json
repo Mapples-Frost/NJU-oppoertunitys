@@ -4,14 +4,14 @@
   "demoted": 0,
   "rejected": 229,
   "reject_reasons": {
-    "quality_score_below_threshold": 109,
-    "not_actionable_or_not_relevant": 92,
+    "quality_score_below_threshold": 110,
+    "not_actionable_or_not_relevant": 91,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 26,
+  "failed_sources": 27,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -139,7 +139,8 @@
       "rejected": 7,
       "source_id": "tencent_cloud_developer",
       "reject_reasons": {
-        "not_actionable_or_not_relevant": 7
+        "not_actionable_or_not_relevant": 6,
+        "quality_score_below_threshold": 1
       }
     },
     {
@@ -605,13 +606,13 @@
       }
     },
     {
-      "source_name": "IROS; IEEE Robotics and Automation Society",
+      "source_name": "IEEE Robotics and Automation Society",
       "source_pack": "research_pack",
       "candidates": 1,
       "accepted": 0,
       "demoted": 0,
       "rejected": 1,
-      "source_id": "iros",
+      "source_id": "ieee_ras",
       "reject_reasons": {
         "quality_score_below_threshold": 1
       }
@@ -677,22 +678,6 @@
       "quality_notes": "action:call for papers; action:cfp; strong_action:call for papers; strong_action:cfp; research_cfp; interest:CFP; source_preferred"
     },
     {
-      "id": "c133d06c61702384f992770ad0ccffda",
-      "title": "「我的云端AI工作站」开发者技术征文 进行中 「我的云端AI工作站」开发者技术征文晒出你的云端 AI 工作站，最高赢 10000 灵豆（无影云电脑使用时长）！8 月 17 日-9月19日，魔搭社区开发者晒出无影云电脑个人版的真实玩法：AI 出图工作流、云端开发环境、开源项目实战、性能测评，四大方向任选。500-2000 字技术帖 + 配图 + 可复用配置即可投稿；用秒悟搭建应用还能额外叠加秒悟积分。Top 10 发奖，一等奖最高 10000 灵豆 + 2000 魔粒，优质稿件收录官方案例库。每人限投 2 篇，须真实原创。 线上活动 类型 2026-09-19 15:59 报名截止 主办方 进行中、报名已截止",
-      "url": "https://modelscope.cn/events/345/%E3%80%8C%E6%88%91%E7%9A%84%E4%BA%91%E7%AB%AFAI%E5%B7%A5%E4%BD%9C%E7%AB%99%E3%80%8D%E5%BC%80%E5%8F%91%E8%80%85%E6%8A%80%E6%9C%AF%E5%BE%81%E6%96%87",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "企业开发者赛事",
-      "score": 67.43,
-      "quality_status": "accepted",
-      "quality_score": 56.0,
-      "actionability_score": 38.0,
-      "audience_fit_score": 4.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:投稿; action:截止; strong_action:报名; strong_action:投稿; strong_action:截止; deadline_detected; interest:AI"
-    },
-    {
       "id": "90ec8ccd711a278f7d7bc4e2d2d59891",
       "title": "支付宝｜智能体涌现奖比赛 进行中 欢迎参加由支付宝发起的智能体涌现奖比赛，每一个真实需求都可能长成智能体（包括：智能应用、Agent…），你可以带着原创想法报名提交作品，也可以从阿宝许愿池的真实需求里找灵感动手创作，哪怕没有开发经验，也能投递你的愿望赢取奖励。 应用开发赛 类型 1000万智能体发展奖金总奖池 奖励 2026-11-10 15:59 报名截止 主办方 立即报名",
       "url": "https://modelscope.cn/events/375/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
@@ -700,7 +685,7 @@
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "大模型 / 开源活动",
-      "score": 86.35,
+      "score": 88.35,
       "quality_status": "accepted",
       "quality_score": 55.0,
       "actionability_score": 34.0,
@@ -741,22 +726,6 @@
       "quality_notes": "action:投稿; strong_action:投稿; research_cfp; interest:机器人; interest:自动化; source_preferred"
     },
     {
-      "id": "21d3f826cf5a87b4718312d1531f3aea",
-      "title": "AMD x 魔搭社区 联合开发者激励计划 - GPU资源获取指南 进行中 本计划由 AMD 与魔搭社区联合发起，旨在激励开发者基于 AMD GPU 进行 AI 开发实践与分享，获取免费 GPU 算力奖励。 线上活动 类型 魔搭社区 地点 2026-12-31 15:59 报名截止 主办方 立即报名",
-      "url": "https://modelscope.cn/events/247/%E5%BC%80%E5%8F%91%E8%80%85%E6%BF%80%E5%8A%B1%E8%AE%A1%E5%88%92%E7%8E%A9%E6%B3%95%E8%AF%B4%E6%98%8E",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "企业开发者赛事",
-      "score": 68.4,
-      "quality_status": "accepted",
-      "quality_score": 52.0,
-      "actionability_score": 34.0,
-      "audience_fit_score": 4.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI"
-    },
-    {
       "id": "d4ffccb3eb572557c3c594e00ea145f3",
       "title": "「无影版DeepSeek Harness 改造记录」开发者技术征文 进行中 a. 无影版DeepSeek Harness 怎么改造，写出来赢 10000 灵豆（无影云电脑使用时长）！无影云电脑已上线 DeepSeek Harness 官方镜像，开机即用、环境预装，省去折腾 Node/Python/npx 的时间。8 月 26 日 - 10 月 8 日，魔搭社区开发者晒出你在无影云电脑上的 Harness 真实玩法：最强插件组合（用最少插件完成最复杂任务）、自定义插件开发、工作流对决（同一任务不同解法对比）、环境踩坑实录，四条赛道任选其一。500-2000 字技术帖 + 至少 3 张配图 + 1 段可直接复用的内容（插件配置 YAML / 自定义插件代码 / 量 线上活动 类型 2026-10-08 10:00 报名截止 主办方 进行中、报名已截止",
       "url": "https://modelscope.cn/events/356/%E3%80%8C%E6%97%A0%E5%BD%B1%E7%89%88DeepSeek%20Harness%20%E6%94%B9%E9%80%A0%E8%AE%B0%E5%BD%95%E3%80%8D%E5%BC%80%E5%8F%91%E8%80%85%E6%8A%80%E6%9C%AF%E5%BE%81%E6%96%87",
@@ -787,6 +756,38 @@
       "audience_fit_score": 12.0,
       "reject_reason": "",
       "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:多模态; interest:数据竞赛; source_preferred"
+    },
+    {
+      "id": "d7ec24603bc5d47c2d68dd10c8ad04a4",
+      "title": "支付宝AI付年度黑客松 进行中 把AI做成一门真实的生意。不只做出 Demo，更要完成从发现、使用到付款、交付的商业闭环。 黑客松 类型 总奖池¥200,000 奖励 2026-12-01 15:59 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/380/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "大模型 / 开源活动",
+      "score": 68.32,
+      "quality_status": "accepted",
+      "quality_score": 51.0,
+      "actionability_score": 34.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI"
+    },
+    {
+      "id": "c0f32730d5d9ea4f3f43371d0ee9a865",
+      "title": "第七届设施管理行业大会 进行中 本届大会以“AI重塑空间未来”为主题，聚焦设施管理标准化、智慧园区与AI应用，邀请行业伙伴交流实践、共话未来。 开发者线下沙龙 类型 2026-10-19 16:00 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/379/%E6%B4%BB%E5%8A%A8%E7%AE%80%E4%BB%8B",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "企业开发者赛事",
+      "score": 70.82,
+      "quality_status": "accepted",
+      "quality_score": 48.0,
+      "actionability_score": 34.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
     },
     {
       "id": "5fc670837bca2778e0802a62a19e425a",
