@@ -11,7 +11,7 @@
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 27,
+  "failed_sources": 25,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -606,13 +606,13 @@
       }
     },
     {
-      "source_name": "IEEE Robotics and Automation Society",
+      "source_name": "ICRA; IROS; IEEE Robotics and Automation Society",
       "source_pack": "research_pack",
       "candidates": 1,
       "accepted": 0,
       "demoted": 0,
       "rejected": 1,
-      "source_id": "ieee_ras",
+      "source_id": "icra",
       "reject_reasons": {
         "quality_score_below_threshold": 1
       }
@@ -781,7 +781,7 @@
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "企业开发者赛事",
-      "score": 70.82,
+      "score": 72.82,
       "quality_status": "accepted",
       "quality_score": 48.0,
       "actionability_score": 34.0,
