@@ -4,14 +4,14 @@
   "demoted": 0,
   "rejected": 229,
   "reject_reasons": {
-    "quality_score_below_threshold": 110,
-    "not_actionable_or_not_relevant": 91,
+    "quality_score_below_threshold": 109,
+    "not_actionable_or_not_relevant": 92,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 25,
+  "failed_sources": 26,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -139,8 +139,7 @@
       "rejected": 7,
       "source_id": "tencent_cloud_developer",
       "reject_reasons": {
-        "not_actionable_or_not_relevant": 6,
-        "quality_score_below_threshold": 1
+        "not_actionable_or_not_relevant": 7
       }
     },
     {
@@ -606,7 +605,7 @@
       }
     },
     {
-      "source_name": "ICRA; IROS; IEEE Robotics and Automation Society",
+      "source_name": "ICRA; IEEE Robotics and Automation Society",
       "source_pack": "research_pack",
       "candidates": 1,
       "accepted": 0,
