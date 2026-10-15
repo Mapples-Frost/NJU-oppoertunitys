@@ -1,17 +1,17 @@
 {
-  "total_items": 247,
+  "total_items": 245,
   "accepted": 18,
   "demoted": 0,
-  "rejected": 229,
+  "rejected": 227,
   "reject_reasons": {
-    "quality_score_below_threshold": 109,
+    "quality_score_below_threshold": 108,
     "not_actionable_or_not_relevant": 92,
-    "hard_reject_url": 13,
+    "hard_reject_url": 12,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 25,
+  "failed_sources": 26,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -284,6 +284,19 @@
       }
     },
     {
+      "source_name": "ICLR; CVPR; ICCV; ECCV",
+      "source_pack": "research_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "iclr",
+      "reject_reasons": {
+        "quality_score_below_threshold": 4,
+        "hard_reject_url": 1
+      }
+    },
+    {
       "source_name": "IJCAI",
       "source_pack": "research_pack",
       "candidates": 5,
@@ -321,19 +334,6 @@
       "reject_reasons": {
         "not_actionable_or_not_relevant": 4,
         "quality_score_below_threshold": 1
-      }
-    },
-    {
-      "source_name": "NeurIPS; ICLR; CVPR; ICCV; ECCV",
-      "source_pack": "research_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "neurips",
-      "reject_reasons": {
-        "quality_score_below_threshold": 4,
-        "hard_reject_url": 1
       }
     },
     {
@@ -544,19 +544,6 @@
       }
     },
     {
-      "source_name": "ICLR",
-      "source_pack": "research_pack",
-      "candidates": 2,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 2,
-      "source_id": "iclr",
-      "reject_reasons": {
-        "hard_reject_url": 1,
-        "quality_score_below_threshold": 1
-      }
-    },
-    {
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "candidates": 8,
@@ -645,22 +632,6 @@
       "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; competition_source; interest:AI; interest:算法竞赛; interest:机器人"
     },
     {
-      "id": "d8f59d273c2f4c4fd84a49a8a9f7276c",
-      "title": "FlagOS开放计算全球挑战赛S2 进行中 由众智FlagOS社区主办的一项多赛季、综合性赛事。大赛鼓励开发者基于统一AI系统软件栈FlagOS的能力进行创作实战和创新探索，促进AI开发者能力提升，推动开放计算生态的蓬勃发展。 LLM算法竞赛 类型 200w 奖励 2026-12-30 16:00 报名截止 主办方 立即报名",
-      "url": "https://modelscope.cn/events/342/FlagOS%E5%BC%80%E6%94%BE%E8%AE%A1%E7%AE%97%E5%85%A8%E7%90%83%E6%8C%91%E6%88%98%E8%B5%9BS2",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "AI / 算法竞赛",
-      "score": 93.27,
-      "quality_status": "accepted",
-      "quality_score": 62.0,
-      "actionability_score": 40.0,
-      "audience_fit_score": 8.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; competition_source; interest:AI; interest:算法竞赛"
-    },
-    {
       "id": "160edce96b5785113e55743b45d8f87a",
       "title": "Call for papers",
       "url": "https://aclrollingreview.org/cfp",
@@ -723,6 +694,22 @@
       "audience_fit_score": 8.0,
       "reject_reason": "",
       "quality_notes": "action:投稿; strong_action:投稿; research_cfp; interest:机器人; interest:自动化; source_preferred"
+    },
+    {
+      "id": "69992957fac3522d990868959877244b",
+      "title": "【创投营开启】蚂上加速器第3期 进行中 蚂上加速器第3期开始招募啦！ Al Founderk的“强力引擎”已就位。 Al创业者的当下处境一一竞争加剧、技术迭代变快，资本决策收紧都是来自市场不断增加的“引力”，必须拥有持续且强劲的推力，才能进入商业化的“轨道”。 蚂上加速器要做的，就是成为AI Founder的强力引擎：密集资源持续注入，3个月全程陪伴护航，帮助AI初创项目，完成从1-10的成长，突破商业化临界点。 开发者线下沙龙 类型 上海 地点 2026-10-30 16:00 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/382/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "企业开发者赛事",
+      "score": 73.65,
+      "quality_status": "accepted",
+      "quality_score": 52.0,
+      "actionability_score": 38.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:招募; action:截止; strong_action:报名; strong_action:招募; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
     },
     {
       "id": "b6f69c22fed9c791cbd58a843f30d345",
