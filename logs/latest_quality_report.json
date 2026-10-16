@@ -1,14 +1,14 @@
 {
-  "total_items": 245,
+  "total_items": 239,
   "accepted": 18,
   "demoted": 0,
-  "rejected": 227,
+  "rejected": 221,
   "reject_reasons": {
     "quality_score_below_threshold": 108,
-    "not_actionable_or_not_relevant": 92,
-    "hard_reject_url": 12,
+    "not_actionable_or_not_relevant": 86,
+    "hard_reject_url": 13,
     "hard_reject_term": 7,
-    "product_or_marketing_page": 6,
+    "product_or_marketing_page": 5,
     "generic_listing_page": 2
   },
   "failed_sources": 26,
@@ -77,20 +77,6 @@
         "not_actionable_or_not_relevant": 2,
         "quality_score_below_threshold": 1,
         "hard_reject_url": 1
-      }
-    },
-    {
-      "source_name": "火山引擎开发者",
-      "source_pack": "competition_pack",
-      "candidates": 8,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 8,
-      "source_id": "volcengine_developer",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 6,
-        "quality_score_below_threshold": 1,
-        "product_or_marketing_page": 1
       }
     },
     {
@@ -284,19 +270,6 @@
       }
     },
     {
-      "source_name": "ICLR; CVPR; ICCV; ECCV",
-      "source_pack": "research_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "iclr",
-      "reject_reasons": {
-        "quality_score_below_threshold": 4,
-        "hard_reject_url": 1
-      }
-    },
-    {
       "source_name": "IJCAI",
       "source_pack": "research_pack",
       "candidates": 5,
@@ -334,6 +307,19 @@
       "reject_reasons": {
         "not_actionable_or_not_relevant": 4,
         "quality_score_below_threshold": 1
+      }
+    },
+    {
+      "source_name": "NeurIPS; ICLR; CVPR; ICCV; ECCV",
+      "source_pack": "research_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "neurips",
+      "reject_reasons": {
+        "quality_score_below_threshold": 4,
+        "hard_reject_url": 1
       }
     },
     {
@@ -544,6 +530,19 @@
       }
     },
     {
+      "source_name": "ICLR",
+      "source_pack": "research_pack",
+      "candidates": 2,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 2,
+      "source_id": "iclr",
+      "reject_reasons": {
+        "hard_reject_url": 1,
+        "quality_score_below_threshold": 1
+      }
+    },
+    {
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "candidates": 8,
@@ -751,7 +750,7 @@
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "企业开发者赛事",
-      "score": 72.82,
+      "score": 74.82,
       "quality_status": "accepted",
       "quality_score": 48.0,
       "actionability_score": 34.0,
