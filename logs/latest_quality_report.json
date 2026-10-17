@@ -1,17 +1,17 @@
 {
-  "total_items": 239,
+  "total_items": 247,
   "accepted": 18,
   "demoted": 0,
-  "rejected": 221,
+  "rejected": 229,
   "reject_reasons": {
-    "quality_score_below_threshold": 108,
-    "not_actionable_or_not_relevant": 86,
+    "quality_score_below_threshold": 109,
+    "not_actionable_or_not_relevant": 92,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
-    "product_or_marketing_page": 5,
+    "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 26,
+  "failed_sources": 25,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -77,6 +77,20 @@
         "not_actionable_or_not_relevant": 2,
         "quality_score_below_threshold": 1,
         "hard_reject_url": 1
+      }
+    },
+    {
+      "source_name": "火山引擎开发者",
+      "source_pack": "competition_pack",
+      "candidates": 8,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 8,
+      "source_id": "volcengine_developer",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 6,
+        "quality_score_below_threshold": 1,
+        "product_or_marketing_page": 1
       }
     },
     {
@@ -615,22 +629,6 @@
   ],
   "top_accepted": [
     {
-      "id": "1874c0ce0dd39928761e4e49a17d0756",
-      "title": "蚂蚁灵波具身大模型挑战赛 进行中 蚂蚁灵波具身大模型挑战赛由蚂蚁灵波科技、魔搭社区、阿里云天池共同发起，是一场面向具身智能开发者的算法挑战赛。赛事基于开源 LingBot-VLA 2.0 模型搭建统一评测体系，由线上初赛和线下真机黑客马拉松两个阶段组成，面向全球企业、高校、个人开发者及技术爱好者开放。本次赛事希望让更多开发者真正上手 LingBot-VLA 2.0，在统一任务与真实机器人场景中验证模型复现、训练调优、泛化评测和真机适配能力，推动具身智能技术从模型能力走向真实落地。 LLM算法竞赛 类型 ¥280000 奖励 2026-10-26 15:59 报名截止 主办方 立即报名",
-      "url": "https://modelscope.cn/events/367/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "机器人 / 自动化 / 智能车",
-      "score": 100.0,
-      "quality_status": "accepted",
-      "quality_score": 66.0,
-      "actionability_score": 40.0,
-      "audience_fit_score": 12.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; competition_source; interest:AI; interest:算法竞赛; interest:机器人"
-    },
-    {
       "id": "160edce96b5785113e55743b45d8f87a",
       "title": "Call for papers",
       "url": "https://aclrollingreview.org/cfp",
@@ -711,6 +709,22 @@
       "quality_notes": "action:报名; action:招募; action:截止; strong_action:报名; strong_action:招募; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
     },
     {
+      "id": "fc26e00ab8950867f351e82e236c2cad",
+      "title": "天猫 AI 黑客松·高校挑战赛 进行中 AI 正在成为年轻人面向未来的必备能力。天猫 AI 黑客松，旨在连接高校年轻人与真实技术、品牌及产业场景，邀请每一个敢想敢做的人，把 AI 创想真正做出来，让创造走进现实。 黑客松 类型 ¥20万元 奖励 2026-10-21 15:59 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/383/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "AI / 算法竞赛",
+      "score": 81.12,
+      "quality_status": "accepted",
+      "quality_score": 51.0,
+      "actionability_score": 34.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI"
+    },
+    {
       "id": "b6f69c22fed9c791cbd58a843f30d345",
       "title": "多模态感知融合增强的具身自主抓取任务挑战",
       "url": "https://www.datafountain.cn/competitions/1163",
@@ -766,7 +780,7 @@
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "企业开发者赛事",
-      "score": 68.32,
+      "score": 70.32,
       "quality_status": "accepted",
       "quality_score": 48.0,
       "actionability_score": 34.0,
