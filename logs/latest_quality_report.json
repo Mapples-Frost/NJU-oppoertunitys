@@ -1,17 +1,17 @@
 {
-  "total_items": 247,
+  "total_items": 242,
   "accepted": 18,
   "demoted": 0,
-  "rejected": 229,
+  "rejected": 224,
   "reject_reasons": {
-    "quality_score_below_threshold": 109,
-    "not_actionable_or_not_relevant": 92,
+    "quality_score_below_threshold": 108,
+    "not_actionable_or_not_relevant": 88,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 25,
+  "failed_sources": 26,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -308,19 +308,6 @@
         "not_actionable_or_not_relevant": 3,
         "quality_score_below_threshold": 1,
         "hard_reject_term": 1
-      }
-    },
-    {
-      "source_name": "中国国际大学生创新大赛",
-      "source_pack": "competition_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "ncss_innovation",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 4,
-        "quality_score_below_threshold": 1
       }
     },
     {
@@ -645,22 +632,6 @@
       "quality_notes": "action:call for papers; action:cfp; strong_action:call for papers; strong_action:cfp; research_cfp; interest:CFP; source_preferred"
     },
     {
-      "id": "90ec8ccd711a278f7d7bc4e2d2d59891",
-      "title": "支付宝｜智能体涌现奖比赛 进行中 欢迎参加由支付宝发起的智能体涌现奖比赛，每一个真实需求都可能长成智能体（包括：智能应用、Agent…），你可以带着原创想法报名提交作品，也可以从阿宝许愿池的真实需求里找灵感动手创作，哪怕没有开发经验，也能投递你的愿望赢取奖励。 应用开发赛 类型 1000万智能体发展奖金总奖池 奖励 2026-11-10 15:59 报名截止 主办方 立即报名",
-      "url": "https://modelscope.cn/events/375/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "大模型 / 开源活动",
-      "score": 88.35,
-      "quality_status": "accepted",
-      "quality_score": 55.0,
-      "actionability_score": 34.0,
-      "audience_fit_score": 8.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; interest:智能体"
-    },
-    {
       "id": "6606dd8bb6e50c0050b56047132d3d32",
       "title": "具有多模态能力的客服智能体设计",
       "url": "https://www.datafountain.cn/competitions/1165",
@@ -755,6 +726,22 @@
       "audience_fit_score": 4.0,
       "reject_reason": "",
       "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI"
+    },
+    {
+      "id": "8ae0df3a46bd2930002cc9e94a7370af",
+      "title": "1024 模力工场・AI社区日 进行中 以“AI落地，此刻发生”为题，阿里云研发副总裁、西湖大学博导等，带你直击 10+ 个 AI 落地真案例。这次还有不少值得玩的内容：AI 社区 Demo、两场 Hands-on 实战工作坊、AI 造物市集。既能听到一线实践，也能亲手做出自己的 AI 作品，认识更多同频的开发者和创造者！🎫 免费报名，Hands-on 名额有限，扫码参与！ 开发者线下沙龙 类型 云谷中心 地点 2026-10-23 16:00 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/384/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "企业开发者赛事",
+      "score": 79.32,
+      "quality_status": "accepted",
+      "quality_score": 48.0,
+      "actionability_score": 34.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
     },
     {
       "id": "c0f32730d5d9ea4f3f43371d0ee9a865",
