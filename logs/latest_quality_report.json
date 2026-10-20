@@ -1,17 +1,17 @@
 {
-  "total_items": 242,
+  "total_items": 247,
   "accepted": 18,
   "demoted": 0,
-  "rejected": 224,
+  "rejected": 229,
   "reject_reasons": {
-    "quality_score_below_threshold": 108,
-    "not_actionable_or_not_relevant": 88,
+    "quality_score_below_threshold": 109,
+    "not_actionable_or_not_relevant": 92,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 26,
+  "failed_sources": 25,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -308,6 +308,19 @@
         "not_actionable_or_not_relevant": 3,
         "quality_score_below_threshold": 1,
         "hard_reject_term": 1
+      }
+    },
+    {
+      "source_name": "中国国际大学生创新大赛",
+      "source_pack": "competition_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "ncss_innovation",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 4,
+        "quality_score_below_threshold": 1
       }
     },
     {
@@ -648,6 +661,22 @@
       "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:智能体; interest:多模态; interest:数据竞赛; source_preferred"
     },
     {
+      "id": "f33327614abcb42e3a3c110766bd5c06",
+      "title": "群核科技Aholo全球3D AI黑客松暨线下Workshop面对面·深圳站 进行中 3D AI领域的专家学者与资深从业者将亲自坐镇，围绕作品设计与技术应用，与你面对面深度交流。这里，是不同基础的选手打通从0到1技术路径的入门通道，也是提前组队、打磨作品的公开练兵场。 开发者线下沙龙 类型 深圳 地点 2026-10-22 15:59 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/387/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "企业开发者赛事",
+      "score": 77.65,
+      "quality_status": "accepted",
+      "quality_score": 52.0,
+      "actionability_score": 38.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; action:workshop; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
+    },
+    {
       "id": "6ffda39533713f9c2c446601db08350d",
       "title": "论文投稿",
       "url": "https://cac.org.cn/article/type/4-1.html",
@@ -712,20 +741,36 @@
       "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:多模态; interest:数据竞赛; source_preferred"
     },
     {
-      "id": "d7ec24603bc5d47c2d68dd10c8ad04a4",
-      "title": "支付宝AI付年度黑客松 进行中 把AI做成一门真实的生意。不只做出 Demo，更要完成从发现、使用到付款、交付的商业闭环。 黑客松 类型 总奖池¥200,000 奖励 2026-12-01 15:59 报名截止 主办方 立即报名",
-      "url": "https://modelscope.cn/events/380/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
+      "id": "36a50446ca82b2fab9d3c9225d8ccab6",
+      "title": "群核科技Ahoolo 全球3D AI黑客松 进行中 本届黑客松，我们不设命题。只需你使用3D生成模型Aholo Lux3D，完成一份3D AI作品或Demo。 黑客松 类型 ¥32万元奖金池 奖励 2026-11-19 15:59 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/386/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "大模型 / 开源活动",
-      "score": 68.32,
+      "score": 70.32,
       "quality_status": "accepted",
       "quality_score": 51.0,
       "actionability_score": 34.0,
       "audience_fit_score": 4.0,
       "reject_reason": "",
       "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI"
+    },
+    {
+      "id": "7968f9aeeaaeb345e50e8d039ad2a6a9",
+      "title": "iRTE 2026 / 实时智能大会 进行中 10 月 24 日 iRTE 2026，听听来自 Kimi、Qwen、MiniMax、EverMind、LodyAI 和 Agora 的一线实践者，如何从模型、平台和开源的视角给出实战答案！ 开发者线下沙龙 类型 北京 地点 2026-10-22 16:00 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/385/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "企业开发者赛事",
+      "score": 82.62,
+      "quality_status": "accepted",
+      "quality_score": 48.0,
+      "actionability_score": 34.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
     },
     {
       "id": "8ae0df3a46bd2930002cc9e94a7370af",
@@ -735,39 +780,7 @@
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "企业开发者赛事",
-      "score": 79.32,
-      "quality_status": "accepted",
-      "quality_score": 48.0,
-      "actionability_score": 34.0,
-      "audience_fit_score": 4.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
-    },
-    {
-      "id": "c0f32730d5d9ea4f3f43371d0ee9a865",
-      "title": "第七届设施管理行业大会 进行中 本届大会以“AI重塑空间未来”为主题，聚焦设施管理标准化、智慧园区与AI应用，邀请行业伙伴交流实践、共话未来。 开发者线下沙龙 类型 2026-10-19 16:00 报名截止 主办方 立即报名",
-      "url": "https://modelscope.cn/events/379/%E6%B4%BB%E5%8A%A8%E7%AE%80%E4%BB%8B",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "企业开发者赛事",
-      "score": 74.82,
-      "quality_status": "accepted",
-      "quality_score": 48.0,
-      "actionability_score": 34.0,
-      "audience_fit_score": 4.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
-    },
-    {
-      "id": "76a65e3ac0d609b67ae5b09699e3295a",
-      "title": "2026观猹大会 进行中 🕐10.23-10.25 🕹️杭州茶叶博览会展中心 一场关于AI产品、创作者与真实用户的线下盛会。 在这里，遇见最值得关注的AI产品、最有创造力的开发者，和一群同样热爱探索的观猹员。 开发者线下沙龙 类型 杭州 地点 2026-10-24 16:00 报名截止 主办方 立即报名",
-      "url": "https://modelscope.cn/events/381/%E5%86%85%E5%AE%B9%E4%BB%8B%E7%BB%8D",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "企业开发者赛事",
-      "score": 70.32,
+      "score": 81.32,
       "quality_status": "accepted",
       "quality_score": 48.0,
       "actionability_score": 34.0,
