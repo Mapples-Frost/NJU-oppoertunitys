@@ -1,17 +1,17 @@
 {
-  "total_items": 241,
+  "total_items": 245,
   "accepted": 18,
   "demoted": 0,
-  "rejected": 223,
+  "rejected": 227,
   "reject_reasons": {
     "quality_score_below_threshold": 108,
-    "not_actionable_or_not_relevant": 86,
+    "not_actionable_or_not_relevant": 90,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 3
   },
-  "failed_sources": 27,
+  "failed_sources": 26,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -232,6 +232,19 @@
       }
     },
     {
+      "source_name": "全国大学生数学建模竞赛",
+      "source_pack": "competition_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "cumcm",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 4,
+        "quality_score_below_threshold": 1
+      }
+    },
+    {
       "source_name": "CVF Open Access",
       "source_pack": "research_pack",
       "candidates": 5,
@@ -307,19 +320,6 @@
         "not_actionable_or_not_relevant": 3,
         "quality_score_below_threshold": 1,
         "hard_reject_term": 1
-      }
-    },
-    {
-      "source_name": "MathorCup",
-      "source_pack": "competition_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "mathorcup",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 4,
-        "quality_score_below_threshold": 1
       }
     },
     {
@@ -432,6 +432,18 @@
       "source_id": "graduate_innovation_competition",
       "reject_reasons": {
         "quality_score_below_threshold": 4
+      }
+    },
+    {
+      "source_name": "MathorCup",
+      "source_pack": "competition_pack",
+      "candidates": 4,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 4,
+      "source_id": "mathorcup",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 4
       }
     },
     {
@@ -653,20 +665,20 @@
       "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; interest:机器人; demote:沙龙"
     },
     {
-      "id": "f33327614abcb42e3a3c110766bd5c06",
-      "title": "群核科技Aholo全球3D AI黑客松暨线下Workshop面对面·深圳站 进行中 3D AI领域的专家学者与资深从业者将亲自坐镇，围绕作品设计与技术应用，与你面对面深度交流。这里，是不同基础的选手打通从0到1技术路径的入门通道，也是提前组队、打磨作品的公开练兵场。 开发者线下沙龙 类型 深圳 地点 2026-10-22 15:59 报名截止 主办方 立即报名",
-      "url": "https://modelscope.cn/events/387/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
+      "id": "56c722b54907dd54bce317938772b81f",
+      "title": "首届机器人嘉年华 进行中 【探月具身智能社区】首届机器人嘉年华，寻找35个顶级机器人 Demo 团队 开发者线下沙龙 类型 北京 地点 2026-10-28 15:59 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/390/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
-      "category": "企业开发者赛事",
-      "score": 77.65,
+      "category": "机器人 / 自动化 / 智能车",
+      "score": 91.43,
       "quality_status": "accepted",
       "quality_score": 52.0,
-      "actionability_score": 38.0,
-      "audience_fit_score": 4.0,
+      "actionability_score": 34.0,
+      "audience_fit_score": 8.0,
       "reject_reason": "",
-      "quality_notes": "action:报名; action:截止; action:workshop; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; interest:机器人; demote:沙龙"
     },
     {
       "id": "6ffda39533713f9c2c446601db08350d",
@@ -685,20 +697,20 @@
       "quality_notes": "action:投稿; strong_action:投稿; research_cfp; interest:机器人; interest:自动化; source_preferred"
     },
     {
-      "id": "fc26e00ab8950867f351e82e236c2cad",
-      "title": "天猫 AI 黑客松·高校挑战赛 进行中 AI 正在成为年轻人面向未来的必备能力。天猫 AI 黑客松，旨在连接高校年轻人与真实技术、品牌及产业场景，邀请每一个敢想敢做的人，把 AI 创想真正做出来，让创造走进现实。 黑客松 类型 ¥20万元 奖励 2026-10-21 15:59 报名截止 主办方 进行中、报名已截止",
-      "url": "https://modelscope.cn/events/383/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
+      "id": "f33327614abcb42e3a3c110766bd5c06",
+      "title": "群核科技Aholo全球3D AI黑客松暨线下Workshop面对面·深圳站 进行中 3D AI领域的专家学者与资深从业者将亲自坐镇，围绕作品设计与技术应用，与你面对面深度交流。这里，是不同基础的选手打通从0到1技术路径的入门通道，也是提前组队、打磨作品的公开练兵场。 开发者线下沙龙 类型 深圳 地点 2026-10-22 15:59 报名截止 主办方 进行中、报名已截止",
+      "url": "https://modelscope.cn/events/387/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
-      "category": "AI / 算法竞赛",
-      "score": 77.12,
+      "category": "企业开发者赛事",
+      "score": 71.65,
       "quality_status": "accepted",
-      "quality_score": 51.0,
-      "actionability_score": 34.0,
+      "quality_score": 52.0,
+      "actionability_score": 38.0,
       "audience_fit_score": 4.0,
       "reject_reason": "",
-      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI"
+      "quality_notes": "action:报名; action:截止; action:workshop; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
     },
     {
       "id": "b6f69c22fed9c791cbd58a843f30d345",
@@ -715,6 +727,22 @@
       "audience_fit_score": 12.0,
       "reject_reason": "",
       "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:多模态; interest:数据竞赛; source_preferred"
+    },
+    {
+      "id": "cf2cb44269d36495c698804b0e6edddf",
+      "title": "一万个回答·AI文化造物黑客松 进行中 文化的未来，不能只靠传承，更需要有人敢于创造！👋 黑客松 类型 6.6万元现金奖金＋7万元Token支持 奖励 2026-10-31 15:59 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/389/%E6%AF%94%E8%B5%9B%E8%AF%A6%E6%83%85",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "大模型 / 开源活动",
+      "score": 70.32,
+      "quality_status": "accepted",
+      "quality_score": 51.0,
+      "actionability_score": 34.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI"
     },
     {
       "id": "36a50446ca82b2fab9d3c9225d8ccab6",
@@ -734,29 +762,13 @@
     },
     {
       "id": "7968f9aeeaaeb345e50e8d039ad2a6a9",
-      "title": "iRTE 2026 / 实时智能大会 进行中 10 月 24 日 iRTE 2026，听听来自 Kimi、Qwen、MiniMax、EverMind、LodyAI 和 Agora 的一线实践者，如何从模型、平台和开源的视角给出实战答案！ 开发者线下沙龙 类型 北京 地点 2026-10-22 16:00 报名截止 主办方 立即报名",
+      "title": "iRTE 2026 / 实时智能大会 进行中 10 月 24 日 iRTE 2026，听听来自 Kimi、Qwen、MiniMax、EverMind、LodyAI 和 Agora 的一线实践者，如何从模型、平台和开源的视角给出实战答案！ 开发者线下沙龙 类型 北京 地点 2026-10-22 16:00 报名截止 主办方 进行中、报名已截止",
       "url": "https://modelscope.cn/events/385/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "企业开发者赛事",
-      "score": 82.62,
-      "quality_status": "accepted",
-      "quality_score": 48.0,
-      "actionability_score": 34.0,
-      "audience_fit_score": 4.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
-    },
-    {
-      "id": "8ae0df3a46bd2930002cc9e94a7370af",
-      "title": "1024 模力工场・AI社区日 进行中 以“AI落地，此刻发生”为题，阿里云研发副总裁、西湖大学博导等，带你直击 10+ 个 AI 落地真案例。这次还有不少值得玩的内容：AI 社区 Demo、两场 Hands-on 实战工作坊、AI 造物市集。既能听到一线实践，也能亲手做出自己的 AI 作品，认识更多同频的开发者和创造者！🎫 免费报名，Hands-on 名额有限，扫码参与！ 开发者线下沙龙 类型 云谷中心 地点 2026-10-23 16:00 报名截止 主办方 立即报名",
-      "url": "https://modelscope.cn/events/384/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "企业开发者赛事",
-      "score": 81.32,
+      "score": 76.62,
       "quality_status": "accepted",
       "quality_score": 48.0,
       "actionability_score": 34.0,
