@@ -1,13 +1,13 @@
 {
-  "id": "20261026034630",
-  "started_at": "2026-10-26T03:46:30+00:00",
-  "finished_at": "2026-10-26T03:48:32+00:00",
+  "id": "20261027040905",
+  "started_at": "2026-10-27T04:09:05+00:00",
+  "finished_at": "2026-10-27T04:11:04+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 56,
-  "failed_sources": 26,
-  "total_items": 308,
-  "new_items": 1,
+  "successful_sources": 57,
+  "failed_sources": 25,
+  "total_items": 313,
+  "new_items": 2,
   "emailed_items": 15,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -80,7 +80,7 @@
       "source_name": "百度 AI Studio 竞赛",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "no list items matched"
+      "error": "HTTPSConnectionPool(host='aistudio.baidu.com', port=443): Read timed out. (read timeout=10)"
     },
     {
       "source_id": "openi_competitions",
@@ -94,7 +94,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7ffa57b2f3d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f35e00c11d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -137,13 +137,6 @@
       "source_pack": "competition_pack",
       "domain": "enterprise",
       "error": "no list items matched"
-    },
-    {
-      "source_id": "codabench_competitions",
-      "source_name": "Codabench Competitions",
-      "source_pack": "competition_pack",
-      "domain": "competition",
-      "error": "HTTPSConnectionPool(host='www.codabench.org', port=443): Max retries exceeded with url: /competitions/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.codabench.org', port=443) at 0x7ffa573651d0>, 'Connection to www.codabench.org timed out. (connect timeout=5)'))"
     },
     {
       "source_id": "evalai_challenges",
@@ -212,17 +205,17 @@
     },
     "competition_pack": {
       "total": 38,
-      "successful": 23,
-      "failed": 15,
-      "items": 136,
-      "new_items": 0
+      "successful": 24,
+      "failed": 14,
+      "items": 141,
+      "new_items": 2
     },
     "research_pack": {
       "total": 30,
       "successful": 21,
       "failed": 9,
       "items": 108,
-      "new_items": 1
+      "new_items": 0
     }
   }
 }
