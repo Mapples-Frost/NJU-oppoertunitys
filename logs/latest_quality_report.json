@@ -1,17 +1,17 @@
 {
-  "total_items": 248,
+  "total_items": 243,
   "accepted": 18,
   "demoted": 0,
-  "rejected": 230,
+  "rejected": 225,
   "reject_reasons": {
     "quality_score_below_threshold": 110,
-    "not_actionable_or_not_relevant": 92,
+    "not_actionable_or_not_relevant": 87,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 2
   },
-  "failed_sources": 25,
+  "failed_sources": 26,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -359,18 +359,6 @@
       "source_id": "nju_graduate",
       "reject_reasons": {
         "quality_score_below_threshold": 5
-      }
-    },
-    {
-      "source_name": "国家自然科学基金委员会",
-      "source_pack": "research_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "nsfc",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 5
       }
     },
     {
@@ -748,7 +736,7 @@
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "大模型 / 开源活动",
-      "score": 72.32,
+      "score": 74.32,
       "quality_status": "accepted",
       "quality_score": 51.0,
       "actionability_score": 34.0,
