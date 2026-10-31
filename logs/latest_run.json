@@ -1,13 +1,13 @@
 {
-  "id": "20261030045107",
-  "started_at": "2026-10-30T04:51:07+00:00",
-  "finished_at": "2026-10-30T04:52:54+00:00",
+  "id": "20261031043651",
+  "started_at": "2026-10-31T04:36:51+00:00",
+  "finished_at": "2026-10-31T04:38:49+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 56,
-  "failed_sources": 26,
-  "total_items": 308,
-  "new_items": 4,
+  "successful_sources": 57,
+  "failed_sources": 25,
+  "total_items": 313,
+  "new_items": 6,
   "emailed_items": 15,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -94,7 +94,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7fa2bc0106d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f1e0aaa9e50>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -174,13 +174,6 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "nsfc",
-      "source_name": "国家自然科学基金委员会",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.nsfc.gov.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
-    },
-    {
       "source_id": "most",
       "source_name": "科学技术部",
       "source_pack": "research_pack",
@@ -215,14 +208,14 @@
       "successful": 24,
       "failed": 14,
       "items": 141,
-      "new_items": 4
+      "new_items": 3
     },
     "research_pack": {
       "total": 30,
-      "successful": 20,
-      "failed": 10,
-      "items": 103,
-      "new_items": 0
+      "successful": 21,
+      "failed": 9,
+      "items": 108,
+      "new_items": 3
     }
   }
 }

@@ -361,6 +361,18 @@
     }
   },
   {
+    "source_name": "国家自然科学基金委员会",
+    "source_pack": "research_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "nsfc",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 5
+    }
+  },
+  {
     "source_name": "Robocon 中国",
     "source_pack": "competition_pack",
     "candidates": 5,

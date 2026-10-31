@@ -1,17 +1,17 @@
 {
-  "total_items": 244,
+  "total_items": 249,
   "accepted": 18,
   "demoted": 0,
-  "rejected": 226,
+  "rejected": 231,
   "reject_reasons": {
     "quality_score_below_threshold": 109,
-    "not_actionable_or_not_relevant": 88,
+    "not_actionable_or_not_relevant": 93,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 3
   },
-  "failed_sources": 26,
+  "failed_sources": 25,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -375,6 +375,18 @@
       }
     },
     {
+      "source_name": "国家自然科学基金委员会",
+      "source_pack": "research_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "nsfc",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 5
+      }
+    },
+    {
       "source_name": "Robocon 中国",
       "source_pack": "competition_pack",
       "candidates": 5,
@@ -618,6 +630,22 @@
   ],
   "top_accepted": [
     {
+      "id": "8667d8d0a6f3b8266202cc0a51f3085b",
+      "title": "全新升级！第二届具亮计划·全球具身智能黑客松开启报名 进行中 全新升级！第二届具亮计划·全球具身智能黑客松开启报名 LLM算法竞赛 类型 100万奖金池+礼品 奖励 2026-11-28 16:00 报名截止 主办方 即将开启",
+      "url": "https://modelscope.cn/events/393/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "机器人 / 自动化 / 智能车",
+      "score": 95.18,
+      "quality_status": "accepted",
+      "quality_score": 61.0,
+      "actionability_score": 40.0,
+      "audience_fit_score": 8.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; competition_source; interest:AI; interest:算法竞赛"
+    },
+    {
       "id": "160edce96b5785113e55743b45d8f87a",
       "title": "Call for papers",
       "url": "https://aclrollingreview.org/cfp",
@@ -696,22 +724,6 @@
       "audience_fit_score": 8.0,
       "reject_reason": "",
       "quality_notes": "action:投稿; strong_action:投稿; research_cfp; interest:机器人; interest:自动化; source_preferred"
-    },
-    {
-      "id": "fc26e00ab8950867f351e82e236c2cad",
-      "title": "天猫 AI 黑客松·高校挑战赛 进行中 AI 正在成为年轻人面向未来的必备能力。天猫 AI 黑客松，旨在连接高校年轻人与真实技术、品牌及产业场景，邀请每一个敢想敢做的人，把 AI 创想真正做出来，让创造走进现实。 黑客松 类型 ¥20万元 奖励 2026-10-21 15:59 报名截止 主办方 进行中、报名已截止",
-      "url": "https://modelscope.cn/events/383/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "AI / 算法竞赛",
-      "score": 77.12,
-      "quality_status": "accepted",
-      "quality_score": 51.0,
-      "actionability_score": 34.0,
-      "audience_fit_score": 4.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI"
     },
     {
       "id": "b6f69c22fed9c791cbd58a843f30d345",
