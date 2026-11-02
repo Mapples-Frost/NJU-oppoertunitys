@@ -1,11 +1,11 @@
 {
-  "total_items": 249,
+  "total_items": 248,
   "accepted": 18,
   "demoted": 0,
-  "rejected": 231,
+  "rejected": 230,
   "reject_reasons": {
     "quality_score_below_threshold": 109,
-    "not_actionable_or_not_relevant": 93,
+    "not_actionable_or_not_relevant": 92,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
@@ -375,18 +375,6 @@
       }
     },
     {
-      "source_name": "国家自然科学基金委员会",
-      "source_pack": "research_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "nsfc",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 5
-      }
-    },
-    {
       "source_name": "Robocon 中国",
       "source_pack": "competition_pack",
       "candidates": 5,
@@ -455,6 +443,18 @@
       "demoted": 0,
       "rejected": 4,
       "source_id": "mathorcup",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 4
+      }
+    },
+    {
+      "source_name": "国家自然科学基金委员会",
+      "source_pack": "research_pack",
+      "candidates": 4,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 4,
+      "source_id": "nsfc",
       "reject_reasons": {
         "not_actionable_or_not_relevant": 4
       }
