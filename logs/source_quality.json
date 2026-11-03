@@ -125,7 +125,8 @@
     "rejected": 7,
     "source_id": "tencent_cloud_developer",
     "reject_reasons": {
-      "not_actionable_or_not_relevant": 7
+      "not_actionable_or_not_relevant": 6,
+      "quality_score_below_threshold": 1
     }
   },
   {
@@ -218,19 +219,6 @@
     }
   },
   {
-    "source_name": "Codeforces Contests",
-    "source_pack": "competition_pack",
-    "candidates": 5,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 5,
-    "source_id": "codeforces_contests",
-    "reject_reasons": {
-      "not_actionable_or_not_relevant": 4,
-      "generic_listing_page": 1
-    }
-  },
-  {
     "source_name": "全国大学生数学建模竞赛",
     "source_pack": "competition_pack",
     "candidates": 5,
@@ -305,8 +293,8 @@
     "source_id": "leetcode_contest",
     "reject_reasons": {
       "not_actionable_or_not_relevant": 3,
-      "quality_score_below_threshold": 1,
-      "hard_reject_term": 1
+      "hard_reject_term": 1,
+      "quality_score_below_threshold": 1
     }
   },
   {
@@ -358,6 +346,18 @@
     "source_id": "nju_graduate",
     "reject_reasons": {
       "quality_score_below_threshold": 5
+    }
+  },
+  {
+    "source_name": "国家自然科学基金委员会",
+    "source_pack": "research_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "nsfc",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 5
     }
   },
   {
@@ -434,18 +434,6 @@
     }
   },
   {
-    "source_name": "国家自然科学基金委员会",
-    "source_pack": "research_pack",
-    "candidates": 4,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 4,
-    "source_id": "nsfc",
-    "reject_reasons": {
-      "not_actionable_or_not_relevant": 4
-    }
-  },
-  {
     "source_name": "OpenReview",
     "source_pack": "research_pack",
     "candidates": 5,
@@ -480,6 +468,19 @@
     "reject_reasons": {
       "not_actionable_or_not_relevant": 2,
       "quality_score_below_threshold": 1
+    }
+  },
+  {
+    "source_name": "AtCoder Contests",
+    "source_pack": "competition_pack",
+    "candidates": 3,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 3,
+    "source_id": "atcoder_contests",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 2,
+      "generic_listing_page": 1
     }
   },
   {
@@ -568,18 +569,6 @@
     }
   },
   {
-    "source_name": "AtCoder Contests",
-    "source_pack": "competition_pack",
-    "candidates": 1,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 1,
-    "source_id": "atcoder_contests",
-    "reject_reasons": {
-      "not_actionable_or_not_relevant": 1
-    }
-  },
-  {
     "source_name": "CVPR",
     "source_pack": "research_pack",
     "candidates": 1,
@@ -602,15 +591,5 @@
     "reject_reasons": {
       "quality_score_below_threshold": 1
     }
-  },
-  {
-    "source_name": "DataFountain",
-    "source_pack": "competition_pack",
-    "candidates": 8,
-    "accepted": 8,
-    "demoted": 0,
-    "rejected": 0,
-    "source_id": "datafountain",
-    "reject_reasons": {}
   }
 ]

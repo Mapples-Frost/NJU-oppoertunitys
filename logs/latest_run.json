@@ -1,14 +1,14 @@
 {
-  "id": "20261102045728",
-  "started_at": "2026-11-02T04:57:28+00:00",
-  "finished_at": "2026-11-02T04:59:11+00:00",
+  "id": "20261103054632",
+  "started_at": "2026-11-03T05:46:32+00:00",
+  "finished_at": "2026-11-03T05:48:27+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 57,
-  "failed_sources": 25,
-  "total_items": 313,
-  "new_items": 1,
-  "emailed_items": 15,
+  "successful_sources": 55,
+  "failed_sources": 27,
+  "total_items": 300,
+  "new_items": 10,
+  "emailed_items": 9,
   "email_status": "sent",
   "email_skip_reason": "",
   "errors": [
@@ -25,6 +25,13 @@
       "source_pack": "nju_pack",
       "domain": "nju",
       "error": "no list items matched"
+    },
+    {
+      "source_id": "datafountain",
+      "source_name": "DataFountain",
+      "source_pack": "competition_pack",
+      "domain": "competition",
+      "error": "HTTPSConnectionPool(host='www.datafountain.cn', port=443): Read timed out. (read timeout=10)"
     },
     {
       "source_id": "kaggle",
@@ -94,7 +101,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7f6b0ad20f10>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7ff1df7c2050>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -144,6 +151,13 @@
       "source_pack": "competition_pack",
       "domain": "competition",
       "error": "no list items matched"
+    },
+    {
+      "source_id": "codeforces_contests",
+      "source_name": "Codeforces Contests",
+      "source_pack": "competition_pack",
+      "domain": "competition",
+      "error": "403 Client Error: Forbidden for url: https://codeforces.com/contests"
     },
     {
       "source_id": "icpc_global",
@@ -205,17 +219,17 @@
     },
     "competition_pack": {
       "total": 38,
-      "successful": 24,
-      "failed": 14,
-      "items": 141,
-      "new_items": 0
+      "successful": 22,
+      "failed": 16,
+      "items": 128,
+      "new_items": 8
     },
     "research_pack": {
       "total": 30,
       "successful": 21,
       "failed": 9,
       "items": 108,
-      "new_items": 1
+      "new_items": 2
     }
   }
 }

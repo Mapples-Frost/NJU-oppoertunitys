@@ -1,17 +1,17 @@
 {
-  "total_items": 248,
-  "accepted": 18,
+  "total_items": 238,
+  "accepted": 10,
   "demoted": 0,
-  "rejected": 230,
+  "rejected": 228,
   "reject_reasons": {
-    "quality_score_below_threshold": 109,
-    "not_actionable_or_not_relevant": 92,
+    "quality_score_below_threshold": 110,
+    "not_actionable_or_not_relevant": 89,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 3
   },
-  "failed_sources": 25,
+  "failed_sources": 27,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -139,7 +139,8 @@
       "rejected": 7,
       "source_id": "tencent_cloud_developer",
       "reject_reasons": {
-        "not_actionable_or_not_relevant": 7
+        "not_actionable_or_not_relevant": 6,
+        "quality_score_below_threshold": 1
       }
     },
     {
@@ -232,19 +233,6 @@
       }
     },
     {
-      "source_name": "Codeforces Contests",
-      "source_pack": "competition_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "codeforces_contests",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 4,
-        "generic_listing_page": 1
-      }
-    },
-    {
       "source_name": "全国大学生数学建模竞赛",
       "source_pack": "competition_pack",
       "candidates": 5,
@@ -319,8 +307,8 @@
       "source_id": "leetcode_contest",
       "reject_reasons": {
         "not_actionable_or_not_relevant": 3,
-        "quality_score_below_threshold": 1,
-        "hard_reject_term": 1
+        "hard_reject_term": 1,
+        "quality_score_below_threshold": 1
       }
     },
     {
@@ -372,6 +360,18 @@
       "source_id": "nju_graduate",
       "reject_reasons": {
         "quality_score_below_threshold": 5
+      }
+    },
+    {
+      "source_name": "国家自然科学基金委员会",
+      "source_pack": "research_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "nsfc",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 5
       }
     },
     {
@@ -448,18 +448,6 @@
       }
     },
     {
-      "source_name": "国家自然科学基金委员会",
-      "source_pack": "research_pack",
-      "candidates": 4,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 4,
-      "source_id": "nsfc",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 4
-      }
-    },
-    {
       "source_name": "OpenReview",
       "source_pack": "research_pack",
       "candidates": 5,
@@ -494,6 +482,19 @@
       "reject_reasons": {
         "not_actionable_or_not_relevant": 2,
         "quality_score_below_threshold": 1
+      }
+    },
+    {
+      "source_name": "AtCoder Contests",
+      "source_pack": "competition_pack",
+      "candidates": 3,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 3,
+      "source_id": "atcoder_contests",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 2,
+        "generic_listing_page": 1
       }
     },
     {
@@ -582,18 +583,6 @@
       }
     },
     {
-      "source_name": "AtCoder Contests",
-      "source_pack": "competition_pack",
-      "candidates": 1,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 1,
-      "source_id": "atcoder_contests",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 1
-      }
-    },
-    {
       "source_name": "CVPR",
       "source_pack": "research_pack",
       "candidates": 1,
@@ -616,16 +605,6 @@
       "reject_reasons": {
         "quality_score_below_threshold": 1
       }
-    },
-    {
-      "source_name": "DataFountain",
-      "source_pack": "competition_pack",
-      "candidates": 8,
-      "accepted": 8,
-      "demoted": 0,
-      "rejected": 0,
-      "source_id": "datafountain",
-      "reject_reasons": {}
     }
   ],
   "top_accepted": [
@@ -662,20 +641,20 @@
       "quality_notes": "action:call for papers; action:cfp; strong_action:call for papers; strong_action:cfp; research_cfp; interest:CFP; source_preferred"
     },
     {
-      "id": "6606dd8bb6e50c0050b56047132d3d32",
-      "title": "具有多模态能力的客服智能体设计",
-      "url": "https://www.datafountain.cn/competitions/1165",
-      "source_id": "datafountain",
-      "source_name": "DataFountain",
+      "id": "e4a114851315c8f53e6a60ac1d2e20b4",
+      "title": "AI造游戏，人人都是游戏制作人｜AI+∞开发者创作大赛第三期 进行中 本期以「AI 造游戏」为主题，邀请你用 AI 创作一款原创游戏，发布到魔搭创空间，让大家点开就能玩。 应用开发赛 类型 万元奖金+硬件大奖 奖励 2026-12-01 10:00 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/394/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "AI / 算法竞赛",
-      "score": 85.08,
+      "score": 70.57,
       "quality_status": "accepted",
-      "quality_score": 55.0,
-      "actionability_score": 20.0,
-      "audience_fit_score": 16.0,
+      "quality_score": 54.0,
+      "actionability_score": 40.0,
+      "audience_fit_score": 4.0,
       "reject_reason": "",
-      "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:智能体; interest:多模态; interest:数据竞赛; source_preferred"
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; competition_source; interest:AI; demote:发布"
     },
     {
       "id": "504e9ba7058ce54d641650148a078056",
@@ -726,38 +705,6 @@
       "quality_notes": "action:投稿; strong_action:投稿; research_cfp; interest:机器人; interest:自动化; source_preferred"
     },
     {
-      "id": "b6f69c22fed9c791cbd58a843f30d345",
-      "title": "多模态感知融合增强的具身自主抓取任务挑战",
-      "url": "https://www.datafountain.cn/competitions/1163",
-      "source_id": "datafountain",
-      "source_name": "DataFountain",
-      "source_pack": "competition_pack",
-      "category": "机器人 / 自动化 / 智能车",
-      "score": 75.75,
-      "quality_status": "accepted",
-      "quality_score": 51.0,
-      "actionability_score": 20.0,
-      "audience_fit_score": 12.0,
-      "reject_reason": "",
-      "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:多模态; interest:数据竞赛; source_preferred"
-    },
-    {
-      "id": "36a50446ca82b2fab9d3c9225d8ccab6",
-      "title": "群核科技Ahoolo 全球3D AI黑客松 进行中 本届黑客松，我们不设命题。只需你使用3D生成模型Aholo Lux3D，完成一份3D AI作品或Demo。 黑客松 类型 ¥32万元奖金池 奖励 2026-11-19 15:59 报名截止 主办方 立即报名",
-      "url": "https://modelscope.cn/events/386/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "大模型 / 开源活动",
-      "score": 70.32,
-      "quality_status": "accepted",
-      "quality_score": 51.0,
-      "actionability_score": 34.0,
-      "audience_fit_score": 4.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI"
-    },
-    {
       "id": "cf2cb44269d36495c698804b0e6edddf",
       "title": "一万个回答·AI文化造物黑客松 进行中 文化的未来，不能只靠传承，更需要有人敢于创造！👋 黑客松 类型 6.6万元现金奖金＋7万元Token支持 奖励 2026-10-31 15:59 报名截止 主办方 进行中、报名已截止",
       "url": "https://modelscope.cn/events/389/%E6%AF%94%E8%B5%9B%E8%AF%A6%E6%83%85",
@@ -788,102 +735,6 @@
       "audience_fit_score": 4.0,
       "reject_reason": "",
       "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
-    },
-    {
-      "id": "5fc670837bca2778e0802a62a19e425a",
-      "title": "大数据和人工智能",
-      "url": "https://www.datafountain.cn/competitions/1153",
-      "source_id": "datafountain",
-      "source_name": "DataFountain",
-      "source_pack": "competition_pack",
-      "category": "AI / 算法竞赛",
-      "score": 61.8,
-      "quality_status": "accepted",
-      "quality_score": 48.0,
-      "actionability_score": 20.0,
-      "audience_fit_score": 8.0,
-      "reject_reason": "",
-      "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:数据竞赛; source_preferred"
-    },
-    {
-      "id": "b1414e44c9163af9bf6980fe484f0b35",
-      "title": "AI新睿人才“星探计划”",
-      "url": "https://www.datafountain.cn/competitions/1169",
-      "source_id": "datafountain",
-      "source_name": "DataFountain",
-      "source_pack": "competition_pack",
-      "category": "AI / 算法竞赛",
-      "score": 61.72,
-      "quality_status": "accepted",
-      "quality_score": 47.0,
-      "actionability_score": 20.0,
-      "audience_fit_score": 8.0,
-      "reject_reason": "",
-      "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:数据竞赛; source_preferred"
-    },
-    {
-      "id": "75b0f95fe3745b282e100d39be9dcdc9",
-      "title": "“猎鹰·微波智探”—雷达多目标智能探测与识别挑战",
-      "url": "https://www.datafountain.cn/competitions/1166",
-      "source_id": "datafountain",
-      "source_name": "DataFountain",
-      "source_pack": "competition_pack",
-      "category": "AI / 算法竞赛",
-      "score": 60.42,
-      "quality_status": "accepted",
-      "quality_score": 47.0,
-      "actionability_score": 20.0,
-      "audience_fit_score": 8.0,
-      "reject_reason": "",
-      "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:数据竞赛; source_preferred"
-    },
-    {
-      "id": "c7872bf1ae5477e2fa63bf5af69a3e49",
-      "title": "红外智感—红外开放世界全模态分割挑战",
-      "url": "https://www.datafountain.cn/competitions/1164",
-      "source_id": "datafountain",
-      "source_name": "DataFountain",
-      "source_pack": "competition_pack",
-      "category": "AI / 算法竞赛",
-      "score": 60.42,
-      "quality_status": "accepted",
-      "quality_score": 47.0,
-      "actionability_score": 20.0,
-      "audience_fit_score": 8.0,
-      "reject_reason": "",
-      "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:数据竞赛; source_preferred"
-    },
-    {
-      "id": "b9d6aca57161e4ceccd96a11be6f6942",
-      "title": "高端智能制造和半导体",
-      "url": "https://www.datafountain.cn/competitions/1154",
-      "source_id": "datafountain",
-      "source_name": "DataFountain",
-      "source_pack": "competition_pack",
-      "category": "AI / 算法竞赛",
-      "score": 60.42,
-      "quality_status": "accepted",
-      "quality_score": 47.0,
-      "actionability_score": 20.0,
-      "audience_fit_score": 8.0,
-      "reject_reason": "",
-      "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:数据竞赛; source_preferred"
-    },
-    {
-      "id": "ad108ba60b30f8aaf6405bf4605769ef",
-      "title": "新材料和新能源",
-      "url": "https://www.datafountain.cn/competitions/1155",
-      "source_id": "datafountain",
-      "source_name": "DataFountain",
-      "source_pack": "competition_pack",
-      "category": "AI / 算法竞赛",
-      "score": 60.42,
-      "quality_status": "accepted",
-      "quality_score": 47.0,
-      "actionability_score": 20.0,
-      "audience_fit_score": 8.0,
-      "reject_reason": "",
-      "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:数据竞赛; source_preferred"
     },
     {
       "id": "2fc6eef8922dfddec6bb55086fc3e773",
