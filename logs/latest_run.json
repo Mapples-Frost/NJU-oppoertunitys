@@ -1,13 +1,13 @@
 {
-  "id": "20261103054632",
-  "started_at": "2026-11-03T05:46:32+00:00",
-  "finished_at": "2026-11-03T05:48:27+00:00",
+  "id": "20261104052044",
+  "started_at": "2026-11-04T05:20:44+00:00",
+  "finished_at": "2026-11-04T05:23:53+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 55,
-  "failed_sources": 27,
-  "total_items": 300,
-  "new_items": 10,
+  "successful_sources": 56,
+  "failed_sources": 26,
+  "total_items": 308,
+  "new_items": 7,
   "emailed_items": 9,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -31,7 +31,7 @@
       "source_name": "DataFountain",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "HTTPSConnectionPool(host='www.datafountain.cn', port=443): Read timed out. (read timeout=10)"
+      "error": "500 Server Error: Internal Server Error for url: https://www.datafountain.cn/competitions"
     },
     {
       "source_id": "kaggle",
@@ -45,13 +45,6 @@
       "source_name": "蓝桥杯",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "no list items matched"
-    },
-    {
-      "source_id": "ccf",
-      "source_name": "中国计算机学会 CCF",
-      "source_pack": "research_pack",
-      "domain": "research",
       "error": "no list items matched"
     },
     {
@@ -94,14 +87,14 @@
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "404 Client Error: Not Found for url: https://openi.pcl.ac.cn/competitions"
+      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Max retries exceeded with url: /competitions (Caused by ConnectTimeoutError(<HTTPSConnection(host='openi.pcl.ac.cn', port=443) at 0x7a76f31743d0>, 'Connection to openi.pcl.ac.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "caa",
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7ff1df7c2050>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7a76f3175dd0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -129,7 +122,7 @@
       "source_name": "CCF C4",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "no list items matched"
+      "error": "404 Client Error: Not Found for url: https://www.ccf.org.cn/ccf/catalog/ccfC4"
     },
     {
       "source_id": "acm_china",
@@ -222,14 +215,14 @@
       "successful": 22,
       "failed": 16,
       "items": 128,
-      "new_items": 8
+      "new_items": 6
     },
     "research_pack": {
       "total": 30,
-      "successful": 21,
-      "failed": 9,
-      "items": 108,
-      "new_items": 2
+      "successful": 22,
+      "failed": 8,
+      "items": 116,
+      "new_items": 1
     }
   }
 }

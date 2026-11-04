@@ -125,8 +125,19 @@
     "rejected": 7,
     "source_id": "tencent_cloud_developer",
     "reject_reasons": {
-      "not_actionable_or_not_relevant": 6,
-      "quality_score_below_threshold": 1
+      "not_actionable_or_not_relevant": 7
+    }
+  },
+  {
+    "source_name": "中国计算机学会 CCF",
+    "source_pack": "research_pack",
+    "candidates": 6,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 6,
+    "source_id": "ccf",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 6
     }
   },
   {
