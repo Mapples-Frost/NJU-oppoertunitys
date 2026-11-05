@@ -1,14 +1,14 @@
 {
-  "id": "20261104052044",
-  "started_at": "2026-11-04T05:20:44+00:00",
-  "finished_at": "2026-11-04T05:23:53+00:00",
+  "id": "20261105054002",
+  "started_at": "2026-11-05T05:40:02+00:00",
+  "finished_at": "2026-11-05T05:41:51+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 56,
-  "failed_sources": 26,
-  "total_items": 308,
-  "new_items": 7,
-  "emailed_items": 9,
+  "successful_sources": 58,
+  "failed_sources": 24,
+  "total_items": 321,
+  "new_items": 4,
+  "emailed_items": 15,
   "email_status": "sent",
   "email_skip_reason": "",
   "errors": [
@@ -25,13 +25,6 @@
       "source_pack": "nju_pack",
       "domain": "nju",
       "error": "no list items matched"
-    },
-    {
-      "source_id": "datafountain",
-      "source_name": "DataFountain",
-      "source_pack": "competition_pack",
-      "domain": "competition",
-      "error": "500 Server Error: Internal Server Error for url: https://www.datafountain.cn/competitions"
     },
     {
       "source_id": "kaggle",
@@ -87,14 +80,14 @@
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Max retries exceeded with url: /competitions (Caused by ConnectTimeoutError(<HTTPSConnection(host='openi.pcl.ac.cn', port=443) at 0x7a76f31743d0>, 'Connection to openi.pcl.ac.cn timed out. (connect timeout=10)'))"
+      "error": "404 Client Error: Not Found for url: https://openi.pcl.ac.cn/competitions"
     },
     {
       "source_id": "caa",
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7a76f3175dd0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x772018aa6110>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -143,14 +136,7 @@
       "source_name": "EvalAI Challenges",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "no list items matched"
-    },
-    {
-      "source_id": "codeforces_contests",
-      "source_name": "Codeforces Contests",
-      "source_pack": "competition_pack",
-      "domain": "competition",
-      "error": "403 Client Error: Forbidden for url: https://codeforces.com/contests"
+      "error": "404 Client Error: Not Found for url: http://eval.ai/challenges"
     },
     {
       "source_id": "icpc_global",
@@ -212,17 +198,17 @@
     },
     "competition_pack": {
       "total": 38,
-      "successful": 22,
-      "failed": 16,
-      "items": 128,
-      "new_items": 6
+      "successful": 24,
+      "failed": 14,
+      "items": 141,
+      "new_items": 4
     },
     "research_pack": {
       "total": 30,
       "successful": 22,
       "failed": 8,
       "items": 116,
-      "new_items": 1
+      "new_items": 0
     }
   }
 }
