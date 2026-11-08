@@ -217,6 +217,19 @@
     }
   },
   {
+    "source_name": "Codabench Competitions",
+    "source_pack": "competition_pack",
+    "candidates": 5,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 5,
+    "source_id": "codabench_competitions",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 4,
+      "quality_score_below_threshold": 1
+    }
+  },
+  {
     "source_name": "Codeforces Contests",
     "source_pack": "competition_pack",
     "candidates": 5,
@@ -279,18 +292,6 @@
     "reject_reasons": {
       "quality_score_below_threshold": 4,
       "generic_listing_page": 1
-    }
-  },
-  {
-    "source_name": "Hugging Face Competitions; Papers with Code",
-    "source_pack": "competition_pack",
-    "candidates": 5,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 5,
-    "source_id": "huggingface_competitions",
-    "reject_reasons": {
-      "not_actionable_or_not_relevant": 5
     }
   },
   {
@@ -421,18 +422,6 @@
     }
   },
   {
-    "source_name": "Codabench Competitions",
-    "source_pack": "competition_pack",
-    "candidates": 4,
-    "accepted": 0,
-    "demoted": 0,
-    "rejected": 4,
-    "source_id": "codabench_competitions",
-    "reject_reasons": {
-      "not_actionable_or_not_relevant": 4
-    }
-  },
-  {
     "source_name": "中国研究生创新实践系列大赛",
     "source_pack": "competition_pack",
     "candidates": 4,
@@ -442,6 +431,18 @@
     "source_id": "graduate_innovation_competition",
     "reject_reasons": {
       "quality_score_below_threshold": 4
+    }
+  },
+  {
+    "source_name": "Hugging Face Competitions; Papers with Code",
+    "source_pack": "competition_pack",
+    "candidates": 4,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 4,
+    "source_id": "huggingface_competitions",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 4
     }
   },
   {
