@@ -1,13 +1,13 @@
 {
-  "id": "20261109051006",
-  "started_at": "2026-11-09T05:10:06+00:00",
-  "finished_at": "2026-11-09T05:11:57+00:00",
+  "id": "20261110062524",
+  "started_at": "2026-11-10T06:25:24+00:00",
+  "finished_at": "2026-11-10T06:27:28+00:00",
   "status": "success",
   "total_sources": 82,
   "successful_sources": 58,
   "failed_sources": 24,
   "total_items": 321,
-  "new_items": 2,
+  "new_items": 0,
   "emailed_items": 15,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -66,7 +66,7 @@
       "source_name": "百度飞桨",
       "source_pack": "competition_pack",
       "domain": "enterprise",
-      "error": "no list items matched"
+      "error": "502 Server Error: Bad Gateway for url: https://www.paddlepaddle.org.cn/"
     },
     {
       "source_id": "baidu_aistudio",
@@ -87,7 +87,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7d56ded74b10>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x76def9d3b690>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -208,7 +208,7 @@
       "successful": 22,
       "failed": 8,
       "items": 116,
-      "new_items": 2
+      "new_items": 0
     }
   }
 }
