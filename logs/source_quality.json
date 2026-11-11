@@ -125,7 +125,8 @@
     "rejected": 7,
     "source_id": "tencent_cloud_developer",
     "reject_reasons": {
-      "not_actionable_or_not_relevant": 7
+      "not_actionable_or_not_relevant": 6,
+      "quality_score_below_threshold": 1
     }
   },
   {
