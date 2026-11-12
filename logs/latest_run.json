@@ -1,13 +1,13 @@
 {
-  "id": "20261111051130",
-  "started_at": "2026-11-11T05:11:30+00:00",
-  "finished_at": "2026-11-11T05:13:46+00:00",
+  "id": "20261112061624",
+  "started_at": "2026-11-12T06:16:24+00:00",
+  "finished_at": "2026-11-12T06:18:24+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 58,
-  "failed_sources": 24,
-  "total_items": 321,
-  "new_items": 5,
+  "successful_sources": 59,
+  "failed_sources": 23,
+  "total_items": 329,
+  "new_items": 8,
   "emailed_items": 15,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -62,13 +62,6 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "baidu_paddle",
-      "source_name": "百度飞桨",
-      "source_pack": "competition_pack",
-      "domain": "enterprise",
-      "error": "502 Server Error: Bad Gateway for url: https://www.paddlepaddle.org.cn/"
-    },
-    {
       "source_id": "baidu_aistudio",
       "source_name": "百度 AI Studio 竞赛",
       "source_pack": "competition_pack",
@@ -80,14 +73,14 @@
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "404 Client Error: Not Found for url: https://openi.pcl.ac.cn/competitions"
+      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Read timed out. (read timeout=10)"
     },
     {
       "source_id": "caa",
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x75b5bfad75d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x764835bc2d90>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -198,17 +191,17 @@
     },
     "competition_pack": {
       "total": 38,
-      "successful": 24,
-      "failed": 14,
-      "items": 141,
-      "new_items": 4
+      "successful": 25,
+      "failed": 13,
+      "items": 149,
+      "new_items": 8
     },
     "research_pack": {
       "total": 30,
       "successful": 22,
       "failed": 8,
       "items": 116,
-      "new_items": 1
+      "new_items": 0
     }
   }
 }

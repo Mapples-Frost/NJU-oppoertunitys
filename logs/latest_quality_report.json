@@ -1,17 +1,17 @@
 {
-  "total_items": 255,
+  "total_items": 263,
   "accepted": 18,
   "demoted": 0,
-  "rejected": 237,
+  "rejected": 245,
   "reject_reasons": {
     "quality_score_below_threshold": 110,
-    "not_actionable_or_not_relevant": 98,
+    "not_actionable_or_not_relevant": 106,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 3
   },
-  "failed_sources": 24,
+  "failed_sources": 23,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -25,6 +25,18 @@
         "not_actionable_or_not_relevant": 4,
         "hard_reject_url": 3,
         "product_or_marketing_page": 1
+      }
+    },
+    {
+      "source_name": "百度飞桨",
+      "source_pack": "competition_pack",
+      "candidates": 8,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 8,
+      "source_id": "baidu_paddle",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 8
       }
     },
     {
@@ -778,7 +790,7 @@
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "大模型 / 开源活动",
-      "score": 70.32,
+      "score": 72.32,
       "quality_status": "accepted",
       "quality_score": 51.0,
       "actionability_score": 34.0,

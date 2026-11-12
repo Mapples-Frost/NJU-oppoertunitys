@@ -14,6 +14,18 @@
     }
   },
   {
+    "source_name": "百度飞桨",
+    "source_pack": "competition_pack",
+    "candidates": 8,
+    "accepted": 0,
+    "demoted": 0,
+    "rejected": 8,
+    "source_id": "baidu_paddle",
+    "reject_reasons": {
+      "not_actionable_or_not_relevant": 8
+    }
+  },
+  {
     "source_name": "IEEE Students",
     "source_pack": "research_pack",
     "candidates": 8,
