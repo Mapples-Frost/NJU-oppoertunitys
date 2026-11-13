@@ -1,13 +1,13 @@
 {
-  "id": "20261112061624",
-  "started_at": "2026-11-12T06:16:24+00:00",
-  "finished_at": "2026-11-12T06:18:24+00:00",
+  "id": "20261113053715",
+  "started_at": "2026-11-13T05:37:15+00:00",
+  "finished_at": "2026-11-13T05:40:35+00:00",
   "status": "success",
   "total_sources": 82,
   "successful_sources": 59,
   "failed_sources": 23,
   "total_items": 329,
-  "new_items": 8,
+  "new_items": 5,
   "emailed_items": 15,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -73,14 +73,14 @@
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Read timed out. (read timeout=10)"
+      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Max retries exceeded with url: /competitions (Caused by ConnectTimeoutError(<HTTPSConnection(host='openi.pcl.ac.cn', port=443) at 0x79f91d396a50>, 'Connection to openi.pcl.ac.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "caa",
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x764835bc2d90>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x79f91d1a80d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -194,14 +194,14 @@
       "successful": 25,
       "failed": 13,
       "items": 149,
-      "new_items": 8
+      "new_items": 3
     },
     "research_pack": {
       "total": 30,
       "successful": 22,
       "failed": 8,
       "items": 116,
-      "new_items": 0
+      "new_items": 2
     }
   }
 }
