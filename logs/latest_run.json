@@ -1,13 +1,13 @@
 {
-  "id": "20261114052718",
-  "started_at": "2026-11-14T05:27:18+00:00",
-  "finished_at": "2026-11-14T05:29:28+00:00",
+  "id": "20261115052453",
+  "started_at": "2026-11-15T05:24:53+00:00",
+  "finished_at": "2026-11-15T05:26:29+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 58,
-  "failed_sources": 24,
-  "total_items": 324,
-  "new_items": 5,
+  "successful_sources": 59,
+  "failed_sources": 23,
+  "total_items": 329,
+  "new_items": 0,
   "emailed_items": 15,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -80,7 +80,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7ae6cef609d0>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7e8db056a150>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -139,13 +139,6 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "cumcm",
-      "source_name": "全国大学生数学建模竞赛",
-      "source_pack": "competition_pack",
-      "domain": "competition",
-      "error": "HTTPConnectionPool(host='www.mcm.edu.cn', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='www.mcm.edu.cn', port=80): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-    },
-    {
       "source_id": "acm_conferences",
       "source_name": "ACM Conferences",
       "source_pack": "research_pack",
@@ -198,10 +191,10 @@
     },
     "competition_pack": {
       "total": 38,
-      "successful": 24,
-      "failed": 14,
-      "items": 144,
-      "new_items": 5
+      "successful": 25,
+      "failed": 13,
+      "items": 149,
+      "new_items": 0
     },
     "research_pack": {
       "total": 30,
