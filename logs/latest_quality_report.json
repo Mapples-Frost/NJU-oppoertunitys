@@ -4,8 +4,8 @@
   "demoted": 0,
   "rejected": 245,
   "reject_reasons": {
-    "quality_score_below_threshold": 109,
-    "not_actionable_or_not_relevant": 107,
+    "quality_score_below_threshold": 108,
+    "not_actionable_or_not_relevant": 108,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
@@ -243,19 +243,6 @@
       }
     },
     {
-      "source_name": "Codabench Competitions",
-      "source_pack": "competition_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "codabench_competitions",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 4,
-        "quality_score_below_threshold": 1
-      }
-    },
-    {
       "source_name": "Codeforces Contests",
       "source_pack": "competition_pack",
       "candidates": 5,
@@ -318,6 +305,18 @@
       "reject_reasons": {
         "quality_score_below_threshold": 4,
         "generic_listing_page": 1
+      }
+    },
+    {
+      "source_name": "Hugging Face Competitions; Papers with Code",
+      "source_pack": "competition_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "huggingface_competitions",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 5
       }
     },
     {
@@ -448,6 +447,18 @@
       }
     },
     {
+      "source_name": "Codabench Competitions",
+      "source_pack": "competition_pack",
+      "candidates": 4,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 4,
+      "source_id": "codabench_competitions",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 4
+      }
+    },
+    {
       "source_name": "中国研究生创新实践系列大赛",
       "source_pack": "competition_pack",
       "candidates": 4,
@@ -457,18 +468,6 @@
       "source_id": "graduate_innovation_competition",
       "reject_reasons": {
         "quality_score_below_threshold": 4
-      }
-    },
-    {
-      "source_name": "Hugging Face Competitions; Papers with Code",
-      "source_pack": "competition_pack",
-      "candidates": 4,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 4,
-      "source_id": "huggingface_competitions",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 4
       }
     },
     {
@@ -750,6 +749,22 @@
       "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; competition_source; interest:AI; demote:发布"
     },
     {
+      "id": "ce87a29110d0428a0b694f0dd66eceed",
+      "title": "下一个AI“风口”，蚂上加速器03期产品测集市开启 进行中 下一个AI风口产品集市观众招募开启 我们从【技术前沿】【商业逻辑】【行业前景】【创始团队潜力】等维度，筛选了30+符合“下个AI风口”画像的“黑科技”项目，并把他们一起带到线下。 关于赛道：智能硬件 · Agent · AI infra · 具身模型 · AI4S 开发者线下沙龙 类型 上海 地点 2026-11-21 15:00 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/426/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "机器人 / 自动化 / 智能车",
+      "score": 77.65,
+      "quality_status": "accepted",
+      "quality_score": 52.0,
+      "actionability_score": 38.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:招募; action:截止; strong_action:报名; strong_action:招募; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
+    },
+    {
       "id": "6ffda39533713f9c2c446601db08350d",
       "title": "论文投稿",
       "url": "https://cac.org.cn/article/type/4-1.html",
@@ -764,22 +779,6 @@
       "audience_fit_score": 8.0,
       "reject_reason": "",
       "quality_notes": "action:投稿; strong_action:投稿; research_cfp; interest:机器人; interest:自动化; source_preferred"
-    },
-    {
-      "id": "ce87a29110d0428a0b694f0dd66eceed",
-      "title": "下一个AI“风口”，蚂上加速器03期产品测集市开启 进行中 下一个AI风口产品集市观众招募开启 我们从【技术前沿】【商业逻辑】【行业前景】【创始团队潜力】等维度，筛选了30+符合“下个AI风口”画像的“黑科技”项目，并把他们一起带到线下。 关于赛道：智能硬件 · Agent · AI infra · 具身模型 · AI4S 开发者线下沙龙 类型 上海 地点 2026-11-21 15:00 报名截止 主办方 立即报名",
-      "url": "https://modelscope.cn/events/426/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "机器人 / 自动化 / 智能车",
-      "score": 75.65,
-      "quality_status": "accepted",
-      "quality_score": 52.0,
-      "actionability_score": 38.0,
-      "audience_fit_score": 4.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:招募; action:截止; strong_action:报名; strong_action:招募; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
     },
     {
       "id": "b6f69c22fed9c791cbd58a843f30d345",
@@ -799,7 +798,7 @@
     },
     {
       "id": "58fd96d0371599a0ffbee42732131466",
-      "title": "超级反应堆OPC开放季| 魔搭AIGC艺术圆桌 进行中 超级反应堆魔搭 AIGC 艺术圆桌 前沿技术与创新体验的深度碰撞—— 模型、算力、最会玩 AIGC 的一群人，齐聚南京。 11月18日（周三）13:00—16:30 南京阿里中心 · T5-3F 湖畔会议室 开发者线下沙龙 类型 南京 地点 2026-11-18 02:00 报名截止 主办方 立即报名",
+      "title": "超级反应堆OPC开放季| 魔搭AIGC艺术圆桌 进行中 超级反应堆魔搭 AIGC 艺术圆桌 前沿技术与创新体验的深度碰撞—— 模型、算力、最会玩 AIGC 的一群人，齐聚南京。 11月18日（周三）13:00—16:30 南京阿里中心 · T5-3F 湖畔会议室 开发者线下沙龙 类型 南京 地点 2026-11-18 02:00 报名截止 主办方 进行中、报名已截止",
       "url": "https://modelscope.cn/events/419/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
