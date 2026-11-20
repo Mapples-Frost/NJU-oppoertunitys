@@ -1,13 +1,13 @@
 {
-  "id": "20261119062656",
-  "started_at": "2026-11-19T06:26:56+00:00",
-  "finished_at": "2026-11-19T06:28:50+00:00",
+  "id": "20261120061354",
+  "started_at": "2026-11-20T06:13:54+00:00",
+  "finished_at": "2026-11-20T06:17:10+00:00",
   "status": "success",
   "total_sources": 82,
   "successful_sources": 59,
   "failed_sources": 23,
-  "total_items": 329,
-  "new_items": 7,
+  "total_items": 328,
+  "new_items": 6,
   "emailed_items": 15,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -73,14 +73,14 @@
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "404 Client Error: Not Found for url: https://openi.pcl.ac.cn/competitions"
+      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Max retries exceeded with url: /competitions (Caused by ConnectTimeoutError(<HTTPSConnection(host='openi.pcl.ac.cn', port=443) at 0x74b6ba54bdd0>, 'Connection to openi.pcl.ac.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "caa",
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x796bfff8a410>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x74b6ba54b950>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -187,14 +187,14 @@
       "successful": 8,
       "failed": 2,
       "items": 64,
-      "new_items": 0
+      "new_items": 1
     },
     "competition_pack": {
       "total": 38,
       "successful": 25,
       "failed": 13,
-      "items": 149,
-      "new_items": 2
+      "items": 148,
+      "new_items": 0
     },
     "research_pack": {
       "total": 30,
