@@ -1,14 +1,14 @@
 {
-  "total_items": 254,
+  "total_items": 258,
   "accepted": 18,
   "demoted": 0,
-  "rejected": 236,
+  "rejected": 240,
   "reject_reasons": {
-    "quality_score_below_threshold": 106,
-    "not_actionable_or_not_relevant": 102,
+    "quality_score_below_threshold": 107,
+    "not_actionable_or_not_relevant": 104,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
-    "product_or_marketing_page": 5,
+    "product_or_marketing_page": 6,
     "generic_listing_page": 3
   },
   "failed_sources": 24,
@@ -89,6 +89,20 @@
         "not_actionable_or_not_relevant": 2,
         "quality_score_below_threshold": 1,
         "hard_reject_url": 1
+      }
+    },
+    {
+      "source_name": "火山引擎开发者",
+      "source_pack": "competition_pack",
+      "candidates": 8,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 8,
+      "source_id": "volcengine_developer",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 6,
+        "quality_score_below_threshold": 1,
+        "product_or_marketing_page": 1
       }
     },
     {
@@ -230,19 +244,6 @@
       }
     },
     {
-      "source_name": "全国大学生数学建模竞赛",
-      "source_pack": "competition_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "cumcm",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 4,
-        "quality_score_below_threshold": 1
-      }
-    },
-    {
       "source_name": "CVF Open Access",
       "source_pack": "research_pack",
       "candidates": 5,
@@ -318,6 +319,19 @@
         "not_actionable_or_not_relevant": 3,
         "quality_score_below_threshold": 1,
         "hard_reject_term": 1
+      }
+    },
+    {
+      "source_name": "MathorCup",
+      "source_pack": "competition_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "mathorcup",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 4,
+        "quality_score_below_threshold": 1
       }
     },
     {
@@ -454,18 +468,6 @@
       "source_id": "graduate_innovation_competition",
       "reject_reasons": {
         "quality_score_below_threshold": 4
-      }
-    },
-    {
-      "source_name": "MathorCup",
-      "source_pack": "competition_pack",
-      "candidates": 4,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 4,
-      "source_id": "mathorcup",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 4
       }
     },
     {
@@ -655,20 +657,20 @@
       "quality_notes": "action:call for papers; action:cfp; strong_action:call for papers; strong_action:cfp; research_cfp; interest:CFP; source_preferred"
     },
     {
-      "id": "5e02e020a9e608fca989c4aa1470485f",
-      "title": "魔搭社区 X 虹桥国际科技周黑客松｜选手火热招募🚀 进行中 ✨报名参赛即可领取 1000 元基础算力✨ 确认线下到场参赛，还可解锁额外算力资源！ 黑客松 类型 现金奖金、神秘硬件、魔粒值 奖励 2026-11-15 14:00 报名截止 主办方 进行中、报名已截止",
-      "url": "https://modelscope.cn/events/432/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
+      "id": "9c0d750acdefa6d11e2ab66513c9c174",
+      "title": "2026 SPARK S全球AI硬件创新大赛正式启动 进行中 大赛旨在面向全球招募具有技术创新能力、产品基础和成长潜力的AI硬件项目，助力硬科技从概念走向落地。 应用开发赛 类型 0 奖励 2026-12-10 15:00 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/439/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
-      "category": "大创 / 科研训练 / 项目招募",
-      "score": 67.52,
+      "category": "AI / 算法竞赛",
+      "score": 70.82,
       "quality_status": "accepted",
       "quality_score": 57.0,
       "actionability_score": 40.0,
       "audience_fit_score": 4.0,
       "reject_reason": "",
-      "quality_notes": "action:报名; action:招募; action:参赛; action:截止; strong_action:报名; strong_action:招募; strong_action:参赛; deadline_detected; interest:AI"
+      "quality_notes": "action:报名; action:招募; action:截止; strong_action:报名; strong_action:招募; strong_action:截止; deadline_detected; competition_source; interest:AI"
     },
     {
       "id": "a49e9a74155fec136a5f968093eda15d",
@@ -678,7 +680,7 @@
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "机器人 / 自动化 / 智能车",
-      "score": 88.35,
+      "score": 90.35,
       "quality_status": "accepted",
       "quality_score": 55.0,
       "actionability_score": 34.0,
@@ -735,6 +737,22 @@
       "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; competition_source; interest:AI; demote:发布"
     },
     {
+      "id": "feaa63aed7e5b046622bcb5efccc817f",
+      "title": "DDC2026地瓜机器人开发者大会招募开启！ 进行中 2026机器人圈年底压轴大事来了！DDC2026地瓜机器人开发者大会招募开启，那个凌晨三点想的idea还在备忘录吃灰？别发朋友圈了，没人懂。小红书带 #DDC2026 #地瓜机器人 发布好奇，亿级流量给你曝光。DDC2026地瓜机器人开发者大会，现场帮你兑现。 12月5-7日，这次，奇思妙想有人认真听🤖 开发者线下沙龙 类型 上海 地点 2026-12-04 15:00 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/395/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "机器人 / 自动化 / 智能车",
+      "score": 86.35,
+      "quality_status": "accepted",
+      "quality_score": 52.0,
+      "actionability_score": 38.0,
+      "audience_fit_score": 8.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:招募; action:截止; strong_action:报名; strong_action:招募; strong_action:截止; deadline_detected; interest:AI; interest:机器人; demote:发布"
+    },
+    {
       "id": "6ffda39533713f9c2c446601db08350d",
       "title": "论文投稿",
       "url": "https://cac.org.cn/article/type/4-1.html",
@@ -749,22 +767,6 @@
       "audience_fit_score": 8.0,
       "reject_reason": "",
       "quality_notes": "action:投稿; strong_action:投稿; research_cfp; interest:机器人; interest:自动化; source_preferred"
-    },
-    {
-      "id": "ce87a29110d0428a0b694f0dd66eceed",
-      "title": "下一个AI“风口”，蚂上加速器03期产品测集市开启 进行中 下一个AI风口产品集市观众招募开启 我们从【技术前沿】【商业逻辑】【行业前景】【创始团队潜力】等维度，筛选了30+符合“下个AI风口”画像的“黑科技”项目，并把他们一起带到线下。 关于赛道：智能硬件 · Agent · AI infra · 具身模型 · AI4S 开发者线下沙龙 类型 上海 地点 2026-11-21 15:00 报名截止 主办方 进行中、报名已截止",
-      "url": "https://modelscope.cn/events/426/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "机器人 / 自动化 / 智能车",
-      "score": 71.65,
-      "quality_status": "accepted",
-      "quality_score": 52.0,
-      "actionability_score": 38.0,
-      "audience_fit_score": 4.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:招募; action:截止; strong_action:报名; strong_action:招募; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
     },
     {
       "id": "b6f69c22fed9c791cbd58a843f30d345",
@@ -783,20 +785,20 @@
       "quality_notes": "action:competition; action:competitions; competition_source; interest:AI; interest:多模态; interest:数据竞赛; source_preferred"
     },
     {
-      "id": "58fd96d0371599a0ffbee42732131466",
-      "title": "超级反应堆OPC开放季| 魔搭AIGC艺术圆桌 进行中 超级反应堆魔搭 AIGC 艺术圆桌 前沿技术与创新体验的深度碰撞—— 模型、算力、最会玩 AIGC 的一群人，齐聚南京。 11月18日（周三）13:00—16:30 南京阿里中心 · T5-3F 湖畔会议室 开发者线下沙龙 类型 南京 地点 2026-11-18 02:00 报名截止 主办方 进行中、报名已截止",
-      "url": "https://modelscope.cn/events/419/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
+      "id": "b65702f4cf61f7483da7280fc7edaef3",
+      "title": "2026魔搭开发者大会 进行中 2026 魔搭开发者大会将于 12 月 12 日在上海西岸N馆举行，来自全球领先 AI 研发团队、科技企业与开源社区的技术领袖及先锋开发者将齐聚一堂，围绕前沿大模型、AI Agent、多模态技术与产业实践，分享最新技术成果与实战经验，共赴一场全球 AI 开源盛会。 开发者线下沙龙 类型 2026-12-10 16:00 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/437/%E7%AE%80%E4%BB%8B",
       "source_id": "modelscope_events",
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "企业开发者赛事",
-      "score": 70.32,
+      "score": 91.6,
       "quality_status": "accepted",
       "quality_score": 48.0,
       "actionability_score": 34.0,
-      "audience_fit_score": 4.0,
+      "audience_fit_score": 8.0,
       "reject_reason": "",
-      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; interest:多模态; demote:成果"
     },
     {
       "id": "5fc670837bca2778e0802a62a19e425a",

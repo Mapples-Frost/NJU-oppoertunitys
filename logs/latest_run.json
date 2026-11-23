@@ -1,13 +1,13 @@
 {
-  "id": "20261122053944",
-  "started_at": "2026-11-22T05:39:44+00:00",
-  "finished_at": "2026-11-22T05:41:36+00:00",
+  "id": "20261123062241",
+  "started_at": "2026-11-23T06:22:41+00:00",
+  "finished_at": "2026-11-23T06:24:31+00:00",
   "status": "success",
   "total_sources": 82,
   "successful_sources": 58,
   "failed_sources": 24,
-  "total_items": 320,
-  "new_items": 0,
+  "total_items": 323,
+  "new_items": 3,
   "emailed_items": 15,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -62,13 +62,6 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "volcengine_developer",
-      "source_name": "火山引擎开发者",
-      "source_pack": "competition_pack",
-      "domain": "enterprise",
-      "error": "HTTPSConnectionPool(host='developer.volcengine.com', port=443): Read timed out. (read timeout=10)"
-    },
-    {
       "source_id": "baidu_aistudio",
       "source_name": "百度 AI Studio 竞赛",
       "source_pack": "competition_pack",
@@ -87,7 +80,7 @@
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x761cb5524f90>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7d2a42b4a390>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -146,6 +139,13 @@
       "error": "no list items matched"
     },
     {
+      "source_id": "cumcm",
+      "source_name": "全国大学生数学建模竞赛",
+      "source_pack": "competition_pack",
+      "domain": "competition",
+      "error": "HTTPSConnectionPool(host='www.mcm.edu.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.mcm.edu.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+    },
+    {
       "source_id": "acm_conferences",
       "source_name": "ACM Conferences",
       "source_pack": "research_pack",
@@ -200,15 +200,15 @@
       "total": 38,
       "successful": 24,
       "failed": 14,
-      "items": 140,
-      "new_items": 0
+      "items": 143,
+      "new_items": 2
     },
     "research_pack": {
       "total": 30,
       "successful": 22,
       "failed": 8,
       "items": 116,
-      "new_items": 0
+      "new_items": 1
     }
   }
 }
