@@ -1,17 +1,17 @@
 {
-  "total_items": 258,
+  "total_items": 262,
   "accepted": 18,
   "demoted": 0,
-  "rejected": 240,
+  "rejected": 244,
   "reject_reasons": {
+    "not_actionable_or_not_relevant": 108,
     "quality_score_below_threshold": 107,
-    "not_actionable_or_not_relevant": 104,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 3
   },
-  "failed_sources": 24,
+  "failed_sources": 23,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -244,6 +244,19 @@
       }
     },
     {
+      "source_name": "全国大学生数学建模竞赛",
+      "source_pack": "competition_pack",
+      "candidates": 5,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 5,
+      "source_id": "cumcm",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 4,
+        "quality_score_below_threshold": 1
+      }
+    },
+    {
       "source_name": "CVF Open Access",
       "source_pack": "research_pack",
       "candidates": 5,
@@ -319,19 +332,6 @@
         "not_actionable_or_not_relevant": 3,
         "quality_score_below_threshold": 1,
         "hard_reject_term": 1
-      }
-    },
-    {
-      "source_name": "MathorCup",
-      "source_pack": "competition_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "mathorcup",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 4,
-        "quality_score_below_threshold": 1
       }
     },
     {
@@ -468,6 +468,18 @@
       "source_id": "graduate_innovation_competition",
       "reject_reasons": {
         "quality_score_below_threshold": 4
+      }
+    },
+    {
+      "source_name": "MathorCup",
+      "source_pack": "competition_pack",
+      "candidates": 4,
+      "accepted": 0,
+      "demoted": 0,
+      "rejected": 4,
+      "source_id": "mathorcup",
+      "reject_reasons": {
+        "not_actionable_or_not_relevant": 4
       }
     },
     {
@@ -673,22 +685,6 @@
       "quality_notes": "action:报名; action:招募; action:截止; strong_action:报名; strong_action:招募; strong_action:截止; deadline_detected; competition_source; interest:AI"
     },
     {
-      "id": "a49e9a74155fec136a5f968093eda15d",
-      "title": "48H和真实世界碰一碰｜首届地瓜机器人黑客松 进行中 欢迎来到2026地瓜机器人黑客松，和真实世界碰一碰！ 黑客松 类型 30W现金奖池 奖励 2026-11-30 15:59 报名截止 主办方 立即报名",
-      "url": "https://modelscope.cn/events/416/%E6%AF%94%E8%B5%9B%E7%AE%80%E4%BB%8B",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "机器人 / 自动化 / 智能车",
-      "score": 90.35,
-      "quality_status": "accepted",
-      "quality_score": 55.0,
-      "actionability_score": 34.0,
-      "audience_fit_score": 8.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; interest:机器人"
-    },
-    {
       "id": "6606dd8bb6e50c0050b56047132d3d32",
       "title": "具有多模态能力的客服智能体设计",
       "url": "https://www.datafountain.cn/competitions/1165",
@@ -728,29 +724,13 @@
       "source_name": "ModelScope 魔搭社区活动",
       "source_pack": "competition_pack",
       "category": "AI / 算法竞赛",
-      "score": 70.57,
+      "score": 72.57,
       "quality_status": "accepted",
       "quality_score": 54.0,
       "actionability_score": 40.0,
       "audience_fit_score": 4.0,
       "reject_reason": "",
       "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; competition_source; interest:AI; demote:发布"
-    },
-    {
-      "id": "feaa63aed7e5b046622bcb5efccc817f",
-      "title": "DDC2026地瓜机器人开发者大会招募开启！ 进行中 2026机器人圈年底压轴大事来了！DDC2026地瓜机器人开发者大会招募开启，那个凌晨三点想的idea还在备忘录吃灰？别发朋友圈了，没人懂。小红书带 #DDC2026 #地瓜机器人 发布好奇，亿级流量给你曝光。DDC2026地瓜机器人开发者大会，现场帮你兑现。 12月5-7日，这次，奇思妙想有人认真听🤖 开发者线下沙龙 类型 上海 地点 2026-12-04 15:00 报名截止 主办方 立即报名",
-      "url": "https://modelscope.cn/events/395/%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D",
-      "source_id": "modelscope_events",
-      "source_name": "ModelScope 魔搭社区活动",
-      "source_pack": "competition_pack",
-      "category": "机器人 / 自动化 / 智能车",
-      "score": 86.35,
-      "quality_status": "accepted",
-      "quality_score": 52.0,
-      "actionability_score": 38.0,
-      "audience_fit_score": 8.0,
-      "reject_reason": "",
-      "quality_notes": "action:报名; action:招募; action:截止; strong_action:报名; strong_action:招募; strong_action:截止; deadline_detected; interest:AI; interest:机器人; demote:发布"
     },
     {
       "id": "6ffda39533713f9c2c446601db08350d",
@@ -799,6 +779,38 @@
       "audience_fit_score": 8.0,
       "reject_reason": "",
       "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; interest:多模态; demote:成果"
+    },
+    {
+      "id": "3a95cd5e0b36bad660ae6fd43e148399",
+      "title": "KCD Hangzhou 2026 参会指南 进行中 KCD（Kubernetes Community Days）是 CNCF 旗下的云原生社区技术活动，由全球开发者社区自发组织，聚焦 Kubernetes 及云原生生态的实践与交流。 KCD Hangzhou 2026 将于 11 月 28 日 在杭州云谷之芯举办，上午主论坛邀请一线技术专家做主题分享，下午开设三个平行分论坛，覆盖 Agent 基础设施、大模型推理服务、AI 可观测性等方向，议题来自阿里巴巴、蚂蚁集团、字节跳动、华为、DaoCloud、快手、小红书等企业。 杭州本地面向云原生开发者的年度社区聚会，欢迎到场交流。 开发者线下沙龙 类型 杭州 地点 2026-11-27 16:00 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/441/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "企业开发者赛事",
+      "score": 83.37,
+      "quality_status": "accepted",
+      "quality_score": 48.0,
+      "actionability_score": 34.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
+    },
+    {
+      "id": "eef3f31c2de3a412b2f733854bbc6634",
+      "title": "“中国云谷·高校训练营” 3D互动 AI 游戏创作者专场 进行中 “中国云谷·高校训练营”第八期 由云谷中心、魔搭社区和杭州涌现互动科技有限公司联合主办，指导单位为杭州城西科创大走廊管理委员会、杭州紫金港科技城管理委员会。本期聚焦 AI 游戏创作与知识互动化的动手实践，邀请一批对 AI、游戏和互动内容感兴趣的同学，用一天时间从一句话或一个知识点出发，做出一款真正能玩、能分享、能上台演示的游戏。 开发者线下沙龙 类型 云谷中心 地点 2026-11-30 15:59 报名截止 主办方 立即报名",
+      "url": "https://modelscope.cn/events/440/%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D",
+      "source_id": "modelscope_events",
+      "source_name": "ModelScope 魔搭社区活动",
+      "source_pack": "competition_pack",
+      "category": "企业开发者赛事",
+      "score": 81.62,
+      "quality_status": "accepted",
+      "quality_score": 48.0,
+      "actionability_score": 34.0,
+      "audience_fit_score": 4.0,
+      "reject_reason": "",
+      "quality_notes": "action:报名; action:截止; strong_action:报名; strong_action:截止; deadline_detected; interest:AI; demote:沙龙"
     },
     {
       "id": "5fc670837bca2778e0802a62a19e425a",
