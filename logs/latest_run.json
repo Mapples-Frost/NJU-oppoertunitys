@@ -1,13 +1,13 @@
 {
-  "id": "20261124085523",
-  "started_at": "2026-11-24T08:55:23+00:00",
-  "finished_at": "2026-11-24T08:58:41+00:00",
+  "id": "20261125073129",
+  "started_at": "2026-11-25T07:31:29+00:00",
+  "finished_at": "2026-11-25T07:34:42+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 59,
-  "failed_sources": 23,
-  "total_items": 328,
-  "new_items": 5,
+  "successful_sources": 58,
+  "failed_sources": 24,
+  "total_items": 323,
+  "new_items": 3,
   "emailed_items": 15,
   "email_status": "sent",
   "email_skip_reason": "",
@@ -73,14 +73,14 @@
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Max retries exceeded with url: /competitions (Caused by ConnectTimeoutError(<HTTPSConnection(host='openi.pcl.ac.cn', port=443) at 0x712960b72a90>, 'Connection to openi.pcl.ac.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Max retries exceeded with url: /competitions (Caused by ConnectTimeoutError(<HTTPSConnection(host='openi.pcl.ac.cn', port=443) at 0x7851e5d35350>, 'Connection to openi.pcl.ac.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "caa",
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x712960b7c250>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x7851e5d36910>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -139,6 +139,13 @@
       "error": "no list items matched"
     },
     {
+      "source_id": "ncss_innovation",
+      "source_name": "中国国际大学生创新大赛",
+      "source_pack": "competition_pack",
+      "domain": "competition",
+      "error": "HTTPSConnectionPool(host='cy.ncss.cn', port=443): Read timed out."
+    },
+    {
       "source_id": "acm_conferences",
       "source_name": "ACM Conferences",
       "source_pack": "research_pack",
@@ -191,17 +198,17 @@
     },
     "competition_pack": {
       "total": 38,
-      "successful": 25,
-      "failed": 13,
-      "items": 148,
-      "new_items": 4
+      "successful": 24,
+      "failed": 14,
+      "items": 143,
+      "new_items": 3
     },
     "research_pack": {
       "total": 30,
       "successful": 22,
       "failed": 8,
       "items": 116,
-      "new_items": 1
+      "new_items": 0
     }
   }
 }

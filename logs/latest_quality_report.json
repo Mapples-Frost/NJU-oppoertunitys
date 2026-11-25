@@ -1,17 +1,17 @@
 {
-  "total_items": 262,
+  "total_items": 257,
   "accepted": 18,
   "demoted": 0,
-  "rejected": 244,
+  "rejected": 239,
   "reject_reasons": {
-    "not_actionable_or_not_relevant": 108,
-    "quality_score_below_threshold": 107,
+    "quality_score_below_threshold": 106,
+    "not_actionable_or_not_relevant": 104,
     "hard_reject_url": 13,
     "hard_reject_term": 7,
     "product_or_marketing_page": 6,
     "generic_listing_page": 3
   },
-  "failed_sources": 23,
+  "failed_sources": 24,
   "source_quality": [
     {
       "source_name": "阿里云开发者",
@@ -332,19 +332,6 @@
         "not_actionable_or_not_relevant": 3,
         "quality_score_below_threshold": 1,
         "hard_reject_term": 1
-      }
-    },
-    {
-      "source_name": "中国国际大学生创新大赛",
-      "source_pack": "competition_pack",
-      "candidates": 5,
-      "accepted": 0,
-      "demoted": 0,
-      "rejected": 5,
-      "source_id": "ncss_innovation",
-      "reject_reasons": {
-        "not_actionable_or_not_relevant": 4,
-        "quality_score_below_threshold": 1
       }
     },
     {
