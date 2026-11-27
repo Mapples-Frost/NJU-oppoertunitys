@@ -1,24 +1,17 @@
 {
-  "id": "20261126072122",
-  "started_at": "2026-11-26T07:21:22+00:00",
-  "finished_at": "2026-11-26T07:25:40+00:00",
+  "id": "20261127071714",
+  "started_at": "2026-11-27T07:17:14+00:00",
+  "finished_at": "2026-11-27T07:18:58+00:00",
   "status": "success",
   "total_sources": 82,
-  "successful_sources": 50,
-  "failed_sources": 32,
-  "total_items": 259,
-  "new_items": 5,
+  "successful_sources": 59,
+  "failed_sources": 23,
+  "total_items": 328,
+  "new_items": 4,
   "emailed_items": 15,
   "email_status": "sent",
   "email_skip_reason": "",
   "errors": [
-    {
-      "source_id": "nju_undergraduate",
-      "source_name": "南京大学本科生院",
-      "source_pack": "nju_pack",
-      "domain": "nju",
-      "error": "HTTPSConnectionPool(host='jw.nju.edu.cn', port=443): Read timed out. (read timeout=10)"
-    },
     {
       "source_id": "nju_innovation",
       "source_name": "南京大学创新创业学院",
@@ -27,60 +20,11 @@
       "error": "HTTPSConnectionPool(host='cxcy.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='cxcy.nju.edu.cn', port=443): Failed to resolve 'cxcy.nju.edu.cn' ([Errno -2] Name or service not known)\"))"
     },
     {
-      "source_id": "nju_ai",
-      "source_name": "南京大学人工智能学院",
-      "source_pack": "nju_pack",
-      "domain": "nju",
-      "error": "HTTPSConnectionPool(host='ai.nju.edu.cn', port=443): Read timed out. (read timeout=10)"
-    },
-    {
-      "source_id": "nju_cs",
-      "source_name": "南京大学计算机学院",
-      "source_pack": "nju_pack",
-      "domain": "nju",
-      "error": "HTTPSConnectionPool(host='cs.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='cs.nju.edu.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-    },
-    {
-      "source_id": "nju_software",
-      "source_name": "南京大学软件学院",
-      "source_pack": "nju_pack",
-      "domain": "nju",
-      "error": "HTTPSConnectionPool(host='software.nju.edu.cn', port=443): Read timed out. (read timeout=10)"
-    },
-    {
-      "source_id": "nju_ese",
-      "source_name": "南京大学电子科学与工程学院",
-      "source_pack": "nju_pack",
-      "domain": "nju",
-      "error": "HTTPSConnectionPool(host='ese.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='ese.nju.edu.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-    },
-    {
-      "source_id": "nju_engineering",
-      "source_name": "南京大学现代工程与应用科学学院",
-      "source_pack": "nju_pack",
-      "domain": "nju",
-      "error": "HTTPSConnectionPool(host='eng.nju.edu.cn', port=443): Read timed out. (read timeout=10)"
-    },
-    {
       "source_id": "nju_jobs",
       "source_name": "南京大学就业创业网",
       "source_pack": "nju_pack",
       "domain": "nju",
       "error": "no list items matched"
-    },
-    {
-      "source_id": "nju_youth",
-      "source_name": "南京大学团委",
-      "source_pack": "nju_pack",
-      "domain": "nju",
-      "error": "HTTPSConnectionPool(host='tuanwei.nju.edu.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='tuanwei.nju.edu.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-    },
-    {
-      "source_id": "nju_graduate",
-      "source_name": "南京大学研究生院",
-      "source_pack": "nju_pack",
-      "domain": "nju",
-      "error": "HTTPSConnectionPool(host='grawww.nju.edu.cn', port=443): Read timed out. (read timeout=10)"
     },
     {
       "source_id": "kaggle",
@@ -129,14 +73,14 @@
       "source_name": "启智社区 OpenI",
       "source_pack": "competition_pack",
       "domain": "competition",
-      "error": "HTTPSConnectionPool(host='openi.pcl.ac.cn', port=443): Max retries exceeded with url: /competitions (Caused by ConnectTimeoutError(<HTTPSConnection(host='openi.pcl.ac.cn', port=443) at 0x78aa60a96250>, 'Connection to openi.pcl.ac.cn timed out. (connect timeout=10)'))"
+      "error": "404 Client Error: Not Found for url: https://openi.pcl.ac.cn/competitions"
     },
     {
       "source_id": "caa",
       "source_name": "中国自动化学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x78aa60a97b50>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
+      "error": "HTTPSConnectionPool(host='www.caa.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.caa.org.cn', port=443) at 0x76ac5e36a110>, 'Connection to www.caa.org.cn timed out. (connect timeout=10)'))"
     },
     {
       "source_id": "robocup_china",
@@ -157,7 +101,7 @@
       "source_name": "中国图象图形学学会",
       "source_pack": "research_pack",
       "domain": "research",
-      "error": "HTTPSConnectionPool(host='www.csig.org.cn', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.csig.org.cn', port=443) at 0x78aa60a96450>, 'Connection to www.csig.org.cn timed out. (connect timeout=10)'))"
+      "error": "403 Client Error: Forbidden for url: https://www.csig.org.cn/"
     },
     {
       "source_id": "ccf_c4",
@@ -216,13 +160,6 @@
       "error": "no list items matched"
     },
     {
-      "source_id": "openreview",
-      "source_name": "OpenReview",
-      "source_pack": "research_pack",
-      "domain": "research",
-      "error": "403 Client Error: Forbidden for url: https://openreview.net/"
-    },
-    {
       "source_id": "most",
       "source_name": "科学技术部",
       "source_pack": "research_pack",
@@ -247,9 +184,9 @@
     },
     "nju_pack": {
       "total": 10,
-      "successful": 0,
-      "failed": 10,
-      "items": 0,
+      "successful": 8,
+      "failed": 2,
+      "items": 64,
       "new_items": 0
     },
     "competition_pack": {
@@ -261,10 +198,10 @@
     },
     "research_pack": {
       "total": 30,
-      "successful": 21,
-      "failed": 9,
-      "items": 111,
-      "new_items": 2
+      "successful": 22,
+      "failed": 8,
+      "items": 116,
+      "new_items": 1
     }
   }
 }
